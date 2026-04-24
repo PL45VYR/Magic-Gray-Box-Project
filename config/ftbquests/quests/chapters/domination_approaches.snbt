@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "domination_approaches"
+	group: ""
+	id: "1F131913C4CA8086"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+}

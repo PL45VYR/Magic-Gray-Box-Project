@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "new_frontiers"
+	group: ""
+	id: "34B62BFAC9ED7A18"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,178 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_artistry"
+	group: ""
+	id: "082534B546FCB12F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "477DFE78CC262604"
+			tasks: [{
+				id: "1781BA90A104D3BC"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "777BD223A35E7233"
+			tasks: [{
+				id: "3F8AB86329B0DABA"
+				item: { count: 1, id: "eidolon_repraised:worktable" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "6D4A78DDED7FD016"
+			tasks: [{
+				id: "4489A1AAC6F84477"
+				item: { count: 1, id: "create:shaft" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "18950277D37C89F1"
+			tasks: [{
+				id: "0A139FA6BCC8C835"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "3386B580FBE8BBD2"
+			tasks: [
+				{
+					id: "6B9D4ED172D8AE6B"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "02C83FB9DB6DB9D7"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "7A9D786A5C88E36E"
+			tasks: [{
+				id: "40BC11ADAC9A225D"
+				item: { count: 1, id: "create:water_wheel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "1DB5FC44276D6EDC"
+			tasks: [{
+				id: "341D8520D900CCB1"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "076C783CF8207D8C"
+			tasks: [{
+				id: "441E2A6FC7861B67"
+				item: { count: 1, id: "eidolon_repraised:athame" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "0832C3C66887F0B9"
+			tasks: [{
+				id: "71E7A41D562A038A"
+				item: { count: 1, id: "eidolon_repraised:merammer_root" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "7A322E5A606919C5"
+			tasks: [{
+				id: "42D7F0201946BF52"
+				item: { count: 1, id: "eidolon_repraised:brazier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "66D8C5BA8732ADA2"
+			tasks: [{
+				id: "49A2AA9F6ACAE1AE"
+				item: { count: 1, id: "eidolon_repraised:illwood_sapling" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "30976C41DB64AB90"
+			tasks: [{
+				id: "4D18A138D1E64A5B"
+				item: { count: 1, id: "malum:runewood_sapling" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "2F721511198B7207"
+			tasks: [{
+				id: "55CB29DEFB8968F7"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			id: "72FB981E202AF28B"
+			tasks: [{
+				id: "15E0EC693B0DF388"
+				item: { count: 1, id: "malum:hallowed_gold_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			id: "647F3030E562B63B"
+			tasks: [{
+				id: "5335FD423973837D"
+				item: { count: 1, id: "ars_nouveau:archwood_planks" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			id: "04DA9AD9BFB95C1C"
+			tasks: [{
+				id: "2C6BF070CAB4F93A"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+	]
+}

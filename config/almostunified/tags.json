@@ -1,0 +1,39 @@
+{
+  "custom_tags": {
+    "c:rods/steel": [
+      "railcraft:rebar"
+    ],
+    "c:crops/cotton": [
+      "hearthandharvest:cotton"
+    ],
+    "c:foods/fruits/blueberry": [
+      "hearthandharvest:blueberries"
+    ],
+    "c:foods/fruits/lemon": [
+      "hazennstuff:lemon"
+    ],
+    "c:crops/peanut": [
+      "hearthandharvest:peanut"
+    ],
+    "c:crops/peanut/shelled": [
+      "hearthandharvest:peanut"
+    ],
+    "c:crops/peanut/cooked": [
+      "hearthandharvest:roasted_peanuts"
+    ],
+    "c:crops/coffee/cooked": [
+      "rusticdelight:roasted_coffee_beans"
+    ]
+  },
+  "tag_substitutions": {
+    "c:storage_blocks/coffee_beans": [
+      "c:storage_blocks_coffee_beans",
+      "c:storage_blocks_ground_coffee"
+    ]
+  },
+  "item_tag_inheritance_mode": "ALLOW",
+  "item_tag_inheritance": {},
+  "block_tag_inheritance_mode": "ALLOW",
+  "block_tag_inheritance": {},
+  "emi_strict_hiding": true
+}

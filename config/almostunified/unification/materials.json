@@ -1,0 +1,64 @@
+{
+  "mod_priorities": [
+    "minecraft",
+    "kubejs",
+    "oritech",
+    "xycraft_world",
+    "create",
+    "occultism",
+    "mekanism",
+    "immersiveengineering",
+    "railcraft",
+    "hazennstuff",
+    "fruitsdelight",
+    "rusticdelight",
+    "hearthandharvest",
+    "extradelight",
+    "supplementaries",
+    "actuallyadditions"
+  ],
+  "priority_overrides": {},
+  "stone_variants": [
+    "stone",
+    "andesite",
+    "deepslate",
+    "diorite",
+    "granite",
+    "netherrack",
+    "end_stone"
+  ],
+  "tags": [
+    "c:{material}",
+    "c:clumps/{material}",
+    "c:crystals/{material}",
+    "c:dusts/{material}",
+    "c:dirty_dusts/{material}",
+    "c:gears/{material}",
+    "c:gems/{material}",
+    "c:ingots/{material}",
+    "c:nuggets/{material}",
+    "c:ores/{material}",
+    "c:plates/{material}",
+    "c:raw_materials/{material}",
+    "c:rods/{material}",
+    "c:shards/{material}",
+    "c:storage_blocks/raw_{material}",
+    "c:storage_blocks/{material}",
+    "c:wires/{material}",
+    "c:crops/{material}",
+    "c:foods/fruits/{material}",
+    "c:seeds/{material}"
+  ],
+  "ignored_tags": [],
+  "ignored_items": [
+    "oritech:biosteel_ingot",
+    "malum:natural_quartz"
+  ],
+  "ignored_recipe_types": [
+    "cucumber:shaped_tag"
+  ],
+  "ignored_recipe_ids": [],
+  "recipe_viewer_hiding": true,
+  "loot_unification": true,
+  "ignored_loot_tables": []
+}

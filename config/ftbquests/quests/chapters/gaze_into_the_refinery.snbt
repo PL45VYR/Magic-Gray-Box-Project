@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gaze_into_the_refinery"
+	group: ""
+	id: "5401B0B0EA116D46"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,1346 @@
+[21:32:37.526] [INFO]: Loading config 'startup.json'.
+[21:32:50.997] [INFO]: Loaded plugins: almostunified:neoforge, almostunified:common, almostunified_ie:immersiveengineering, integrateddynamicscompat:main
+[21:34:31.345] [WARN]: Reload detected. Reconstructing runtime.
+[21:34:31.347] [INFO]: Loading config 'debug.json'.
+[21:34:31.354] [INFO]: Loading config 'placeholders.json'.
+[21:34:31.363] [INFO]: Loading config 'tags.json'.
+[21:34:31.387] [WARN]: The following mods are used in unification settings, but are not loaded: [extradelight]
+[21:34:31.387] [WARN]: [CustomTags] Custom tag 'c:crops/peanut' already contains item 'hearthandharvest:peanut'
+[21:34:31.388] [WARN]: [CustomTags] Custom tag 'c:crops/cotton' already contains item 'hearthandharvest:cotton'
+[21:34:31.388] [INFO]: [CustomTags] Modified tag '#c:crops/coffee/cooked', added [rusticdelight:roasted_coffee_beans]
+[21:34:31.388] [INFO]: [CustomTags] Modified tag '#c:rods/steel', added [railcraft:rebar]
+[21:34:31.388] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/blueberry', added [hearthandharvest:blueberries]
+[21:34:31.388] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/cooked', added [hearthandharvest:roasted_peanuts]
+[21:34:31.388] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/lemon', added [hazennstuff:lemon]
+[21:34:31.388] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/shelled', added [hearthandharvest:peanut]
+[21:34:31.398] [WARN]: [TagSubstitutions] Substitute tag '#c:storage_blocks/coffee_beans' contains invalid replaced tags! Affected tags: #c:storage_blocks_coffee_beans, #c:storage_blocks_ground_coffee
+[21:34:31.402] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans_bag' with tag '#c:storage_blocks/coffee' is already part of tag '#c:storage_blocks/coffee_beans'.
+[21:34:31.402] [ERROR]: Unification entry for item 'actuallyadditions:flax_seeds' with tag '#c:crops/flax' is already part of tag '#c:seeds/flax'.
+[21:34:31.402] [ERROR]: Unification entry for item 'minecraft:charcoal' with tag '#c:coal' is already part of tag '#c:charcoal'.
+[21:34:31.403] [ERROR]: Unification entry for item 'minecraft:coal' with tag '#c:gems/coal' is already part of tag '#c:coal'.
+[21:34:31.403] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee_beans' is already part of tag '#c:crops/coffee_beans'.
+[21:34:31.403] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee' is already part of tag '#c:crops/coffee_beans'.
+[21:34:31.403] [ERROR]: Unification entry for item 'immersiveengineering:coal_coke' with tag '#c:coal_coke' is already part of tag '#c:coal'.
+[21:34:31.403] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:crops/coffee_beans'.
+[21:34:31.403] [ERROR]: Unification entry for item 'actuallyadditions:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:seeds/coffee'.
+[21:34:31.405] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:item / c:ores_in_ground/stone] and TagKey[minecraft:item / c:ores_in_ground/deepslate]
+[21:34:31.405] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:block / c:ores_in_ground/stone] and TagKey[minecraft:block / c:ores_in_ground/deepslate]
+[21:34:31.408] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/iron' -> [mekanism:dust_iron, occultism:iron_dust, enderio:powdered_iron, immersiveengineering:dust_iron]
+[21:34:31.408] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/quartz' -> [enderio:powdered_quartz, mekanism:dust_quartz]
+[21:34:31.408] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/lead' -> [immersiveengineering:ingot_lead, eidolon_repraised:lead_ingot, railcraft:lead_ingot]
+[21:34:31.408] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/iron' -> [xycraft_machines:iron_sheet, railcraft:iron_plate, immersiveengineering:plate_iron]
+[21:34:31.408] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper, xycraft_machines:copper_nugget, create:copper_nugget]
+[21:34:31.408] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/bronze' -> [railcraft:bronze_nugget]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/fluorite' -> [evolvedmekanism:holystone_fluorite_ore, evolvedmekanism:depthrock_fluorite_ore, evolvedmekanism:shiverstone_fluorite_ore]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/zinc' -> [railcraft:zinc_raw]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/aluminum' -> [immersiveengineering:raw_aluminum]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/steel' -> [mekanism:block_steel, railcraft:steel_block, immersiveengineering:storage_steel]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/brass' -> [railcraft:brass_nugget]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/gold' -> [industrialforegoing:gold_gear]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/zinc' -> [railcraft:zinc_ingot]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/silicon' -> [extendedae:silicon_block]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/steel' -> [mekanism:dust_steel, immersiveengineering:dust_steel]
+[21:34:31.410] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/aluminum' -> [immersiveengineering:nugget_aluminum]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/copper' -> [railcraft:copper_plate, immersiveengineering:plate_copper, xycraft_machines:copper_sheet]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/coal_coke' -> [railcraft:coal_coke_block]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:seeds/flax' -> [actuallyadditions:flax_seeds]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/saltpeter' -> [railcraft:saltpeter_dust]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/lead' -> [immersiveengineering:raw_lead, eidolon_repraised:raw_lead, railcraft:lead_raw]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/nickel' -> [immersiveengineering:nugget_nickel, railcraft:nickel_nugget]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/tin' -> [railcraft:tin_nugget]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_nickel' -> [immersiveengineering:raw_block_nickel]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/uranium' -> [immersiveengineering:nugget_uranium]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/silver' -> [eidolon_repraised:silver_ingot, railcraft:silver_ingot, immersiveengineering:ingot_silver]
+[21:34:31.411] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/steel' -> [railcraft:rebar]
+[21:34:31.412] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/nickel' -> [immersiveengineering:raw_nickel, railcraft:nickel_raw]
+[21:34:31.412] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/tin' -> [enderio:powdered_tin]
+[21:34:31.412] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/nickel' -> [immersiveengineering:dust_nickel]
+[21:34:31.412] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/gold' -> [netherex:lively_gold_ore, netherex:gloomy_gold_ore, netherex:fiery_gold_ore]
+[21:34:31.412] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/silver' -> [railcraft:silver_block, eidolon_repraised:silver_block, immersiveengineering:storage_silver]
+[21:34:31.412] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/lapis' -> [mekanism:dust_lapis_lazuli, enderio:powdered_lapis_lazuli]
+[21:34:31.412] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/gold' -> [railcraft:gold_plate, immersiveengineering:plate_gold, xycraft_machines:gold_sheet]
+[21:34:31.412] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/gold' -> [mekanism:dust_gold, occultism:gold_dust, enderio:powdered_gold, immersiveengineering:dust_gold]
+[21:34:31.412] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/aluminum' -> [immersiveengineering:ingot_aluminum]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/netherite' -> [mekanism:dust_netherite]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/emerald' -> [mekanism:dust_emerald, appflux:emerald_dust]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/nickel' -> [railcraft:nickel_block, immersiveengineering:storage_nickel]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/bronze' -> [railcraft:bronze_block]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/brass' -> [railcraft:brass_block]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/uranium' -> [immersiveengineering:raw_uranium, mekanism:raw_uranium]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/uranium' -> [immersiveengineering:ingot_uranium]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/silver' -> [immersiveengineering:raw_silver, railcraft:silver_raw, eidolon_repraised:raw_silver]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/aluminum' -> [xycraft_machines:aluminum_sheet]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/quartz' -> [netherex:gloomy_quartz_ore, netherex:lively_quartz_ore, netherex:fiery_quartz_ore]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/silver' -> [immersiveengineering:dust_silver]
+[21:34:31.413] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/tin' -> [railcraft:tin_ingot]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:ingots/steel' -> [hazennstuff:steel_ingot, railcraft:steel_ingot, mekanism:ingot_steel, immersiveengineering:ingot_steel]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gears/iron' -> [industrialforegoing:iron_gear, enderio:iron_gear]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crops/cotton' -> [hearthandharvest:cotton]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/brass' -> [railcraft:brass_plate]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/tin' -> [railcraft:tin_raw]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/nickel' -> [railcraft:nickel_ingot, immersiveengineering:ingot_nickel]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/lead' -> [immersiveengineering:nugget_lead, eidolon_repraised:lead_nugget, railcraft:lead_nugget]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/blueberry' -> [hearthandharvest:blueberries]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/gold' -> [mekanism:clump_gold, create:crushed_raw_gold]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/aluminum' -> [immersiveengineering:storage_aluminum]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/silver' -> [eidolon_repraised:silver_nugget, immersiveengineering:nugget_silver, railcraft:silver_nugget]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/zinc' -> [railcraft:zinc_nugget]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/lead' -> [railcraft:lead_block, immersiveengineering:storage_lead, eidolon_repraised:lead_block]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_silver' -> [immersiveengineering:raw_block_silver, eidolon_repraised:raw_silver_block]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_uranium' -> [mekanism:block_raw_uranium, immersiveengineering:raw_block_uranium]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/tin' -> [railcraft:deepslate_tin_ore, evolvedmekanism:shiverstone_tin_ore, evolvedmekanism:depthrock_tin_ore, evolvedmekanism:holystone_tin_ore, railcraft:tin_ore]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:coal' -> [immersiveengineering:coal_coke]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/electrum' -> [immersiveengineering:storage_electrum]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/bronze' -> [railcraft:bronze_ingot]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/steel' -> [railcraft:steel_nugget, immersiveengineering:nugget_steel]
+[21:34:31.414] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/silver' -> [railcraft:silver_plate]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 6/10 items for tag '#c:ores/uranium' -> [evolvedmekanism:holystone_uranium_ore, mekanism:deepslate_uranium_ore, immersiveengineering:ore_uranium, evolvedmekanism:shiverstone_uranium_ore, immersiveengineering:deepslate_ore_uranium, evolvedmekanism:depthrock_uranium_ore]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/aluminum' -> [xycraft_machines:aluminum_dust]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/zinc' -> [railcraft:zinc_block]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:silicon' -> [enderio:silicon, ae2:silicon]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/brass' -> [railcraft:brass_ingot]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/charcoal' -> [justdirethings:charcoal, quark:charcoal_block]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/sulfur' -> [immersiveengineering:dust_sulfur, eidolon_repraised:sulfur, railcraft:sulfur_dust]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/copper' -> [create:crushed_raw_copper, mekanism:clump_copper]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/charcoal' -> [railcraft:charcoal_dust]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/uranium' -> [immersiveengineering:dust_uranium, mekanism:dust_uranium]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/lead' -> [railcraft:lead_plate]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/lead' -> [immersiveengineering:dust_lead]
+[21:34:31.415] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/diamond' -> [appflux:diamond_dust]
+[21:34:31.416] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/platinum' -> [create:crushed_raw_platinum]
+[21:34:31.416] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/obsidian' -> [enderio:powdered_obsidian, mekanism:dust_obsidian, railcraft:obsidian_dust, occultism:obsidian_dust]
+[21:34:31.416] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/lead' -> [evolvedmekanism:shiverstone_lead_ore, eidolon_repraised:lead_ore, railcraft:deepslate_lead_ore, evolvedmekanism:depthrock_lead_ore, eidolon_repraised:deep_lead_ore, evolvedmekanism:holystone_lead_ore, railcraft:lead_ore, immersiveengineering:ore_lead, immersiveengineering:deepslate_ore_lead]
+[21:34:31.416] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_aluminum' -> [immersiveengineering:raw_block_aluminum]
+[21:34:31.416] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crops/rice' -> [farmersdelight:rice, mynethersdelight:ghasmati]
+[21:34:31.416] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/osmium' -> [mekanism:clump_osmium]
+[21:34:31.417] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/lemon' -> [fruitsdelight:lemon]
+[21:34:31.417] [INFO]: [AutoHiding] Hiding 4/6 items for tag '#c:ores/nickel' -> [railcraft:deepslate_nickel_ore, immersiveengineering:ore_nickel, railcraft:nickel_ore, immersiveengineering:deepslate_ore_nickel]
+[21:34:31.417] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/iron' -> [mekanism:clump_iron, create:crushed_raw_iron]
+[21:34:31.417] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/nickel' -> [railcraft:nickel_plate]
+[21:34:31.417] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/osmium' -> [evolvedmekanism:depthrock_osmium_ore, evolvedmekanism:holystone_osmium_ore, evolvedmekanism:shiverstone_osmium_ore]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/uranium' -> [immersiveengineering:storage_uranium]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/coal' -> [railcraft:coal_dust, mekanism:dust_coal, enderio:powdered_coal]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_lead' -> [immersiveengineering:raw_block_lead, eidolon_repraised:raw_lead_block]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/cotton' -> [hearthandharvest:cotton_bale]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/tin' -> [railcraft:tin_block]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/steel' -> [railcraft:steel_plate]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/electrum' -> [immersiveengineering:dust_electrum]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/nickel' -> [create:crushed_raw_nickel]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/aluminum' -> [xycraft_world:aluminum_ore_stone, immersiveengineering:deepslate_ore_aluminum, immersiveengineering:ore_aluminum]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/electrum' -> [immersiveengineering:ingot_electrum]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:slag' -> [railcraft:slag]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/zinc' -> [railcraft:zinc_ore, railcraft:deepslate_zinc_ore]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/copper' -> [enderio:powdered_copper, immersiveengineering:dust_copper, mekanism:dust_copper, occultism:copper_dust]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 6/8 items for tag '#c:ores/silver' -> [eidolon_repraised:silver_ore, immersiveengineering:ore_silver, railcraft:deepslate_silver_ore, eidolon_repraised:deep_silver_ore, railcraft:silver_ore, immersiveengineering:deepslate_ore_silver]
+[21:34:31.418] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/uranium' -> [mekanism:clump_uranium]
+[21:34:32.233] [INFO]: Loading config 'duplicates.json'.
+[21:34:32.240] [INFO]: Recipe count: 33634
+[21:34:32.261] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_log', skipping.
+[21:34:32.262] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_wood', skipping.
+[21:34:32.319] [INFO]: 28050 out of 33634 recipes were loaded for unification.
+[21:34:32.617] [INFO]: Recipe count afterwards: 33400 (done in 375.8 ms)
+[21:34:32.619] [INFO]: Loot table 'immersiveengineering:blocks/storage_nickel' was unified by: materials
+[21:34:32.620] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_tin_ore' was unified by: materials
+[21:34:32.620] [INFO]: Loot table 'eidolon_repraised:blocks/deep_silver_ore' was unified by: materials
+[21:34:32.620] [INFO]: Loot table 'railcraft:blocks/sulfur_ore' was unified by: materials
+[21:34:32.620] [INFO]: Loot table 'enderio:chests/alloy_loot' was unified by: materials
+[21:34:32.620] [INFO]: Loot table 'eidolon_repraised:blocks/deep_lead_ore' was unified by: materials
+[21:34:32.621] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_osmium_ore' was unified by: materials
+[21:34:32.621] [INFO]: Loot table 'railcraft:blocks/nickel_ore' was unified by: materials
+[21:34:32.621] [INFO]: Loot table 'evolvedmekanism:blocks/end_stone_uranium_ore' was unified by: materials
+[21:34:32.621] [INFO]: Loot table 'hearthandharvest:blocks/wild_cotton' was unified by: materials
+[21:34:32.621] [INFO]: Loot table 'railcraft:blocks/tin_ore' was unified by: materials
+[21:34:32.621] [INFO]: Loot table 'farmersdelight:blocks/rice' was unified by: materials
+[21:34:32.622] [INFO]: Loot table 'netherex:blocks/fiery_gold_ore' was unified by: materials
+[21:34:32.622] [INFO]: Loot table 'immersiveengineering:blocks/storage_silver' was unified by: materials
+[21:34:32.622] [INFO]: Loot table 'eidolon_repraised:blocks/raw_silver_block' was unified by: materials
+[21:34:32.622] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_lead_ore' was unified by: materials
+[21:34:32.622] [INFO]: Loot table 'immersiveengineering:blocks/ore_lead' was unified by: materials
+[21:34:32.623] [INFO]: Loot table 'hearthandharvest:blocks/cotton' was unified by: materials
+[21:34:32.623] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_osmium_ore' was unified by: materials
+[21:34:32.623] [INFO]: Loot table 'immersiveengineering:blocks/storage_electrum' was unified by: materials
+[21:34:32.623] [INFO]: Loot table 'railcraft:blocks/zinc_ore' was unified by: materials
+[21:34:32.623] [INFO]: Loot table 'railcraft:blocks/zinc_block' was unified by: materials
+[21:34:32.623] [INFO]: Loot table 'immersiveengineering:chests/engineers_house' was unified by: materials
+[21:34:32.623] [INFO]: Loot table 'immersiveengineering:blocks/storage_lead' was unified by: materials
+[21:34:32.623] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_aluminum' was unified by: materials
+[21:34:32.624] [INFO]: Loot table 'immersiveengineering:blocks/storage_steel' was unified by: materials
+[21:34:32.624] [INFO]: Loot table 'railcraft:blocks/steel_block' was unified by: materials
+[21:34:32.624] [INFO]: Loot table 'farmersdelight:chests/fd_shipwreck_supply' was unified by: materials
+[21:34:32.624] [INFO]: Loot table 'farmersdelight:chests/fd_village_taiga_house' was unified by: materials
+[21:34:32.624] [INFO]: Loot table 'railcraft:blocks/nickel_block' was unified by: materials
+[21:34:32.624] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_uranium' was unified by: materials
+[21:34:32.624] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_tin_ore' was unified by: materials
+[21:34:32.625] [INFO]: Loot table 'eidolon_repraised:entities/zombie_brute' was unified by: materials
+[21:34:32.625] [INFO]: Loot table 'railcraft:blocks/lead_ore' was unified by: materials
+[21:34:32.625] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_tin_ore' was unified by: materials
+[21:34:32.626] [INFO]: Loot table 'farmersdelight:blocks/rice_panicles' was unified by: materials
+[21:34:32.626] [INFO]: Loot table 'immersiveengineering:blocks/ore_aluminum' was unified by: materials
+[21:34:32.626] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_lead_ore' was unified by: materials
+[21:34:32.626] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_uranium_ore' was unified by: materials
+[21:34:32.626] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_aluminum' was unified by: materials
+[21:34:32.627] [INFO]: Loot table 'railcraft:blocks/saltpeter_ore' was unified by: materials
+[21:34:32.627] [INFO]: Loot table 'hearthandharvest:blocks/cotton_bale' was unified by: materials
+[21:34:32.627] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_fluorite_ore' was unified by: materials
+[21:34:32.628] [INFO]: Loot table 'mekanism:blocks/deepslate_uranium_ore' was unified by: materials
+[21:34:32.628] [INFO]: Loot table 'actuallyadditions:blocks/flax' was unified by: materials
+[21:34:32.628] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_uranium_ore' was unified by: materials
+[21:34:32.628] [INFO]: Loot table 'eidolon_repraised:blocks/lead_block' was unified by: materials
+[21:34:32.628] [INFO]: Loot table 'farmersdelight:chests/fd_village_desert_house' was unified by: materials
+[21:34:32.628] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_fluorite_ore' was unified by: materials
+[21:34:32.628] [INFO]: Loot table 'mekanism:blocks/block_raw_uranium' was unified by: materials
+[21:34:32.629] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_lead_ore' was unified by: materials
+[21:34:32.629] [INFO]: Loot table 'justdirethings:blocks/charcoal' was unified by: materials
+[21:34:32.629] [INFO]: Loot table 'eidolon_repraised:blocks/raw_lead_block' was unified by: materials
+[21:34:32.629] [INFO]: Loot table 'immersiveengineering:blocks/ore_nickel' was unified by: materials
+[21:34:32.629] [INFO]: Loot table 'evolvedmekanism:blocks/netherrack_uranium_ore' was unified by: materials
+[21:34:32.629] [INFO]: Loot table 'railcraft:blocks/deepslate_tin_ore' was unified by: materials
+[21:34:32.629] [INFO]: Loot table 'eidolon_repraised:blocks/lead_ore' was unified by: materials
+[21:34:32.629] [INFO]: Loot table 'xycraft_world:blocks/aluminum_ore_stone' was unified by: materials
+[21:34:32.630] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_lead' was unified by: materials
+[21:34:32.630] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_nickel' was unified by: materials
+[21:34:32.630] [INFO]: Loot table 'immersiveengineering:blocks/ore_silver' was unified by: materials
+[21:34:32.630] [INFO]: Loot table 'railcraft:blocks/tin_block' was unified by: materials
+[21:34:32.630] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_silver' was unified by: materials
+[21:34:32.630] [INFO]: Loot table 'railcraft:blocks/silver_ore' was unified by: materials
+[21:34:32.631] [INFO]: Loot table 'railcraft:blocks/deepslate_silver_ore' was unified by: materials
+[21:34:32.631] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_fluorite_ore' was unified by: materials
+[21:34:32.631] [INFO]: Loot table 'immersiveengineering:blocks/storage_aluminum' was unified by: materials
+[21:34:32.631] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_uranium_ore' was unified by: materials
+[21:34:32.631] [INFO]: Loot table 'quark:blocks/charcoal_block' was unified by: materials
+[21:34:32.631] [INFO]: Loot table 'railcraft:blocks/coal_coke_block' was unified by: materials
+[21:34:32.631] [INFO]: Loot table 'farmersdelight:blocks/wild_rice' was unified by: materials
+[21:34:32.632] [INFO]: Loot table 'netherex:blocks/lively_quartz_ore' was unified by: materials
+[21:34:32.632] [INFO]: Loot table 'railcraft:blocks/silver_block' was unified by: materials
+[21:34:32.632] [INFO]: Loot table 'railcraft:blocks/lead_block' was unified by: materials
+[21:34:32.632] [INFO]: Loot table 'mekanism:blocks/uranium_ore' was unified by: materials
+[21:34:32.632] [INFO]: Loot table 'immersiveengineering:blocks/ore_uranium' was unified by: materials
+[21:34:32.632] [INFO]: Loot table 'immersiveengineering:blocks/storage_uranium' was unified by: materials
+[21:34:32.632] [INFO]: Loot table 'netherex:blocks/fiery_quartz_ore' was unified by: materials
+[21:34:32.633] [INFO]: Loot table 'railcraft:blocks/deepslate_sulfur_ore' was unified by: materials
+[21:34:32.633] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_lead' was unified by: materials
+[21:34:32.633] [INFO]: Loot table 'railcraft:blocks/deepslate_nickel_ore' was unified by: materials
+[21:34:32.633] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_nickel' was unified by: materials
+[21:34:32.633] [INFO]: Loot table 'netherex:blocks/lively_gold_ore' was unified by: materials
+[21:34:32.633] [INFO]: Loot table 'railcraft:blocks/deepslate_zinc_ore' was unified by: materials
+[21:34:32.634] [INFO]: Loot table 'farmersdelight:chests/fd_abandoned_mineshaft' was unified by: materials
+[21:34:32.634] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_silver' was unified by: materials
+[21:34:32.634] [INFO]: Loot table 'hearthandharvest:blocks/blueberry_bush' was unified by: materials
+[21:34:32.634] [INFO]: Loot table 'eidolon_repraised:blocks/silver_ore' was unified by: materials
+[21:34:32.634] [INFO]: Loot table 'netherex:blocks/gloomy_gold_ore' was unified by: materials
+[21:34:32.634] [INFO]: Loot table 'extendedae:blocks/silicon_block' was unified by: materials
+[21:34:32.635] [INFO]: Loot table 'mekanism:blocks/block_steel' was unified by: materials
+[21:34:32.635] [INFO]: Loot table 'railcraft:blocks/deepslate_lead_ore' was unified by: materials
+[21:34:32.635] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_osmium_ore' was unified by: materials
+[21:34:32.635] [INFO]: Loot table 'railcraft:blocks/brass_block' was unified by: materials
+[21:34:32.636] [INFO]: Loot table 'netherex:blocks/gloomy_quartz_ore' was unified by: materials
+[21:34:32.636] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_uranium' was unified by: materials
+[21:34:32.636] [INFO]: Loot table 'eidolon_repraised:blocks/silver_block' was unified by: materials
+[21:34:32.636] [INFO]: Loot table 'railcraft:blocks/bronze_block' was unified by: materials
+[21:34:35.156] [ERROR]: The following recipes were unified and threw exceptions when being loaded: [create:crushing/compat/immersiveengineering/coke_block, create:milling/compat/supplementaries/flax, create:crushing/compat/immersiveengineering/coal_coke, create:crushing/compat/immersiveengineering/slag, cataclysm_spellbooks:engineers_power_glove]
+[21:34:35.156] [WARN]: Try to add them to the ignore list and if the problem is gone, report it to the Almost Unified developers.
+[21:34:37.943] [INFO]: [WorldGen] Mark ConfiguredFeature 'eidolon_repraised:lead_ore' for removal:
+[21:34:37.943] [INFO]: [WorldGen] Mark ConfiguredFeature 'railcraft:lead_ore' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'railcraft:nickel_ore' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'railcraft:nickel_ore_small' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Changed ConfiguredFeature 'xycraft_world:ore_aluminum':
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'netherex:ore_fiery_gold' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'netherex:ore_fiery_quartz' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'netherex:ore_gloomy_gold' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'netherex:ore_gloomy_quartz' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'netherex:ore_lively_gold' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'netherex:ore_lively_quartz' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'eidolon_repraised:silver_ore' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'railcraft:silver_ore' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'railcraft:silver_ore_buried' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'railcraft:tin_ore_large' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'railcraft:tin_ore_small' for removal:
+[21:34:37.944] [INFO]: [WorldGen] Mark ConfiguredFeature 'railcraft:zinc_ore' for removal:
+[21:34:37.960] [INFO]: [WorldGen] Removed features from Biome ars_nouveau:archwood_forest:
+[21:34:37.960] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.962] [INFO]: [WorldGen] Removed features from Biome minecraft:badlands:
+[21:34:37.962] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.962] [INFO]: [WorldGen] Removed features from Biome minecraft:bamboo_jungle:
+[21:34:37.962] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.964] [INFO]: [WorldGen] Removed features from Biome minecraft:beach:
+[21:34:37.964] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.965] [INFO]: [WorldGen] Removed features from Biome minecraft:birch_forest:
+[21:34:37.965] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.965] [INFO]: [WorldGen] Removed features from Biome ars_elemental:blazing_forest:
+[21:34:37.965] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.966] [INFO]: [WorldGen] Removed features from Biome ars_elemental:cascading_forest:
+[21:34:37.966] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.967] [INFO]: [WorldGen] Removed features from Biome minecraft:cherry_grove:
+[21:34:37.967] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.968] [INFO]: [WorldGen] Removed features from Biome minecraft:cold_ocean:
+[21:34:37.968] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.970] [INFO]: [WorldGen] Removed features from Biome minecraft:dark_forest:
+[21:34:37.970] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.970] [INFO]: [WorldGen] Removed features from Biome minecraft:deep_cold_ocean:
+[21:34:37.970] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.971] [INFO]: [WorldGen] Removed features from Biome minecraft:deep_dark:
+[21:34:37.971] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.971] [INFO]: [WorldGen] Removed features from Biome minecraft:deep_frozen_ocean:
+[21:34:37.971] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.971] [INFO]: [WorldGen] Removed features from Biome minecraft:deep_lukewarm_ocean:
+[21:34:37.971] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.972] [INFO]: [WorldGen] Removed features from Biome minecraft:deep_ocean:
+[21:34:37.972] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.973] [INFO]: [WorldGen] Removed features from Biome minecraft:desert:
+[21:34:37.973] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.973] [INFO]: [WorldGen] Removed features from Biome minecraft:dripstone_caves:
+[21:34:37.973] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.975] [INFO]: [WorldGen] Removed features from Biome minecraft:eroded_badlands:
+[21:34:37.975] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.975] [INFO]: [WorldGen] Removed features from Biome ars_elemental:flashing_forest:
+[21:34:37.975] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.976] [INFO]: [WorldGen] Removed features from Biome ars_elemental:flourishing_forest:
+[21:34:37.976] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.976] [INFO]: [WorldGen] Removed features from Biome minecraft:flower_forest:
+[21:34:37.976] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.977] [INFO]: [WorldGen] Removed features from Biome minecraft:forest:
+[21:34:37.977] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.977] [INFO]: [WorldGen] Removed features from Biome yungscavebiomes:frosted_caves:
+[21:34:37.977] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.978] [INFO]: [WorldGen] Removed features from Biome minecraft:frozen_ocean:
+[21:34:37.978] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.978] [INFO]: [WorldGen] Removed features from Biome minecraft:frozen_peaks:
+[21:34:37.978] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.978] [INFO]: [WorldGen] Removed features from Biome minecraft:frozen_river:
+[21:34:37.978] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.978] [INFO]: [WorldGen] Removed features from Biome netherex:fungi_forest:
+[21:34:37.978] [INFO]: [WorldGen]	underground_decoration: netherex:ore_lively_gold, netherex:ore_lively_quartz
+[21:34:37.980] [INFO]: [WorldGen] Removed features from Biome quark:glimmering_weald:
+[21:34:37.980] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.980] [INFO]: [WorldGen] Removed features from Biome minecraft:grove:
+[21:34:37.980] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.981] [INFO]: [WorldGen] Removed features from Biome minecraft:ice_spikes:
+[21:34:37.981] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.981] [INFO]: [WorldGen] Removed features from Biome minecraft:jagged_peaks:
+[21:34:37.981] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.982] [INFO]: [WorldGen] Removed features from Biome minecraft:jungle:
+[21:34:37.982] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.983] [INFO]: [WorldGen] Removed features from Biome yungscavebiomes:lost_caves:
+[21:34:37.983] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.983] [INFO]: [WorldGen] Removed features from Biome minecraft:lukewarm_ocean:
+[21:34:37.983] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.983] [INFO]: [WorldGen] Removed features from Biome minecraft:lush_caves:
+[21:34:37.983] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:37.999] [INFO]: [WorldGen] Removed features from Biome minecraft:mangrove_swamp:
+[21:34:37.999] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.000] [INFO]: [WorldGen] Removed features from Biome minecraft:meadow:
+[21:34:38.000] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.000] [INFO]: [WorldGen] Removed features from Biome integrateddynamics:meneglin:
+[21:34:38.000] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.003] [INFO]: [WorldGen] Removed features from Biome minecraft:mushroom_fields:
+[21:34:38.003] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.003] [INFO]: [WorldGen] Removed features from Biome minecraft:ocean:
+[21:34:38.003] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.004] [INFO]: [WorldGen] Removed features from Biome minecraft:old_growth_birch_forest:
+[21:34:38.004] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.004] [INFO]: [WorldGen] Removed features from Biome minecraft:old_growth_pine_taiga:
+[21:34:38.004] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.004] [INFO]: [WorldGen] Removed features from Biome minecraft:old_growth_spruce_taiga:
+[21:34:38.004] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.005] [INFO]: [WorldGen] Removed features from Biome minecraft:plains:
+[21:34:38.005] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.005] [INFO]: [WorldGen] Removed features from Biome minecraft:river:
+[21:34:38.005] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.006] [INFO]: [WorldGen] Removed features from Biome netherex:ruthless_sands:
+[21:34:38.006] [INFO]: [WorldGen]	underground_decoration: netherex:ore_gloomy_gold, netherex:ore_gloomy_quartz
+[21:34:38.006] [INFO]: [WorldGen] Removed features from Biome minecraft:savanna:
+[21:34:38.006] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.006] [INFO]: [WorldGen] Removed features from Biome minecraft:savanna_plateau:
+[21:34:38.006] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.007] [INFO]: [WorldGen] Removed features from Biome minecraft:snowy_beach:
+[21:34:38.007] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.007] [INFO]: [WorldGen] Removed features from Biome minecraft:snowy_plains:
+[21:34:38.007] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.008] [INFO]: [WorldGen] Removed features from Biome minecraft:snowy_slopes:
+[21:34:38.008] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.008] [INFO]: [WorldGen] Removed features from Biome minecraft:snowy_taiga:
+[21:34:38.008] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.008] [INFO]: [WorldGen] Removed features from Biome minecraft:sparse_jungle:
+[21:34:38.008] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.010] [INFO]: [WorldGen] Removed features from Biome minecraft:stony_peaks:
+[21:34:38.010] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.010] [INFO]: [WorldGen] Removed features from Biome minecraft:stony_shore:
+[21:34:38.010] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.011] [INFO]: [WorldGen] Removed features from Biome minecraft:sunflower_plains:
+[21:34:38.011] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.011] [INFO]: [WorldGen] Removed features from Biome minecraft:swamp:
+[21:34:38.011] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.011] [INFO]: [WorldGen] Removed features from Biome minecraft:taiga:
+[21:34:38.011] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.012] [INFO]: [WorldGen] Removed features from Biome netherex:torrid_wasteland:
+[21:34:38.012] [INFO]: [WorldGen]	underground_decoration: netherex:ore_fiery_gold, netherex:ore_fiery_quartz
+[21:34:38.012] [INFO]: [WorldGen] Removed features from Biome ars_elemental:vexing_caves:
+[21:34:38.013] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.013] [INFO]: [WorldGen] Removed features from Biome minecraft:warm_ocean:
+[21:34:38.013] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.014] [INFO]: [WorldGen] Removed features from Biome minecraft:windswept_forest:
+[21:34:38.014] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.014] [INFO]: [WorldGen] Removed features from Biome minecraft:windswept_gravelly_hills:
+[21:34:38.014] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.015] [INFO]: [WorldGen] Removed features from Biome minecraft:windswept_hills:
+[21:34:38.015] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.015] [INFO]: [WorldGen] Removed features from Biome minecraft:windswept_savanna:
+[21:34:38.015] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:34:38.015] [INFO]: [WorldGen] Removed features from Biome minecraft:wooded_badlands:
+[21:34:38.015] [INFO]: [WorldGen]	underground_ores: railcraft:lead_ore, railcraft:nickel_ore_middle, railcraft:nickel_ore_small, railcraft:nickel_ore_upper, railcraft:silver_ore, railcraft:silver_ore_lower, railcraft:tin_ore_large, railcraft:tin_ore_small, eidolon_repraised:lead_ore_placed, eidolon_repraised:silver_ore_placed
+[21:53:58.157] [WARN]: Reload detected. Reconstructing runtime.
+[21:53:58.157] [INFO]: Loading config 'debug.json'.
+[21:53:58.168] [INFO]: Loading config 'placeholders.json'.
+[21:53:58.170] [INFO]: Loading config 'tags.json'.
+[21:53:58.191] [WARN]: The following mods are used in unification settings, but are not loaded: [extradelight]
+[21:53:58.191] [WARN]: [CustomTags] Custom tag 'c:crops/peanut' already contains item 'hearthandharvest:peanut'
+[21:53:58.191] [WARN]: [CustomTags] Custom tag 'c:crops/cotton' already contains item 'hearthandharvest:cotton'
+[21:53:58.191] [INFO]: [CustomTags] Modified tag '#c:crops/coffee/cooked', added [rusticdelight:roasted_coffee_beans]
+[21:53:58.191] [INFO]: [CustomTags] Modified tag '#c:rods/steel', added [railcraft:rebar]
+[21:53:58.191] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/blueberry', added [hearthandharvest:blueberries]
+[21:53:58.191] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/cooked', added [hearthandharvest:roasted_peanuts]
+[21:53:58.191] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/lemon', added [hazennstuff:lemon]
+[21:53:58.191] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/shelled', added [hearthandharvest:peanut]
+[21:53:58.193] [WARN]: [TagSubstitutions] Substitute tag '#c:storage_blocks/coffee_beans' contains invalid replaced tags! Affected tags: #c:storage_blocks_coffee_beans, #c:storage_blocks_ground_coffee
+[21:53:58.195] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans_bag' with tag '#c:storage_blocks/coffee' is already part of tag '#c:storage_blocks/coffee_beans'.
+[21:53:58.195] [ERROR]: Unification entry for item 'actuallyadditions:flax_seeds' with tag '#c:crops/flax' is already part of tag '#c:seeds/flax'.
+[21:53:58.195] [ERROR]: Unification entry for item 'minecraft:charcoal' with tag '#c:coal' is already part of tag '#c:charcoal'.
+[21:53:58.196] [ERROR]: Unification entry for item 'minecraft:coal' with tag '#c:gems/coal' is already part of tag '#c:coal'.
+[21:53:58.196] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee_beans' is already part of tag '#c:crops/coffee_beans'.
+[21:53:58.196] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee' is already part of tag '#c:crops/coffee_beans'.
+[21:53:58.196] [ERROR]: Unification entry for item 'immersiveengineering:coal_coke' with tag '#c:coal_coke' is already part of tag '#c:coal'.
+[21:53:58.196] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:crops/coffee_beans'.
+[21:53:58.196] [ERROR]: Unification entry for item 'actuallyadditions:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:seeds/coffee'.
+[21:53:58.196] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:item / c:ores_in_ground/stone] and TagKey[minecraft:item / c:ores_in_ground/deepslate]
+[21:53:58.196] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:block / c:ores_in_ground/stone] and TagKey[minecraft:block / c:ores_in_ground/deepslate]
+[21:53:58.197] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/iron' -> [mekanism:dust_iron, occultism:iron_dust, enderio:powdered_iron, immersiveengineering:dust_iron]
+[21:53:58.197] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/quartz' -> [enderio:powdered_quartz, mekanism:dust_quartz]
+[21:53:58.197] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/lead' -> [immersiveengineering:ingot_lead, eidolon_repraised:lead_ingot, railcraft:lead_ingot]
+[21:53:58.197] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/iron' -> [xycraft_machines:iron_sheet, railcraft:iron_plate, immersiveengineering:plate_iron]
+[21:53:58.197] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper, xycraft_machines:copper_nugget, create:copper_nugget]
+[21:53:58.197] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/bronze' -> [railcraft:bronze_nugget]
+[21:53:58.197] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/fluorite' -> [evolvedmekanism:holystone_fluorite_ore, evolvedmekanism:depthrock_fluorite_ore, evolvedmekanism:shiverstone_fluorite_ore]
+[21:53:58.197] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/zinc' -> [railcraft:zinc_raw]
+[21:53:58.197] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/aluminum' -> [immersiveengineering:raw_aluminum]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/steel' -> [mekanism:block_steel, railcraft:steel_block, immersiveengineering:storage_steel]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/brass' -> [railcraft:brass_nugget]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/gold' -> [industrialforegoing:gold_gear]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/zinc' -> [railcraft:zinc_ingot]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/silicon' -> [extendedae:silicon_block]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/steel' -> [mekanism:dust_steel, immersiveengineering:dust_steel]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/aluminum' -> [immersiveengineering:nugget_aluminum]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/copper' -> [railcraft:copper_plate, immersiveengineering:plate_copper, xycraft_machines:copper_sheet]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/coal_coke' -> [railcraft:coal_coke_block]
+[21:53:58.199] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:seeds/flax' -> [actuallyadditions:flax_seeds]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/saltpeter' -> [railcraft:saltpeter_dust]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/lead' -> [immersiveengineering:raw_lead, eidolon_repraised:raw_lead, railcraft:lead_raw]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/nickel' -> [immersiveengineering:nugget_nickel, railcraft:nickel_nugget]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/tin' -> [railcraft:tin_nugget]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_nickel' -> [immersiveengineering:raw_block_nickel]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/uranium' -> [immersiveengineering:nugget_uranium]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/silver' -> [eidolon_repraised:silver_ingot, railcraft:silver_ingot, immersiveengineering:ingot_silver]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/steel' -> [railcraft:rebar]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/nickel' -> [immersiveengineering:raw_nickel, railcraft:nickel_raw]
+[21:53:58.200] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/tin' -> [enderio:powdered_tin]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/nickel' -> [immersiveengineering:dust_nickel]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/gold' -> [netherex:lively_gold_ore, netherex:gloomy_gold_ore, netherex:fiery_gold_ore]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/silver' -> [railcraft:silver_block, eidolon_repraised:silver_block, immersiveengineering:storage_silver]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/lapis' -> [mekanism:dust_lapis_lazuli, enderio:powdered_lapis_lazuli]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/gold' -> [railcraft:gold_plate, immersiveengineering:plate_gold, xycraft_machines:gold_sheet]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/gold' -> [mekanism:dust_gold, occultism:gold_dust, enderio:powdered_gold, immersiveengineering:dust_gold]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/aluminum' -> [immersiveengineering:ingot_aluminum]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/netherite' -> [mekanism:dust_netherite]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/emerald' -> [mekanism:dust_emerald, appflux:emerald_dust]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/nickel' -> [railcraft:nickel_block, immersiveengineering:storage_nickel]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/bronze' -> [railcraft:bronze_block]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/brass' -> [railcraft:brass_block]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/uranium' -> [immersiveengineering:raw_uranium, mekanism:raw_uranium]
+[21:53:58.201] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/uranium' -> [immersiveengineering:ingot_uranium]
+[21:53:58.202] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/silver' -> [immersiveengineering:raw_silver, railcraft:silver_raw, eidolon_repraised:raw_silver]
+[21:53:58.202] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/aluminum' -> [xycraft_machines:aluminum_sheet]
+[21:53:58.202] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/quartz' -> [netherex:gloomy_quartz_ore, netherex:lively_quartz_ore, netherex:fiery_quartz_ore]
+[21:53:58.202] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/silver' -> [immersiveengineering:dust_silver]
+[21:53:58.202] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/tin' -> [railcraft:tin_ingot]
+[21:53:58.202] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:ingots/steel' -> [hazennstuff:steel_ingot, railcraft:steel_ingot, mekanism:ingot_steel, immersiveengineering:ingot_steel]
+[21:53:58.202] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gears/iron' -> [industrialforegoing:iron_gear, enderio:iron_gear]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crops/cotton' -> [hearthandharvest:cotton]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/brass' -> [railcraft:brass_plate]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/tin' -> [railcraft:tin_raw]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/nickel' -> [railcraft:nickel_ingot, immersiveengineering:ingot_nickel]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/lead' -> [immersiveengineering:nugget_lead, eidolon_repraised:lead_nugget, railcraft:lead_nugget]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/blueberry' -> [hearthandharvest:blueberries]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/gold' -> [mekanism:clump_gold, create:crushed_raw_gold]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/aluminum' -> [immersiveengineering:storage_aluminum]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/silver' -> [eidolon_repraised:silver_nugget, immersiveengineering:nugget_silver, railcraft:silver_nugget]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/zinc' -> [railcraft:zinc_nugget]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/lead' -> [railcraft:lead_block, immersiveengineering:storage_lead, eidolon_repraised:lead_block]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_silver' -> [immersiveengineering:raw_block_silver, eidolon_repraised:raw_silver_block]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_uranium' -> [mekanism:block_raw_uranium, immersiveengineering:raw_block_uranium]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/tin' -> [railcraft:deepslate_tin_ore, evolvedmekanism:shiverstone_tin_ore, evolvedmekanism:depthrock_tin_ore, evolvedmekanism:holystone_tin_ore, railcraft:tin_ore]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:coal' -> [immersiveengineering:coal_coke]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/electrum' -> [immersiveengineering:storage_electrum]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/bronze' -> [railcraft:bronze_ingot]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/steel' -> [railcraft:steel_nugget, immersiveengineering:nugget_steel]
+[21:53:58.204] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/silver' -> [railcraft:silver_plate]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 6/10 items for tag '#c:ores/uranium' -> [evolvedmekanism:holystone_uranium_ore, mekanism:deepslate_uranium_ore, immersiveengineering:ore_uranium, evolvedmekanism:shiverstone_uranium_ore, immersiveengineering:deepslate_ore_uranium, evolvedmekanism:depthrock_uranium_ore]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/aluminum' -> [xycraft_machines:aluminum_dust]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/zinc' -> [railcraft:zinc_block]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:silicon' -> [enderio:silicon, ae2:silicon]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/brass' -> [railcraft:brass_ingot]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/charcoal' -> [justdirethings:charcoal, quark:charcoal_block]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/sulfur' -> [immersiveengineering:dust_sulfur, eidolon_repraised:sulfur, railcraft:sulfur_dust]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/copper' -> [create:crushed_raw_copper, mekanism:clump_copper]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/charcoal' -> [railcraft:charcoal_dust]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/uranium' -> [immersiveengineering:dust_uranium, mekanism:dust_uranium]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/lead' -> [railcraft:lead_plate]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/lead' -> [immersiveengineering:dust_lead]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/diamond' -> [appflux:diamond_dust]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/platinum' -> [create:crushed_raw_platinum]
+[21:53:58.205] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/obsidian' -> [enderio:powdered_obsidian, mekanism:dust_obsidian, railcraft:obsidian_dust, occultism:obsidian_dust]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/lead' -> [evolvedmekanism:shiverstone_lead_ore, eidolon_repraised:lead_ore, railcraft:deepslate_lead_ore, evolvedmekanism:depthrock_lead_ore, eidolon_repraised:deep_lead_ore, evolvedmekanism:holystone_lead_ore, railcraft:lead_ore, immersiveengineering:ore_lead, immersiveengineering:deepslate_ore_lead]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_aluminum' -> [immersiveengineering:raw_block_aluminum]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crops/rice' -> [farmersdelight:rice, mynethersdelight:ghasmati]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/osmium' -> [mekanism:clump_osmium]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/lemon' -> [fruitsdelight:lemon]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 4/6 items for tag '#c:ores/nickel' -> [railcraft:deepslate_nickel_ore, immersiveengineering:ore_nickel, railcraft:nickel_ore, immersiveengineering:deepslate_ore_nickel]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/iron' -> [mekanism:clump_iron, create:crushed_raw_iron]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/nickel' -> [railcraft:nickel_plate]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/osmium' -> [evolvedmekanism:depthrock_osmium_ore, evolvedmekanism:holystone_osmium_ore, evolvedmekanism:shiverstone_osmium_ore]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/uranium' -> [immersiveengineering:storage_uranium]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/coal' -> [railcraft:coal_dust, mekanism:dust_coal, enderio:powdered_coal]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_lead' -> [immersiveengineering:raw_block_lead, eidolon_repraised:raw_lead_block]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/cotton' -> [hearthandharvest:cotton_bale]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/tin' -> [railcraft:tin_block]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/steel' -> [railcraft:steel_plate]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/electrum' -> [immersiveengineering:dust_electrum]
+[21:53:58.206] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/nickel' -> [create:crushed_raw_nickel]
+[21:53:58.207] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/aluminum' -> [xycraft_world:aluminum_ore_stone, immersiveengineering:deepslate_ore_aluminum, immersiveengineering:ore_aluminum]
+[21:53:58.207] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/electrum' -> [immersiveengineering:ingot_electrum]
+[21:53:58.207] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:slag' -> [railcraft:slag]
+[21:53:58.207] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/zinc' -> [railcraft:zinc_ore, railcraft:deepslate_zinc_ore]
+[21:53:58.207] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/copper' -> [enderio:powdered_copper, immersiveengineering:dust_copper, mekanism:dust_copper, occultism:copper_dust]
+[21:53:58.207] [INFO]: [AutoHiding] Hiding 6/8 items for tag '#c:ores/silver' -> [eidolon_repraised:silver_ore, immersiveengineering:ore_silver, railcraft:deepslate_silver_ore, eidolon_repraised:deep_silver_ore, railcraft:silver_ore, immersiveengineering:deepslate_ore_silver]
+[21:53:58.207] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/uranium' -> [mekanism:clump_uranium]
+[21:53:58.933] [INFO]: Loading config 'duplicates.json'.
+[21:53:58.935] [INFO]: Recipe count: 33634
+[21:53:58.962] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_log', skipping.
+[21:53:58.962] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_wood', skipping.
+[21:53:59.016] [INFO]: 28050 out of 33634 recipes were loaded for unification.
+[21:53:59.350] [INFO]: Recipe count afterwards: 33400 (done in 414.8 ms)
+[21:53:59.351] [INFO]: Loot table 'immersiveengineering:blocks/storage_nickel' was unified by: materials
+[21:53:59.351] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_tin_ore' was unified by: materials
+[21:53:59.352] [INFO]: Loot table 'eidolon_repraised:blocks/deep_silver_ore' was unified by: materials
+[21:53:59.352] [INFO]: Loot table 'railcraft:blocks/sulfur_ore' was unified by: materials
+[21:53:59.352] [INFO]: Loot table 'enderio:chests/alloy_loot' was unified by: materials
+[21:53:59.352] [INFO]: Loot table 'eidolon_repraised:blocks/deep_lead_ore' was unified by: materials
+[21:53:59.352] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_osmium_ore' was unified by: materials
+[21:53:59.352] [INFO]: Loot table 'railcraft:blocks/nickel_ore' was unified by: materials
+[21:53:59.352] [INFO]: Loot table 'evolvedmekanism:blocks/end_stone_uranium_ore' was unified by: materials
+[21:53:59.353] [INFO]: Loot table 'hearthandharvest:blocks/wild_cotton' was unified by: materials
+[21:53:59.353] [INFO]: Loot table 'railcraft:blocks/tin_ore' was unified by: materials
+[21:53:59.354] [INFO]: Loot table 'farmersdelight:blocks/rice' was unified by: materials
+[21:53:59.354] [INFO]: Loot table 'netherex:blocks/fiery_gold_ore' was unified by: materials
+[21:53:59.354] [INFO]: Loot table 'immersiveengineering:blocks/storage_silver' was unified by: materials
+[21:53:59.356] [INFO]: Loot table 'eidolon_repraised:blocks/raw_silver_block' was unified by: materials
+[21:53:59.357] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_lead_ore' was unified by: materials
+[21:53:59.357] [INFO]: Loot table 'immersiveengineering:blocks/ore_lead' was unified by: materials
+[21:53:59.357] [INFO]: Loot table 'hearthandharvest:blocks/cotton' was unified by: materials
+[21:53:59.357] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_osmium_ore' was unified by: materials
+[21:53:59.358] [INFO]: Loot table 'immersiveengineering:blocks/storage_electrum' was unified by: materials
+[21:53:59.358] [INFO]: Loot table 'railcraft:blocks/zinc_ore' was unified by: materials
+[21:53:59.358] [INFO]: Loot table 'railcraft:blocks/zinc_block' was unified by: materials
+[21:53:59.358] [INFO]: Loot table 'immersiveengineering:chests/engineers_house' was unified by: materials
+[21:53:59.359] [INFO]: Loot table 'immersiveengineering:blocks/storage_lead' was unified by: materials
+[21:53:59.359] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_aluminum' was unified by: materials
+[21:53:59.359] [INFO]: Loot table 'immersiveengineering:blocks/storage_steel' was unified by: materials
+[21:53:59.359] [INFO]: Loot table 'railcraft:blocks/steel_block' was unified by: materials
+[21:53:59.359] [INFO]: Loot table 'farmersdelight:chests/fd_shipwreck_supply' was unified by: materials
+[21:53:59.359] [INFO]: Loot table 'farmersdelight:chests/fd_village_taiga_house' was unified by: materials
+[21:53:59.361] [INFO]: Loot table 'railcraft:blocks/nickel_block' was unified by: materials
+[21:53:59.361] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_uranium' was unified by: materials
+[21:53:59.361] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_tin_ore' was unified by: materials
+[21:53:59.361] [INFO]: Loot table 'eidolon_repraised:entities/zombie_brute' was unified by: materials
+[21:53:59.362] [INFO]: Loot table 'railcraft:blocks/lead_ore' was unified by: materials
+[21:53:59.362] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_tin_ore' was unified by: materials
+[21:53:59.363] [INFO]: Loot table 'farmersdelight:blocks/rice_panicles' was unified by: materials
+[21:53:59.363] [INFO]: Loot table 'immersiveengineering:blocks/ore_aluminum' was unified by: materials
+[21:53:59.363] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_lead_ore' was unified by: materials
+[21:53:59.363] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_uranium_ore' was unified by: materials
+[21:53:59.363] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_aluminum' was unified by: materials
+[21:53:59.364] [INFO]: Loot table 'railcraft:blocks/saltpeter_ore' was unified by: materials
+[21:53:59.364] [INFO]: Loot table 'hearthandharvest:blocks/cotton_bale' was unified by: materials
+[21:53:59.365] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_fluorite_ore' was unified by: materials
+[21:53:59.365] [INFO]: Loot table 'mekanism:blocks/deepslate_uranium_ore' was unified by: materials
+[21:53:59.365] [INFO]: Loot table 'actuallyadditions:blocks/flax' was unified by: materials
+[21:53:59.366] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_uranium_ore' was unified by: materials
+[21:53:59.366] [INFO]: Loot table 'eidolon_repraised:blocks/lead_block' was unified by: materials
+[21:53:59.366] [INFO]: Loot table 'farmersdelight:chests/fd_village_desert_house' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_fluorite_ore' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'mekanism:blocks/block_raw_uranium' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_lead_ore' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'justdirethings:blocks/charcoal' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'eidolon_repraised:blocks/raw_lead_block' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'immersiveengineering:blocks/ore_nickel' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'evolvedmekanism:blocks/netherrack_uranium_ore' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'railcraft:blocks/deepslate_tin_ore' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'eidolon_repraised:blocks/lead_ore' was unified by: materials
+[21:53:59.367] [INFO]: Loot table 'xycraft_world:blocks/aluminum_ore_stone' was unified by: materials
+[21:53:59.369] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_lead' was unified by: materials
+[21:53:59.369] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_nickel' was unified by: materials
+[21:53:59.369] [INFO]: Loot table 'immersiveengineering:blocks/ore_silver' was unified by: materials
+[21:53:59.369] [INFO]: Loot table 'railcraft:blocks/tin_block' was unified by: materials
+[21:53:59.369] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_silver' was unified by: materials
+[21:53:59.370] [INFO]: Loot table 'railcraft:blocks/silver_ore' was unified by: materials
+[21:53:59.370] [INFO]: Loot table 'railcraft:blocks/deepslate_silver_ore' was unified by: materials
+[21:53:59.370] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_fluorite_ore' was unified by: materials
+[21:53:59.370] [INFO]: Loot table 'immersiveengineering:blocks/storage_aluminum' was unified by: materials
+[21:53:59.370] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_uranium_ore' was unified by: materials
+[21:53:59.370] [INFO]: Loot table 'quark:blocks/charcoal_block' was unified by: materials
+[21:53:59.371] [INFO]: Loot table 'railcraft:blocks/coal_coke_block' was unified by: materials
+[21:53:59.371] [INFO]: Loot table 'farmersdelight:blocks/wild_rice' was unified by: materials
+[21:53:59.371] [INFO]: Loot table 'netherex:blocks/lively_quartz_ore' was unified by: materials
+[21:53:59.371] [INFO]: Loot table 'railcraft:blocks/silver_block' was unified by: materials
+[21:53:59.371] [INFO]: Loot table 'railcraft:blocks/lead_block' was unified by: materials
+[21:53:59.372] [INFO]: Loot table 'mekanism:blocks/uranium_ore' was unified by: materials
+[21:53:59.372] [INFO]: Loot table 'immersiveengineering:blocks/ore_uranium' was unified by: materials
+[21:53:59.372] [INFO]: Loot table 'immersiveengineering:blocks/storage_uranium' was unified by: materials
+[21:53:59.372] [INFO]: Loot table 'netherex:blocks/fiery_quartz_ore' was unified by: materials
+[21:53:59.373] [INFO]: Loot table 'railcraft:blocks/deepslate_sulfur_ore' was unified by: materials
+[21:53:59.373] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_lead' was unified by: materials
+[21:53:59.373] [INFO]: Loot table 'railcraft:blocks/deepslate_nickel_ore' was unified by: materials
+[21:53:59.373] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_nickel' was unified by: materials
+[21:53:59.373] [INFO]: Loot table 'netherex:blocks/lively_gold_ore' was unified by: materials
+[21:53:59.373] [INFO]: Loot table 'railcraft:blocks/deepslate_zinc_ore' was unified by: materials
+[21:53:59.373] [INFO]: Loot table 'farmersdelight:chests/fd_abandoned_mineshaft' was unified by: materials
+[21:53:59.374] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_silver' was unified by: materials
+[21:53:59.374] [INFO]: Loot table 'hearthandharvest:blocks/blueberry_bush' was unified by: materials
+[21:53:59.374] [INFO]: Loot table 'eidolon_repraised:blocks/silver_ore' was unified by: materials
+[21:53:59.374] [INFO]: Loot table 'netherex:blocks/gloomy_gold_ore' was unified by: materials
+[21:53:59.374] [INFO]: Loot table 'extendedae:blocks/silicon_block' was unified by: materials
+[21:53:59.375] [INFO]: Loot table 'mekanism:blocks/block_steel' was unified by: materials
+[21:53:59.375] [INFO]: Loot table 'railcraft:blocks/deepslate_lead_ore' was unified by: materials
+[21:53:59.375] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_osmium_ore' was unified by: materials
+[21:53:59.376] [INFO]: Loot table 'railcraft:blocks/brass_block' was unified by: materials
+[21:53:59.376] [INFO]: Loot table 'netherex:blocks/gloomy_quartz_ore' was unified by: materials
+[21:53:59.376] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_uranium' was unified by: materials
+[21:53:59.376] [INFO]: Loot table 'eidolon_repraised:blocks/silver_block' was unified by: materials
+[21:53:59.376] [INFO]: Loot table 'railcraft:blocks/bronze_block' was unified by: materials
+[21:54:01.729] [ERROR]: The following recipes were unified and threw exceptions when being loaded: [create:crushing/compat/immersiveengineering/coke_block, create:milling/compat/supplementaries/flax, create:crushing/compat/immersiveengineering/coal_coke, create:crushing/compat/immersiveengineering/slag, cataclysm_spellbooks:engineers_power_glove]
+[21:54:01.729] [WARN]: Try to add them to the ignore list and if the problem is gone, report it to the Almost Unified developers.
+[22:55:53.426] [WARN]: Reload detected. Reconstructing runtime.
+[22:55:53.426] [INFO]: Loading config 'debug.json'.
+[22:55:53.435] [INFO]: Loading config 'placeholders.json'.
+[22:55:53.444] [INFO]: Loading config 'tags.json'.
+[22:55:53.467] [WARN]: The following mods are used in unification settings, but are not loaded: [extradelight]
+[22:55:53.467] [WARN]: [CustomTags] Custom tag 'c:crops/peanut' already contains item 'hearthandharvest:peanut'
+[22:55:53.467] [WARN]: [CustomTags] Custom tag 'c:crops/cotton' already contains item 'hearthandharvest:cotton'
+[22:55:53.467] [INFO]: [CustomTags] Modified tag '#c:crops/coffee/cooked', added [rusticdelight:roasted_coffee_beans]
+[22:55:53.467] [INFO]: [CustomTags] Modified tag '#c:rods/steel', added [railcraft:rebar]
+[22:55:53.467] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/blueberry', added [hearthandharvest:blueberries]
+[22:55:53.467] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/cooked', added [hearthandharvest:roasted_peanuts]
+[22:55:53.467] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/lemon', added [hazennstuff:lemon]
+[22:55:53.467] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/shelled', added [hearthandharvest:peanut]
+[22:55:53.469] [WARN]: [TagSubstitutions] Substitute tag '#c:storage_blocks/coffee_beans' contains invalid replaced tags! Affected tags: #c:storage_blocks_coffee_beans, #c:storage_blocks_ground_coffee
+[22:55:53.470] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans_bag' with tag '#c:storage_blocks/coffee' is already part of tag '#c:storage_blocks/coffee_beans'.
+[22:55:53.470] [ERROR]: Unification entry for item 'actuallyadditions:flax_seeds' with tag '#c:crops/flax' is already part of tag '#c:seeds/flax'.
+[22:55:53.471] [ERROR]: Unification entry for item 'minecraft:charcoal' with tag '#c:coal' is already part of tag '#c:charcoal'.
+[22:55:53.471] [ERROR]: Unification entry for item 'minecraft:coal' with tag '#c:gems/coal' is already part of tag '#c:coal'.
+[22:55:53.471] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee_beans' is already part of tag '#c:crops/coffee_beans'.
+[22:55:53.472] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee' is already part of tag '#c:crops/coffee_beans'.
+[22:55:53.472] [ERROR]: Unification entry for item 'immersiveengineering:coal_coke' with tag '#c:coal_coke' is already part of tag '#c:coal'.
+[22:55:53.472] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:crops/coffee_beans'.
+[22:55:53.472] [ERROR]: Unification entry for item 'actuallyadditions:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:seeds/coffee'.
+[22:55:53.472] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:item / c:ores_in_ground/stone] and TagKey[minecraft:item / c:ores_in_ground/deepslate]
+[22:55:53.472] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:block / c:ores_in_ground/stone] and TagKey[minecraft:block / c:ores_in_ground/deepslate]
+[22:55:53.474] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/iron' -> [mekanism:dust_iron, occultism:iron_dust, enderio:powdered_iron, immersiveengineering:dust_iron]
+[22:55:53.474] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/quartz' -> [enderio:powdered_quartz, mekanism:dust_quartz]
+[22:55:53.474] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/lead' -> [immersiveengineering:ingot_lead, eidolon_repraised:lead_ingot, railcraft:lead_ingot]
+[22:55:53.475] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/iron' -> [xycraft_machines:iron_sheet, railcraft:iron_plate, immersiveengineering:plate_iron]
+[22:55:53.475] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper, xycraft_machines:copper_nugget, create:copper_nugget]
+[22:55:53.475] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/bronze' -> [railcraft:bronze_nugget]
+[22:55:53.475] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/fluorite' -> [evolvedmekanism:holystone_fluorite_ore, evolvedmekanism:depthrock_fluorite_ore, evolvedmekanism:shiverstone_fluorite_ore]
+[22:55:53.475] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/zinc' -> [railcraft:zinc_raw]
+[22:55:53.475] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/aluminum' -> [immersiveengineering:raw_aluminum]
+[22:55:53.476] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/steel' -> [mekanism:block_steel, railcraft:steel_block, immersiveengineering:storage_steel]
+[22:55:53.476] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/brass' -> [railcraft:brass_nugget]
+[22:55:53.476] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/gold' -> [industrialforegoing:gold_gear]
+[22:55:53.476] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/zinc' -> [railcraft:zinc_ingot]
+[22:55:53.476] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/silicon' -> [extendedae:silicon_block]
+[22:55:53.476] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/steel' -> [mekanism:dust_steel, immersiveengineering:dust_steel]
+[22:55:53.476] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/aluminum' -> [immersiveengineering:nugget_aluminum]
+[22:55:53.477] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/copper' -> [railcraft:copper_plate, immersiveengineering:plate_copper, xycraft_machines:copper_sheet]
+[22:55:53.477] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/coal_coke' -> [railcraft:coal_coke_block]
+[22:55:53.477] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:seeds/flax' -> [actuallyadditions:flax_seeds]
+[22:55:53.477] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/saltpeter' -> [railcraft:saltpeter_dust]
+[22:55:53.477] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/lead' -> [immersiveengineering:raw_lead, eidolon_repraised:raw_lead, railcraft:lead_raw]
+[22:55:53.478] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/nickel' -> [immersiveengineering:nugget_nickel, railcraft:nickel_nugget]
+[22:55:53.478] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/tin' -> [railcraft:tin_nugget]
+[22:55:53.478] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_nickel' -> [immersiveengineering:raw_block_nickel]
+[22:55:53.478] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/uranium' -> [immersiveengineering:nugget_uranium]
+[22:55:53.478] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/silver' -> [eidolon_repraised:silver_ingot, railcraft:silver_ingot, immersiveengineering:ingot_silver]
+[22:55:53.478] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/steel' -> [railcraft:rebar]
+[22:55:53.478] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/nickel' -> [immersiveengineering:raw_nickel, railcraft:nickel_raw]
+[22:55:53.478] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/tin' -> [enderio:powdered_tin]
+[22:55:53.479] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/nickel' -> [immersiveengineering:dust_nickel]
+[22:55:53.479] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/gold' -> [netherex:lively_gold_ore, netherex:gloomy_gold_ore, netherex:fiery_gold_ore]
+[22:55:53.479] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/silver' -> [railcraft:silver_block, eidolon_repraised:silver_block, immersiveengineering:storage_silver]
+[22:55:53.479] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/lapis' -> [mekanism:dust_lapis_lazuli, enderio:powdered_lapis_lazuli]
+[22:55:53.479] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/gold' -> [railcraft:gold_plate, immersiveengineering:plate_gold, xycraft_machines:gold_sheet]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/gold' -> [mekanism:dust_gold, occultism:gold_dust, enderio:powdered_gold, immersiveengineering:dust_gold]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/aluminum' -> [immersiveengineering:ingot_aluminum]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/netherite' -> [mekanism:dust_netherite]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/emerald' -> [mekanism:dust_emerald, appflux:emerald_dust]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/nickel' -> [railcraft:nickel_block, immersiveengineering:storage_nickel]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/bronze' -> [railcraft:bronze_block]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/brass' -> [railcraft:brass_block]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/uranium' -> [immersiveengineering:raw_uranium, mekanism:raw_uranium]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/uranium' -> [immersiveengineering:ingot_uranium]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/silver' -> [immersiveengineering:raw_silver, railcraft:silver_raw, eidolon_repraised:raw_silver]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/aluminum' -> [xycraft_machines:aluminum_sheet]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/quartz' -> [netherex:gloomy_quartz_ore, netherex:lively_quartz_ore, netherex:fiery_quartz_ore]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/silver' -> [immersiveengineering:dust_silver]
+[22:55:53.480] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/tin' -> [railcraft:tin_ingot]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:ingots/steel' -> [hazennstuff:steel_ingot, railcraft:steel_ingot, mekanism:ingot_steel, immersiveengineering:ingot_steel]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gears/iron' -> [industrialforegoing:iron_gear, enderio:iron_gear]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crops/cotton' -> [hearthandharvest:cotton]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/brass' -> [railcraft:brass_plate]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/tin' -> [railcraft:tin_raw]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/nickel' -> [railcraft:nickel_ingot, immersiveengineering:ingot_nickel]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/lead' -> [immersiveengineering:nugget_lead, eidolon_repraised:lead_nugget, railcraft:lead_nugget]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/blueberry' -> [hearthandharvest:blueberries]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/gold' -> [mekanism:clump_gold, create:crushed_raw_gold]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/aluminum' -> [immersiveengineering:storage_aluminum]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/silver' -> [eidolon_repraised:silver_nugget, immersiveengineering:nugget_silver, railcraft:silver_nugget]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/zinc' -> [railcraft:zinc_nugget]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/lead' -> [railcraft:lead_block, immersiveengineering:storage_lead, eidolon_repraised:lead_block]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_silver' -> [immersiveengineering:raw_block_silver, eidolon_repraised:raw_silver_block]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_uranium' -> [mekanism:block_raw_uranium, immersiveengineering:raw_block_uranium]
+[22:55:53.481] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/tin' -> [railcraft:deepslate_tin_ore, evolvedmekanism:shiverstone_tin_ore, evolvedmekanism:depthrock_tin_ore, evolvedmekanism:holystone_tin_ore, railcraft:tin_ore]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:coal' -> [immersiveengineering:coal_coke]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/electrum' -> [immersiveengineering:storage_electrum]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/bronze' -> [railcraft:bronze_ingot]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/steel' -> [railcraft:steel_nugget, immersiveengineering:nugget_steel]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/silver' -> [railcraft:silver_plate]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 6/10 items for tag '#c:ores/uranium' -> [evolvedmekanism:holystone_uranium_ore, mekanism:deepslate_uranium_ore, immersiveengineering:ore_uranium, evolvedmekanism:shiverstone_uranium_ore, immersiveengineering:deepslate_ore_uranium, evolvedmekanism:depthrock_uranium_ore]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/aluminum' -> [xycraft_machines:aluminum_dust]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/zinc' -> [railcraft:zinc_block]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:silicon' -> [enderio:silicon, ae2:silicon]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/brass' -> [railcraft:brass_ingot]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/charcoal' -> [justdirethings:charcoal, quark:charcoal_block]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/sulfur' -> [immersiveengineering:dust_sulfur, eidolon_repraised:sulfur, railcraft:sulfur_dust]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/copper' -> [create:crushed_raw_copper, mekanism:clump_copper]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/charcoal' -> [railcraft:charcoal_dust]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/uranium' -> [immersiveengineering:dust_uranium, mekanism:dust_uranium]
+[22:55:53.483] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/lead' -> [railcraft:lead_plate]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/lead' -> [immersiveengineering:dust_lead]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/diamond' -> [appflux:diamond_dust]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/platinum' -> [create:crushed_raw_platinum]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/obsidian' -> [enderio:powdered_obsidian, mekanism:dust_obsidian, railcraft:obsidian_dust, occultism:obsidian_dust]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/lead' -> [evolvedmekanism:shiverstone_lead_ore, eidolon_repraised:lead_ore, railcraft:deepslate_lead_ore, evolvedmekanism:depthrock_lead_ore, eidolon_repraised:deep_lead_ore, evolvedmekanism:holystone_lead_ore, railcraft:lead_ore, immersiveengineering:ore_lead, immersiveengineering:deepslate_ore_lead]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_aluminum' -> [immersiveengineering:raw_block_aluminum]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crops/rice' -> [farmersdelight:rice, mynethersdelight:ghasmati]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/osmium' -> [mekanism:clump_osmium]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/lemon' -> [fruitsdelight:lemon]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 4/6 items for tag '#c:ores/nickel' -> [railcraft:deepslate_nickel_ore, immersiveengineering:ore_nickel, railcraft:nickel_ore, immersiveengineering:deepslate_ore_nickel]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/iron' -> [mekanism:clump_iron, create:crushed_raw_iron]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/nickel' -> [railcraft:nickel_plate]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/osmium' -> [evolvedmekanism:depthrock_osmium_ore, evolvedmekanism:holystone_osmium_ore, evolvedmekanism:shiverstone_osmium_ore]
+[22:55:53.485] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/uranium' -> [immersiveengineering:storage_uranium]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/coal' -> [railcraft:coal_dust, mekanism:dust_coal, enderio:powdered_coal]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_lead' -> [immersiveengineering:raw_block_lead, eidolon_repraised:raw_lead_block]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/cotton' -> [hearthandharvest:cotton_bale]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/tin' -> [railcraft:tin_block]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/steel' -> [railcraft:steel_plate]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/electrum' -> [immersiveengineering:dust_electrum]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/nickel' -> [create:crushed_raw_nickel]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/aluminum' -> [xycraft_world:aluminum_ore_stone, immersiveengineering:deepslate_ore_aluminum, immersiveengineering:ore_aluminum]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/electrum' -> [immersiveengineering:ingot_electrum]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:slag' -> [railcraft:slag]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/zinc' -> [railcraft:zinc_ore, railcraft:deepslate_zinc_ore]
+[22:55:53.486] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/copper' -> [enderio:powdered_copper, immersiveengineering:dust_copper, mekanism:dust_copper, occultism:copper_dust]
+[22:55:53.487] [INFO]: [AutoHiding] Hiding 6/8 items for tag '#c:ores/silver' -> [eidolon_repraised:silver_ore, immersiveengineering:ore_silver, railcraft:deepslate_silver_ore, eidolon_repraised:deep_silver_ore, railcraft:silver_ore, immersiveengineering:deepslate_ore_silver]
+[22:55:53.487] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/uranium' -> [mekanism:clump_uranium]
+[22:55:54.389] [INFO]: Loading config 'duplicates.json'.
+[22:55:54.395] [INFO]: Recipe count: 33634
+[22:55:54.418] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_log', skipping.
+[22:55:54.419] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_wood', skipping.
+[22:55:54.479] [INFO]: 28050 out of 33634 recipes were loaded for unification.
+[22:55:54.799] [INFO]: Recipe count afterwards: 33400 (done in 403.9 ms)
+[22:55:54.800] [INFO]: Loot table 'immersiveengineering:blocks/storage_nickel' was unified by: materials
+[22:55:54.800] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_tin_ore' was unified by: materials
+[22:55:54.800] [INFO]: Loot table 'eidolon_repraised:blocks/deep_silver_ore' was unified by: materials
+[22:55:54.800] [INFO]: Loot table 'railcraft:blocks/sulfur_ore' was unified by: materials
+[22:55:54.800] [INFO]: Loot table 'enderio:chests/alloy_loot' was unified by: materials
+[22:55:54.801] [INFO]: Loot table 'eidolon_repraised:blocks/deep_lead_ore' was unified by: materials
+[22:55:54.801] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_osmium_ore' was unified by: materials
+[22:55:54.801] [INFO]: Loot table 'railcraft:blocks/nickel_ore' was unified by: materials
+[22:55:54.801] [INFO]: Loot table 'evolvedmekanism:blocks/end_stone_uranium_ore' was unified by: materials
+[22:55:54.801] [INFO]: Loot table 'hearthandharvest:blocks/wild_cotton' was unified by: materials
+[22:55:54.802] [INFO]: Loot table 'railcraft:blocks/tin_ore' was unified by: materials
+[22:55:54.802] [INFO]: Loot table 'farmersdelight:blocks/rice' was unified by: materials
+[22:55:54.802] [INFO]: Loot table 'netherex:blocks/fiery_gold_ore' was unified by: materials
+[22:55:54.804] [INFO]: Loot table 'immersiveengineering:blocks/storage_silver' was unified by: materials
+[22:55:54.804] [INFO]: Loot table 'eidolon_repraised:blocks/raw_silver_block' was unified by: materials
+[22:55:54.804] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_lead_ore' was unified by: materials
+[22:55:54.805] [INFO]: Loot table 'immersiveengineering:blocks/ore_lead' was unified by: materials
+[22:55:54.805] [INFO]: Loot table 'hearthandharvest:blocks/cotton' was unified by: materials
+[22:55:54.805] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_osmium_ore' was unified by: materials
+[22:55:54.805] [INFO]: Loot table 'immersiveengineering:blocks/storage_electrum' was unified by: materials
+[22:55:54.805] [INFO]: Loot table 'railcraft:blocks/zinc_ore' was unified by: materials
+[22:55:54.805] [INFO]: Loot table 'railcraft:blocks/zinc_block' was unified by: materials
+[22:55:54.805] [INFO]: Loot table 'immersiveengineering:chests/engineers_house' was unified by: materials
+[22:55:54.806] [INFO]: Loot table 'immersiveengineering:blocks/storage_lead' was unified by: materials
+[22:55:54.806] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_aluminum' was unified by: materials
+[22:55:54.806] [INFO]: Loot table 'immersiveengineering:blocks/storage_steel' was unified by: materials
+[22:55:54.806] [INFO]: Loot table 'railcraft:blocks/steel_block' was unified by: materials
+[22:55:54.807] [INFO]: Loot table 'farmersdelight:chests/fd_shipwreck_supply' was unified by: materials
+[22:55:54.807] [INFO]: Loot table 'farmersdelight:chests/fd_village_taiga_house' was unified by: materials
+[22:55:54.808] [INFO]: Loot table 'railcraft:blocks/nickel_block' was unified by: materials
+[22:55:54.808] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_uranium' was unified by: materials
+[22:55:54.808] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_tin_ore' was unified by: materials
+[22:55:54.808] [INFO]: Loot table 'eidolon_repraised:entities/zombie_brute' was unified by: materials
+[22:55:54.808] [INFO]: Loot table 'railcraft:blocks/lead_ore' was unified by: materials
+[22:55:54.809] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_tin_ore' was unified by: materials
+[22:55:54.809] [INFO]: Loot table 'farmersdelight:blocks/rice_panicles' was unified by: materials
+[22:55:54.809] [INFO]: Loot table 'immersiveengineering:blocks/ore_aluminum' was unified by: materials
+[22:55:54.809] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_lead_ore' was unified by: materials
+[22:55:54.811] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_uranium_ore' was unified by: materials
+[22:55:54.811] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_aluminum' was unified by: materials
+[22:55:54.811] [INFO]: Loot table 'railcraft:blocks/saltpeter_ore' was unified by: materials
+[22:55:54.812] [INFO]: Loot table 'hearthandharvest:blocks/cotton_bale' was unified by: materials
+[22:55:54.812] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_fluorite_ore' was unified by: materials
+[22:55:54.812] [INFO]: Loot table 'mekanism:blocks/deepslate_uranium_ore' was unified by: materials
+[22:55:54.812] [INFO]: Loot table 'actuallyadditions:blocks/flax' was unified by: materials
+[22:55:54.813] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_uranium_ore' was unified by: materials
+[22:55:54.813] [INFO]: Loot table 'eidolon_repraised:blocks/lead_block' was unified by: materials
+[22:55:54.813] [INFO]: Loot table 'farmersdelight:chests/fd_village_desert_house' was unified by: materials
+[22:55:54.813] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_fluorite_ore' was unified by: materials
+[22:55:54.814] [INFO]: Loot table 'mekanism:blocks/block_raw_uranium' was unified by: materials
+[22:55:54.814] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_lead_ore' was unified by: materials
+[22:55:54.814] [INFO]: Loot table 'justdirethings:blocks/charcoal' was unified by: materials
+[22:55:54.814] [INFO]: Loot table 'eidolon_repraised:blocks/raw_lead_block' was unified by: materials
+[22:55:54.815] [INFO]: Loot table 'immersiveengineering:blocks/ore_nickel' was unified by: materials
+[22:55:54.815] [INFO]: Loot table 'evolvedmekanism:blocks/netherrack_uranium_ore' was unified by: materials
+[22:55:54.815] [INFO]: Loot table 'railcraft:blocks/deepslate_tin_ore' was unified by: materials
+[22:55:54.815] [INFO]: Loot table 'eidolon_repraised:blocks/lead_ore' was unified by: materials
+[22:55:54.815] [INFO]: Loot table 'xycraft_world:blocks/aluminum_ore_stone' was unified by: materials
+[22:55:54.815] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_lead' was unified by: materials
+[22:55:54.816] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_nickel' was unified by: materials
+[22:55:54.816] [INFO]: Loot table 'immersiveengineering:blocks/ore_silver' was unified by: materials
+[22:55:54.816] [INFO]: Loot table 'railcraft:blocks/tin_block' was unified by: materials
+[22:55:54.816] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_silver' was unified by: materials
+[22:55:54.817] [INFO]: Loot table 'railcraft:blocks/silver_ore' was unified by: materials
+[22:55:54.817] [INFO]: Loot table 'railcraft:blocks/deepslate_silver_ore' was unified by: materials
+[22:55:54.817] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_fluorite_ore' was unified by: materials
+[22:55:54.817] [INFO]: Loot table 'immersiveengineering:blocks/storage_aluminum' was unified by: materials
+[22:55:54.817] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_uranium_ore' was unified by: materials
+[22:55:54.817] [INFO]: Loot table 'quark:blocks/charcoal_block' was unified by: materials
+[22:55:54.818] [INFO]: Loot table 'railcraft:blocks/coal_coke_block' was unified by: materials
+[22:55:54.818] [INFO]: Loot table 'farmersdelight:blocks/wild_rice' was unified by: materials
+[22:55:54.818] [INFO]: Loot table 'netherex:blocks/lively_quartz_ore' was unified by: materials
+[22:55:54.818] [INFO]: Loot table 'railcraft:blocks/silver_block' was unified by: materials
+[22:55:54.818] [INFO]: Loot table 'railcraft:blocks/lead_block' was unified by: materials
+[22:55:54.818] [INFO]: Loot table 'mekanism:blocks/uranium_ore' was unified by: materials
+[22:55:54.818] [INFO]: Loot table 'immersiveengineering:blocks/ore_uranium' was unified by: materials
+[22:55:54.819] [INFO]: Loot table 'immersiveengineering:blocks/storage_uranium' was unified by: materials
+[22:55:54.819] [INFO]: Loot table 'netherex:blocks/fiery_quartz_ore' was unified by: materials
+[22:55:54.819] [INFO]: Loot table 'railcraft:blocks/deepslate_sulfur_ore' was unified by: materials
+[22:55:54.819] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_lead' was unified by: materials
+[22:55:54.819] [INFO]: Loot table 'railcraft:blocks/deepslate_nickel_ore' was unified by: materials
+[22:55:54.819] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_nickel' was unified by: materials
+[22:55:54.819] [INFO]: Loot table 'netherex:blocks/lively_gold_ore' was unified by: materials
+[22:55:54.820] [INFO]: Loot table 'railcraft:blocks/deepslate_zinc_ore' was unified by: materials
+[22:55:54.820] [INFO]: Loot table 'farmersdelight:chests/fd_abandoned_mineshaft' was unified by: materials
+[22:55:54.820] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_silver' was unified by: materials
+[22:55:54.820] [INFO]: Loot table 'hearthandharvest:blocks/blueberry_bush' was unified by: materials
+[22:55:54.820] [INFO]: Loot table 'eidolon_repraised:blocks/silver_ore' was unified by: materials
+[22:55:54.820] [INFO]: Loot table 'netherex:blocks/gloomy_gold_ore' was unified by: materials
+[22:55:54.821] [INFO]: Loot table 'extendedae:blocks/silicon_block' was unified by: materials
+[22:55:54.821] [INFO]: Loot table 'mekanism:blocks/block_steel' was unified by: materials
+[22:55:54.822] [INFO]: Loot table 'railcraft:blocks/deepslate_lead_ore' was unified by: materials
+[22:55:54.822] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_osmium_ore' was unified by: materials
+[22:55:54.822] [INFO]: Loot table 'railcraft:blocks/brass_block' was unified by: materials
+[22:55:54.822] [INFO]: Loot table 'netherex:blocks/gloomy_quartz_ore' was unified by: materials
+[22:55:54.822] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_uranium' was unified by: materials
+[22:55:54.822] [INFO]: Loot table 'eidolon_repraised:blocks/silver_block' was unified by: materials
+[22:55:54.822] [INFO]: Loot table 'railcraft:blocks/bronze_block' was unified by: materials
+[22:55:57.239] [ERROR]: The following recipes were unified and threw exceptions when being loaded: [create:crushing/compat/immersiveengineering/coke_block, create:milling/compat/supplementaries/flax, create:crushing/compat/immersiveengineering/coal_coke, create:crushing/compat/immersiveengineering/slag, cataclysm_spellbooks:engineers_power_glove]
+[22:55:57.239] [WARN]: Try to add them to the ignore list and if the problem is gone, report it to the Almost Unified developers.
+[23:07:59.087] [WARN]: Reload detected. Reconstructing runtime.
+[23:07:59.087] [INFO]: Loading config 'debug.json'.
+[23:07:59.088] [INFO]: Loading config 'placeholders.json'.
+[23:07:59.089] [INFO]: Loading config 'tags.json'.
+[23:07:59.090] [WARN]: The following mods are used in unification settings, but are not loaded: [extradelight]
+[23:07:59.090] [WARN]: [CustomTags] Custom tag 'c:crops/peanut' already contains item 'hearthandharvest:peanut'
+[23:07:59.090] [WARN]: [CustomTags] Custom tag 'c:crops/cotton' already contains item 'hearthandharvest:cotton'
+[23:07:59.091] [INFO]: [CustomTags] Modified tag '#c:crops/coffee/cooked', added [rusticdelight:roasted_coffee_beans]
+[23:07:59.091] [INFO]: [CustomTags] Modified tag '#c:rods/steel', added [railcraft:rebar]
+[23:07:59.091] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/blueberry', added [hearthandharvest:blueberries]
+[23:07:59.091] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/cooked', added [hearthandharvest:roasted_peanuts]
+[23:07:59.091] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/lemon', added [hazennstuff:lemon]
+[23:07:59.091] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/shelled', added [hearthandharvest:peanut]
+[23:07:59.092] [WARN]: [TagSubstitutions] Substitute tag '#c:storage_blocks/coffee_beans' contains invalid replaced tags! Affected tags: #c:storage_blocks_coffee_beans, #c:storage_blocks_ground_coffee
+[23:07:59.094] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans_bag' with tag '#c:storage_blocks/coffee' is already part of tag '#c:storage_blocks/coffee_beans'.
+[23:07:59.094] [ERROR]: Unification entry for item 'actuallyadditions:flax_seeds' with tag '#c:crops/flax' is already part of tag '#c:seeds/flax'.
+[23:07:59.095] [ERROR]: Unification entry for item 'minecraft:charcoal' with tag '#c:coal' is already part of tag '#c:charcoal'.
+[23:07:59.095] [ERROR]: Unification entry for item 'minecraft:coal' with tag '#c:gems/coal' is already part of tag '#c:coal'.
+[23:07:59.095] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee_beans' is already part of tag '#c:crops/coffee_beans'.
+[23:07:59.095] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee' is already part of tag '#c:crops/coffee_beans'.
+[23:07:59.095] [ERROR]: Unification entry for item 'immersiveengineering:coal_coke' with tag '#c:coal_coke' is already part of tag '#c:coal'.
+[23:07:59.095] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:crops/coffee_beans'.
+[23:07:59.095] [ERROR]: Unification entry for item 'actuallyadditions:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:seeds/coffee'.
+[23:07:59.095] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:item / c:ores_in_ground/stone] and TagKey[minecraft:item / c:ores_in_ground/deepslate]
+[23:07:59.095] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:block / c:ores_in_ground/stone] and TagKey[minecraft:block / c:ores_in_ground/deepslate]
+[23:07:59.096] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/iron' -> [mekanism:dust_iron, occultism:iron_dust, enderio:powdered_iron, immersiveengineering:dust_iron]
+[23:07:59.096] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/quartz' -> [enderio:powdered_quartz, mekanism:dust_quartz]
+[23:07:59.096] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/lead' -> [immersiveengineering:ingot_lead, eidolon_repraised:lead_ingot, railcraft:lead_ingot]
+[23:07:59.096] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/iron' -> [xycraft_machines:iron_sheet, railcraft:iron_plate, immersiveengineering:plate_iron]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper, xycraft_machines:copper_nugget, create:copper_nugget]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/bronze' -> [railcraft:bronze_nugget]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/fluorite' -> [evolvedmekanism:holystone_fluorite_ore, evolvedmekanism:depthrock_fluorite_ore, evolvedmekanism:shiverstone_fluorite_ore]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/zinc' -> [railcraft:zinc_raw]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/aluminum' -> [immersiveengineering:raw_aluminum]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/steel' -> [mekanism:block_steel, railcraft:steel_block, immersiveengineering:storage_steel]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/brass' -> [railcraft:brass_nugget]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/gold' -> [industrialforegoing:gold_gear]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/zinc' -> [railcraft:zinc_ingot]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/silicon' -> [extendedae:silicon_block]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/steel' -> [mekanism:dust_steel, immersiveengineering:dust_steel]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/aluminum' -> [immersiveengineering:nugget_aluminum]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/copper' -> [railcraft:copper_plate, immersiveengineering:plate_copper, xycraft_machines:copper_sheet]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/coal_coke' -> [railcraft:coal_coke_block]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:seeds/flax' -> [actuallyadditions:flax_seeds]
+[23:07:59.097] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/saltpeter' -> [railcraft:saltpeter_dust]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/lead' -> [immersiveengineering:raw_lead, eidolon_repraised:raw_lead, railcraft:lead_raw]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/nickel' -> [immersiveengineering:nugget_nickel, railcraft:nickel_nugget]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/tin' -> [railcraft:tin_nugget]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_nickel' -> [immersiveengineering:raw_block_nickel]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/uranium' -> [immersiveengineering:nugget_uranium]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/silver' -> [eidolon_repraised:silver_ingot, railcraft:silver_ingot, immersiveengineering:ingot_silver]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/steel' -> [railcraft:rebar]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/nickel' -> [immersiveengineering:raw_nickel, railcraft:nickel_raw]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/tin' -> [enderio:powdered_tin]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/nickel' -> [immersiveengineering:dust_nickel]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/gold' -> [netherex:lively_gold_ore, netherex:gloomy_gold_ore, netherex:fiery_gold_ore]
+[23:07:59.099] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/silver' -> [railcraft:silver_block, eidolon_repraised:silver_block, immersiveengineering:storage_silver]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/lapis' -> [mekanism:dust_lapis_lazuli, enderio:powdered_lapis_lazuli]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/gold' -> [railcraft:gold_plate, immersiveengineering:plate_gold, xycraft_machines:gold_sheet]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/gold' -> [mekanism:dust_gold, occultism:gold_dust, enderio:powdered_gold, immersiveengineering:dust_gold]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/aluminum' -> [immersiveengineering:ingot_aluminum]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/netherite' -> [mekanism:dust_netherite]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/emerald' -> [mekanism:dust_emerald, appflux:emerald_dust]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/nickel' -> [railcraft:nickel_block, immersiveengineering:storage_nickel]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/bronze' -> [railcraft:bronze_block]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/brass' -> [railcraft:brass_block]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/uranium' -> [immersiveengineering:raw_uranium, mekanism:raw_uranium]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/uranium' -> [immersiveengineering:ingot_uranium]
+[23:07:59.100] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/silver' -> [immersiveengineering:raw_silver, railcraft:silver_raw, eidolon_repraised:raw_silver]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/aluminum' -> [xycraft_machines:aluminum_sheet]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/quartz' -> [netherex:gloomy_quartz_ore, netherex:lively_quartz_ore, netherex:fiery_quartz_ore]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/silver' -> [immersiveengineering:dust_silver]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/tin' -> [railcraft:tin_ingot]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:ingots/steel' -> [hazennstuff:steel_ingot, railcraft:steel_ingot, mekanism:ingot_steel, immersiveengineering:ingot_steel]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gears/iron' -> [industrialforegoing:iron_gear, enderio:iron_gear]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crops/cotton' -> [hearthandharvest:cotton]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/brass' -> [railcraft:brass_plate]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/tin' -> [railcraft:tin_raw]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/nickel' -> [railcraft:nickel_ingot, immersiveengineering:ingot_nickel]
+[23:07:59.101] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/lead' -> [immersiveengineering:nugget_lead, eidolon_repraised:lead_nugget, railcraft:lead_nugget]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/blueberry' -> [hearthandharvest:blueberries]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/gold' -> [mekanism:clump_gold, create:crushed_raw_gold]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/aluminum' -> [immersiveengineering:storage_aluminum]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/silver' -> [eidolon_repraised:silver_nugget, immersiveengineering:nugget_silver, railcraft:silver_nugget]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/zinc' -> [railcraft:zinc_nugget]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/lead' -> [railcraft:lead_block, immersiveengineering:storage_lead, eidolon_repraised:lead_block]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_silver' -> [immersiveengineering:raw_block_silver, eidolon_repraised:raw_silver_block]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_uranium' -> [mekanism:block_raw_uranium, immersiveengineering:raw_block_uranium]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/tin' -> [railcraft:deepslate_tin_ore, evolvedmekanism:shiverstone_tin_ore, evolvedmekanism:depthrock_tin_ore, evolvedmekanism:holystone_tin_ore, railcraft:tin_ore]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:coal' -> [immersiveengineering:coal_coke]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/electrum' -> [immersiveengineering:storage_electrum]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/bronze' -> [railcraft:bronze_ingot]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/steel' -> [railcraft:steel_nugget, immersiveengineering:nugget_steel]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/silver' -> [railcraft:silver_plate]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 6/10 items for tag '#c:ores/uranium' -> [evolvedmekanism:holystone_uranium_ore, mekanism:deepslate_uranium_ore, immersiveengineering:ore_uranium, evolvedmekanism:shiverstone_uranium_ore, immersiveengineering:deepslate_ore_uranium, evolvedmekanism:depthrock_uranium_ore]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/aluminum' -> [xycraft_machines:aluminum_dust]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/zinc' -> [railcraft:zinc_block]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:silicon' -> [enderio:silicon, ae2:silicon]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/brass' -> [railcraft:brass_ingot]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/charcoal' -> [justdirethings:charcoal, quark:charcoal_block]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/sulfur' -> [immersiveengineering:dust_sulfur, eidolon_repraised:sulfur, railcraft:sulfur_dust]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/copper' -> [create:crushed_raw_copper, mekanism:clump_copper]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/charcoal' -> [railcraft:charcoal_dust]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/uranium' -> [immersiveengineering:dust_uranium, mekanism:dust_uranium]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/lead' -> [railcraft:lead_plate]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/lead' -> [immersiveengineering:dust_lead]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/diamond' -> [appflux:diamond_dust]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/platinum' -> [create:crushed_raw_platinum]
+[23:07:59.102] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/obsidian' -> [enderio:powdered_obsidian, mekanism:dust_obsidian, railcraft:obsidian_dust, occultism:obsidian_dust]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/lead' -> [evolvedmekanism:shiverstone_lead_ore, eidolon_repraised:lead_ore, railcraft:deepslate_lead_ore, evolvedmekanism:depthrock_lead_ore, eidolon_repraised:deep_lead_ore, evolvedmekanism:holystone_lead_ore, railcraft:lead_ore, immersiveengineering:ore_lead, immersiveengineering:deepslate_ore_lead]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_aluminum' -> [immersiveengineering:raw_block_aluminum]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crops/rice' -> [farmersdelight:rice, mynethersdelight:ghasmati]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/osmium' -> [mekanism:clump_osmium]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/lemon' -> [fruitsdelight:lemon]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 4/6 items for tag '#c:ores/nickel' -> [railcraft:deepslate_nickel_ore, immersiveengineering:ore_nickel, railcraft:nickel_ore, immersiveengineering:deepslate_ore_nickel]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/iron' -> [mekanism:clump_iron, create:crushed_raw_iron]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/nickel' -> [railcraft:nickel_plate]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/osmium' -> [evolvedmekanism:depthrock_osmium_ore, evolvedmekanism:holystone_osmium_ore, evolvedmekanism:shiverstone_osmium_ore]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/uranium' -> [immersiveengineering:storage_uranium]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/coal' -> [railcraft:coal_dust, mekanism:dust_coal, enderio:powdered_coal]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_lead' -> [immersiveengineering:raw_block_lead, eidolon_repraised:raw_lead_block]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/cotton' -> [hearthandharvest:cotton_bale]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/tin' -> [railcraft:tin_block]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/steel' -> [railcraft:steel_plate]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/electrum' -> [immersiveengineering:dust_electrum]
+[23:07:59.103] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/nickel' -> [create:crushed_raw_nickel]
+[23:07:59.105] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/aluminum' -> [xycraft_world:aluminum_ore_stone, immersiveengineering:deepslate_ore_aluminum, immersiveengineering:ore_aluminum]
+[23:07:59.105] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/electrum' -> [immersiveengineering:ingot_electrum]
+[23:07:59.105] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:slag' -> [railcraft:slag]
+[23:07:59.105] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/zinc' -> [railcraft:zinc_ore, railcraft:deepslate_zinc_ore]
+[23:07:59.105] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/copper' -> [enderio:powdered_copper, immersiveengineering:dust_copper, mekanism:dust_copper, occultism:copper_dust]
+[23:07:59.105] [INFO]: [AutoHiding] Hiding 6/8 items for tag '#c:ores/silver' -> [eidolon_repraised:silver_ore, immersiveengineering:ore_silver, railcraft:deepslate_silver_ore, eidolon_repraised:deep_silver_ore, railcraft:silver_ore, immersiveengineering:deepslate_ore_silver]
+[23:07:59.105] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/uranium' -> [mekanism:clump_uranium]
+[23:07:59.732] [INFO]: Loading config 'duplicates.json'.
+[23:07:59.732] [INFO]: Recipe count: 33634
+[23:07:59.752] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_log', skipping.
+[23:07:59.753] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_wood', skipping.
+[23:07:59.802] [INFO]: 28050 out of 33634 recipes were loaded for unification.
+[23:08:00.073] [INFO]: Recipe count afterwards: 33400 (done in 340.6 ms)
+[23:08:00.074] [INFO]: Loot table 'immersiveengineering:blocks/storage_nickel' was unified by: materials
+[23:08:00.074] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_tin_ore' was unified by: materials
+[23:08:00.074] [INFO]: Loot table 'eidolon_repraised:blocks/deep_silver_ore' was unified by: materials
+[23:08:00.075] [INFO]: Loot table 'railcraft:blocks/sulfur_ore' was unified by: materials
+[23:08:00.075] [INFO]: Loot table 'enderio:chests/alloy_loot' was unified by: materials
+[23:08:00.075] [INFO]: Loot table 'eidolon_repraised:blocks/deep_lead_ore' was unified by: materials
+[23:08:00.075] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_osmium_ore' was unified by: materials
+[23:08:00.075] [INFO]: Loot table 'railcraft:blocks/nickel_ore' was unified by: materials
+[23:08:00.075] [INFO]: Loot table 'evolvedmekanism:blocks/end_stone_uranium_ore' was unified by: materials
+[23:08:00.075] [INFO]: Loot table 'hearthandharvest:blocks/wild_cotton' was unified by: materials
+[23:08:00.076] [INFO]: Loot table 'railcraft:blocks/tin_ore' was unified by: materials
+[23:08:00.076] [INFO]: Loot table 'farmersdelight:blocks/rice' was unified by: materials
+[23:08:00.076] [INFO]: Loot table 'netherex:blocks/fiery_gold_ore' was unified by: materials
+[23:08:00.076] [INFO]: Loot table 'immersiveengineering:blocks/storage_silver' was unified by: materials
+[23:08:00.077] [INFO]: Loot table 'eidolon_repraised:blocks/raw_silver_block' was unified by: materials
+[23:08:00.077] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_lead_ore' was unified by: materials
+[23:08:00.077] [INFO]: Loot table 'immersiveengineering:blocks/ore_lead' was unified by: materials
+[23:08:00.077] [INFO]: Loot table 'hearthandharvest:blocks/cotton' was unified by: materials
+[23:08:00.077] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_osmium_ore' was unified by: materials
+[23:08:00.078] [INFO]: Loot table 'immersiveengineering:blocks/storage_electrum' was unified by: materials
+[23:08:00.078] [INFO]: Loot table 'railcraft:blocks/zinc_ore' was unified by: materials
+[23:08:00.078] [INFO]: Loot table 'railcraft:blocks/zinc_block' was unified by: materials
+[23:08:00.078] [INFO]: Loot table 'immersiveengineering:chests/engineers_house' was unified by: materials
+[23:08:00.078] [INFO]: Loot table 'immersiveengineering:blocks/storage_lead' was unified by: materials
+[23:08:00.078] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_aluminum' was unified by: materials
+[23:08:00.078] [INFO]: Loot table 'immersiveengineering:blocks/storage_steel' was unified by: materials
+[23:08:00.079] [INFO]: Loot table 'railcraft:blocks/steel_block' was unified by: materials
+[23:08:00.079] [INFO]: Loot table 'farmersdelight:chests/fd_shipwreck_supply' was unified by: materials
+[23:08:00.079] [INFO]: Loot table 'farmersdelight:chests/fd_village_taiga_house' was unified by: materials
+[23:08:00.079] [INFO]: Loot table 'railcraft:blocks/nickel_block' was unified by: materials
+[23:08:00.079] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_uranium' was unified by: materials
+[23:08:00.079] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_tin_ore' was unified by: materials
+[23:08:00.079] [INFO]: Loot table 'eidolon_repraised:entities/zombie_brute' was unified by: materials
+[23:08:00.081] [INFO]: Loot table 'railcraft:blocks/lead_ore' was unified by: materials
+[23:08:00.081] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_tin_ore' was unified by: materials
+[23:08:00.081] [INFO]: Loot table 'farmersdelight:blocks/rice_panicles' was unified by: materials
+[23:08:00.082] [INFO]: Loot table 'immersiveengineering:blocks/ore_aluminum' was unified by: materials
+[23:08:00.082] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_lead_ore' was unified by: materials
+[23:08:00.082] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_uranium_ore' was unified by: materials
+[23:08:00.082] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_aluminum' was unified by: materials
+[23:08:00.083] [INFO]: Loot table 'railcraft:blocks/saltpeter_ore' was unified by: materials
+[23:08:00.083] [INFO]: Loot table 'hearthandharvest:blocks/cotton_bale' was unified by: materials
+[23:08:00.084] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_fluorite_ore' was unified by: materials
+[23:08:00.084] [INFO]: Loot table 'mekanism:blocks/deepslate_uranium_ore' was unified by: materials
+[23:08:00.084] [INFO]: Loot table 'actuallyadditions:blocks/flax' was unified by: materials
+[23:08:00.084] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_uranium_ore' was unified by: materials
+[23:08:00.084] [INFO]: Loot table 'eidolon_repraised:blocks/lead_block' was unified by: materials
+[23:08:00.085] [INFO]: Loot table 'farmersdelight:chests/fd_village_desert_house' was unified by: materials
+[23:08:00.085] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_fluorite_ore' was unified by: materials
+[23:08:00.085] [INFO]: Loot table 'mekanism:blocks/block_raw_uranium' was unified by: materials
+[23:08:00.085] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_lead_ore' was unified by: materials
+[23:08:00.085] [INFO]: Loot table 'justdirethings:blocks/charcoal' was unified by: materials
+[23:08:00.085] [INFO]: Loot table 'eidolon_repraised:blocks/raw_lead_block' was unified by: materials
+[23:08:00.085] [INFO]: Loot table 'immersiveengineering:blocks/ore_nickel' was unified by: materials
+[23:08:00.085] [INFO]: Loot table 'evolvedmekanism:blocks/netherrack_uranium_ore' was unified by: materials
+[23:08:00.087] [INFO]: Loot table 'railcraft:blocks/deepslate_tin_ore' was unified by: materials
+[23:08:00.087] [INFO]: Loot table 'eidolon_repraised:blocks/lead_ore' was unified by: materials
+[23:08:00.087] [INFO]: Loot table 'xycraft_world:blocks/aluminum_ore_stone' was unified by: materials
+[23:08:00.087] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_lead' was unified by: materials
+[23:08:00.087] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_nickel' was unified by: materials
+[23:08:00.087] [INFO]: Loot table 'immersiveengineering:blocks/ore_silver' was unified by: materials
+[23:08:00.087] [INFO]: Loot table 'railcraft:blocks/tin_block' was unified by: materials
+[23:08:00.088] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_silver' was unified by: materials
+[23:08:00.088] [INFO]: Loot table 'railcraft:blocks/silver_ore' was unified by: materials
+[23:08:00.088] [INFO]: Loot table 'railcraft:blocks/deepslate_silver_ore' was unified by: materials
+[23:08:00.089] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_fluorite_ore' was unified by: materials
+[23:08:00.089] [INFO]: Loot table 'immersiveengineering:blocks/storage_aluminum' was unified by: materials
+[23:08:00.089] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_uranium_ore' was unified by: materials
+[23:08:00.089] [INFO]: Loot table 'quark:blocks/charcoal_block' was unified by: materials
+[23:08:00.089] [INFO]: Loot table 'railcraft:blocks/coal_coke_block' was unified by: materials
+[23:08:00.089] [INFO]: Loot table 'farmersdelight:blocks/wild_rice' was unified by: materials
+[23:08:00.089] [INFO]: Loot table 'netherex:blocks/lively_quartz_ore' was unified by: materials
+[23:08:00.090] [INFO]: Loot table 'railcraft:blocks/silver_block' was unified by: materials
+[23:08:00.090] [INFO]: Loot table 'railcraft:blocks/lead_block' was unified by: materials
+[23:08:00.090] [INFO]: Loot table 'mekanism:blocks/uranium_ore' was unified by: materials
+[23:08:00.090] [INFO]: Loot table 'immersiveengineering:blocks/ore_uranium' was unified by: materials
+[23:08:00.090] [INFO]: Loot table 'immersiveengineering:blocks/storage_uranium' was unified by: materials
+[23:08:00.090] [INFO]: Loot table 'netherex:blocks/fiery_quartz_ore' was unified by: materials
+[23:08:00.091] [INFO]: Loot table 'railcraft:blocks/deepslate_sulfur_ore' was unified by: materials
+[23:08:00.091] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_lead' was unified by: materials
+[23:08:00.091] [INFO]: Loot table 'railcraft:blocks/deepslate_nickel_ore' was unified by: materials
+[23:08:00.092] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_nickel' was unified by: materials
+[23:08:00.092] [INFO]: Loot table 'netherex:blocks/lively_gold_ore' was unified by: materials
+[23:08:00.092] [INFO]: Loot table 'railcraft:blocks/deepslate_zinc_ore' was unified by: materials
+[23:08:00.092] [INFO]: Loot table 'farmersdelight:chests/fd_abandoned_mineshaft' was unified by: materials
+[23:08:00.092] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_silver' was unified by: materials
+[23:08:00.092] [INFO]: Loot table 'hearthandharvest:blocks/blueberry_bush' was unified by: materials
+[23:08:00.093] [INFO]: Loot table 'eidolon_repraised:blocks/silver_ore' was unified by: materials
+[23:08:00.093] [INFO]: Loot table 'netherex:blocks/gloomy_gold_ore' was unified by: materials
+[23:08:00.093] [INFO]: Loot table 'extendedae:blocks/silicon_block' was unified by: materials
+[23:08:00.094] [INFO]: Loot table 'mekanism:blocks/block_steel' was unified by: materials
+[23:08:00.094] [INFO]: Loot table 'railcraft:blocks/deepslate_lead_ore' was unified by: materials
+[23:08:00.094] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_osmium_ore' was unified by: materials
+[23:08:00.094] [INFO]: Loot table 'railcraft:blocks/brass_block' was unified by: materials
+[23:08:00.095] [INFO]: Loot table 'netherex:blocks/gloomy_quartz_ore' was unified by: materials
+[23:08:00.095] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_uranium' was unified by: materials
+[23:08:00.095] [INFO]: Loot table 'eidolon_repraised:blocks/silver_block' was unified by: materials
+[23:08:00.095] [INFO]: Loot table 'railcraft:blocks/bronze_block' was unified by: materials
+[23:08:02.070] [ERROR]: The following recipes were unified and threw exceptions when being loaded: [create:crushing/compat/immersiveengineering/coke_block, create:milling/compat/supplementaries/flax, create:crushing/compat/immersiveengineering/coal_coke, create:crushing/compat/immersiveengineering/slag, cataclysm_spellbooks:engineers_power_glove]
+[23:08:02.070] [WARN]: Try to add them to the ignore list and if the problem is gone, report it to the Almost Unified developers.
+[23:09:34.564] [WARN]: Reload detected. Reconstructing runtime.
+[23:09:34.564] [INFO]: Loading config 'debug.json'.
+[23:09:34.565] [INFO]: Loading config 'placeholders.json'.
+[23:09:34.565] [INFO]: Loading config 'tags.json'.
+[23:09:34.566] [WARN]: The following mods are used in unification settings, but are not loaded: [extradelight]
+[23:09:34.566] [WARN]: [CustomTags] Custom tag 'c:crops/peanut' already contains item 'hearthandharvest:peanut'
+[23:09:34.566] [WARN]: [CustomTags] Custom tag 'c:crops/cotton' already contains item 'hearthandharvest:cotton'
+[23:09:34.566] [INFO]: [CustomTags] Modified tag '#c:crops/coffee/cooked', added [rusticdelight:roasted_coffee_beans]
+[23:09:34.566] [INFO]: [CustomTags] Modified tag '#c:rods/steel', added [railcraft:rebar]
+[23:09:34.566] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/blueberry', added [hearthandharvest:blueberries]
+[23:09:34.566] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/cooked', added [hearthandharvest:roasted_peanuts]
+[23:09:34.566] [INFO]: [CustomTags] Modified tag '#c:foods/fruits/lemon', added [hazennstuff:lemon]
+[23:09:34.566] [INFO]: [CustomTags] Modified tag '#c:crops/peanut/shelled', added [hearthandharvest:peanut]
+[23:09:34.567] [WARN]: [TagSubstitutions] Substitute tag '#c:storage_blocks/coffee_beans' contains invalid replaced tags! Affected tags: #c:storage_blocks_coffee_beans, #c:storage_blocks_ground_coffee
+[23:09:34.567] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans_bag' with tag '#c:storage_blocks/coffee' is already part of tag '#c:storage_blocks/coffee_beans'.
+[23:09:34.567] [ERROR]: Unification entry for item 'actuallyadditions:flax_seeds' with tag '#c:crops/flax' is already part of tag '#c:seeds/flax'.
+[23:09:34.567] [ERROR]: Unification entry for item 'minecraft:charcoal' with tag '#c:coal' is already part of tag '#c:charcoal'.
+[23:09:34.567] [ERROR]: Unification entry for item 'minecraft:coal' with tag '#c:gems/coal' is already part of tag '#c:coal'.
+[23:09:34.567] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee_beans' is already part of tag '#c:crops/coffee_beans'.
+[23:09:34.567] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:seeds/coffee' is already part of tag '#c:crops/coffee_beans'.
+[23:09:34.567] [ERROR]: Unification entry for item 'immersiveengineering:coal_coke' with tag '#c:coal_coke' is already part of tag '#c:coal'.
+[23:09:34.567] [ERROR]: Unification entry for item 'rusticdelight:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:crops/coffee_beans'.
+[23:09:34.567] [ERROR]: Unification entry for item 'actuallyadditions:coffee_beans' with tag '#c:crops/coffee' is already part of tag '#c:seeds/coffee'.
+[23:09:34.567] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:item / c:ores_in_ground/stone] and TagKey[minecraft:item / c:ores_in_ground/deepslate]
+[23:09:34.567] [ERROR]: forbidden_arcanus:stella_arcanum is bound to multiple stone variant tags: TagKey[minecraft:block / c:ores_in_ground/stone] and TagKey[minecraft:block / c:ores_in_ground/deepslate]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/iron' -> [mekanism:dust_iron, occultism:iron_dust, enderio:powdered_iron, immersiveengineering:dust_iron]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/quartz' -> [enderio:powdered_quartz, mekanism:dust_quartz]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/lead' -> [immersiveengineering:ingot_lead, eidolon_repraised:lead_ingot, railcraft:lead_ingot]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/iron' -> [xycraft_machines:iron_sheet, railcraft:iron_plate, immersiveengineering:plate_iron]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/copper' -> [immersiveengineering:nugget_copper, xycraft_machines:copper_nugget, create:copper_nugget]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/bronze' -> [railcraft:bronze_nugget]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/fluorite' -> [evolvedmekanism:holystone_fluorite_ore, evolvedmekanism:depthrock_fluorite_ore, evolvedmekanism:shiverstone_fluorite_ore]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/zinc' -> [railcraft:zinc_raw]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/aluminum' -> [immersiveengineering:raw_aluminum]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/steel' -> [mekanism:block_steel, railcraft:steel_block, immersiveengineering:storage_steel]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/brass' -> [railcraft:brass_nugget]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/gold' -> [industrialforegoing:gold_gear]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/zinc' -> [railcraft:zinc_ingot]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/silicon' -> [extendedae:silicon_block]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/steel' -> [mekanism:dust_steel, immersiveengineering:dust_steel]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/aluminum' -> [immersiveengineering:nugget_aluminum]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/copper' -> [railcraft:copper_plate, immersiveengineering:plate_copper, xycraft_machines:copper_sheet]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/coal_coke' -> [railcraft:coal_coke_block]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:seeds/flax' -> [actuallyadditions:flax_seeds]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/saltpeter' -> [railcraft:saltpeter_dust]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/lead' -> [immersiveengineering:raw_lead, eidolon_repraised:raw_lead, railcraft:lead_raw]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/nickel' -> [immersiveengineering:nugget_nickel, railcraft:nickel_nugget]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/tin' -> [railcraft:tin_nugget]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_nickel' -> [immersiveengineering:raw_block_nickel]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/uranium' -> [immersiveengineering:nugget_uranium]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:ingots/silver' -> [eidolon_repraised:silver_ingot, railcraft:silver_ingot, immersiveengineering:ingot_silver]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:rods/steel' -> [railcraft:rebar]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/nickel' -> [immersiveengineering:raw_nickel, railcraft:nickel_raw]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/tin' -> [enderio:powdered_tin]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/nickel' -> [immersiveengineering:dust_nickel]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/gold' -> [netherex:lively_gold_ore, netherex:gloomy_gold_ore, netherex:fiery_gold_ore]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/silver' -> [railcraft:silver_block, eidolon_repraised:silver_block, immersiveengineering:storage_silver]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/lapis' -> [mekanism:dust_lapis_lazuli, enderio:powdered_lapis_lazuli]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:plates/gold' -> [railcraft:gold_plate, immersiveengineering:plate_gold, xycraft_machines:gold_sheet]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/gold' -> [mekanism:dust_gold, occultism:gold_dust, enderio:powdered_gold, immersiveengineering:dust_gold]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/aluminum' -> [immersiveengineering:ingot_aluminum]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/netherite' -> [mekanism:dust_netherite]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/emerald' -> [mekanism:dust_emerald, appflux:emerald_dust]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/nickel' -> [railcraft:nickel_block, immersiveengineering:storage_nickel]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/bronze' -> [railcraft:bronze_block]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/brass' -> [railcraft:brass_block]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:raw_materials/uranium' -> [immersiveengineering:raw_uranium, mekanism:raw_uranium]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/uranium' -> [immersiveengineering:ingot_uranium]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:raw_materials/silver' -> [immersiveengineering:raw_silver, railcraft:silver_raw, eidolon_repraised:raw_silver]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/aluminum' -> [xycraft_machines:aluminum_sheet]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/6 items for tag '#c:ores/quartz' -> [netherex:gloomy_quartz_ore, netherex:lively_quartz_ore, netherex:fiery_quartz_ore]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/silver' -> [immersiveengineering:dust_silver]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/tin' -> [railcraft:tin_ingot]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:ingots/steel' -> [hazennstuff:steel_ingot, railcraft:steel_ingot, mekanism:ingot_steel, immersiveengineering:ingot_steel]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:gears/iron' -> [industrialforegoing:iron_gear, enderio:iron_gear]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:crops/cotton' -> [hearthandharvest:cotton]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/brass' -> [railcraft:brass_plate]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:raw_materials/tin' -> [railcraft:tin_raw]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:ingots/nickel' -> [railcraft:nickel_ingot, immersiveengineering:ingot_nickel]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/lead' -> [immersiveengineering:nugget_lead, eidolon_repraised:lead_nugget, railcraft:lead_nugget]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/blueberry' -> [hearthandharvest:blueberries]
+[23:09:34.569] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/gold' -> [mekanism:clump_gold, create:crushed_raw_gold]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/aluminum' -> [immersiveengineering:storage_aluminum]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:nuggets/silver' -> [eidolon_repraised:silver_nugget, immersiveengineering:nugget_silver, railcraft:silver_nugget]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/zinc' -> [railcraft:zinc_nugget]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:storage_blocks/lead' -> [railcraft:lead_block, immersiveengineering:storage_lead, eidolon_repraised:lead_block]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_silver' -> [immersiveengineering:raw_block_silver, eidolon_repraised:raw_silver_block]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_uranium' -> [mekanism:block_raw_uranium, immersiveengineering:raw_block_uranium]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 5/9 items for tag '#c:ores/tin' -> [railcraft:deepslate_tin_ore, evolvedmekanism:shiverstone_tin_ore, evolvedmekanism:depthrock_tin_ore, evolvedmekanism:holystone_tin_ore, railcraft:tin_ore]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:coal' -> [immersiveengineering:coal_coke]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/electrum' -> [immersiveengineering:storage_electrum]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/bronze' -> [railcraft:bronze_ingot]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:nuggets/steel' -> [railcraft:steel_nugget, immersiveengineering:nugget_steel]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/silver' -> [railcraft:silver_plate]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 6/10 items for tag '#c:ores/uranium' -> [evolvedmekanism:holystone_uranium_ore, mekanism:deepslate_uranium_ore, immersiveengineering:ore_uranium, evolvedmekanism:shiverstone_uranium_ore, immersiveengineering:deepslate_ore_uranium, evolvedmekanism:depthrock_uranium_ore]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/aluminum' -> [xycraft_machines:aluminum_dust]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/zinc' -> [railcraft:zinc_block]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:silicon' -> [enderio:silicon, ae2:silicon]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/brass' -> [railcraft:brass_ingot]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/charcoal' -> [justdirethings:charcoal, quark:charcoal_block]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/sulfur' -> [immersiveengineering:dust_sulfur, eidolon_repraised:sulfur, railcraft:sulfur_dust]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/copper' -> [create:crushed_raw_copper, mekanism:clump_copper]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/charcoal' -> [railcraft:charcoal_dust]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:dusts/uranium' -> [immersiveengineering:dust_uranium, mekanism:dust_uranium]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/lead' -> [railcraft:lead_plate]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/lead' -> [immersiveengineering:dust_lead]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/diamond' -> [appflux:diamond_dust]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/platinum' -> [create:crushed_raw_platinum]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/obsidian' -> [enderio:powdered_obsidian, mekanism:dust_obsidian, railcraft:obsidian_dust, occultism:obsidian_dust]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 9/13 items for tag '#c:ores/lead' -> [evolvedmekanism:shiverstone_lead_ore, eidolon_repraised:lead_ore, railcraft:deepslate_lead_ore, evolvedmekanism:depthrock_lead_ore, eidolon_repraised:deep_lead_ore, evolvedmekanism:holystone_lead_ore, railcraft:lead_ore, immersiveengineering:ore_lead, immersiveengineering:deepslate_ore_lead]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_aluminum' -> [immersiveengineering:raw_block_aluminum]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:crops/rice' -> [farmersdelight:rice, mynethersdelight:ghasmati]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/osmium' -> [mekanism:clump_osmium]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:foods/fruits/lemon' -> [fruitsdelight:lemon]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 4/6 items for tag '#c:ores/nickel' -> [railcraft:deepslate_nickel_ore, immersiveengineering:ore_nickel, railcraft:nickel_ore, immersiveengineering:deepslate_ore_nickel]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:clumps/iron' -> [mekanism:clump_iron, create:crushed_raw_iron]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/nickel' -> [railcraft:nickel_plate]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 3/7 items for tag '#c:ores/osmium' -> [evolvedmekanism:depthrock_osmium_ore, evolvedmekanism:holystone_osmium_ore, evolvedmekanism:shiverstone_osmium_ore]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/uranium' -> [immersiveengineering:storage_uranium]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 3/4 items for tag '#c:dusts/coal' -> [railcraft:coal_dust, mekanism:dust_coal, enderio:powdered_coal]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/3 items for tag '#c:storage_blocks/raw_lead' -> [immersiveengineering:raw_block_lead, eidolon_repraised:raw_lead_block]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/cotton' -> [hearthandharvest:cotton_bale]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/tin' -> [railcraft:tin_block]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/steel' -> [railcraft:steel_plate]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/electrum' -> [immersiveengineering:dust_electrum]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/nickel' -> [create:crushed_raw_nickel]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 3/5 items for tag '#c:ores/aluminum' -> [xycraft_world:aluminum_ore_stone, immersiveengineering:deepslate_ore_aluminum, immersiveengineering:ore_aluminum]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/electrum' -> [immersiveengineering:ingot_electrum]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:slag' -> [railcraft:slag]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 2/4 items for tag '#c:ores/zinc' -> [railcraft:zinc_ore, railcraft:deepslate_zinc_ore]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 4/5 items for tag '#c:dusts/copper' -> [enderio:powdered_copper, immersiveengineering:dust_copper, mekanism:dust_copper, occultism:copper_dust]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 6/8 items for tag '#c:ores/silver' -> [eidolon_repraised:silver_ore, immersiveengineering:ore_silver, railcraft:deepslate_silver_ore, eidolon_repraised:deep_silver_ore, railcraft:silver_ore, immersiveengineering:deepslate_ore_silver]
+[23:09:34.570] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:clumps/uranium' -> [mekanism:clump_uranium]
+[23:09:35.099] [INFO]: Loading config 'duplicates.json'.
+[23:09:35.100] [INFO]: Recipe count: 33634
+[23:09:35.110] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_log', skipping.
+[23:09:35.111] [WARN]: Could not detect recipe type for recipe 'engineeredcompatibility:sawmill/ars_nouveau/yellow_archwood_wood', skipping.
+[23:09:35.153] [INFO]: 28050 out of 33634 recipes were loaded for unification.
+[23:09:35.307] [INFO]: Recipe count afterwards: 33400 (done in 208.5 ms)
+[23:09:35.309] [INFO]: Loot table 'immersiveengineering:blocks/storage_nickel' was unified by: materials
+[23:09:35.309] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_tin_ore' was unified by: materials
+[23:09:35.309] [INFO]: Loot table 'eidolon_repraised:blocks/deep_silver_ore' was unified by: materials
+[23:09:35.309] [INFO]: Loot table 'railcraft:blocks/sulfur_ore' was unified by: materials
+[23:09:35.309] [INFO]: Loot table 'enderio:chests/alloy_loot' was unified by: materials
+[23:09:35.309] [INFO]: Loot table 'eidolon_repraised:blocks/deep_lead_ore' was unified by: materials
+[23:09:35.309] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_osmium_ore' was unified by: materials
+[23:09:35.309] [INFO]: Loot table 'railcraft:blocks/nickel_ore' was unified by: materials
+[23:09:35.309] [INFO]: Loot table 'evolvedmekanism:blocks/end_stone_uranium_ore' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'hearthandharvest:blocks/wild_cotton' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'railcraft:blocks/tin_ore' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'farmersdelight:blocks/rice' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'netherex:blocks/fiery_gold_ore' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'immersiveengineering:blocks/storage_silver' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'eidolon_repraised:blocks/raw_silver_block' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_lead_ore' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'immersiveengineering:blocks/ore_lead' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'hearthandharvest:blocks/cotton' was unified by: materials
+[23:09:35.310] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_osmium_ore' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'immersiveengineering:blocks/storage_electrum' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'railcraft:blocks/zinc_ore' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'railcraft:blocks/zinc_block' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'immersiveengineering:chests/engineers_house' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'immersiveengineering:blocks/storage_lead' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_aluminum' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'immersiveengineering:blocks/storage_steel' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'railcraft:blocks/steel_block' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'farmersdelight:chests/fd_shipwreck_supply' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'farmersdelight:chests/fd_village_taiga_house' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'railcraft:blocks/nickel_block' was unified by: materials
+[23:09:35.311] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_uranium' was unified by: materials
+[23:09:35.312] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_tin_ore' was unified by: materials
+[23:09:35.312] [INFO]: Loot table 'eidolon_repraised:entities/zombie_brute' was unified by: materials
+[23:09:35.312] [INFO]: Loot table 'railcraft:blocks/lead_ore' was unified by: materials
+[23:09:35.312] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_tin_ore' was unified by: materials
+[23:09:35.312] [INFO]: Loot table 'farmersdelight:blocks/rice_panicles' was unified by: materials
+[23:09:35.312] [INFO]: Loot table 'immersiveengineering:blocks/ore_aluminum' was unified by: materials
+[23:09:35.312] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_lead_ore' was unified by: materials
+[23:09:35.312] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_uranium_ore' was unified by: materials
+[23:09:35.312] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_aluminum' was unified by: materials
+[23:09:35.313] [INFO]: Loot table 'railcraft:blocks/saltpeter_ore' was unified by: materials
+[23:09:35.313] [INFO]: Loot table 'hearthandharvest:blocks/cotton_bale' was unified by: materials
+[23:09:35.313] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_fluorite_ore' was unified by: materials
+[23:09:35.313] [INFO]: Loot table 'mekanism:blocks/deepslate_uranium_ore' was unified by: materials
+[23:09:35.313] [INFO]: Loot table 'actuallyadditions:blocks/flax' was unified by: materials
+[23:09:35.313] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_uranium_ore' was unified by: materials
+[23:09:35.313] [INFO]: Loot table 'eidolon_repraised:blocks/lead_block' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'farmersdelight:chests/fd_village_desert_house' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_fluorite_ore' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'mekanism:blocks/block_raw_uranium' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_lead_ore' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'justdirethings:blocks/charcoal' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'eidolon_repraised:blocks/raw_lead_block' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'immersiveengineering:blocks/ore_nickel' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'evolvedmekanism:blocks/netherrack_uranium_ore' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'railcraft:blocks/deepslate_tin_ore' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'eidolon_repraised:blocks/lead_ore' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'xycraft_world:blocks/aluminum_ore_stone' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_lead' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_nickel' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'immersiveengineering:blocks/ore_silver' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'railcraft:blocks/tin_block' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_silver' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'railcraft:blocks/silver_ore' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'railcraft:blocks/deepslate_silver_ore' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'evolvedmekanism:blocks/shiverstone_fluorite_ore' was unified by: materials
+[23:09:35.314] [INFO]: Loot table 'immersiveengineering:blocks/storage_aluminum' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'evolvedmekanism:blocks/holystone_uranium_ore' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'quark:blocks/charcoal_block' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'railcraft:blocks/coal_coke_block' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'farmersdelight:blocks/wild_rice' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'netherex:blocks/lively_quartz_ore' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'railcraft:blocks/silver_block' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'railcraft:blocks/lead_block' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'mekanism:blocks/uranium_ore' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'immersiveengineering:blocks/ore_uranium' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'immersiveengineering:blocks/storage_uranium' was unified by: materials
+[23:09:35.315] [INFO]: Loot table 'netherex:blocks/fiery_quartz_ore' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'railcraft:blocks/deepslate_sulfur_ore' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'immersiveengineering:blocks/raw_block_lead' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'railcraft:blocks/deepslate_nickel_ore' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_nickel' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'netherex:blocks/lively_gold_ore' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'railcraft:blocks/deepslate_zinc_ore' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'farmersdelight:chests/fd_abandoned_mineshaft' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_silver' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'hearthandharvest:blocks/blueberry_bush' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'eidolon_repraised:blocks/silver_ore' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'netherex:blocks/gloomy_gold_ore' was unified by: materials
+[23:09:35.316] [INFO]: Loot table 'extendedae:blocks/silicon_block' was unified by: materials
+[23:09:35.317] [INFO]: Loot table 'mekanism:blocks/block_steel' was unified by: materials
+[23:09:35.317] [INFO]: Loot table 'railcraft:blocks/deepslate_lead_ore' was unified by: materials
+[23:09:35.317] [INFO]: Loot table 'evolvedmekanism:blocks/depthrock_osmium_ore' was unified by: materials
+[23:09:35.317] [INFO]: Loot table 'railcraft:blocks/brass_block' was unified by: materials
+[23:09:35.317] [INFO]: Loot table 'netherex:blocks/gloomy_quartz_ore' was unified by: materials
+[23:09:35.317] [INFO]: Loot table 'immersiveengineering:blocks/deepslate_ore_uranium' was unified by: materials
+[23:09:35.317] [INFO]: Loot table 'eidolon_repraised:blocks/silver_block' was unified by: materials
+[23:09:35.317] [INFO]: Loot table 'railcraft:blocks/bronze_block' was unified by: materials
+[23:09:36.992] [ERROR]: The following recipes were unified and threw exceptions when being loaded: [create:crushing/compat/immersiveengineering/coke_block, create:milling/compat/supplementaries/flax, create:crushing/compat/immersiveengineering/coal_coke, create:crushing/compat/immersiveengineering/slag, cataclysm_spellbooks:engineers_power_glove]
+[23:09:36.992] [WARN]: Try to add them to the ignore list and if the problem is gone, report it to the Almost Unified developers.

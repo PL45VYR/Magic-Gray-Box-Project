@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: ""
+	id: "0FCAD8B2E7DFAE1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "compactmachines:wall"
+		}
+		id: "488F39150CD4BAE0"
+		progression_mode: "flexible"
+		tasks: [{
+			id: "5B4B87D319404863"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
