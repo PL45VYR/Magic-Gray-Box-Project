@@ -1,0 +1,21 @@
+{
+  "type": "ars_additions:locate_structure",
+  "augments": [
+    {
+      "key": "malum:refined_soulstone"
+    },
+    {
+      "key": "malum:refined_soulstone"
+    },
+    {
+      "key": "malum:refined_soulstone"
+    },
+    {
+      "key": "malum:refined_soulstone"
+    }
+  ],
+  "id": "kubejs:weeping_well",
+  "structure": {
+    "key": "malum:weeping_well"
+  }
+}

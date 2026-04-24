@@ -1,0 +1,40 @@
+{
+  "essences": {
+    "aureal": 2500,
+    "blood": 12000,
+    "experience": 1000,
+    "souls": 50
+  },
+  "forge_tier": 2,
+  "inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:mundabitur_dust"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:dark_matter"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "minecraft:painting"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "dimpaintings:nether_painting"
+    }
+  }
+}
