@@ -1,3 +1,13 @@
+#Use tighter hitboxes for machine addons
+tightMachineAddonHitboxes = true
+#Use tighter hitboxes for machine frames
+tightMachineFrameHitboxes = false
+#Use tighter hitboxes for cables
+tightCableHitboxes = true
+#Machine sound volume multiplier
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+machineVolumeMultiplier = 1.0
 #Render multiblock placement preview
 showMachinePreview = true
 #Enable help button in machine UIs

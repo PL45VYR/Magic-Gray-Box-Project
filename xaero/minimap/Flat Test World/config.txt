@@ -10,5 +10,6 @@ sortReversed:false
 ignoreHeightmaps:false
 
 //dimension types (DO NOT EDIT)
+dimensionType:sgjourney$athos:sgjourney$athos
 dimensionType:minecraft$overworld:minecraft$overworld
 //server waypoints

@@ -16,10 +16,5 @@ enableBulkTransfer = true
 enableBulkDrop = true
 #Should control-space-clicking an item move one of each item from that inventory at once?
 enableBulkTransferSingle = true
-#Choose how middle-click inventory sorting should behave.
-#Allowed Values: CONSOLIDATE_ONLY, RETAIN_ORDER, ALPHABETICAL, CREATIVE
-inventorySorting = "CREATIVE"
-#Should broken tools automatically be replaced from the inventory?
-enableToolRefill = true
-#Should depleted block stacks automatically be replaced from the inventory?
-enableStackRefill = true
+#Should middle-clicking a slot sort the inventory?
+enableMiddleClickSort = true
