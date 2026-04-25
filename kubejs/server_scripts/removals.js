@@ -44,7 +44,10 @@ ServerEvents.recipes(event => {
     // Ender IO
 
     // Extended Crafting
-    event.remove({ output: "extendedcrafting:black_iron_ingot", input: "minecraft:iron_ingot" })
+    event.remove({ id: "extendedcrafting:black_iron_ingot"})
+    event.remove({ id: "extendedcrafting:black_iron_slate"})
+    event.remove({ id: "extendedcrafting:luminessence"})
+    event.remove({ id: "extendedcrafting:basic_component" })
 
     // Farming for Blockheads
     event.remove({ output: /ars_nouveau:.*/, type: "farmingforblockheads:market" })
