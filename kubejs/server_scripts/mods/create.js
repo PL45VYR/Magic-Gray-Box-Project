@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
             '2x clayworks:terracotta_bricks',
             '2x create:small_dripstone_bricks'
         ]
-    )
+    ).heated()
 
     // Blaze Burner Magic Workbench Recipe
     event.custom({
@@ -74,8 +74,17 @@ ServerEvents.recipes(event => {
         "show_notification": false
     })
 
-    // Blaze Burner
+    // Blaze Burner Recipe
     event.recipes.create.deploying(
+        'create:blaze_burner',
+        [
+            'create:empty_blaze_burner',
+            'forbidden_arcanus:spawner_scrap'
+        ]
+    )
+
+    // Manual Blaze Burner Recipe
+    event.recipes.create.item_application(
         'create:blaze_burner',
         [
             'create:empty_blaze_burner',
