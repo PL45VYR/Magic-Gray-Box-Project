@@ -17,8 +17,8 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			id: "777BD223A35E7233"
@@ -27,7 +27,7 @@
 				item: { count: 1, id: "eidolon_repraised:worktable" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -37,8 +37,8 @@
 				item: { count: 1, id: "create:shaft" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			id: "18950277D37C89F1"
@@ -47,8 +47,8 @@
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -77,8 +77,8 @@
 				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			id: "1DB5FC44276D6EDC"
@@ -107,8 +107,8 @@
 				item: { count: 1, id: "eidolon_repraised:merammer_root" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			id: "7A322E5A606919C5"
@@ -117,8 +117,8 @@
 				item: { count: 1, id: "eidolon_repraised:brazier" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			id: "66D8C5BA8732ADA2"
@@ -127,8 +127,8 @@
 				item: { count: 1, id: "eidolon_repraised:illwood_sapling" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			id: "30976C41DB64AB90"
@@ -137,8 +137,8 @@
 				item: { count: 1, id: "malum:runewood_sapling" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			id: "2F721511198B7207"
@@ -147,8 +147,8 @@
 				item: { count: 1, id: "malum:spirit_altar" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			id: "72FB981E202AF28B"
@@ -157,8 +157,8 @@
 				item: { count: 1, id: "malum:hallowed_gold_ingot" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -7.5d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			id: "647F3030E562B63B"
@@ -168,7 +168,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -6.0d
+			y: -1.5d
 		}
 		{
 			id: "04DA9AD9BFB95C1C"
@@ -177,8 +177,8 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			id: "5B0BE310AB5887F9"
@@ -188,7 +188,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "6C86EFCE60467A4C"
@@ -198,7 +198,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -3.0d
+			y: -4.5d
 		}
 	]
 }

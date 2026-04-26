@@ -1,15 +1,15 @@
 RecipeViewerEvents.removeCategories(event => {
     // Category Removal
     // Categories of removed recipes go here
-    event.remove('railcraft:blasting_category')
-    event.remove('railcraft:coking_category')
-    event.remove('railcraft:crushing_category')
+    event.remove("railcraft:blasting_category")
+    event.remove("railcraft:coking_category")
+    event.remove("railcraft:crushing_category")
 })
 
-RecipeViewerEvents.removeEntriesCompletely('item', event => {
+RecipeViewerEvents.removeEntriesCompletely("item", event => {
     // Item Removal
     // Removed items due to redundancy go here
-    event.remove('railcraft:coke_oven_bricks')
+    event.remove("railcraft:coke_oven_bricks")
     event.remove("railcraft:crusher")
     event.remove("dimpaintings:end_painting")
     event.remove(/actuallyadditions:tiny_c.*/)
@@ -26,10 +26,11 @@ ServerEvents.recipes(event => {
     // Ars Nouveau
     event.remove({ id: /ars_nouveau:novice.*/ })
     event.remove({ input: "lapis_lazuli", output: "ars_nouveau:source_gem" })
+    event.remove({ output: "ars_nouveau:imbuement_chamber" })
 
     // Create
-    event.remove({ id: 'create:crafting/materials/andesite_alloy' })
-    event.remove({ id: 'create:crafting/materials/andesite_alloy_from_zinc' })
+    event.remove({ id: "create:crafting/materials/andesite_alloy" })
+    event.remove({ id: "create:crafting/materials/andesite_alloy_from_zinc" })
     event.remove({ id: /create:mixing\/andesite_alloy.*/ })
     event.remove({ id: "create:crafting/kinetics/empty_blaze_burner" })
 
@@ -38,9 +39,9 @@ ServerEvents.recipes(event => {
     event.remove("dimpaintings:nether_painting")
 
     // Eidolon Repraised
-    event.remove({ output: 'eidolon_repraised:pewter_blend' })
-    event.remove({ output: 'eidolon_repraised:pewter_ingot' })
-    event.remove({ output: 'eidolon_repraised:worktable' })
+    event.remove({ output: "eidolon_repraised:pewter_blend" })
+    event.remove({ output: "eidolon_repraised:pewter_ingot" })
+    event.remove({ output: "eidolon_repraised:worktable" })
 
     // Ender IO
 
@@ -61,16 +62,16 @@ ServerEvents.recipes(event => {
     event.remove({ id: "forbidden_arcanus:mundabitur_dust" })
 
     // Hexerei
-    event.remove({ output: 'hexerei:mixing_cauldron' })
+    event.remove({ output: "hexerei:mixing_cauldron" })
 
     // Immersive Engineering
-    event.remove({ output: 'immersiveengineering:alloybrick' })
+    event.remove({ output: "immersiveengineering:alloybrick" })
 
     // Irons Spellbooks
-    event.remove({ output: 'hazennstuff:rose_quartz' })
+    event.remove({ output: "hazennstuff:rose_quartz" })
 
     // Malum
-    event.remove({ output: 'malum:spirit_altar' })
+    event.remove({ output: "malum:spirit_altar" })
 
     // Oritech
     event.remove({ id: /oritech:crafting\/alloy\/.*/ })
@@ -93,22 +94,22 @@ ServerEvents.recipes(event => {
     event.remove({ output: "theurgy:pyromantic_brazier" })
 })
 
-ServerEvents.tags('item', event => {
+ServerEvents.tags("item", event => {
     // Individual Tag Removal
     // Removed tags from items go here
 
     event.remove("c:crops/coffee/cooked", "rusticdelight:coffee_beans")
-    event.remove("c:gems/quartz", 'hazennstuff:rose_quartz')
-    event.remove("theurgy:gems/mercury/low", 'hazennstuff:rose_quartz')
-    event.remove("ae2:all_quartz", 'hazennstuff:rose_quartz')
-    event.remove("ae2:all_nether_quartz", 'hazennstuff:rose_quartz')
-    event.remove("c:ores", 'hazennstuff:rose_quartz')
-    event.remove("c:gems", 'hazennstuff:rose_quartz')
+    event.remove("c:gems/quartz", "hazennstuff:rose_quartz")
+    event.remove("theurgy:gems/mercury/low", "hazennstuff:rose_quartz")
+    event.remove("ae2:all_quartz", "hazennstuff:rose_quartz")
+    event.remove("ae2:all_nether_quartz", "hazennstuff:rose_quartz")
+    event.remove("c:ores", "hazennstuff:rose_quartz")
+    event.remove("c:gems", "hazennstuff:rose_quartz")
 
     // Tag Deletion
     // Unneeded tags go here
 
-    event.removeAll('railcraft:ingot_chest_loot')
+    event.removeAll("railcraft:ingot_chest_loot")
 })
 
 LootJS.modifiers(event => {
