@@ -18,14 +18,94 @@
 			y: 0.0d
 		}
 		{
+			icon: {
+				id: "extendedcrafting:basic_catalyst"
+			}
 			id: "37D20317A737C7BC"
+			tasks: [
+				{
+					id: "3CC8D4C00B3E6EC4"
+					item: { count: 1, id: "extendedcrafting:basic_catalyst" }
+					type: "item"
+				}
+				{
+					id: "70F06D6FB44FC46D"
+					item: { count: 1, id: "extendedcrafting:basic_component" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "2A325823A1018E2B"
 			tasks: [{
-				id: "3CC8D4C00B3E6EC4"
-				item: { count: 1, id: "extendedcrafting:basic_catalyst" }
+				id: "522AFDBC2D48BDBF"
+				item: { count: 1, id: "extendedcrafting:luminessence" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "3BD68D5031E943B8"
+			tasks: [{
+				id: "78E2D40AF7320083"
+				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
 				type: "item"
 			}]
 			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "1EF964471B640AE3"
+			tasks: [{
+				id: "6B55DCE96D4088CE"
+				item: { count: 1, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			x: 4.5d
 			y: 0.0d
+		}
+		{
+			id: "4A0B6F19AD82DB0C"
+			tasks: [{
+				id: "2E9FF2CBA1F9090C"
+				item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "457730397AC3EFF8"
+			tasks: [{
+				id: "40E5358F88006185"
+				item: { count: 1, id: "irons_spellbooks:common_ink" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "203DDD360241C4A8"
+			tasks: [{
+				id: "44C30FC0E9F40BC0"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "136140C6D0246D99"
+			tasks: [{
+				id: "24551B75BD841DB7"
+				item: { count: 1, id: "apotheosis:common_material" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
 		}
 	]
 }
