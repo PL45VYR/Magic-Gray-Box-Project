@@ -2,7 +2,7 @@
 .mixin.out
 .probe
 .vscode
-sodiumextras-client.toml
+config/sodiumextras-client.toml
 crash-reports
 /data
 debug
