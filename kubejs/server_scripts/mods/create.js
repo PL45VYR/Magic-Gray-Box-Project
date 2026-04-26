@@ -21,9 +21,9 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "eidolon_repraised:worktable",
         "pattern": [
-            "rsr",
-            "sns",
-            "rsr"
+            "rir",
+            "ini",
+            "rir"
         ],
         "reagents": [
             "rrrr"
@@ -32,8 +32,8 @@ ServerEvents.recipes(event => {
             "r": {
                 "tag": "c:rods/iron"
             },
-            "s": {
-                "tag": "c:plates/iron"
+            "i": {
+                "item": "eidolon_repraised:pewter_inlay"
             },
             "n": {
                 "item": "minecraft:netherrack"
@@ -53,8 +53,8 @@ ServerEvents.recipes(event => {
             "R": {
                 "tag": "c:rods/iron"
             },
-            "S": {
-                "tag": "c:plates/iron"
+            "I": {
+                "item": "eidolon_repraised:pewter_inlay"
             },
             "N": {
                 "item": "minecraft:netherrack"
@@ -62,9 +62,9 @@ ServerEvents.recipes(event => {
         },
         "pattern": [
             "  R  ",
-            " RSR ",
-            "RSNSR",
-            " RSR ",
+            " RIR ",
+            "RINIR",
+            " RIR ",
             "  R  "
         ],
         "result": {
