@@ -15,7 +15,7 @@ icon-exports-x32
 local
 /logs
 moddata
-mods
+/mods
 moonlight-global-datapacks
 patchouli*
 resourcepacks
@@ -35,7 +35,8 @@ minecraftinstance.json
 observable_announce
 ops.json
 options.txt
-servers*
+servers.da*
+servers.ess*
 TrashSlot*
 user*
 whitelist*
