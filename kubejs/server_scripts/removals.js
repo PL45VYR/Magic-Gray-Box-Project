@@ -48,6 +48,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:black_iron_slate"})
     event.remove({ id: "extendedcrafting:luminessence"})
     event.remove({ id: "extendedcrafting:basic_component" })
+    event.remove({ id: "extendedcrafting:basic_catalyst" })
 
     // Farming for Blockheads
     event.remove({ output: /ars_nouveau:.*/, type: "farmingforblockheads:market" })
