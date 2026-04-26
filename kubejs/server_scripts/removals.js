@@ -44,9 +44,9 @@ ServerEvents.recipes(event => {
     // Ender IO
 
     // Extended Crafting
-    event.remove({ id: "extendedcrafting:black_iron_ingot"})
-    event.remove({ id: "extendedcrafting:black_iron_slate"})
-    event.remove({ id: "extendedcrafting:luminessence"})
+    event.remove({ id: "extendedcrafting:black_iron_ingot" })
+    event.remove({ id: "extendedcrafting:black_iron_slate" })
+    event.remove({ id: "extendedcrafting:luminessence" })
     event.remove({ id: "extendedcrafting:basic_component" })
     event.remove({ id: "extendedcrafting:basic_catalyst" })
 
@@ -64,6 +64,9 @@ ServerEvents.recipes(event => {
 
     // Immersive Engineering
     event.remove({ output: 'immersiveengineering:alloybrick' })
+
+    // Irons Spellbooks
+    event.remove({ output: 'hazennstuff:rose_quartz' })
 
     // Malum
     event.remove({ output: 'malum:spirit_altar' })

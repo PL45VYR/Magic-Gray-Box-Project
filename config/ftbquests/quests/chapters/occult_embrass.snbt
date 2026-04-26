@@ -107,5 +107,45 @@
 			x: 4.5d
 			y: 3.0d
 		}
+		{
+			id: "0C1A008AAA58EA4D"
+			tasks: [{
+				id: "125F9C1493638B4B"
+				item: { count: 1, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "7D827138C62A8B93"
+			tasks: [{
+				id: "39F44519E3877BD5"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "3324CAAAB1255466"
+			tasks: [{
+				id: "366895BCE493073D"
+				item: { count: 1, id: "hazennstuff:rose_quartz" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "5B0BE310AB5887F9"
+			tasks: [{
+				id: "16CCFC00140C4752"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
 	]
 }
