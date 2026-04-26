@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         ]
     )
 
-    // Blaze Cage Magic Workbench Recipe
+    // Blaze Burner Magic Workbench Recipe
     event.custom({
         "type": "eidolon_repraised:worktable",
         "pattern": [
@@ -44,7 +44,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    // Blaze Cage Mechanical Crafting Recipe
+    // Blaze Burner Mechanical Crafting Recipe
     event.custom({
         "type": "create:mechanical_crafting",
         "accept_mirrored": false,
@@ -73,6 +73,15 @@ ServerEvents.recipes(event => {
         },
         "show_notification": false
     })
+
+    // Blaze Burner
+    event.recipes.create.deploying(
+        'create:blaze_burner',
+        [
+            'create:empty_blaze_burner',
+            'forbidden_arcanus:spawner_scrap'
+        ]
+    )
 
     // Molten Redstone Recipe
     event.recipes.createMixing(
