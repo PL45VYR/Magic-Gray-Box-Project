@@ -127,8 +127,8 @@
 				item: { count: 1, id: "hazennstuff:rose_quartz" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			id: "2DFE612F5FF30D0F"
@@ -140,10 +140,13 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(malum:tainted_rock)item(malum:twisted_rock))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -7.5d
+			y: 0.0d
 		}
 		{
+			icon: {
+				id: "occultism:otherstone"
+			}
 			id: "482172CAC298BD49"
 			tasks: [
 				{
@@ -170,10 +173,13 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
+			icon: {
+				id: "occultism:datura"
+			}
 			id: "6D1F7A4CDF1D4A4D"
 			tasks: [
 				{
@@ -187,8 +193,98 @@
 					type: "item"
 				}
 			]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "0594441E0AB8F228"
+			tasks: [{
+				id: "0A7093B4CDADBE39"
+				item: { count: 1, id: "occultism:chalk_purple" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "369BB25919E26B8B"
+			tasks: [{
+				id: "40B0A3B111995A52"
+				item: { count: 1, id: "occultism:chalk_gold" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "2410E7D0CDF35612"
+			tasks: [{
+				id: "7B820BB3023B2846"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
 			x: -4.5d
 			y: 0.0d
+		}
+		{
+			id: "1575B4620DE8EFD5"
+			tasks: [{
+				id: "1E908741DA86846E"
+				item: { count: 1, id: "oritech:gold_dust" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "5B84821179C454DB"
+			tasks: [{
+				id: "1DF441506A7C1839"
+				item: { count: 1, id: "malum:ether" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "0CB5D35F7E1EDF28"
+			tasks: [{
+				id: "7C528FD27576B731"
+				item: { count: 1, id: "malum:alchemical_impetus" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "34E241519F633549"
+			tasks: [{
+				id: "18AEF97ACB78AB0F"
+				item: { count: 1, id: "malum:spirit_crucible" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "5ECBA464F300C4BE"
+			tasks: [{
+				id: "5B227879383BA9E3"
+				item: { count: 1, id: "create:powdered_obsidian" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "5ADF1210A1910739"
+			tasks: [{
+				id: "5FDFD1E7C59A67DB"
+				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
 		}
 	]
 }

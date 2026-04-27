@@ -63,4 +63,7 @@ ServerEvents.recipes(event => {
         },
         "show_notification": false
     })
+
+    // Basic Crafting Table Recipe
+    event.replaceInput({ id: "extendedcrafting:basic_table" }, 'minecraft:iron_block', 'occultism:storage_controller_base')
 })

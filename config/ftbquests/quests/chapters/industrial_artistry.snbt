@@ -167,8 +167,8 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			id: "5B0BE310AB5887F9"
@@ -208,7 +208,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			icon: {
@@ -246,14 +246,24 @@
 			y: 1.5d
 		}
 		{
-			id: "5ADF1210A1910739"
+			id: "57D0D216A97B26D6"
 			tasks: [{
-				id: "5FDFD1E7C59A67DB"
-				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+				id: "7042FEF53190E3C8"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "62080B375B86310C"
+			tasks: [{
+				id: "7960D68867E6560A"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
 		}
 	]
 }
