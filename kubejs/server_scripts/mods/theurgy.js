@@ -55,5 +55,5 @@ ServerEvents.recipes(event => {
     // Digestion Recipes
 
     // Mercury Catalyst Ingredient Replacement
-    event.replaceInput({ id: "theurgy:mercury_catalyst" }, 'minecraft:iron_ingot', 'eidolon_repraised:pewter_ingot')
+    event.replaceInput({ output: "theurgy:mercury_catalyst" }, 'minecraft:iron_ingot', 'eidolon_repraised:pewter_ingot')
 })
