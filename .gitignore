@@ -45,4 +45,4 @@ kubejs/startup_scripts/jsconfig.json
 kubejs/server_scripts/jsconfig.json
 kubejs/config/probe-settings.json
 
-config/sodiumextras-client.toml
+/config/sodiumextras-client.toml
