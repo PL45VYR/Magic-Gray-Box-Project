@@ -56,5 +56,5 @@ ServerEvents.recipes(event => {
 
     // Mercury Catalyst Ingredient Replacement
     event.replaceInput({ output: "theurgy:mercury_catalyst" }, 'minecraft:iron_ingot', 'eidolon_repraised:pewter_ingot')
-    event.replaceInput({ output: "theurgy:reformation_target_pedestal" }, 'minecraft:iron_ingot', 'eidolon_repraised:pewter_ingot')
+    event.replaceInput({ output: "theurgy:reformation_source_pedestal" }, 'minecraft:iron_ingot', 'eidolon_repraised:pewter_ingot')
 })
