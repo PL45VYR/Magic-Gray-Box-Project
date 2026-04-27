@@ -75,6 +75,8 @@ ServerEvents.recipes(event => {
 
     // Occultism
     event.remove({ output: "occultism:chalk_white_impure" })
+    event.remove({ output: "occultism:chalk_yellow_impure" })
+    event.remove({ output: "occultism:chalk_purple_impure" })
 
     // Oritech
     event.remove({ id: /oritech:crafting\/alloy\/.*/ })
