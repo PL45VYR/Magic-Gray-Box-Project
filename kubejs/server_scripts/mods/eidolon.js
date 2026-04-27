@@ -97,4 +97,40 @@ ServerEvents.recipes(event => {
             "id": "ars_nouveau:imbuement_chamber"
         }
     })
+
+    // Scribe's Table Recipe
+    event.custom({
+        "type": "eidolon_repraised:worktable",
+        "pattern": [
+            "sss",
+            "h h",
+            "l l"
+        ],
+        "reagents": [
+            "gi f"
+        ],
+        "key": {
+            "s": {
+                "item": "ars_nouveau:archwood_slab"
+            },
+            "h": {
+                "item": "malum:hallowed_gold_ingot"
+            },
+            "l": {
+                "tag": "c:logs/archwood"
+            },
+            "g": {
+                "item": "ars_nouveau:source_gem"
+            },
+            "i": {
+                "item": "eidolon_repraised:magic_ink"
+            },
+            "f": {
+                "item": "minecraft:feather"
+            }
+        },
+        "result": {
+            "id": "ars_nouveau:scribes_table"
+        }
+    })
 })

@@ -27,6 +27,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: /ars_nouveau:novice.*/ })
     event.remove({ input: "lapis_lazuli", output: "ars_nouveau:source_gem" })
     event.remove({ output: "ars_nouveau:imbuement_chamber" })
+    event.remove({ output: "ars_nouveau:scribes_table" })
 
     // Create
     event.remove({ id: "create:crafting/materials/andesite_alloy" })
