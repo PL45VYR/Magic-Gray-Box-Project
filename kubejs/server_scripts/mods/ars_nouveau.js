@@ -93,10 +93,10 @@ ServerEvents.recipes(event => {
                 "item": "hazennstuff:shadow_scale"
             },
             {
-                "item": "hexerei:dried_belladonna_flowers"
+                "tag": "c:dusts/obsidian"
             },
             {
-                "item": "malum:paracausal_flame"
+                "item": "hexerei:dried_belladonna_flowers"
             },
             {
                 "tag": "c:dusts/obsidian"
@@ -108,10 +108,10 @@ ServerEvents.recipes(event => {
                 "tag": "c:dusts/obsidian"
             },
             {
-                "item": "malum:paracausal_flame"
+                "item": "hexerei:dried_belladonna_flowers"
             },
             {
-                "item": "hexerei:dried_belladonna_flowers"
+                "tag": "c:dusts/obsidian"
             },
         ],
         "reagent": {

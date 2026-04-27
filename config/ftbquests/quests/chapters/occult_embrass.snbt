@@ -130,5 +130,65 @@
 			x: 1.5d
 			y: -3.0d
 		}
+		{
+			id: "2DFE612F5FF30D0F"
+			tasks: [{
+				icon: {
+					id: "malum:twisted_rock"
+				}
+				id: "3C0021072DB2D4AF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(malum:tainted_rock)item(malum:twisted_rock))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "482172CAC298BD49"
+			tasks: [
+				{
+					icon: {
+						id: "occultism:otherstone"
+					}
+					id: "5DA2F210F502CCEE"
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:otherstone)item(occultism:otherrock))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "57F5136C84F50F5C"
+					item: { count: 1, id: "occultism:taboo_book" }
+					type: "item"
+				}
+				{
+					id: "29FC71FAAAF3C5AA"
+					item: { count: 1, id: "occultism:awakened_feather" }
+					type: "item"
+				}
+				{
+					id: "03037EED47F99988"
+					item: { count: 1, id: "occultism:purified_ink" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "6D1F7A4CDF1D4A4D"
+			tasks: [
+				{
+					id: "34244323110DA727"
+					item: { count: 1, id: "occultism:datura_seeds" }
+					type: "item"
+				}
+				{
+					id: "2D957B10CCC9B325"
+					item: { count: 1, id: "occultism:datura" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
 	]
 }

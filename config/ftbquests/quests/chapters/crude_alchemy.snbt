@@ -96,6 +96,16 @@
 			y: -1.5d
 		}
 		{
+			id: "245294110711B4ED"
+			tasks: [{
+				id: "7490603AF2381B81"
+				item: { count: 1, id: "eidolon_repraised:pewter_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
 			icon: {
 				id: "theurgy:incubator"
 			}
@@ -124,71 +134,6 @@
 			]
 			x: 3.0d
 			y: -1.5d
-		}
-		{
-			id: "245294110711B4ED"
-			tasks: [{
-				id: "7490603AF2381B81"
-				item: { count: 1, id: "eidolon_repraised:pewter_ingot" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			icon: {
-				id: "theurgy:reformation_result_pedestal"
-			}
-			id: "7BD08BABA5551D05"
-			tasks: [
-				{
-					id: "2581B11FEB5F207A"
-					item: { count: 1, id: "theurgy:reformation_result_pedestal" }
-					type: "item"
-				}
-				{
-					id: "68B3325ED3B7BE20"
-					item: { count: 1, id: "theurgy:reformation_target_pedestal" }
-					type: "item"
-				}
-				{
-					id: "2E76F4363D5CBB74"
-					item: { count: 1, id: "theurgy:reformation_source_pedestal" }
-					type: "item"
-				}
-				{
-					id: "4F6C8C039034C3C5"
-					item: { count: 1, id: "theurgy:mercury_catalyst" }
-					type: "item"
-				}
-				{
-					id: "304988228B2D765F"
-					item: { count: 1, id: "theurgy:sulfuric_flux_emitter" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -3.0d
-		}
-		{
-			icon: {
-				id: "create:andesite_alloy"
-			}
-			id: "1985CCC008AC06F6"
-			tasks: [
-				{
-					id: "328C5C939D0EF840"
-					item: { count: 1, id: "kubejs:alchemical_sulfur_andesite_alloy" }
-					type: "item"
-				}
-				{
-					id: "67C4B23BF259A61E"
-					item: { count: 1, id: "create:andesite_alloy" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: -3.0d
 		}
 	]
 }

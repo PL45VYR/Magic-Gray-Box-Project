@@ -73,6 +73,9 @@ ServerEvents.recipes(event => {
     // Malum
     event.remove({ output: "malum:spirit_altar" })
 
+    // Occultism
+    event.remove({ output: "occultism:chalk_white_impure" })
+
     // Oritech
     event.remove({ id: /oritech:crafting\/alloy\/.*/ })
     event.remove({ id: /oritech:primitive_compat\/.*/ })

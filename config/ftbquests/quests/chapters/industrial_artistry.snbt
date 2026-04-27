@@ -128,7 +128,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			id: "30976C41DB64AB90"
@@ -161,24 +161,14 @@
 			y: -1.5d
 		}
 		{
-			id: "647F3030E562B63B"
-			tasks: [{
-				id: "5335FD423973837D"
-				item: { count: 1, id: "ars_nouveau:archwood_planks" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: -1.5d
-		}
-		{
 			id: "04DA9AD9BFB95C1C"
 			tasks: [{
 				id: "2C6BF070CAB4F93A"
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: -7.5d
+			y: -1.5d
 		}
 		{
 			id: "5B0BE310AB5887F9"
@@ -209,6 +199,61 @@
 			}]
 			x: 1.5d
 			y: -6.0d
+		}
+		{
+			id: "67BB576CAAC503EC"
+			tasks: [{
+				id: "61C8C0A597F6263B"
+				item: { count: 1, id: "ars_nouveau:purple_archwood_sapling" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "theurgy:reformation_result_pedestal"
+			}
+			id: "7BD08BABA5551D05"
+			tasks: [
+				{
+					id: "2581B11FEB5F207A"
+					item: { count: 1, id: "theurgy:reformation_result_pedestal" }
+					type: "item"
+				}
+				{
+					id: "68B3325ED3B7BE20"
+					item: { count: 1, id: "theurgy:reformation_target_pedestal" }
+					type: "item"
+				}
+				{
+					id: "2E76F4363D5CBB74"
+					item: { count: 1, id: "theurgy:reformation_source_pedestal" }
+					type: "item"
+				}
+				{
+					id: "4F6C8C039034C3C5"
+					item: { count: 1, id: "theurgy:mercury_catalyst" }
+					type: "item"
+				}
+				{
+					id: "304988228B2D765F"
+					item: { count: 1, id: "theurgy:sulfuric_flux_emitter" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "5ADF1210A1910739"
+			tasks: [{
+				id: "5FDFD1E7C59A67DB"
+				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
 		}
 	]
 }
