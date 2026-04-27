@@ -92,8 +92,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -1.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			id: "245294110711B4ED"
@@ -102,7 +102,7 @@
 				item: { count: 1, id: "eidolon_repraised:pewter_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -132,8 +132,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -1.5d
+			x: 1.5d
+			y: -3.0d
 		}
 	]
 }
