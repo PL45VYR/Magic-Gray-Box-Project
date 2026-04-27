@@ -63,7 +63,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: "forbidden_arcanus:mundabitur_dust" })
 
     // Hexerei
-    event.remove({ output: "hexerei:mixing_cauldron" })
 
     // Immersive Engineering
     event.remove({ output: "immersiveengineering:alloybrick" })
