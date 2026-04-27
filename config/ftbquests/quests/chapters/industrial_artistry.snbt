@@ -200,5 +200,15 @@
 			x: 1.5d
 			y: -4.5d
 		}
+		{
+			id: "7D827138C62A8B93"
+			tasks: [{
+				id: "39F44519E3877BD5"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
 	]
 }

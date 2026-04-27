@@ -5,8 +5,8 @@
 	[client.discoveryNudges]
 		#Master toggle for discovery nudges
 		enabled = true
-		#Global cooldown between any two nudges in ticks (default: 2 hours)
-		# Default: 144000
+		#Global cooldown between any two nudges in ticks
+		# Default: 6000
 		# Range: > 0
 		globalCooldownTicks = 6000
 		#Maximum total number of nudges shown during one world connection session

@@ -121,16 +121,6 @@
 			y: -1.5d
 		}
 		{
-			id: "7D827138C62A8B93"
-			tasks: [{
-				id: "39F44519E3877BD5"
-				item: { count: 1, id: "create:brass_ingot" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.5d
-		}
-		{
 			id: "3324CAAAB1255466"
 			tasks: [{
 				id: "366895BCE493073D"
