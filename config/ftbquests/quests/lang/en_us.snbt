@@ -54,6 +54,23 @@
 		""
 		"This offers a somewhat recursive way to craft more essence, as mana potions require Arcane Essence themselves to be brewed."
 	]
+	quest.206971DBCC243B0E.quest_desc: [
+		"If you're curious to know where this project is going, here are some major things I want to accomplish:"
+		""
+		"- Actual gating of Occultism progression (a modpack first?)"
+		"- Custom Apotheosis world tier progression"
+		"- Stargate Journey dimensions as home bases for Cataclysm bosses"
+		"- Reworked EndRemastered progression"
+		"- Leverage of Gateways to Eternity for progression points"
+		"- Automation of Compact Crafting"
+		"- Significantly upscaled boss fights that complement Apotheosis progression points"
+		"- Custom implementations of WIP features in some mods"
+		"- Large ore deposits in distinct locations"
+		"- Higher relevance for Singularities"
+		"- Ore processing lines with insanely high yield to make earlier Singularities feasible"
+		""
+		"Congrats if you made it this far! Don't hesitate to leave feedback, I want to make sure my intended audience (whoever that may be) enjoys this project as much as I do."
+	]
 	quest.2410E7D0CDF35612.quest_desc: [
 		"The last step you need to start your ritual requires that you draw out some runes with chalk."
 		""
@@ -226,6 +243,7 @@
 	task.22101273B5DE3A59.title: "Golden Ritual Bowl (Any)"
 	task.224BFCCAEA96C675.title: "Sacrificial Bowl (Any)"
 	task.23F276D913CB40B6.title: "Understood."
+	task.38C168E0653FBA58.title: "Sneak Peek?"
 	task.3C0021072DB2D4AF.title: "Any Spirit Stone"
 	task.47E52252B10420F9.title: "Candle (Any)"
 	task.5B4B87D319404863.title: "I'm ready!"
