@@ -108,7 +108,7 @@ ServerEvents.recipes(event => {
         'hazennstuff:rose_quartz',
         [
             Fluid.of('evolvedmekanism:molten_redstone', 360),
-            'minecraft:quartz'
+            Ingredient.of('#c:gems/quartz')
         ]
     )
 

@@ -1,8 +1,12 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "foregone_power"
 	group: ""
+	icon: {
+		id: "industrialforegoing:dissolution_chamber"
+	}
 	id: "7853DDECCDBDC44A"
 	order_index: 9
 	quest_links: [ ]

@@ -1,8 +1,12 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "ultimate_creations"
 	group: ""
+	icon: {
+		id: "extendedcrafting:ultimate_singularity"
+	}
 	id: "249F33A73BF94DD4"
 	order_index: 11
 	quest_links: [ ]

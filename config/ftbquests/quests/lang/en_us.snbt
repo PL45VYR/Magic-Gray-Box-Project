@@ -12,13 +12,223 @@
 	chapter.5401B0B0EA116D46.title: "A Refined Gaze"
 	chapter.7853DDECCDBDC44A.title: "Foregone Power"
 	file.0000000000000001.title: "Magic Gray Box Project"
-	quest.0EAC1D3DD4041EA6.title: "Alchemy"
+	quest.04DA9AD9BFB95C1C.quest_desc: ["Imbuement Chambers draw energy from the world to transform the item inside of it into something more magical. What could you discover from this?"]
+	quest.0594441E0AB8F228.quest_desc: ["The heavy weight of obsidian, combined with a variety of other dark yet eccentric materials, can enchant White Chalk into Purple Chalk, capable of binding spirits to various items to enhance them with otherworldly power."]
+	quest.05DEE6A13589D014.quest_desc: ["Salvaging Tables are used to easily turn gems into dust, but will also recycle armor and tools into their base materials. If these tools have peculiar names, there may be something else useful to salvage from them."]
+	quest.06B6CE6A813EE15E.quest_desc: ["Brewing up some Soul Shards with minerals such as Redstone and Quartz (find some in a geode down in the caves!) will allow them to coalesce as a Lesser Soul Gem."]
+	quest.076C783CF8207D8C.quest_desc: ["An Athame is a dagger often used in ritual magic. These rituals often use unique herbs, which may only be acquired by an Athame itself."]
+	quest.0832C3C66887F0B9.quest_desc: ["Cutting down some white flowers such as White Tulips with an Athame will allow you to extract Merammer Root."]
+	quest.0C1A008AAA58EA4D.quest_desc: [
+		"Mechanical Crafters give you a very structured way to complete crafts, to the point of enabling automation."
+		""
+		"Some recipes may strictly demand the use of Mechanical Crafters, so be wary of those recipes."
+	]
+	quest.0CB5D35F7E1EDF28.quest_desc: ["An Impetus is a perfect target for spirit focusing. Each impetus has a unique output that changes based on what spirits are used in the focusing process."]
+	quest.0E95DEFFA3DC23FE.quest_desc: [
+		"The Basic Crafting Table is a glorified Crafting Table, but it has more demands due to the foundational crafts that it will enable."
+		""
+		"By using a Storage Actuator as a base for the durable black iron exterior of the block, the magitech combination feels like an enabler for much more powerful machines, both technical and magical."
+	]
+	quest.0EAC1D3DD4041EA6.quest_desc: [
+		"With some Sal Ammoniac ready, you can liquefact your Pewter Blend in a Liquefaction Cauldron."
+		""
+		"You will also want to get some Alchemical Salt, as well as Mercury Crystals, which are crucial catalysts for making the alchemical sulfur into its output material."
+	]
+	quest.0EAC1D3DD4041EA6.title: "Alchemy Prep"
+	quest.0F830CA4F664ADAF.quest_desc: ["Using brass as a casing material gives you a more versatile block to tweak for enhanced machines in future crafts."]
+	quest.136140C6D0246D99.quest_desc: ["Items that have a common rarity will drop scrap metal when salvaged. This can be used for creating new items with special effects, but is equally relevant to magic."]
+	quest.1575B4620DE8EFD5.quest_desc: ["Crushing up some gold into dust gives you a foundation for a new type of chalk. However, you may need more than just one pile of it."]
+	quest.166E83C318214F30.quest_desc: [
+		"Purifying an Oak Sapling with Spirit Fire grants you an Otherworld Sapling, which you at first believed had grown into a normal Oak Tree..."
+		""
+		"...but with the help of a Third Eye, you realize that you can interact with a tree from that otherworldly realm. Once that eye closed, everything went back to normal."
+	]
+	quest.18950277D37C89F1.quest_desc: ["Mechanical Presses will flatten most things placed beneath them. This is a great way to make sheets from metals such as iron or gold!"]
+	quest.1B392C3A63390581.quest_desc: ["Magebloom is a plant that grows from a magical seed, with fibers that can be woven into very useful armor."]
+	quest.1DB5FC44276D6EDC.quest_desc: ["As you begin to travel the world, you realize the tools of creation available to you. Technological advancements of all sorts lie ahead, but your indulgence in some magic should not be abandoned."]
+	quest.1EF964471B640AE3.quest_desc: ["Glow Berries are a food source distinctly found in Lush Caves. Mixing a bundle of them together using a Mechanical Mixer will allow you to create Lumisene, a fluid with a glimmering appearance."]
+	quest.203DDD360241C4A8.quest_desc: [
+		"Arcane Essence is often found within spaces where skilled wizards, witches, and warlocks reside."
+		""
+		"However, by splashing a piece of Lapis Lazuli with a mana potion, you can create it on your own."
+		""
+		"This offers a somewhat recursive way to craft more essence, as mana potions require Arcane Essence themselves to be brewed."
+	]
+	quest.2410E7D0CDF35612.quest_desc: [
+		"The last step you need to start your ritual requires that you draw out some runes with chalk."
+		""
+		"By taking some processed otherworldly materials, you are able to enchant a piece of White Chalk capable of drawing out every rune needed to call a Foliot spirit to your aid, but it must be purified before use."
+		""
+		"Finalize this by binding your book to one and laying out your bowls."
+	]
+	quest.2410E7D0CDF35612.title: "Foliot Preparations"
+	quest.245294110711B4ED.quest_desc: [
+		"Incubating your pewter-based alchemical sulfur will net you its ingot form! Many more magic endeavors lie ahead for you."
+		""
+		"Another benefit of alchemy comes from ore processing: you can triple your output!"
+	]
+	quest.2864E9109E77E701.quest_desc: [
+		"Pewter is a basic alloy composed mostly of lead and tin. Find a way to make these materials into a dust!"
+		""
+		"From here, you'll notice that you can't make any sort of ingot out of it. This will require some alchemical processing. Get ready to have some fun!"
+	]
+	quest.2A325823A1018E2B.quest_desc: ["Luminessence draws from Lumisene's glow, enhancing it with the conductivity of redstone and reactivity of gunpowder. There are a few uses for this strange material, so you may want a bit of it in reserve."]
+	quest.2DFE612F5FF30D0F.quest_desc: ["Spirit Infusion gives you the ability to mass-infuse stones into more magical versions, but they don't feel fully pure. Their uses must extend beyond a simple building material, surely?"]
 	quest.2DFE612F5FF30D0F.title: "Spirit Stones"
+	quest.2F721511198B7207.quest_desc: [
+		"Spirit Altars allow you to infuse spirits into various materials, enabling an even wider array of tools to use in your exploration."
+		""
+		"In some cases, you may find yourself enhancing your weapons with spirit magic!"
+	]
+	quest.30976C41DB64AB90.quest_desc: [
+		"Runewood was a discovery made by using trees to crystalize Merammer Resin with soul magic. These trees create a new and magical wood for handling spirit magic."
+		""
+		"The transformed resin can also be extracted from the trees to create a sticky substance that can function similarly to materials such as slime."
+	]
+	quest.318416735C94A6BB.quest_desc: [
+		"Another use for Magebloom is with the use of Runic Chalk. This chalk can be used for creating temporary runes on its own."
+		""
+		"With otherworldly enhancement, you can transform the chalk into something that has utility in ritual magic."
+	]
+	quest.31D531A8C48CEE32.quest_desc: [
+		"With a lot of iron comes a big ol' cauldron! You can use this to brew potions and craft a number of fun and unique items."
+		""
+		"We suggest finding a hot block to put underneath the cauldron. It may help you soon."
+	]
+	quest.3324CAAAB1255466.quest_desc: ["Mixing redstone in a heated basin melts it into a form that can coat a quartz gem. This allows you to acquire Rose Quartz, a material often polished for redstone-oriented uses."]
+	quest.3386B580FBE8BBD2.quest_desc: [
+		"Mechanical Mixers let you mix things together more easily than in a cauldron. From shapeless crafts to newly-brewed potions, there are many ways to make use of this new technology."
+		""
+		"Might it offer a way to create better rates on pewter? We're inclined to believe so."
+	]
+	quest.34E241519F633549.quest_desc: ["Spirit Crucibles allow you to generate novel materials with the help of spirit focusing. However, they seem to want a target for this."]
+	quest.369BB25919E26B8B.quest_desc: ["Using the alluring power of gold and augmenting it with Ether, you are able to enchant your White Chalk into Yellow Chalk, which enables the ability to use your rituals for spirit possession."]
+	quest.37D20317A737C7BC.quest_desc: ["Basic Components are made by laying iron across a Black Iron Slate and coating it in Luminessence. With the help of mechanical crafting, four of these can combined into a more powerful Basic Catalyst."]
+	quest.3BD68D5031E943B8.quest_desc: ["Black Iron Slates are crafting components made by flattening a Block of Black Iron. You'll certainly want a lot of black iron, given how quickly the cost adds up!"]
+	quest.3E3F317CF8D5095A.quest_desc: ["Four elements begin to take shape inside your Source Gems during imbuement discoveries: air, earth, fire, and water. They manifest as essences, which give you more insight on how those magical glyphs might be recorded."]
+	quest.3E3F317CF8D5095A.title: "Elemental Essences"
+	quest.457730397AC3EFF8.quest_desc: ["Common Ink is a result of mixing Arcane Essence with a common salvage material inside water. Fill a glass bottle if you want to use it for any spell crafting endeavors!"]
+	quest.477DFE78CC262604.quest_desc: [
+		"Someone once made a mistake in trying to reform some Andesite, believing they were told to use pewter instead of niter."
+		""
+		"This mistake resulted in the first instance of Andesite Alloy, a powerful construction material that can enable a variety of automation processes. It looks versatile, but feels expensive to make. Perhaps there is a simpler way to produce it..."
+	]
+	quest.482172CAC298BD49.quest_desc: ["You begin to feel otherworldly spirits call out to you, whispering words that inspire you to conduct a larger-scale ritual. You purify more items within the Spirit Fire you previously lit, combining some of them into a book that can hold the name of a spirit within it."]
 	quest.482172CAC298BD49.title: "Otherworld Materials"
+	quest.488F39150CD4BAE0.quest_desc: [
+		"Magic Gray Box Project plays into the idea of \"gray box where the magic happens\", a phenomenon surrounding tech mods whose machine GUI compactly performs automation. This pack attempts to construct a progression that enables players to make such ambitious technological advancements with a bit more effort."
+		""
+		"There are a number of things you need to do to push onward. Firstly, consider playing the game out normally. Go explore! Get some iron! Setting yourself up for success sooner ensures you'll feel comfortable later."
+	]
 	quest.488F39150CD4BAE0.title: "Welcome to MGBP!"
+	quest.4A0B6F19AD82DB0C.quest_desc: ["Spouting some iron with Common Ink will create black iron, a crafting component used to extend your crafting capabilities."]
+	quest.4A1BF2244EDAF607.quest_desc: [
+		"Incubation is the final step of alchemical processing."
+		""
+		"Place the three incubation vessels around the Incubator and supply heat with a brazier to begin the incubation step!"
+	]
+	quest.4AA0ABCFB7E66232.quest_desc: ["A strange eminence from the ground reveals the presence of soulstone, a material that needs some refinement. Its magical aura feels like a way to enhance your crafting capabilities even further..."]
+	quest.5271FF3BE99AB631.quest_desc: [
+		"Alchemy relies heavily on Sal Ammoniac, a material that liquifies materials into an alchemical sulfur. Combine a Sal Ammoniac Crystal with some water to make it into a fluid using the Sal Ammoniac Accumulator!"
+		""
+		"You may choose to not use any crystals in the accumulator, but this will return a tenth of the Sal Ammoniac."
+	]
+	quest.5506AE4B8F39A387.quest_desc: ["With a Pestle and Mortar, you can grind up materials into a blend or mixture. Perhaps a mixture of seeds could net you a little Crow friend?"]
+	quest.57D0D216A97B26D6.quest_desc: ["Source Gems are the most basic way to augment much purer magic. In wielding them, you see visions of mystical glyphs. There must be a way to document them..."]
+	quest.5ADF1210A1910739.quest_desc: [
+		"An Enchanting Apparatus allows you to handle a variety of crafts for useful magic trinkets."
+		""
+		"Word around is that this apparatus can enable some form of enchantment crafting!"
+	]
+	quest.5B0BE310AB5887F9.quest_desc: [
+		"Using a Magic Workbench, you're able to construct a cage for containing blazing fires. This fire can only stay lit using Netherrack, a hellish material whose origins you struggle to understand."
+		""
+		"However, this cage feels incomplete. After breaking some mob spawners recklessly, you acquire some Spawner Scraps, which you try using to complete the cage."
+		""
+		"It succeeds, but the enigmatic nature of the Spawner Scrap's material occupies the cage with a fiery entity. Perhaps it might be able to help you."
+	]
+	quest.5B84821179C454DB.quest_desc: [
+		"Ether is a powerful source of light that draws from the bright glow of Blazing Quartz."
+		""
+		"This material, understood to normally come from more evil places, can be generated alchemically with the help of spirit focusing, as can Glowstone!"
+	]
+	quest.5ECBA464F300C4BE.quest_desc: ["Crushing up some Obsidian nets you a gritty powder that has a variety of uses. There may be a use for it when you acquire some more chalk."]
+	quest.5FCA3184CF970B11.quest_desc: ["You've likely come across some fascinating gems from combat and looting. Pulverizing them gives you ideas on how to make use of some random salvage..."]
+	quest.6061E76AA58C67FF.quest_desc: ["Dyeing the book lets you understand what spirit you must call upon. You realize that some sacrifices must be made to bring this spirit to your world, so you craft bowls out of your otherworldly stone and grab a few candles."]
+	quest.6061E76AA58C67FF.title: "Foliot Precursors"
+	quest.62080B375B86310C.quest_desc: [
+		"The Scribe's Table is your tool for recording and learning new glyphs. With the help of some Magic Ink, you begin to find items around you that relate to the glyphs you see."
+		""
+		"Bring them to the Scribe's Table and expand your knowledge!"
+	]
+	quest.65DB37034A4934D1.quest_desc: [
+		"One important thing to note with this modpack is that it is NOT COMPLETE."
+		""
+		"Many untouched features that are currently unchanged may receive changes later."
+		""
+		"Some of the features that are not usable are either:"
+		""
+		"a) Unwanted for my design philosophy"
+		"b) Still pending proper implementation into the pack's progression"
+		""
+		"This pack is available now rather than at a much later date so that I can set up a good foundation early, address progression issues quickly, and receive feedback frequently."
+		""
+		"All issues should be reported to the modpack's GitHub page. I set it up later than desired but I plan to improve it continuously."
+		"{@pagebreak}"
+		"Feedback is also welcome! I already have a roadmap (privately maintained via Trello)  for planned features, but I'm always open to new ones."
+		""
+		"If you want to support development with completely unique or custom mechanics, please let me know! I'd love to have more hands on the project."
+		""
+		"Other things I'd be happy to incorporate from other players include quest art/flavor/writing, progression rewards, custom recipes, custom datapacks, and custom item/block textures."
+		""
+		"Feel free to reach out if you're interested!"
+	]
+	quest.65DB37034A4934D1.quest_subtitle: "This pack is still WIP!"
+	quest.65DB37034A4934D1.title: "Important Note"
+	quest.668DE2BE460505E4.quest_desc: ["Placing Refined Soulstone into a scythe allows you to harvest the spirits of the enemies you slay, but only with this tool. There must be something you can do with these spirits."]
+	quest.66D8C5BA8732ADA2.quest_desc: ["Illwood is a wood type that only grows in Dark Forests. Gather some saplings, there may be a use for them if you've engaged with spirits..."]
+	quest.67BB576CAAC503EC.quest_desc: [
+		"With a bit of support in your travels, you come across a very colorful forest inhabited by magical creatures."
+		""
+		"You decide that it would be useful to grow some of those magical trees yourself, as they seem to have a more pure yet powerful form of magic waiting to be understood."
+	]
 	quest.67BB576CAAC503EC.title: "Archwood"
+	quest.6B68A3958891AE50.quest_desc: ["Arcane Pedestals are used to enhance Imbuement Chambers to create even more powerful and versatile materials. Place them within a very short range of the chamber and add items to them!"]
+	quest.6C86EFCE60467A4C.quest_desc: ["You first put the Blaze to use by heating up your mixer, which allows you to construct a Kiln Brick, which you realize might be the perfect environment for alloying metals."]
+	quest.6D1F7A4CDF1D4A4D.quest_desc: [
+		"Demon's Dream Seeds can be found hidden within grass, which can then be grown into a strange fruit. Eating it affects your vision in a bizarre way that feels like opening a Third Eye."
+		""
+		"Shocked by these visions, you dry to burn the fruit, but the fire becomes very bright, yet completely innocuous. It's almost as if the fire has the capacity to cleanse..."
+	]
 	quest.6D1F7A4CDF1D4A4D.title: "Demon's Dream Fruit"
+	quest.6D4A78DDED7FD016.quest_desc: ["Get yourself a few Shafts with your Andesite Alloy. You feel those gears turning yet?"]
+	quest.6F1668CE37F52D5E.quest_desc: [
+		"You conclude that there are two things you must do to understand the visions of glyphs."
+		""
+		"Firstly, you need a place to store them. Perhaps a Novice Spell Book may be the most effective way to handle this."
+	]
+	quest.72DEF0A26C9C70C2.quest_desc: ["Crucibles are a brewing base used for more complex and sequenced crafts. While witches tend to be the best at overseeing them, you'll benefit from using one yourself."]
+	quest.72FB981E202AF28B.quest_desc: ["You feel a compulsion to sanctify your gold. Its purity may offer a better way to handle spirit magic, or perhaps lead you into another realm of magical capabilities."]
+	quest.74A49A878CDDA8C4.quest_desc: ["Many machines are easily built with nothing more than Andesite Casing. Just encase a stripped log with some Andesite Alloy and you can start tinkering with the casing!"]
+	quest.777BD223A35E7233.quest_desc: ["The Magic Workbench enables you to craft a variety of magical items. Some of these items will reveal more hidden secrets within the Overworld or enable you to gain more knowledge of it."]
+	quest.7A322E5A606919C5.quest_desc: ["Braziers made from pewter give you the ability to conduct simple rituals. One such ritual will allow you to slay nearby undead creatures to acquire Soul Shards, a primary ingredient for various magical crafts."]
+	quest.7A9D786A5C88E36E.quest_desc: ["Placing Water Wheels near flowing water helps them spin. Use this spinning to make some machines to some work for you!"]
+	quest.7BD08BABA5551D05.quest_desc: [
+		"Now for the fun part of alchemy: reformation. While exciting at first glance, it requires a bit of setup to get going."
+		""
+		"Your reformation pedestals are the centerpieces of your setup. This process also requires some fuel, but not from braziers; instead, you need a Sulfuric Flux Emitter that hits every pedestal used in your reformation array."
+		""
+		"Mercury Catalysts are a great way to store backup flux in case you want to automate this process!"
+	]
+	quest.7BD08BABA5551D05.title: "Reformation Array"
+	quest.7D827138C62A8B93.quest_desc: ["Within your newly-constructed Alloy Kiln, you combine some copper and zinc to make brass, a powerful alloy that will enhance your technological capabilties even further."]
+	task.04B9397CFB36A90D.title: "Book of Binding: Foliot"
+	task.22101273B5DE3A59.title: "Golden Ritual Bowl (Any)"
+	task.224BFCCAEA96C675.title: "Sacrificial Bowl (Any)"
+	task.23F276D913CB40B6.title: "Understood."
 	task.3C0021072DB2D4AF.title: "Any Spirit Stone"
+	task.47E52252B10420F9.title: "Candle (Any)"
+	task.5B4B87D319404863.title: "I'm ready!"
 	task.5DA2F210F502CCEE.title: "Otherstone or Otherrock"
 	task.61C8C0A597F6263B.title: "Any Archwood Sapling"
 }

@@ -1,8 +1,12 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "gaze_into_the_refinery"
 	group: ""
+	icon: {
+		id: "gaze:adaptive_wheel"
+	}
 	id: "5401B0B0EA116D46"
 	order_index: 5
 	quest_links: [ ]

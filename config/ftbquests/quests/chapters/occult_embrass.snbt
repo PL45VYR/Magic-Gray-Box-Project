@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "occult_embrass"
 	group: ""
@@ -11,7 +12,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"0594441E0AB8F228"
+				"37D20317A737C7BC"
+			]
 			id: "0E95DEFFA3DC23FE"
+			shape: "rsquare"
 			tasks: [{
 				id: "4D49F90B51773025"
 				item: { count: 1, id: "extendedcrafting:basic_table" }
@@ -21,6 +27,11 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"0C1A008AAA58EA4D"
+				"3BD68D5031E943B8"
+				"2A325823A1018E2B"
+			]
 			icon: {
 				id: "extendedcrafting:basic_catalyst"
 			}
@@ -41,6 +52,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1EF964471B640AE3"]
 			id: "2A325823A1018E2B"
 			tasks: [{
 				id: "522AFDBC2D48BDBF"
@@ -51,6 +63,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4A0B6F19AD82DB0C"]
 			id: "3BD68D5031E943B8"
 			tasks: [{
 				id: "78E2D40AF7320083"
@@ -61,7 +74,9 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["082534B546FCB12F"]
 			id: "1EF964471B640AE3"
+			shape: "hexagon"
 			tasks: [{
 				id: "6B55DCE96D4088CE"
 				item: { count: 1, id: "minecraft:glow_berries" }
@@ -71,6 +86,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["457730397AC3EFF8"]
 			id: "4A0B6F19AD82DB0C"
 			tasks: [{
 				id: "2E9FF2CBA1F9090C"
@@ -81,36 +97,47 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"136140C6D0246D99"
+				"203DDD360241C4A8"
+			]
 			id: "457730397AC3EFF8"
 			tasks: [{
 				id: "40E5358F88006185"
 				item: { count: 1, id: "irons_spellbooks:common_ink" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["082534B546FCB12F"]
 			id: "203DDD360241C4A8"
+			shape: "hexagon"
 			tasks: [{
 				id: "44C30FC0E9F40BC0"
 				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["05DEE6A13589D014"]
 			id: "136140C6D0246D99"
 			tasks: [{
 				id: "24551B75BD841DB7"
 				item: { count: 1, id: "apotheosis:common_material" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"3324CAAAB1255466"
+				"0F830CA4F664ADAF"
+			]
 			id: "0C1A008AAA58EA4D"
 			tasks: [{
 				id: "125F9C1493638B4B"
@@ -121,7 +148,9 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["082534B546FCB12F"]
 			id: "3324CAAAB1255466"
+			shape: "hexagon"
 			tasks: [{
 				id: "366895BCE493073D"
 				item: { count: 1, id: "hazennstuff:rose_quartz" }
@@ -131,7 +160,9 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["082534B546FCB12F"]
 			id: "2DFE612F5FF30D0F"
+			shape: "hexagon"
 			tasks: [{
 				icon: {
 					id: "malum:twisted_rock"
@@ -140,10 +171,14 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(malum:tainted_rock)item(malum:twisted_rock))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"6D1F7A4CDF1D4A4D"
+				"2DFE612F5FF30D0F"
+			]
 			icon: {
 				id: "occultism:otherstone"
 			}
@@ -172,15 +207,22 @@
 					item: { count: 1, id: "occultism:purified_ink" }
 					type: "item"
 				}
+				{
+					id: "503A08FF3BED6BC5"
+					item: { count: 1, id: "occultism:book_of_binding_empty" }
+					type: "item"
+				}
 			]
 			x: -6.0d
-			y: 0.0d
+			y: 4.5d
 		}
 		{
+			dependencies: ["082534B546FCB12F"]
 			icon: {
 				id: "occultism:datura"
 			}
 			id: "6D1F7A4CDF1D4A4D"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "34244323110DA727"
@@ -193,10 +235,14 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 1.5d
+			x: -4.5d
+			y: 4.5d
 		}
 		{
+			dependencies: [
+				"5ECBA464F300C4BE"
+				"369BB25919E26B8B"
+			]
 			id: "0594441E0AB8F228"
 			tasks: [{
 				id: "0A7093B4CDADBE39"
@@ -207,6 +253,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"1575B4620DE8EFD5"
+				"5B84821179C454DB"
+			]
 			id: "369BB25919E26B8B"
 			tasks: [{
 				id: "40B0A3B111995A52"
@@ -217,16 +267,40 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"166E83C318214F30"
+				"6061E76AA58C67FF"
+				"318416735C94A6BB"
+			]
+			icon: {
+				id: "occultism:chalk_white"
+			}
 			id: "2410E7D0CDF35612"
-			tasks: [{
-				id: "7B820BB3023B2846"
-				item: { count: 1, id: "occultism:chalk_white" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 0.0d
+			tasks: [
+				{
+					id: "7B820BB3023B2846"
+					item: { count: 1, id: "occultism:chalk_white" }
+					type: "item"
+				}
+				{
+					id: "04B9397CFB36A90D"
+					item: { components: { "occultism:spirit_name": "Bresirvyrn" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "occultism:golden_sacrificial_bowl"
+					}
+					id: "22101273B5DE3A59"
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:golden_sacrificial_bowl)item(occultism:dark_golden_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["2410E7D0CDF35612"]
 			id: "1575B4620DE8EFD5"
 			tasks: [{
 				id: "1E908741DA86846E"
@@ -234,9 +308,10 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["0CB5D35F7E1EDF28"]
 			id: "5B84821179C454DB"
 			tasks: [{
 				id: "1DF441506A7C1839"
@@ -244,9 +319,10 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["34E241519F633549"]
 			id: "0CB5D35F7E1EDF28"
 			tasks: [{
 				id: "7C528FD27576B731"
@@ -254,19 +330,21 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["2DFE612F5FF30D0F"]
 			id: "34E241519F633549"
 			tasks: [{
 				id: "18AEF97ACB78AB0F"
 				item: { count: 1, id: "malum:spirit_crucible" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.5d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["2410E7D0CDF35612"]
 			id: "5ECBA464F300C4BE"
 			tasks: [{
 				id: "5B227879383BA9E3"
@@ -274,17 +352,119 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["082534B546FCB12F"]
 			id: "5ADF1210A1910739"
+			shape: "hexagon"
 			tasks: [{
 				id: "5FDFD1E7C59A67DB"
 				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
 				type: "item"
 			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7D827138C62A8B93"]
+			id: "0F830CA4F664ADAF"
+			shape: "hexagon"
+			tasks: [{
+				id: "64E803C483A9093C"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D1F7A4CDF1D4A4D"]
+			id: "166E83C318214F30"
+			tasks: [{
+				id: "728B8AAA17E22F29"
+				item: { count: 1, id: "occultism:otherworld_log" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["482172CAC298BD49"]
+			icon: {
+				id: "occultism:book_of_binding_foliot"
+			}
+			id: "6061E76AA58C67FF"
+			tasks: [
+				{
+					id: "01686632F2C02B6D"
+					item: { count: 1, id: "occultism:book_of_binding_foliot" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "occultism:sacrificial_bowl"
+					}
+					id: "224BFCCAEA96C675"
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:sacrificial_bowl)item(occultism:dark_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:candle"
+					}
+					id: "47E52252B10420F9"
+					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
 			x: -4.5d
-			y: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B392C3A63390581"]
+			id: "318416735C94A6BB"
+			tasks: [{
+				id: "25024D11F64BC5E0"
+				item: { count: 1, id: "ars_nouveau:runic_chalk" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ADF1210A1910739"]
+			id: "1B392C3A63390581"
+			tasks: [{
+				id: "5C92A3DD7B43EF1E"
+				item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5FCA3184CF970B11"]
+			id: "05DEE6A13589D014"
+			tasks: [{
+				id: "3D543A32DC52BF21"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["082534B546FCB12F"]
+			id: "5FCA3184CF970B11"
+			shape: "hexagon"
+			tasks: [{
+				id: "467164D151D7A66D"
+				item: { count: 1, id: "apotheosis:gem_dust" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
 		}
 	]
 }

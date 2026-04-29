@@ -1,8 +1,12 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "steel_the_show"
 	group: ""
+	icon: {
+		id: "immersiveengineering:ingot_steel"
+	}
 	id: "2D710841102413B4"
 	order_index: 4
 	quest_links: [ ]

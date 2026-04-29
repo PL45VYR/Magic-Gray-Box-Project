@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "crude_alchemy"
 	group: ""
@@ -11,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["5271FF3BE99AB631"]
 			icon: {
 				id: "theurgy:liquefaction_cauldron"
 			}
@@ -37,50 +39,50 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -3.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
+			dependencies: ["0FCAD8B2E7DFAE1F"]
 			id: "31D531A8C48CEE32"
+			shape: "hexagon"
 			tasks: [{
 				id: "2C32402FEA51FCF2"
 				item: { count: 1, id: "hexerei:mixing_cauldron" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["31D531A8C48CEE32"]
 			id: "5506AE4B8F39A387"
 			tasks: [{
 				id: "6A0FCBB78005DEE4"
 				item: { count: 1, id: "hexerei:pestle_and_mortar" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["5506AE4B8F39A387"]
 			id: "2864E9109E77E701"
 			tasks: [{
 				id: "68A6D84A5A7EFCEE"
 				item: { count: 1, id: "eidolon_repraised:pewter_blend" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["2864E9109E77E701"]
 			icon: {
 				id: "theurgy:sal_ammoniac_accumulator"
 			}
 			id: "5271FF3BE99AB631"
 			tasks: [
-				{
-					id: "112D24ABB1087572"
-					item: { count: 1, id: "theurgy:sal_ammoniac_bucket" }
-					type: "item"
-				}
 				{
 					id: "574FE6339D27F59A"
 					item: { count: 1, id: "theurgy:sal_ammoniac_accumulator" }
@@ -91,11 +93,17 @@
 					item: { count: 1, id: "theurgy:sal_ammoniac_tank" }
 					type: "item"
 				}
+				{
+					id: "112D24ABB1087572"
+					item: { count: 1, id: "theurgy:sal_ammoniac_bucket" }
+					type: "item"
+				}
 			]
-			x: 0.0d
-			y: -4.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["4A1BF2244EDAF607"]
 			id: "245294110711B4ED"
 			tasks: [{
 				id: "7490603AF2381B81"
@@ -106,11 +114,17 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["0EAC1D3DD4041EA6"]
 			icon: {
 				id: "theurgy:incubator"
 			}
 			id: "4A1BF2244EDAF607"
 			tasks: [
+				{
+					id: "5D3C88DF6442EDC1"
+					item: { count: 1, id: "theurgy:incubator" }
+					type: "item"
+				}
 				{
 					id: "3B4826C95575DDCE"
 					item: { count: 1, id: "theurgy:incubator_mercury_vessel" }
@@ -126,9 +140,52 @@
 					item: { count: 1, id: "theurgy:incubator_sulfur_vessel" }
 					type: "item"
 				}
+			]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BD08BABA5551D05"]
+			id: "477DFE78CC262604"
+			shape: "rsquare"
+			tasks: [{
+				id: "1781BA90A104D3BC"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["245294110711B4ED"]
+			icon: {
+				id: "theurgy:reformation_result_pedestal"
+			}
+			id: "7BD08BABA5551D05"
+			tasks: [
 				{
-					id: "5D3C88DF6442EDC1"
-					item: { count: 1, id: "theurgy:incubator" }
+					id: "2581B11FEB5F207A"
+					item: { count: 1, id: "theurgy:reformation_result_pedestal" }
+					type: "item"
+				}
+				{
+					id: "68B3325ED3B7BE20"
+					item: { count: 1, id: "theurgy:reformation_target_pedestal" }
+					type: "item"
+				}
+				{
+					id: "2E76F4363D5CBB74"
+					item: { count: 1, id: "theurgy:reformation_source_pedestal" }
+					type: "item"
+				}
+				{
+					id: "4F6C8C039034C3C5"
+					item: { count: 1, id: "theurgy:mercury_catalyst" }
+					type: "item"
+				}
+				{
+					id: "304988228B2D765F"
+					item: { count: 1, id: "theurgy:sulfuric_flux_emitter" }
 					type: "item"
 				}
 			]

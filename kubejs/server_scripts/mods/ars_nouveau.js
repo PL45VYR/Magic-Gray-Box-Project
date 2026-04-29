@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
 
+    // Arcane Core Recipe Change
+    event.replaceInput({ id: 'ars_nouveau:arcane_core' }, 'minecraft:gold_ingot', 'forbidden_arcanus:deorum_ingot')
+
     // Gold Replacement for Hallowed Gold
     event.replaceInput({ id: /ars.*/ }, 'minecraft:gold_ingot', 'malum:hallowed_gold_ingot')
     event.replaceInput({ id: /ars.*/ }, 'minecraft:gold_nugget', 'malum:hallowed_gold_ingot')
@@ -7,6 +10,9 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: /starbunclemania.*/ }, 'minecraft:gold_ingot', 'malum:hallowed_gold_ingot')
     event.replaceInput({ id: /starbunclemania.*/ }, 'minecraft:gold_nugget', 'malum:hallowed_gold_ingot')
     event.replaceInput({ id: /starbunclemania.*/ }, 'minecraft:gold_block', 'malum:hallowed_gold_ingot')
+
+    // Air Essence Simplification
+    event.replaceInput({ output: 'ars_nouveau:air_essence' }, 'ars_nouveau:wilden_wing', 'forbidden_arcanus:bat_wing')
 
     // Early Occultism Chalk
 
@@ -96,7 +102,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:dusts/obsidian"
             },
             {
-                "item": "hexerei:dried_belladonna_flowers"
+                "item": "hazennstuff:shadow_scale"
             },
             {
                 "tag": "c:dusts/obsidian"
@@ -108,7 +114,7 @@ ServerEvents.recipes(event => {
                 "tag": "c:dusts/obsidian"
             },
             {
-                "item": "hexerei:dried_belladonna_flowers"
+                "item": "hazennstuff:shadow_scale"
             },
             {
                 "tag": "c:dusts/obsidian"

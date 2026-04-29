@@ -1,10 +1,14 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "originally_compact"
 	group: ""
+	icon: {
+		id: "compactcrafting:field_projector"
+	}
 	id: "0960486528B903A8"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [ ]
 }

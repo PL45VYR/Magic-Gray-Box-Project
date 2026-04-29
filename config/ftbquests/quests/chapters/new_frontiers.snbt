@@ -1,8 +1,61 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "new_frontiers"
 	group: ""
+	icon: {
+		components: {
+			"minecraft:block_entity_data": {
+				crystal_inventory: {
+					Items: [
+						{
+							Count: 1b
+							Slot: 0
+							id: "sgjourney:large_control_crystal"
+						}
+						{
+							Count: 1b
+							Slot: 1
+							id: "sgjourney:energy_crystal"
+						}
+						{
+							Count: 1b
+							Slot: 2
+							id: "sgjourney:communication_crystal"
+						}
+						{
+							Count: 1b
+							Slot: 3
+							id: "sgjourney:energy_crystal"
+						}
+						{
+							Count: 1b
+							Slot: 5
+							id: "sgjourney:energy_crystal"
+						}
+						{
+							Count: 1b
+							Slot: 7
+							id: "sgjourney:transfer_crystal"
+						}
+					]
+					Size: 9
+				}
+				energy: 0L
+				energy_inventory: {
+					Items: [{
+						Count: 1b
+						Slot: 0
+						id: "sgjourney:fusion_core"
+					}]
+					Size: 2
+				}
+				id: "sgjourney:milky_way_dhd"
+			}
+		}
+		id: "sgjourney:milky_way_dhd"
+	}
 	id: "34B62BFAC9ED7A18"
 	order_index: 8
 	quest_links: [ ]

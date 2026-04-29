@@ -1,10 +1,14 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "enter_modularity"
 	group: ""
+	icon: {
+		id: "modularrouters:speed_upgrade"
+	}
 	id: "523773BCE6332715"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [ ]
 }
