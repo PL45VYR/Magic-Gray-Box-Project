@@ -39,7 +39,7 @@ servers.ess*
 TrashSlot*
 user*
 whitelist*
-xaero
+/xaero
 
 kubejs/client_scripts/jsconfig.json
 kubejs/startup_scripts/jsconfig.json
