@@ -1,4 +1,15 @@
 ServerEvents.recipes(event => {
+    // Extended Crafting Shaped Table Conversion
+    /*event.forEachRecipe({ type: "minecraft:crafting_shaped" }, recipe => {
+        let toConvert = JSON.parse(recipe.json.toString())
+        event.custom({
+            "type": "extendedcrafting:shaped_table",
+            "pattern": toConvert.pattern,
+            "key": toConvert.key,
+            "result": toConvert.result
+        })
+    })*/
+
     // Luminessence Recipe
     event.recipes.createMixing(
         '2x extendedcrafting:luminessence',
