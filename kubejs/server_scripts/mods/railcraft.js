@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     event.replaceInput({ output: "railcraft:manual_rolling_machine" }, 'railcraft:bronze_gear', 'create:precision_mechanism')
 
     // Rod Recipes Using Rolling
-    let rod_material = [
+    let metal_material = [
         'iron',
         'gold',
         'copper',
@@ -16,7 +16,8 @@ ServerEvents.recipes(event => {
         'nickel',
         'constantan',
         'electrum',
-        'uranium'
+        'uranium',
+        'naquadah_alloy'
     ]
 
     let rod_name = [
@@ -31,10 +32,11 @@ ServerEvents.recipes(event => {
         'immersiveposts:stick_nickel',
         'immersiveposts:stick_constantan',
         'immersiveposts:stick_electrum',
-        'immersiveposts:stick_uranium'
+        'immersiveposts:stick_uranium',
+        'sgjourney:naquadah_rod'
     ]
 
-    rod_material.forEach((material, index) => {
+    metal_material.forEach((material, index) => {
         event.custom({
             "type": "railcraft:rolling",
             "key": {
@@ -49,6 +51,43 @@ ServerEvents.recipes(event => {
             }
         })
         event.remove({ output: rod_name[index], type: "minecraft:crafting_shaped" })
+    })
+
+    let sheetmetal_name = [
+        'immersiveengineering:sheetmetal_iron',
+        'immersiveengineering:sheetmetal_gold',
+        'immersiveengineering:sheetmetal_copper',
+        'immersiveengineering:sheetmetal_steel',
+        'immersiveengineering:sheetmetal_aluminum',
+        'immersiveengineering:sheetmetal_lead',
+        'immersiveengineering:sheetmetal_silver',
+        'immersiveengineering:sheetmetal_nickel',
+        'immersiveengineering:sheetmetal_constantan',
+        'immersiveengineering:sheetmetal_electrum',
+        'immersiveengineering:sheetmetal_uranium'
+    ]
+
+    metal_material.forEach((material, index) => {
+        if (material !== "netherite" && material !== "naquadah_alloy") {
+            event.custom({
+                "type": "railcraft:rolling",
+                "key": {
+                    "i": {
+                        "tag": `c:plates/${material}`
+                    }
+                },
+                "pattern": [
+                    " i ",
+                    "i i",
+                    " i "
+                ],
+                "result": {
+                    "count": 4,
+                    "id": `immersiveengineering:sheetmetal_${material}`
+                }
+            })
+            event.remove({ id: `immersiveengineering:crafting/sheetmetal_${material}`, type: "minecraft:crafting_shaped" })
+        }
     })
 
     // Blast Furnace Brick Unification
