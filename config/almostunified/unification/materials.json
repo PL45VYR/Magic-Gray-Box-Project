@@ -49,7 +49,8 @@
     "c:wires/{material}",
     "c:crops/{material}",
     "c:foods/fruits/{material}",
-    "c:seeds/{material}"
+    "c:seeds/{material}",
+    "c:flours/{material}"
   ],
   "ignored_tags": [],
   "ignored_items": [

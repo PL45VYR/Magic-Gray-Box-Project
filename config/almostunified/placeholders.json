@@ -41,6 +41,7 @@
     "potassium_nitrate",
     "quartz",
     "ruby",
+    "salt",
     "saltpeter",
     "sapphire",
     "signalum",
@@ -62,6 +63,7 @@
     "lemon",
     "orange",
     "peanut",
-    "rice"
+    "rice",
+    "wheat"
   ]
 }
