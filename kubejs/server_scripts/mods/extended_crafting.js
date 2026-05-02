@@ -1,14 +1,22 @@
 ServerEvents.recipes(event => {
-    // Extended Crafting Shaped Table Conversion
-    /*event.forEachRecipe({ type: "minecraft:crafting_shaped" }, recipe => {
-        let toConvert = JSON.parse(recipe.json.toString())
-        event.custom({
-            "type": "extendedcrafting:shaped_table",
-            "pattern": toConvert.pattern,
-            "key": toConvert.key,
-            "result": toConvert.result
+    // Extended Crafting Shaped Table Conversions
+    let excrafting_only = [
+        "immersiveengineering:crafting/cokebrick",
+        "immersiveengineering:crafting/blastbrick",
+        "railcraft:powered_rolling_machine"
+    ]
+
+    excrafting_only.forEach(recipe_id => {
+        event.forEachRecipe({ type: "minecraft:crafting_shaped", id: recipe_id }, new_recipe => {
+            let old_recipe = JSON.parse(new_recipe.json.toString())
+            event.custom({
+                "type": "extendedcrafting:shaped_table",
+                "pattern": old_recipe.pattern,
+                "key": old_recipe.key,
+                "result": old_recipe.result
+            })
         })
-    })*/
+    })
 
     // Luminessence Recipe
     event.recipes.createMixing(

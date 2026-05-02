@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     // Manual Rolling Machine Tweaks
-    event.replaceInput({ output: "railcaft:manual_rolling_machine" }, 'minecraft:crafting_table', 'minecraft:crafter')
-    event.replaceInput({ output: "railcaft:manual_rolling_machine" }, 'railcraft:bronze_gear', 'create:precision_mechanism')
+    event.replaceInput({ output: "railcraft:manual_rolling_machine" }, 'minecraft:crafting_table', 'minecraft:crafter')
+    event.replaceInput({ output: "railcraft:manual_rolling_machine" }, 'railcraft:bronze_gear', 'create:precision_mechanism')
 
     // Rod Recipes Using Rolling
     let rod_material = [
@@ -50,4 +50,7 @@ ServerEvents.recipes(event => {
         })
         event.remove({ output: rod_name[index], type: "minecraft:crafting_shaped" })
     })
+
+    // Blast Furnace Brick Unification
+    event.replaceInput({ input: "railcraft:blast_furnace_bricks" }, 'railcraft:blast_furnace_bricks', 'immersiveengineering:blastbrick')
 })

@@ -9,6 +9,7 @@ RecipeViewerEvents.removeCategories(event => {
 RecipeViewerEvents.removeEntriesCompletely("item", event => {
     // Item Removal
     // Removed items due to redundancy go here
+    event.remove("railcraft:blast_furnace_bricks")
     event.remove("railcraft:coke_oven_bricks")
     event.remove("railcraft:crusher")
     event.remove("dimpaintings:end_painting")
@@ -66,6 +67,10 @@ ServerEvents.recipes(event => {
 
     // Immersive Engineering
     event.remove({ output: "immersiveengineering:alloybrick" })
+    event.remove({ id: "immersiveengineering:crafting/cokebrick" })
+    event.remove({ id: "immersiveengineering:crafting/blastbrick" })
+    event.remove({ id: "immersiveengineering:crafting/component_iron" })
+    event.remove({ id: "immersiveengineering:crafting/component_steel" })
 
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
