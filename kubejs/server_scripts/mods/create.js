@@ -21,16 +21,16 @@ ServerEvents.recipes(event => {
     event.custom({
         "type": "eidolon_repraised:worktable",
         "pattern": [
-            "rir",
+            "bib",
             "ini",
-            "rir"
+            "bib"
         ],
         "reagents": [
-            "rrrr"
+            "bbbb"
         ],
         "key": {
-            "r": {
-                "tag": "c:rods/iron"
+            "b": {
+                "item": "minecraft:iron_bars"
             },
             "i": {
                 "item": "eidolon_repraised:pewter_inlay"
@@ -50,8 +50,8 @@ ServerEvents.recipes(event => {
         "accept_mirrored": false,
         "category": "misc",
         "key": {
-            "R": {
-                "tag": "c:rods/iron"
+            "B": {
+                "item": "minecraft:iron_bars"
             },
             "I": {
                 "item": "eidolon_repraised:pewter_inlay"
@@ -61,11 +61,11 @@ ServerEvents.recipes(event => {
             }
         },
         "pattern": [
-            "  R  ",
-            " RIR ",
-            "RINIR",
-            " RIR ",
-            "  R  "
+            "  B  ",
+            " BIB ",
+            "BINIB",
+            " BIB ",
+            "  B  "
         ],
         "result": {
             "count": 1,
@@ -75,15 +75,6 @@ ServerEvents.recipes(event => {
     })
 
     // Blaze Burner Recipe
-    event.recipes.create.deploying(
-        'create:blaze_burner',
-        [
-            'create:empty_blaze_burner',
-            'forbidden_arcanus:spawner_scrap'
-        ]
-    )
-
-    // Manual Blaze Burner Recipe
     event.recipes.create.item_application(
         'create:blaze_burner',
         [

@@ -381,13 +381,13 @@
     "curseForgeHash": 979895498,
     "modrinthHash": "7aae849f6d2a6cb1368227407ea5deb552e100ba"
   },
-  "AutochefsDelight-1.21.1-NeoForge-2.0.2.jar": {
-    "jarName": "AutochefsDelight-1.21.1-NeoForge-2.0.2.jar",
+  "AutochefsDelight-1.21.1-NeoForge-2.0.3.jar": {
+    "jarName": "AutochefsDelight-1.21.1-NeoForge-2.0.3.jar",
     "modId": "autochefsdelight",
     "name": "Autochef\u0027s Delight",
-    "version": "2.0.2+neoforge",
-    "curseForgeHash": 2114840199,
-    "modrinthHash": "59dea7d4cae274a2bc09aeedb8f5fb06cb857f64"
+    "version": "2.0.3+neoforge",
+    "curseForgeHash": 3180497942,
+    "modrinthHash": "99e343f95c8600216db00d66e31154ccafa2088e"
   },
   "azurelib-neo-1.21.1-3.1.8.jar": {
     "jarName": "azurelib-neo-1.21.1-3.1.8.jar",
@@ -780,13 +780,13 @@
     "curseForgeHash": 522093599,
     "modrinthHash": "0e97e49837bed766e6f28a4c95b04885d6acc353"
   },
-  "create-central-kitchen-2.3.0.jar": {
-    "jarName": "create-central-kitchen-2.3.0.jar",
+  "create-central-kitchen-2.4.0.jar": {
+    "jarName": "create-central-kitchen-2.4.0.jar",
     "modId": "create_central_kitchen",
     "name": "Create: Central Kitchen",
-    "version": "2.3.0",
-    "curseForgeHash": 207978631,
-    "modrinthHash": "93ec8d7d6a77f3ee8ba1533c81563cdbcc261293"
+    "version": "2.4.0",
+    "curseForgeHash": 2232043766,
+    "modrinthHash": "6a91f304a1e023e8b9b34ccf95f19dd74c3edd55"
   },
   "create-enchantment-industry-2.3.1.jar": {
     "jarName": "create-enchantment-industry-2.3.1.jar",
@@ -956,13 +956,13 @@
     "curseForgeHash": 953768137,
     "modrinthHash": "59a567402d894b46d6abe45831f39dcad5c93342"
   },
-  "dysoncubeproject-1.0.3.jar": {
-    "jarName": "dysoncubeproject-1.0.3.jar",
+  "dysoncubeproject-1.0.4.jar": {
+    "jarName": "dysoncubeproject-1.0.4.jar",
     "modId": "dysoncubeproject",
     "name": "Dyson Cube Project",
-    "version": "1.0.3",
-    "curseForgeHash": 4143927001,
-    "modrinthHash": "b35c63c101ba3e5f68ac043b19bd9f8e9124729e"
+    "version": "1.0.4",
+    "curseForgeHash": 1672802821,
+    "modrinthHash": "f9c7e3c5d49923832883af50509f224e0a83e103"
   },
   "eccentrictome-1.21.1-1.2.0.jar": {
     "jarName": "eccentrictome-1.21.1-1.2.0.jar",
@@ -1140,13 +1140,13 @@
     "curseForgeHash": 706371018,
     "modrinthHash": "fee0be3ffe494189733ceaeb7163a38b03098ea5"
   },
-  "ExtendedAE-1.21-2.2.31-neoforge.jar": {
-    "jarName": "ExtendedAE-1.21-2.2.31-neoforge.jar",
+  "ExtendedAE-1.21-2.2.32-neoforge.jar": {
+    "jarName": "ExtendedAE-1.21-2.2.32-neoforge.jar",
     "modId": "extendedae",
     "name": "ExtendedAE",
-    "version": "1.21-2.2.31-neoforge",
-    "curseForgeHash": 3299462677,
-    "modrinthHash": "8f5f84f922aec09bf77f67f525580aa61935c649"
+    "version": "1.21-2.2.32-neoforge",
+    "curseForgeHash": 103027760,
+    "modrinthHash": "b2bba835132d10dabd8f03dd89c9f3892056dfc6"
   },
   "ExtendedCrafting-1.21.1-7.0.8.jar": {
     "jarName": "ExtendedCrafting-1.21.1-7.0.8.jar",
@@ -1188,13 +1188,13 @@
     "curseForgeHash": 3561052541,
     "modrinthHash": "5cd3c5604e74ab5747df484c8f9c6a0b10138bfb"
   },
-  "FarmersDelight-1.21.1-1.2.11a.jar": {
-    "jarName": "FarmersDelight-1.21.1-1.2.11a.jar",
+  "FarmersDelight-1.21.1-1.3.1.jar": {
+    "jarName": "FarmersDelight-1.21.1-1.3.1.jar",
     "modId": "farmersdelight",
     "name": "Farmer\u0027s Delight",
-    "version": "1.2.11a",
-    "curseForgeHash": 3029575844,
-    "modrinthHash": "a63092cb1e9cd1fb40a9bf1e9a5042d241eddb21"
+    "version": "1.3.1",
+    "curseForgeHash": 4238055937,
+    "modrinthHash": "49477fafca740e7ae348d934b552fb313358e8fe"
   },
   "farmingforblockheads-neoforge-1.21.1-21.1.13.jar": {
     "jarName": "farmingforblockheads-neoforge-1.21.1-21.1.13.jar",
@@ -1332,13 +1332,13 @@
     "curseForgeHash": 1616861111,
     "modrinthHash": "6f4529268dc2cabba50b6d595380eb8c112e4392"
   },
-  "fruitsdelight-1.2.12.jar": {
-    "jarName": "fruitsdelight-1.2.12.jar",
+  "fruitsdelight-1.2.13.jar": {
+    "jarName": "fruitsdelight-1.2.13.jar",
     "modId": "fruitsdelight",
     "name": "Fruits Delight",
-    "version": "1.2.12",
-    "curseForgeHash": 3736839099,
-    "modrinthHash": "d988016317f75331ed385517fad42c2cfd293fce"
+    "version": "1.2.13",
+    "curseForgeHash": 2012021730,
+    "modrinthHash": "80844775990a0bc1f47aed52cc04b8bb579bcbc1"
   },
   "ftb-chunks-neoforge-2101.1.14.jar": {
     "jarName": "ftb-chunks-neoforge-2101.1.14.jar",
@@ -1492,13 +1492,13 @@
     "curseForgeHash": 1296057922,
     "modrinthHash": "0757a0446a401495a114a6cb9853480710caf9b0"
   },
-  "hearthandharvest-1.21.1-1.1.5.jar": {
-    "jarName": "hearthandharvest-1.21.1-1.1.5.jar",
+  "hearthandharvest-1.21.1-1.2.0.jar": {
+    "jarName": "hearthandharvest-1.21.1-1.2.0.jar",
     "modId": "hearthandharvest",
     "name": "Hearth and Harvest",
-    "version": "1.1.5",
-    "curseForgeHash": 2013411985,
-    "modrinthHash": "31f2a15828d645f0147bdda70981a301c152d0eb"
+    "version": "1.2.0",
+    "curseForgeHash": 2631682271,
+    "modrinthHash": "e59b1cd14b82e61bf8cb6f8219411995f8b66b88"
   },
   "hexerei-0.5.0.3.jar": {
     "jarName": "hexerei-0.5.0.3.jar",
@@ -2105,13 +2105,13 @@
     "curseForgeHash": 1604937896,
     "modrinthHash": "f4d535579462dc6436e4896daac4d2dd4ce8e428"
   },
-  "moonlight-1.21-2.29.33-neoforge.jar": {
-    "jarName": "moonlight-1.21-2.29.33-neoforge.jar",
+  "moonlight-neoforge-1.21.1-3.0.0-beta.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.0-beta.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21-2.29.33",
-    "curseForgeHash": 2656288867,
-    "modrinthHash": "24e720753a7abc80f6673cf957c1e74aed52c084"
+    "version": "1.21.1-3.0.0-beta",
+    "curseForgeHash": 1349688139,
+    "modrinthHash": "574c626a0d173c55d3b82bb65e41089ec834eb8c"
   },
   "moreculling-neoforge-1.21.1-1.0.7.jar": {
     "jarName": "moreculling-neoforge-1.21.1-1.0.7.jar",
@@ -2137,13 +2137,13 @@
     "curseForgeHash": 845432825,
     "modrinthHash": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc"
   },
-  "MyNethersDelight-1.21.1-1.9.jar": {
-    "jarName": "MyNethersDelight-1.21.1-1.9.jar",
+  "MyNethersDelight-1.21.1-1.10.1.jar": {
+    "jarName": "MyNethersDelight-1.21.1-1.10.1.jar",
     "modId": "mynethersdelight",
     "name": "My Nether\u0027s Delight",
-    "version": "1.9",
-    "curseForgeHash": 1034159108,
-    "modrinthHash": "146bc38650e09875c678a78014a3ed55d2fd4ca9"
+    "version": "1.10.1",
+    "curseForgeHash": 259043089,
+    "modrinthHash": "33462683a77c758869ea48aaf7d501964df7d860"
   },
   "NaturesCompass-1.21.1-3.4.0-neoforge.jar": {
     "jarName": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
@@ -2233,13 +2233,13 @@
     "curseForgeHash": 1811166438,
     "modrinthHash": "e17417eee213aac8291ff8bad1c6a5f710636b72"
   },
-  "occultism-1.21.1-neoforge-1.214.0.jar": {
-    "jarName": "occultism-1.21.1-neoforge-1.214.0.jar",
+  "occultism-1.21.1-neoforge-1.214.1.jar": {
+    "jarName": "occultism-1.21.1-neoforge-1.214.1.jar",
     "modId": "occultism",
     "name": "Occultism",
-    "version": "1.214.0",
-    "curseForgeHash": 3588640694,
-    "modrinthHash": "d22268a682a5f78a384253c317572b17505b4fa9"
+    "version": "1.214.1",
+    "curseForgeHash": 1599369860,
+    "modrinthHash": "364bdc610dd983a3192dd195e0a70fc63f8bb454"
   },
   "occultism_kubejs-1.21.1-neoforge-1.11.0.jar": {
     "jarName": "occultism_kubejs-1.21.1-neoforge-1.11.0.jar",
@@ -2465,13 +2465,13 @@
     "curseForgeHash": 3206533594,
     "modrinthHash": "b03d05495be28d8cef7a34872941bb8d703d60e6"
   },
-  "relics-1.21.1-0.11.16.jar": {
-    "jarName": "relics-1.21.1-0.11.16.jar",
+  "relics-1.21.1-0.12.0.jar": {
+    "jarName": "relics-1.21.1-0.12.0.jar",
     "modId": "relics",
     "name": "Relics",
-    "version": "0.11.16",
-    "curseForgeHash": 53237912,
-    "modrinthHash": "da5816bdbef3ceeca1146f19a21d17406d661c7a"
+    "version": "0.12.0",
+    "curseForgeHash": 3045300131,
+    "modrinthHash": "9133fc17597843613943da91212cb9d51c3a98c9"
   },
   "reliquary-1.21.1-2.0.68.1417.jar": {
     "jarName": "reliquary-1.21.1-2.0.68.1417.jar",
@@ -2481,13 +2481,13 @@
     "curseForgeHash": 482705428,
     "modrinthHash": "ff915e466aeb01987549525698eb31527665004e"
   },
-  "reliquified_artifacts-1.21.1-1.0.4.jar": {
-    "jarName": "reliquified_artifacts-1.21.1-1.0.4.jar",
+  "reliquified_artifacts-1.21.1-1.0.5.jar": {
+    "jarName": "reliquified_artifacts-1.21.1-1.0.5.jar",
     "modId": "reliquified_artifacts",
     "name": "reliquified_artifacts",
-    "version": "1.0.4",
-    "curseForgeHash": 778020425,
-    "modrinthHash": "5c1717a11d105f33021d805eefd4184a450cfaf5"
+    "version": "1.0.5",
+    "curseForgeHash": 1387215447,
+    "modrinthHash": "7966c58773e7e4e91a619f2d91bcef46cef2b71d"
   },
   "rep_ae2_bridge-1.8.0.0.0-neoforge-1.21.1.jar": {
     "jarName": "rep_ae2_bridge-1.8.0.0.0-neoforge-1.21.1.jar",
@@ -2537,13 +2537,13 @@
     "curseForgeHash": 3887879530,
     "modrinthHash": "5dcc80079095706645d567353095297948a41eea"
   },
-  "rusticdelight-neoforge-1.21-1.5.4.jar": {
-    "jarName": "rusticdelight-neoforge-1.21-1.5.4.jar",
+  "rusticdelight-neoforge-1.21-1.6.0.jar": {
+    "jarName": "rusticdelight-neoforge-1.21-1.6.0.jar",
     "modId": "rusticdelight",
     "name": "Rustic Delight",
-    "version": "1.5.4",
-    "curseForgeHash": 2722181340,
-    "modrinthHash": "49a8a9a47d3dd720959807d45e19b6cd436c6114"
+    "version": "1.6.0",
+    "curseForgeHash": 679813647,
+    "modrinthHash": "eeebc3ecf50afad61f2a5c9b36e498cc3a5fec13"
   },
   "schematicenergistics-1.21.1-1.5.2.jar": {
     "jarName": "schematicenergistics-1.21.1-1.5.2.jar",
@@ -2745,13 +2745,13 @@
     "curseForgeHash": 3414849852,
     "modrinthHash": "84802fbe1645de8caf61ccb07db6cf451e614f68"
   },
-  "supplementaries-1.21-3.5.34-neoforge.jar": {
-    "jarName": "supplementaries-1.21-3.5.34-neoforge.jar",
+  "supplementaries-neoforge-1.21.1-3.6.0.jar": {
+    "jarName": "supplementaries-neoforge-1.21.1-3.6.0.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21-3.5.34",
-    "curseForgeHash": 1920154426,
-    "modrinthHash": "9fa5889f7669d1f5f20e658f96cbf31a17c52171"
+    "version": "1.21.1-3.6.0",
+    "curseForgeHash": 757954838,
+    "modrinthHash": "f958fc8c9c8822aa4eb3c5a0551ac9acce4943a3"
   },
   "suppsquared-1.21-1.2.17-neoforge.jar": {
     "jarName": "suppsquared-1.21-1.2.17-neoforge.jar",
