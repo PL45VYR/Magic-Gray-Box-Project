@@ -71,6 +71,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: "immersiveengineering:crafting/blastbrick" })
     event.remove({ id: "immersiveengineering:crafting/component_iron" })
     event.remove({ id: "immersiveengineering:crafting/component_steel" })
+    event.remove({ id: /immersiveengineering:crafting\/.*hammering/ })
+    event.remove({ output: "#c:plates", type: "railcraft:rolling" })
 
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
