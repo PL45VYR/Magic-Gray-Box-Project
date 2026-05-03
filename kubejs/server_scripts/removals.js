@@ -67,12 +67,16 @@ ServerEvents.recipes(event => {
 
     // Immersive Engineering
     event.remove({ output: "immersiveengineering:alloybrick" })
-    event.remove({ id: "immersiveengineering:crafting/cokebrick" })
-    event.remove({ id: "immersiveengineering:crafting/blastbrick" })
     event.remove({ id: "immersiveengineering:crafting/component_iron" })
     event.remove({ id: "immersiveengineering:crafting/component_steel" })
     event.remove({ id: /immersiveengineering:crafting\/.*hammering/ })
     event.remove({ output: "#c:plates", type: "railcraft:rolling" })
+    event.remove({ id: "immersiveengineering:crafting/steel_scaffolding_standard" })
+    event.remove({ id: "immersiveengineering:crafting/alu_scaffolding_standard" })
+    event.remove({ output: "immersiveengineering:wirecoil_copper" })
+    event.remove({ output: "immersiveengineering:wirecoil_electrum" })
+    event.remove({ output: "immersiveengineering:wirecoil_steel" })
+    event.remove({ output: "immersiveengineering:wirecoil_redstone" })
 
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })

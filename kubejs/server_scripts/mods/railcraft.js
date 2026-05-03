@@ -53,20 +53,6 @@ ServerEvents.recipes(event => {
         event.remove({ output: rod_name[index], type: "minecraft:crafting_shaped" })
     })
 
-    let sheetmetal_name = [
-        'immersiveengineering:sheetmetal_iron',
-        'immersiveengineering:sheetmetal_gold',
-        'immersiveengineering:sheetmetal_copper',
-        'immersiveengineering:sheetmetal_steel',
-        'immersiveengineering:sheetmetal_aluminum',
-        'immersiveengineering:sheetmetal_lead',
-        'immersiveengineering:sheetmetal_silver',
-        'immersiveengineering:sheetmetal_nickel',
-        'immersiveengineering:sheetmetal_constantan',
-        'immersiveengineering:sheetmetal_electrum',
-        'immersiveengineering:sheetmetal_uranium'
-    ]
-
     metal_material.forEach((material, index) => {
         if (material !== "netherite" && material !== "naquadah_alloy") {
             event.custom({

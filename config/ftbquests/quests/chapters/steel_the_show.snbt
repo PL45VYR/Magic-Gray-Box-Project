@@ -51,5 +51,15 @@
 			x: 3.0d
 			y: -1.5d
 		}
+		{
+			id: "16C93943966F32BD"
+			tasks: [{
+				id: "05C23A01ED177908"
+				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
 	]
 }

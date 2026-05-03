@@ -16,6 +16,7 @@ ServerEvents.recipes(event => {
                 "result": old_recipe.result
             })
         })
+        event.remove({ id: recipe_id })
     })
 
     // Luminessence Recipe
