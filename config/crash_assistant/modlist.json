@@ -1516,14 +1516,6 @@
     "curseForgeHash": 494192232,
     "modrinthHash": "4faf3ab27564c11dd710364849e32bdf5da0e0fd"
   },
-  "HopoBetterRuinedPortals-[1.21.1-1.21.3]-1.4.4b.jar": {
-    "jarName": "HopoBetterRuinedPortals-[1.21.1-1.21.3]-1.4.4b.jar",
-    "modId": "hoporp",
-    "name": "HopoBetterRuinedPortals",
-    "version": "1.4.4",
-    "curseForgeHash": 2038439188,
-    "modrinthHash": "52875dc5fd560c99721565bfced9c47dbff9acfa"
-  },
   "HostileNeuralNetworks-1.21.1-6.3.0.jar": {
     "jarName": "HostileNeuralNetworks-1.21.1-6.3.0.jar",
     "modId": "hostilenetworks",

@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.20",
-  "config_datetime": "2026-04-07_20-55-53",
+  "config_version": "2.0.22",
+  "config_datetime": "2026-05-03_17-31-58",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -1119,6 +1119,54 @@
     }
   ],
   "structure_sets": [
+    {
+      "spacing": 90,
+      "separation": 12,
+      "name": "hopo:portal_deepslate",
+      "is_disabled": true,
+      "salt": 5272004,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hopo:portal/overworld/portal_deepslate": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 60,
+      "name": "hopo:portal_dripstone",
+      "is_disabled": true,
+      "salt": 1646207470,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hopo:portal/overworld/portal_dripstone": 1
+      }
+    },
+    {
+      "spacing": 80,
+      "separation": 50,
+      "name": "hopo:portal_lush",
+      "is_disabled": true,
+      "salt": 6457485,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hopo:portal/overworld/portal_lush": 1
+      }
+    },
+    {
+      "spacing": 54,
+      "separation": 23,
+      "name": "hopo:portal_ruined",
+      "is_disabled": true,
+      "salt": 666616666,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "hopo:portal/overworld/portal_ruined": 1
+      }
+    },
     {
       "spacing": 256,
       "separation": 64,
