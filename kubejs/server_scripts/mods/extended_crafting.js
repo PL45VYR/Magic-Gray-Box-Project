@@ -95,4 +95,46 @@ ServerEvents.recipes(event => {
 
     // Basic Crafting Table Recipe
     event.replaceInput({ id: "extendedcrafting:basic_table" }, 'minecraft:iron_block', 'occultism:storage_controller_base')
+
+    // Advanced Component
+    event.shaped('extendedcrafting:advanced_component',
+        [
+            'IS',
+            'LI'
+        ],
+        {
+            'I': 'forbidden_arcanus:deorum_ingot',
+            'S': 'extendedcrafting:black_iron_slate',
+            'L': 'extendedcrafting:luminessence'
+        }
+    )
+
+    // Advanced Catalyst
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "C": {
+                "item": "extendedcrafting:advanced_component"
+            },
+            "I": {
+                "item": "extendedcrafting:black_iron_ingot"
+            }
+        },
+        "pattern": [
+            " C ",
+            "CIC",
+            " C "
+        ],
+        "result": {
+            "count": 1,
+            "id": "extendedcrafting:advanced_catalyst"
+        },
+        "show_notification": false
+    })
+
+    // Advanced Crafting Table
+    event.replaceInput({ id: "extendedcrafting:advanced_table" }, 'minecraft:gold_block', 'forbidden_arcanus:deorum_block')
+
 })
