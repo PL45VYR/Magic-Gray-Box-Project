@@ -55,7 +55,8 @@
   "ignored_tags": [],
   "ignored_items": [
     "oritech:biosteel_ingot",
-    "malum:natural_quartz"
+    "malum:natural_quartz",
+    "immersiveengineering:storage_steel"
   ],
   "ignored_recipe_types": [
     "cucumber:shaped_tag"
