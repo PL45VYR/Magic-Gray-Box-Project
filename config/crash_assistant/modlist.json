@@ -1308,13 +1308,13 @@
     "curseForgeHash": 1559280720,
     "modrinthHash": "1de105be68b88de87a5e6749f320c790d550c120"
   },
-  "ForgeEndertech-1.21.1-12.1.2.0-NeoForge-build.0768.jar": {
-    "jarName": "ForgeEndertech-1.21.1-12.1.2.0-NeoForge-build.0768.jar",
+  "ForgeEndertech-1.21.1-12.1.2.1-NeoForge-build.0821.jar": {
+    "jarName": "ForgeEndertech-1.21.1-12.1.2.1-NeoForge-build.0821.jar",
     "modId": "forgeendertech",
     "name": "ForgeEndertech",
-    "version": "12.1.2.0",
-    "curseForgeHash": 4230129571,
-    "modrinthHash": "41b097d89ff2e52c68be14ca3c2853b9f7cd1eff"
+    "version": "12.1.2.1",
+    "curseForgeHash": 4212790699,
+    "modrinthHash": "eca22f36c17036a1b8217b41b27005b1c9548232"
   },
   "FpsReducer2-neoforge-1.21-2.10.jar": {
     "jarName": "FpsReducer2-neoforge-1.21-2.10.jar",
@@ -2041,13 +2041,13 @@
     "curseForgeHash": 3686721333,
     "modrinthHash": "22c87905f348dc4cbe6ef69d1d877d4e6ebcadee"
   },
-  "midnightlib-neoforge-1.9.2+1.21.1.jar": {
-    "jarName": "midnightlib-neoforge-1.9.2+1.21.1.jar",
+  "midnightlib-neoforge-1.9.3+1.21.1.jar": {
+    "jarName": "midnightlib-neoforge-1.9.3+1.21.1.jar",
     "modId": "midnightlib",
     "name": "MidnightLib",
-    "version": "1.9.2",
-    "curseForgeHash": 1415065729,
-    "modrinthHash": "5a8b19663e5c042cc2755f671d04b789a8b6f9df"
+    "version": "1.9.3",
+    "curseForgeHash": 3840229785,
+    "modrinthHash": "e0c9a1ffc6a53435029a23d9c110c44620595469"
   },
   "mifa-neoforge-1.21.x-2.1.0.jar": {
     "jarName": "mifa-neoforge-1.21.x-2.1.0.jar",
@@ -2105,13 +2105,13 @@
     "curseForgeHash": 1604937896,
     "modrinthHash": "f4d535579462dc6436e4896daac4d2dd4ce8e428"
   },
-  "moonlight-neoforge-1.21.1-3.0.0-beta.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.0-beta.jar",
+  "moonlight-neoforge-1.21.1-3.0.1.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.1.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.0-beta",
-    "curseForgeHash": 1349688139,
-    "modrinthHash": "574c626a0d173c55d3b82bb65e41089ec834eb8c"
+    "version": "1.21.1-3.0.1",
+    "curseForgeHash": 3592588871,
+    "modrinthHash": "cdc598a60969634fe4e3b05f64ae5b6bb8e7ece8"
   },
   "moreculling-neoforge-1.21.1-1.0.7.jar": {
     "jarName": "moreculling-neoforge-1.21.1-1.0.7.jar",
@@ -2137,13 +2137,13 @@
     "curseForgeHash": 845432825,
     "modrinthHash": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc"
   },
-  "MyNethersDelight-1.21.1-1.10.1.jar": {
-    "jarName": "MyNethersDelight-1.21.1-1.10.1.jar",
+  "MyNethersDelight-1.21.1-1.10.2.jar": {
+    "jarName": "MyNethersDelight-1.21.1-1.10.2.jar",
     "modId": "mynethersdelight",
     "name": "My Nether\u0027s Delight",
-    "version": "1.10.1",
-    "curseForgeHash": 259043089,
-    "modrinthHash": "33462683a77c758869ea48aaf7d501964df7d860"
+    "version": "1.10.2",
+    "curseForgeHash": 109262868,
+    "modrinthHash": "d2fb0de59b66a017a1a25f23acdbe6e241b08541"
   },
   "NaturesCompass-1.21.1-3.4.0-neoforge.jar": {
     "jarName": "NaturesCompass-1.21.1-3.4.0-neoforge.jar",
@@ -2625,21 +2625,21 @@
     "curseForgeHash": 3799943056,
     "modrinthHash": "32e9bbe18ae1f2f7f672ce08af51ec1928599182"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.42.1709.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.42.1709.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.43.1729.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.43.1729.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.42",
-    "curseForgeHash": 2866641176,
-    "modrinthHash": "1ca84ebfc548d23ffff733e8f264c1b92d992c10"
+    "version": "3.25.43",
+    "curseForgeHash": 1088706183,
+    "modrinthHash": "d3179cdd2844d15ee15c4d2d50342bf7f8c5cc83"
   },
-  "sophisticatedcore-1.21.1-1.4.33.1808.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.33.1808.jar",
+  "sophisticatedcore-1.21.1-1.4.34.1815.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.34.1815.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.33",
-    "curseForgeHash": 1523938524,
-    "modrinthHash": "d7f68f39193abf557cd27c27507f20deb499b593"
+    "version": "1.4.34",
+    "curseForgeHash": 2107499083,
+    "modrinthHash": "9bffcce7fdd84911a2a207e2e205d665c4126d79"
   },
   "sophisticateditemactions-1.21.1-0.5.2.237.jar": {
     "jarName": "sophisticateditemactions-1.21.1-0.5.2.237.jar",
