@@ -7,14 +7,14 @@
 	icon: {
 		id: "immersiveengineering:ingot_steel"
 	}
-	id: "2D710841102413B4"
-	order_index: 4
+	id: "7CE68FF85A78F3CE"
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4F0F0AB6FA0DA90D"
+			id: "5EAC6493C53D16FA"
 			tasks: [{
-				id: "3D439AFCA1A90B82"
+				id: "516FABA9DD093B95"
 				item: { count: 1, id: "immersiveengineering:cokebrick" }
 				type: "item"
 			}]
@@ -22,9 +22,9 @@
 			y: 0.0d
 		}
 		{
-			id: "005B9EADB7FEEEA6"
+			id: "2BBCBE5B67F5BA88"
 			tasks: [{
-				id: "52B2B77308424226"
+				id: "264072FE1C4838BA"
 				item: { count: 1, id: "immersiveengineering:coal_coke" }
 				type: "item"
 			}]
@@ -32,9 +32,9 @@
 			y: 0.0d
 		}
 		{
-			id: "1801FF323BC1D5A5"
+			id: "7326B86C597D6E14"
 			tasks: [{
-				id: "2F8310E121ABFDE5"
+				id: "47387C733DE1C74F"
 				item: { count: 1, id: "immersiveengineering:blastbrick" }
 				type: "item"
 			}]
@@ -42,9 +42,9 @@
 			y: -1.5d
 		}
 		{
-			id: "7266E5DD9F147AB2"
+			id: "7B2AE6F59BBBF78E"
 			tasks: [{
-				id: "231A72B30368433A"
+				id: "22C9DFA94B102F14"
 				item: { count: 1, id: "oritech:steel_ingot" }
 				type: "item"
 			}]
@@ -52,14 +52,44 @@
 			y: -1.5d
 		}
 		{
-			id: "16C93943966F32BD"
+			id: "6B0959D398632C8E"
 			tasks: [{
-				id: "05C23A01ED177908"
+				id: "472E3F0EF58A1F00"
 				item: { count: 1, id: "extendedcrafting:advanced_table" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			icon: {
+				id: "extendedcrafting:advanced_catalyst"
+			}
+			id: "64B8AA013F852589"
+			tasks: [
+				{
+					id: "2B2AF8820964D95E"
+					item: { count: 1, id: "extendedcrafting:advanced_catalyst" }
+					type: "item"
+				}
+				{
+					id: "2EE77A8A0B499892"
+					item: { count: 1, id: "extendedcrafting:advanced_component" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "71F0286351BBB67E"
+			tasks: [{
+				id: "283F2E43EF66FC6D"
+				item: { count: 1, id: "forbidden_arcanus:deorum_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 }
