@@ -3,7 +3,16 @@ ServerEvents.recipes(event => {
     let excrafting_only = [
         "immersiveengineering:crafting/cokebrick",
         "immersiveengineering:crafting/blastbrick",
-        "railcraft:powered_rolling_machine"
+        "railcraft:powered_rolling_machine",
+        "immersiveengineering:crafting/fluid_pump",
+        "immersiveengineering:crafting/blastfurnace_preheater",
+        "immersiveengineering:crafting/furnace_heater",
+        "immersiveengineering:crafting/dynamo",
+        "immersiveengineering:crafting/thermoelectric_generator",
+        "immersiveengineering:crafting/sample_drill",
+        "immersivepetroleum:seismic_survey_tool",
+        "immersivepetroleum:auto_lubricator",
+        "immersivepetroleum:projector"
     ]
 
     excrafting_only.forEach(recipe_id => {

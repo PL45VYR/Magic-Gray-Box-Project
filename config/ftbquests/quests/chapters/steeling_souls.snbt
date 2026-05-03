@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "steel_the_show"
+	group: ""
+	icon: {
+		id: "immersiveengineering:ingot_steel"
+	}
+	id: "2D710841102413B4"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F0F0AB6FA0DA90D"
+			tasks: [{
+				id: "3D439AFCA1A90B82"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "005B9EADB7FEEEA6"
+			tasks: [{
+				id: "52B2B77308424226"
+				item: { count: 1, id: "immersiveengineering:coal_coke" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "1801FF323BC1D5A5"
+			tasks: [{
+				id: "2F8310E121ABFDE5"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "7266E5DD9F147AB2"
+			tasks: [{
+				id: "231A72B30368433A"
+				item: { count: 1, id: "oritech:steel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "16C93943966F32BD"
+			tasks: [{
+				id: "05C23A01ED177908"
+				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}
