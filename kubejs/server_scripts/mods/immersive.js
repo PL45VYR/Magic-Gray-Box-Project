@@ -129,6 +129,19 @@ ServerEvents.recipes(event => {
     })
 
     // Engineering Block Recipes
+    // Basic Engineering
+    event.recipes.extendedcrafting.shaped_table('immersiveengineering:basic_engineering',
+        [
+            "SCS",
+            "C C",
+            "SCS"
+        ],
+        {
+            "S": '#c:plates/iron',
+            "C": '#immersiveengineering:treated_wood'
+        }
+    )
+
     // Light Engineering
     event.recipes.extendedcrafting.shaped_table('immersiveengineering:light_engineering',
         [

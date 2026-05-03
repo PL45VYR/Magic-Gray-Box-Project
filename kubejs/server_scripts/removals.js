@@ -15,6 +15,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove("dimpaintings:end_painting")
     event.remove(/actuallyadditions:tiny_c.*/)
     event.remove("create:rose_quartz")
+    event.remove("oritech:steel_block")
 })
 
 ServerEvents.recipes(event => {
@@ -77,6 +78,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "immersiveengineering:wirecoil_electrum" })
     event.remove({ output: "immersiveengineering:wirecoil_steel" })
     event.remove({ output: "immersiveengineering:wirecoil_redstone" })
+    event.remove({ output: /immersiveengineering:.*_engineering/ })
 
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
