@@ -138,6 +138,9 @@ LootJS.modifiers(event => {
     // Ars Nouveau
     event.addTableModifier(/.*chests\/.*/).removeLoot(/ars_.*/)
 
+    // Eidolon Repraised
+    event.addTableModifier(/.*catacomb.*/).removeLoot("minecraft:soul_sand")
+
     // Extra Delight
     event.addTableModifier(/.*chests\/.*/).removeLoot(/extradelight:.*/)
 

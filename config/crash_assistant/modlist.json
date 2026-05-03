@@ -517,14 +517,6 @@
     "curseForgeHash": 905028723,
     "modrinthHash": "acd114fabe85bf819087c8fc9a5db6306ffb4b31"
   },
-  "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar": {
-    "jarName": "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.91.jar",
-    "modId": "c2me",
-    "name": "Concurrent Chunk Management Engine",
-    "version": "0.3.0+alpha.0.91+1.21.1",
-    "curseForgeHash": 3458117246,
-    "modrinthHash": "c858c8becfb5205eb12aaf0420eb82c307c2e6a7"
-  },
   "caelus-neoforge-7.0.1+1.21.1.jar": {
     "jarName": "caelus-neoforge-7.0.1+1.21.1.jar",
     "modId": "caelus",
@@ -1259,14 +1251,6 @@
     "version": "9.1.3",
     "curseForgeHash": 1474752946,
     "modrinthHash": "7343b63ded70c0546811c768118d16d3a86418ee"
-  },
-  "Feature-Recycler-neoforge-2.0.0.jar": {
-    "jarName": "Feature-Recycler-neoforge-2.0.0.jar",
-    "modId": "featurerecycler",
-    "name": "Feature Recycler",
-    "version": "2.0.0",
-    "curseForgeHash": 453509189,
-    "modrinthHash": "1c14b70c4e1341d1b92b51da684529644c0ab5cb"
   },
   "ferritecore-7.0.3-neoforge.jar": {
     "jarName": "ferritecore-7.0.3-neoforge.jar",
@@ -2912,14 +2896,6 @@
     "version": "1.3.0+1.21-neoforge",
     "curseForgeHash": 1166863698,
     "modrinthHash": "4fb6e087325c70031fdb7fe6eb5278c5038511dd"
-  },
-  "wwoo-2.3.4.jar": {
-    "jarName": "wwoo-2.3.4.jar",
-    "modId": "wwoo",
-    "name": "William Wythers\u0027 Overhauled Overworld",
-    "version": "2.3.4",
-    "curseForgeHash": 1573873399,
-    "modrinthHash": "1e26a8ea18cf133fffd900dce5c3393ee2f81e6c"
   },
   "xaerominimap-neoforge-1.21.1-25.3.10.jar": {
     "jarName": "xaerominimap-neoforge-1.21.1-25.3.10.jar",
