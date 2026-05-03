@@ -97,6 +97,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "oritech:mixing/compat/create/biosteel" })
     event.remove({ id: "oritech:mixing/compat/create/steel" })
     event.remove({ output: "oritech:raw_silicon" })
+    event.remove({ id: "oritech:centrifuge/carbon"})
 
     // Railcraft Reborn
     event.remove({ id: /railcraft:.*crafted_with_ingots/ })

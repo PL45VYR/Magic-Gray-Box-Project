@@ -129,6 +129,7 @@ ServerEvents.recipes(event => {
     })
 
     // Engineering Block Recipes
+
     // Basic Engineering
     event.recipes.extendedcrafting.shaped_table('immersiveengineering:basic_engineering',
         [
@@ -225,4 +226,9 @@ ServerEvents.recipes(event => {
             "I": 'minecraft:echo_shard'
         }
     )
+
+    // Oil-Graphite Recipe Change
+    event.remove({id: "immersiveengineering:squeezer/graphite_dust"})
+    event.remove({id: "immersiveengineering:arcfurnace/steel"})
+    event.remove({id: /engineeredcompatibility:arcfurnace\/ae2.*/})
 })
