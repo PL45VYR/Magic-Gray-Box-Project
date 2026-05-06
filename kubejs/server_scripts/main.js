@@ -33,4 +33,81 @@ ServerEvents.recipes(event => {
             C: 'minecraft:purple_carpet'
         }
     )
+
+    // Nether Brick Salvaging
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "netherex:lively_nether_bricks"
+            }
+        ],
+        "result": [
+            {
+                "item": {
+                    "count": 4,
+                    "id": "netherex:lively_nether_brick"
+                }
+            }
+        ],
+        "tool": [
+            {
+                "type": "farmersdelight:item_ability",
+                "action": "pickaxe_dig"
+            },
+            {
+                "tag": "minecraft:pickaxes"
+            }
+        ]
+    })
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "netherex:fiery_nether_bricks"
+            }
+        ],
+        "result": [
+            {
+                "item": {
+                    "count": 4,
+                    "id": "netherex:fiery_nether_brick"
+                }
+            }
+        ],
+        "tool": [
+            {
+                "type": "farmersdelight:item_ability",
+                "action": "pickaxe_dig"
+            },
+            {
+                "tag": "minecraft:pickaxes"
+            }
+        ]
+    })
+    event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "netherex:gloomy_nether_bricks"
+            }
+        ],
+        "result": [
+            {
+                "item": {
+                    "count": 4,
+                    "id": "netherex:gloomy_nether_brick"
+                }
+            }
+        ],
+        "tool": [
+            {
+                "type": "farmersdelight:item_ability",
+                "action": "pickaxe_dig"
+            },
+            {
+                "tag": "minecraft:pickaxes"
+            }
+        ]
+    })
 })

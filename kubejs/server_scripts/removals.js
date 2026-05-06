@@ -63,6 +63,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: "forbidden_arcanus:deorum_ingot" })
     event.remove({ id: "forbidden_arcanus:clibano_core" })
     event.remove({ id: "forbidden_arcanus:mundabitur_dust" })
+    event.remove({ output: "forbidden_arcanus:arcane_crystal_dust", type: "minecraft:smelting" })
+    event.remove({ output: "forbidden_arcanus:arcane_crystal_dust", type: "minecraft:blasting" })
 
     // Hexerei
 
