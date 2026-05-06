@@ -2,7 +2,6 @@ ServerEvents.recipes(event => {
     // Extended Crafting Shaped Table Conversions
     let excrafting_only = [
         "immersiveengineering:crafting/cokebrick",
-        "immersiveengineering:crafting/blastbrick",
         "railcraft:powered_rolling_machine",
         "immersiveengineering:crafting/fluid_pump",
         "immersiveengineering:crafting/blastfurnace_preheater",

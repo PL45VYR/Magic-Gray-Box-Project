@@ -79,9 +79,10 @@ ServerEvents.recipes(event => {
     event.remove({ output: "immersiveengineering:wirecoil_steel" })
     event.remove({ output: "immersiveengineering:wirecoil_redstone" })
     event.remove({ output: /immersiveengineering:.*_engineering/ })
-    event.remove({id: "immersiveengineering:squeezer/graphite_dust"})
-    event.remove({id: "immersiveengineering:arcfurnace/steel"})
-    event.remove({id: /engineeredcompatibility:arcfurnace\/ae2.*/})
+    event.remove({ id: "immersiveengineering:squeezer/graphite_dust" })
+    event.remove({ id: "immersiveengineering:arcfurnace/steel" })
+    event.remove({ id: /engineeredcompatibility:arcfurnace\/ae2.*/ })
+    event.remove({ id: "immersiveengineering:crafting/blastbrick" })
 
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
@@ -100,7 +101,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "oritech:mixing/compat/create/biosteel" })
     event.remove({ id: "oritech:mixing/compat/create/steel" })
     event.remove({ output: "oritech:raw_silicon" })
-    event.remove({ id: "oritech:centrifuge/carbon"})
+    event.remove({ id: "oritech:centrifuge/carbon" })
 
     // Railcraft Reborn
     event.remove({ id: /railcraft:.*crafted_with_ingots/ })

@@ -227,4 +227,21 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Blast Brick Recipe Change
+    event.recipes.extendedcrafting.shaped_table("3x immersiveengineering:blastbrick",
+        [
+            "NNN",
+            "NMN",
+            "NNN"
+        ],
+        {
+            "N": {
+                "item": "netherex:fiery_nether_brick"
+            },
+            "M": {
+                "item": "minecraft:magma_block"
+            }
+        }
+    )
+
 })

@@ -93,13 +93,13 @@
     "curseForgeHash": 1551914844,
     "modrinthHash": "5df271ee7c41abe2fa753842b778a4c7ac1290b9"
   },
-  "ae2wtlib-19.4.1.jar": {
-    "jarName": "ae2wtlib-19.4.1.jar",
+  "ae2wtlib-19.5.0.jar": {
+    "jarName": "ae2wtlib-19.5.0.jar",
     "modId": "ae2wtlib",
     "name": "AE2WTLib",
-    "version": "19.4.1",
-    "curseForgeHash": 2471661468,
-    "modrinthHash": "e5ac6b8ec0851d9fb23d92281842f1880f0979b7"
+    "version": "19.5.0",
+    "curseForgeHash": 2534332371,
+    "modrinthHash": "de72e7f4d8d9d29dbe7f8790644b32f6c5b9655f"
   },
   "aeinfinitybooster-neoforge-1.21.1-1.0.0.54.jar": {
     "jarName": "aeinfinitybooster-neoforge-1.21.1-1.0.0.54.jar",
@@ -477,13 +477,13 @@
     "curseForgeHash": 3899825644,
     "modrinthHash": "7e0b120679be73711eac3330dad5ec20f79356f4"
   },
-  "blueprint-1.21.1-8.0.8.jar": {
-    "jarName": "blueprint-1.21.1-8.0.8.jar",
+  "blueprint-1.21.1-8.1.0.jar": {
+    "jarName": "blueprint-1.21.1-8.1.0.jar",
     "modId": "blueprint",
     "name": "Blueprint",
-    "version": "8.0.8",
-    "curseForgeHash": 3994691856,
-    "modrinthHash": "9f9549cecaee3f4cb03d9c829b148a110a0efb54"
+    "version": "8.1.0",
+    "curseForgeHash": 2888697410,
+    "modrinthHash": "980070b8bba4c0ddbeb1c665e48d9d74841ab35a"
   },
   "bookshelf-neoforge-1.21.1-21.1.81.jar": {
     "jarName": "bookshelf-neoforge-1.21.1-21.1.81.jar",
@@ -1668,13 +1668,13 @@
     "curseForgeHash": 1526878118,
     "modrinthHash": "9a40f949ec9794cdef79bdabb61a12a918613194"
   },
-  "irons_apothic-2.1.4.jar": {
-    "jarName": "irons_apothic-2.1.4.jar",
+  "irons_apothic-2.2.0.jar": {
+    "jarName": "irons_apothic-2.2.0.jar",
     "modId": "irons_apothic",
     "name": "Iron\u0027s Apothic",
-    "version": "2.1.4",
-    "curseForgeHash": 3696358326,
-    "modrinthHash": "e3eda9d75af99bcc19a31984463ae2b508ac3621"
+    "version": "2.2.0",
+    "curseForgeHash": 983291138,
+    "modrinthHash": "25292e52346f0cd4f27fe8e820789f6eb6a1c9dd"
   },
   "irons_lib-1.21.1-1.0.2.jar": {
     "jarName": "irons_lib-1.21.1-1.0.2.jar",
@@ -2905,13 +2905,13 @@
     "curseForgeHash": 1166863698,
     "modrinthHash": "4fb6e087325c70031fdb7fe6eb5278c5038511dd"
   },
-  "xaerominimap-neoforge-1.21.1-25.3.12.jar": {
-    "jarName": "xaerominimap-neoforge-1.21.1-25.3.12.jar",
+  "xaerominimap-neoforge-1.21.1-25.3.13.jar": {
+    "jarName": "xaerominimap-neoforge-1.21.1-25.3.13.jar",
     "modId": "xaerominimap",
     "name": "Xaero\u0027s Minimap",
-    "version": "25.3.12",
-    "curseForgeHash": 3817575225,
-    "modrinthHash": "2b59c9adb5d42fe8bd84f633a7b6601b15fc3634"
+    "version": "25.3.13",
+    "curseForgeHash": 1593901604,
+    "modrinthHash": "06cdb37f394bdbebce94c64644ae4bc21bd98959"
   },
   "xaeroworldmap-neoforge-1.21.1-1.40.16.jar": {
     "jarName": "xaeroworldmap-neoforge-1.21.1-1.40.16.jar",

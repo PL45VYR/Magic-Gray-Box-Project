@@ -7,19 +7,19 @@
 	icon: {
 		id: "compactmachines:wall"
 	}
-	id: "0FCAD8B2E7DFAE1F"
-	order_index: 0
+	id: "384E3AF55470E0ED"
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			icon: {
 				id: "compactmachines:wall"
 			}
-			id: "488F39150CD4BAE0"
+			id: "372692992FEC8F47"
 			progression_mode: "flexible"
 			shape: "hexagon"
 			tasks: [{
-				id: "5B4B87D319404863"
+				id: "41DAD79556788666"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -30,10 +30,10 @@
 			icon: {
 				id: "immersiveengineering:warning_sign_attention"
 			}
-			id: "65DB37034A4934D1"
+			id: "5081255BA00381AA"
 			shape: "gear"
 			tasks: [{
-				id: "23F276D913CB40B6"
+				id: "7AFD5A4D294BA6A1"
 				optional_task: true
 				type: "checkmark"
 			}]
@@ -43,9 +43,9 @@
 		{
 			dependencies: ["1105E3834B97B6AC"]
 			hide_details_until_startable: true
-			id: "206971DBCC243B0E"
+			id: "5D2A8D5F16375EE3"
 			tasks: [{
-				id: "38C168E0653FBA58"
+				id: "7BB1CDC18E1634D2"
 				type: "checkmark"
 			}]
 			x: 0.0d

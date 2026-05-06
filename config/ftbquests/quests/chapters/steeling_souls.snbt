@@ -7,7 +7,7 @@
 		id: "oritech:steel_ingot"
 	}
 	id: "501AC7115BF6E39C"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -78,6 +78,16 @@
 				type: "item"
 			}]
 			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "2A56E7FAF88765E9"
+			tasks: [{
+				id: "6DF761327EA91FA8"
+				item: { count: 1, id: "netherex:fiery_nether_brick" }
+				type: "item"
+			}]
+			x: 0.0d
 			y: -1.5d
 		}
 	]
