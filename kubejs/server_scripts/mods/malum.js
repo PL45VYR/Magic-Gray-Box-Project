@@ -45,4 +45,7 @@ ServerEvents.recipes(event => {
             "8x malum:auric_embers"
         ]
     )
+
+    // Runewood Totem Recipe Change
+    event.replaceInput({ output: "malum:runewood_totem_base" }, "malum:hex_ash", "forbidden_arcanus:mundabitur_dust")
 })

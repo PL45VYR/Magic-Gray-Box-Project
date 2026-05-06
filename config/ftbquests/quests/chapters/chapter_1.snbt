@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 350
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: ""
+	icon: {
+		id: "compactmachines:wall"
+	}
+	id: "0FCAD8B2E7DFAE1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "compactmachines:wall"
+			}
+			id: "488F39150CD4BAE0"
+			progression_mode: "flexible"
+			shape: "hexagon"
+			tasks: [{
+				id: "5B4B87D319404863"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["488F39150CD4BAE0"]
+			icon: {
+				id: "immersiveengineering:warning_sign_attention"
+			}
+			id: "65DB37034A4934D1"
+			shape: "gear"
+			tasks: [{
+				id: "23F276D913CB40B6"
+				optional_task: true
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1105E3834B97B6AC"]
+			hide_details_until_startable: true
+			id: "206971DBCC243B0E"
+			tasks: [{
+				id: "38C168E0653FBA58"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

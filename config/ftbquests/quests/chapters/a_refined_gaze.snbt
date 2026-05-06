@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_refined_gaze"
+	group: ""
+	icon: {
+		id: "gaze:adaptive_wheel"
+	}
+	id: "6C6E08E813D598CE"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+}

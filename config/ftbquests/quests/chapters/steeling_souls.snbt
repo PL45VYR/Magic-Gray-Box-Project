@@ -1,0 +1,84 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steeling_souls"
+	group: ""
+	icon: {
+		id: "oritech:steel_ingot"
+	}
+	id: "501AC7115BF6E39C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3BD7A36502D45B57"
+			tasks: [{
+				id: "15E191A32486CC64"
+				item: { count: 1, id: "extendedcrafting:advanced_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "extendedcrafting:advanced_catalyst"
+			}
+			id: "18928F465F3719B6"
+			tasks: [
+				{
+					id: "4D5A02101B9A5297"
+					item: { count: 1, id: "extendedcrafting:advanced_catalyst" }
+					type: "item"
+				}
+				{
+					id: "1710CF8FD3839581"
+					item: { count: 1, id: "extendedcrafting:advanced_component" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "68C602502B7CB050"
+			tasks: [{
+				id: "3F059571502913D5"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "4880582BBEDF16DC"
+			tasks: [{
+				id: "0A1A2C91780598BD"
+				item: { count: 1, id: "immersiveengineering:coal_coke" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6A8D9BE3263D89DA"
+			tasks: [{
+				id: "24D1BC612F942874"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "10B0FD3DFCB34ADE"
+			tasks: [{
+				id: "17D9637EA6C360D0"
+				item: { count: 1, id: "oritech:steel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
+}
