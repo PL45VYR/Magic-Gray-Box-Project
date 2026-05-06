@@ -49,45 +49,45 @@ ServerEvents.recipes(event => {
     // Runewood Totem Recipe Change
     event.replaceInput({ output: "malum:runewood_totem_base" }, "malum:hex_ash", "forbidden_arcanus:mundabitur_dust")
 
-    // Nether Brick Transmutation
+    // Obsidian Transmutation
     event.custom({
         "type": "malum:unchained_transmutation",
             "group": "nether",
                 "input": {
-            "item": "minecraft:nether_bricks"
+            "item": "minecraft:obsidian"
         },
         "result": {
             "count": 1,
-                "id": "netherex:lively_nether_bricks"
+                "id": "netherex:glowing_obsidian"
         }
     })
     event.custom({
         "type": "malum:unchained_transmutation",
             "group": "nether",
                 "input": {
-            "item": "netherex:lively_nether_bricks"
+            "item": "netherex:glowing_obsidian"
         },
         "result": {
             "count": 1,
-                "id": "netherex:fiery_nether_bricks"
+                "id": "minecraft:crying_obsidian"
         }
     })
     event.custom({
         "type": "malum:unchained_transmutation",
             "group": "nether",
                 "input": {
-            "item": "netherex:fiery_nether_bricks"
+            "item": "minecraft:crying_obsidian"
         },
         "result": {
             "count": 1,
-                "id": "netherex:gloomy_nether_bricks"
+                "id": "forbidden_arcanus:darkstone"
         }
     })
     event.custom({
         "type": "malum:unchained_transmutation",
             "group": "nether",
                 "input": {
-            "item": "netherex:gloomy_nether_bricks"
+            "item": "forbidden_arcanus:darkstone"
         },
         "result": {
             "count": 1,

@@ -91,23 +91,13 @@
 			y: -3.0d
 		}
 		{
-			id: "2C97C01FD6B7D2C4"
-			tasks: [{
-				id: "406DC30A9DF7BA95"
-				item: { count: 1, id: "minecraft:nether_bricks" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.5d
-		}
-		{
 			id: "6290F7E3036FFB3B"
 			tasks: [{
 				id: "0AFC9AA27C4D9C37"
 				item: { count: 1, id: "malum:soulwood_totem_base" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -117,7 +107,7 @@
 				item: { count: 1, id: "malum:runewood_totem_base" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -127,7 +117,37 @@
 				item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
 				type: "item"
 			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "27E0766149DA30CE"
+			tasks: [{
+				id: "650B984416B57555"
+				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_1" }
+				type: "item"
+			}]
 			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "33E76ADA90D1249D"
+			tasks: [{
+				id: "538627C414A8459C"
+				item: { count: 1, id: "dimpaintings:nether_painting" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "46179DAC74411551"
+			tasks: [{
+				id: "47AAB055E27DAC89"
+				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_2" }
+				type: "item"
+			}]
+			x: -1.5d
 			y: -1.5d
 		}
 	]
