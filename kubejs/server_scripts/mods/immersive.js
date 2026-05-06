@@ -227,8 +227,4 @@ ServerEvents.recipes(event => {
         }
     )
 
-    // Oil-Graphite Recipe Change
-    event.remove({id: "immersiveengineering:squeezer/graphite_dust"})
-    event.remove({id: "immersiveengineering:arcfurnace/steel"})
-    event.remove({id: /engineeredcompatibility:arcfurnace\/ae2.*/})
 })

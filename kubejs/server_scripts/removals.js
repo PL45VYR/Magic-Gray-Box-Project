@@ -79,6 +79,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: "immersiveengineering:wirecoil_steel" })
     event.remove({ output: "immersiveengineering:wirecoil_redstone" })
     event.remove({ output: /immersiveengineering:.*_engineering/ })
+    event.remove({id: "immersiveengineering:squeezer/graphite_dust"})
+    event.remove({id: "immersiveengineering:arcfurnace/steel"})
+    event.remove({id: /engineeredcompatibility:arcfurnace\/ae2.*/})
 
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
