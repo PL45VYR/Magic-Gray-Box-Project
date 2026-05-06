@@ -2,13 +2,13 @@
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
-	filename: "enter_modularity"
+	filename: "gaze_into_the_refinery"
 	group: ""
 	icon: {
-		id: "modularrouters:speed_upgrade"
+		id: "gaze:adaptive_wheel"
 	}
-	id: "523773BCE6332715"
-	order_index: 10
+	id: "2581F53FEF75721A"
+	order_index: 8
 	quest_links: [ ]
 	quests: [ ]
 }
