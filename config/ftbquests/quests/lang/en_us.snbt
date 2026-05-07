@@ -1,11 +1,11 @@
 {
 	chapter.082534B546FCB12F.title: "Industrial Artistry"
 	chapter.0960486528B903A8.title: "Originally Compact"
-	chapter.0FCAD8B2E7DFAE1F.title: "Introduction"
 	chapter.1105E3834B97B6AC.title: "An Occult Em-brass"
 	chapter.1F131913C4CA8086.title: "Domination Approaches"
 	chapter.249F33A73BF94DD4.title: "Ultimate Creations"
 	chapter.34B62BFAC9ED7A18.title: "New Frontiers"
+	chapter.384E3AF55470E0ED.title: "Introduction"
 	chapter.501AC7115BF6E39C.title: "Steeling Souls"
 	chapter.51D8917162E0C863.title: "Crude Alchemy"
 	chapter.523773BCE6332715.title: "Enter Modularity"
@@ -85,12 +85,14 @@
 		""
 		"Another benefit of alchemy comes from ore processing: you can triple your output!"
 	]
+	quest.27E0766149DA30CE.title: "Tier 1 Forge"
 	quest.2864E9109E77E701.quest_desc: [
 		"Pewter is a basic alloy composed mostly of lead and tin. Find a way to make these materials into a dust!"
 		""
 		"From here, you'll notice that you can't make any sort of ingot out of it. This will require some alchemical processing. Get ready to have some fun!"
 	]
 	quest.2A325823A1018E2B.quest_desc: ["Luminessence draws from Lumisene's glow, enhancing it with the conductivity of redstone and reactivity of gunpowder. There are a few uses for this strange material, so you may want a bit of it in reserve."]
+	quest.2BF233F471AB3CBF.title: "Improved Blast Furnace"
 	quest.2DFE612F5FF30D0F.quest_desc: ["Spirit Infusion gives you the ability to mass-infuse stones into more magical versions, but they don't feel fully pure. Their uses must extend beyond a simple building material, surely?"]
 	quest.2DFE612F5FF30D0F.title: "Spirit Stones"
 	quest.2F721511198B7207.quest_desc: [
@@ -126,6 +128,7 @@
 	quest.3E3F317CF8D5095A.quest_desc: ["Four elements begin to take shape inside your Source Gems during imbuement discoveries: air, earth, fire, and water. They manifest as essences, which give you more insight on how those magical glyphs might be recorded."]
 	quest.3E3F317CF8D5095A.title: "Elemental Essences"
 	quest.457730397AC3EFF8.quest_desc: ["Common Ink is a result of mixing Arcane Essence with a common salvage material inside water. Fill a glass bottle if you want to use it for any spell crafting endeavors!"]
+	quest.46179DAC74411551.title: "Tier 2 Forge"
 	quest.477DFE78CC262604.quest_desc: [
 		"Someone once made a mistake in trying to reform some Andesite, believing they were told to use pewter instead of niter."
 		""
@@ -170,7 +173,9 @@
 		""
 		"This material, understood to normally come from more evil places, can be generated alchemically with the help of spirit focusing, as can Glowstone!"
 	]
+	quest.5D9CA1923AFE93F5.title: "Industrial Fermenter"
 	quest.5ECBA464F300C4BE.quest_desc: ["Crushing up some Obsidian nets you a gritty powder that has a variety of uses. There may be a use for it when you acquire some more chalk."]
+	quest.5FA364F006FCB3E3.title: "Refinery"
 	quest.5FCA3184CF970B11.quest_desc: ["You've likely come across some fascinating gems from combat and looting. Pulverizing them gives you ideas on how to make use of some random salvage..."]
 	quest.6061E76AA58C67FF.quest_desc: ["Dyeing the book lets you understand what spirit you must call upon. You realize that some sacrifices must be made to bring this spirit to your world, so you craft bowls out of your otherworldly stone and grab a few candles."]
 	quest.6061E76AA58C67FF.title: "Foliot Precursors"

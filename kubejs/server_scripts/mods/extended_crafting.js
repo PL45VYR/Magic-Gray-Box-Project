@@ -99,12 +99,12 @@ ServerEvents.recipes(event => {
     event.shaped('extendedcrafting:advanced_component',
         [
             'IS',
-            'LI'
+            'AI'
         ],
         {
             'I': 'forbidden_arcanus:deorum_ingot',
             'S': 'extendedcrafting:black_iron_slate',
-            'L': 'extendedcrafting:luminessence'
+            'A': 'immersiveengineering:component_electronic_adv'
         }
     )
 

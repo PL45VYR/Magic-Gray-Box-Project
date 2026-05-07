@@ -114,6 +114,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "railcraft:blast_furnace_bricks" })
     event.remove({ output: "railcraft:coke_oven_bricks" })
     event.remove({ output: "railcraft:crusher" })
+    event.remove({ id: "railcraft:rolling/rebar_steel" })
 
     // Theurgy
     event.remove({ output: "theurgy:pyromantic_brazier" })
