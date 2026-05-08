@@ -127,6 +127,7 @@
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "0B9641FA7AECF558"
 					item: { count: 1, id: "eidolon_repraised:stone_hand" }
 					type: "item"
@@ -246,6 +247,9 @@
 		}
 		{
 			dependencies: ["51D8917162E0C863"]
+			icon: {
+				id: "ars_nouveau:purple_archwood_sapling"
+			}
 			id: "67BB576CAAC503EC"
 			shape: "hexagon"
 			tasks: [{

@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "replication" })
 
     // Stargate Journey
-    event.remove({ mod: "sgjourney" })
+    event.remove({ mod: "sgjourney", not: { output: "sgjourney:fire_pit" } })
 
     // Dyson Cube Project
     event.remove({ mod: "dysoncubeproject" })
