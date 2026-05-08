@@ -16,6 +16,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove(/actuallyadditions:tiny_c.*/)
     event.remove("create:rose_quartz")
     event.remove("oritech:steel_block")
+    event.remove("railcraft:bushing_gear")
 })
 
 ServerEvents.recipes(event => {
@@ -47,6 +48,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "eidolon_repraised:worktable" })
 
     // Ender IO
+    event.remove({ id: "enderio:iron_gear" })
 
     // Extended Crafting
     event.remove({ id: "extendedcrafting:black_iron_ingot" })
@@ -54,6 +56,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:luminessence" })
     event.remove({ id: "extendedcrafting:basic_component" })
     event.remove({ id: "extendedcrafting:basic_catalyst" })
+    event.remove({ id: "extendedcrafting:advanced_component" })
+    event.remove({ id: "extendedcrafting:advanced_catalyst" })
+
 
     // Farming for Blockheads
     event.remove({ output: /ars_nouveau:.*/, type: "farmingforblockheads:market" })
@@ -86,6 +91,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: /engineeredcompatibility:arcfurnace\/ae2.*/ })
     event.remove({ id: "immersiveengineering:crafting/blastbrick" })
 
+    // Industrial Foregoing
+    event.remove({ mod: "industrialforegoing", output: "#c:gears" })
+
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
 
@@ -115,6 +123,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: "railcraft:coke_oven_bricks" })
     event.remove({ output: "railcraft:crusher" })
     event.remove({ id: "railcraft:rolling/rebar_steel" })
+    event.remove({ id: /railcraft:.*/, output: "#c:gears" })
+    event.remove({ output: "railcraft:bushing_gear" })
 
     // Theurgy
     event.remove({ output: "theurgy:pyromantic_brazier" })

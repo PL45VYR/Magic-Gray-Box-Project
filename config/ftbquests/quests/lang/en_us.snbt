@@ -13,7 +13,19 @@
 	chapter.7CE68FF85A78F3CE.title: "Steeling Souls"
 	chapter.7F315A8A0704B687.title: "Introduction"
 	file.0000000000000001.title: "Magic Gray Box Project"
+	quest.012F940EC62968B0.quest_desc: [
+		"As your engineering endeavors continue, you realize you need to improve your infrastructure significantly."
+		""
+		"Precision Mechanisms are a very useful item for enabling these improvements, and have a variety of applications within Create and RailCraft."
+	]
+	quest.0489B325535E51C7.quest_desc: [
+		"Edelwood is a darkened wood type made from Growing Edelwood. You can only get it by right-clicking a Corrupted Soul on an Oak Sapling. Edelwood itself has a number of uses, one of them being as a key resource for upgrading your Hephaestus Forge."
+		""
+		"Not sure how to find souls? Enchant a tool with Soul Looting and fight some enemy mobs. You'll have a chance of spawning a soul for each that you kill."
+	]
+	quest.0489B325535E51C7.title: "Edelwood"
 	quest.04DA9AD9BFB95C1C.quest_desc: ["Imbuement Chambers draw energy from the world to transform the item inside of it into something more magical. What could you discover from this?"]
+	quest.0531552073A644EE.quest_desc: ["Rolling Machines are the most reliable way to bend and shape your metals into construction-viable building materials. This includes rods, sheetmetal, and coils, which you'll certainly need to make a lot of going forward."]
 	quest.0594441E0AB8F228.quest_desc: ["The heavy weight of obsidian, combined with a variety of other dark yet eccentric materials, can enchant White Chalk into Purple Chalk, capable of binding spirits to various items to enhance them with otherworldly power."]
 	quest.05DEE6A13589D014.quest_desc: ["Salvaging Tables are used to easily turn gems into dust, but will also recycle armor and tools into their base materials. If these tools have peculiar names, there may be something else useful to salvage from them."]
 	quest.06B6CE6A813EE15E.quest_desc: ["Brewing up some Soul Shards with minerals such as Redstone and Quartz (find some in a geode down in the caves!) will allow them to coalesce as a Lesser Soul Gem."]
@@ -37,6 +49,11 @@
 	]
 	quest.0EAC1D3DD4041EA6.title: "Alchemy Prep"
 	quest.0F830CA4F664ADAF.quest_desc: ["Using brass as a casing material gives you a more versatile block to tweak for enhanced machines in future crafts."]
+	quest.10B0FD3DFCB34ADE.quest_desc: [
+		"Now that you have your Blast Furnace ready, supply some iron and coal coke into it to begin producing steel! You'll be needing a lot of it, so consider setting up other passive automations while your steel is being processed."
+		""
+		"Bear in mind that this process is rather slow, but consumes Iron Ingots and Coal Coke at a rate of 1-to-1 to produce a single Steel Ingot."
+	]
 	quest.136140C6D0246D99.quest_desc: ["Items that have a common rarity will drop scrap metal when salvaged. This can be used for creating new items with special effects, but is equally relevant to magic."]
 	quest.1575B4620DE8EFD5.quest_desc: ["Crushing up some gold into dust gives you a foundation for a new type of chalk. However, you may need more than just one pile of it."]
 	quest.166E83C318214F30.quest_desc: [
@@ -44,8 +61,13 @@
 		""
 		"...but with the help of a Third Eye, you realize that you can interact with a tree from that otherworldly realm. Once that eye closed, everything went back to normal."
 	]
+	quest.17290FD4C5E324E8.quest_desc: ["Totem magic has the power to perform magical automations by carving spirits into Runewood Logs. Every primary spirit type has a unique set of totem rites that they can run, from breaking blocks to speeding up animal growth."]
 	quest.18950277D37C89F1.quest_desc: ["Mechanical Presses will flatten most things placed beneath them. This is a great way to make sheets from metals such as iron or gold!"]
-	quest.1B392C3A63390581.quest_desc: ["Magebloom is a plant that grows from a magical seed, with fibers that can be woven into very useful armor."]
+	quest.1B392C3A63390581.quest_desc: [
+		"Magebloom is a plant that grows from a magical seed, with fibers that can be woven into very useful armor."
+		""
+		"Craft the seed and get your hands on as much fiber as you can!"
+	]
 	quest.1B446A6EEC8D89A5.quest_desc: [
 		"Magic Gray Box Project plays into the idea of \"gray box where the magic happens\", a phenomenon surrounding tech mods whose machine GUI compactly performs automation. This pack attempts to construct a progression that enables players to make such ambitious technological advancements with a bit more effort."
 		""
@@ -113,13 +135,43 @@
 		""
 		"Feel free to reach out if you're interested!"
 	]
+	quest.251F35A9BB62EB5A.quest_desc: [
+		"Hephaestus Forge rituals sometimes, but not always, need experience to operate."
+		""
+		"Bottles of Enchanting are a simple way to go at this point in the game. There are a few ways to automate their production that you may consider trying out!"
+		""
+		"A niche thing you can do as well is to give the ritual an enchanted item. The item's enchants will be stripped from it, and the experience will go into the forge."
+		""
+		"The most powerful source of experience comes from Xpetrified Orbs. These are not yet available to you, but once you create your first Black Hole, this will change..."
+	]
+	quest.251F35A9BB62EB5A.title: "Input: Experience"
+	quest.27E0766149DA30CE.quest_desc: [
+		"Once you've built the ritual grounds, the final use of Mundabitur Dust on the Smithing Table will create your Tier 1 Forge!"
+		""
+		"There are many great use cases for this forge, but some extra preparations will be necessary. Get your hands on some Darkstone Pedestals so you can supply item ingredients to the ritual!"
+	]
 	quest.27E0766149DA30CE.title: "Tier 1 Forge"
+	quest.2846407B73AC0432.quest_desc: [
+		"Hephaestus Forge rituals always need souls to operate."
+		""
+		"Enchant your weapon with Soul Looting to spawn a few while you're out fighting mobs."
+		""
+		"If you come across an Enchanted Soul, it will provide 10x the soul supply for the forge!"
+		""
+		"If you've gotten your hands on a Soul Extractor, you can remove the soul from a block of Soul Sand to get yourself a Soul and some Soulless Sand."
+	]
+	quest.2846407B73AC0432.title: "Input: Souls"
 	quest.2864E9109E77E701.quest_desc: [
 		"Pewter is a basic alloy composed mostly of lead and tin. Find a way to make these materials into a dust!"
 		""
 		"From here, you'll notice that you can't make any sort of ingot out of it. This will require some alchemical processing. Get ready to have some fun!"
 	]
 	quest.2A325823A1018E2B.quest_desc: ["Luminessence draws from Lumisene's glow, enhancing it with the conductivity of redstone and reactivity of gunpowder. There are a few uses for this strange material, so you may want a bit of it in reserve."]
+	quest.2BF233F471AB3CBF.quest_desc: [
+		"Reinforced Blast Brick serves as the foundation for an Improved Blast Furnace, which can properly receive inputs and outputs for automation purposes."
+		""
+		"You can even add two preheaters to the sides of the furnace to triple its production rate!"
+	]
 	quest.2BF233F471AB3CBF.title: "Improved Blast Furnace"
 	quest.2DFE612F5FF30D0F.quest_desc: ["Spirit Infusion gives you the ability to mass-infuse stones into more magical versions, but they don't feel fully pure. Their uses must extend beyond a simple building material, surely?"]
 	quest.2DFE612F5FF30D0F.title: "Spirit Stones"
@@ -133,6 +185,14 @@
 		""
 		"The transformed resin can also be extracted from the trees to create a sticky substance that can function similarly to materials such as slime."
 	]
+	quest.316FD8F81322D15E.quest_desc: [
+		"Hephaestus Forge rituals always need aureal to operate."
+		""
+		"A slow but simple approach is to place Arcane Crystal Obelisks around the forge for a passive generation of aureal. These are constructed with 2 Arcane Crystal Blocks placed on top of Arcane Polished Darkstone, with some Mundabitur Dust used as a catalyst to form the obelisk. After that, you can move the obelisk around however you like!"
+		""
+		"A fast but complex approach is to automate Aureal Bottles, which can be inserted into an Utrem Jar near the forge. This bottle will cost a significant amount of Arcane Crystal Dust to use, so I'd suggest revisiting this approach when you automate mining!"
+	]
+	quest.316FD8F81322D15E.title: "Input: Aureal"
 	quest.318416735C94A6BB.quest_desc: [
 		"Another use for Magebloom is with the use of Runic Chalk. This chalk can be used for creating temporary runes on its own."
 		""
@@ -143,26 +203,66 @@
 		""
 		"We suggest finding a hot block to put underneath the cauldron. It may help you soon."
 	]
+	quest.3233C22F89FC48DE.quest_desc: [
+		"Advanced Electronic Components are important when building smart and more efficient technology. By wiring up some Vacuum Tubes on a Duroplast Sheet, you can have much more control over the technology you augment with this component."
+		""
+		"This item must be crafted in an Engineer's Workbench using the Crafting Components blueprint."
+	]
 	quest.3324CAAAB1255466.quest_desc: ["Mixing redstone in a heated basin melts it into a form that can coat a quartz gem. This allows you to acquire Rose Quartz, a material often polished for redstone-oriented uses."]
 	quest.3386B580FBE8BBD2.quest_desc: [
 		"Mechanical Mixers let you mix things together more easily than in a cauldron. From shapeless crafts to newly-brewed potions, there are many ways to make use of this new technology."
 		""
 		"Might it offer a way to create better rates on pewter? We're inclined to believe so."
 	]
+	quest.33E76ADA90D1249D.quest_desc: [
+		"Portals don't appear to be useful to you... at least, not ones you construct by hand. Instead, you consider envisioning the place you wish to travel before going to it."
+		""
+		"By drawing from the fluid embedded in Crying Obsidian, stabilizing it with Dark Matter, and completing its formation on a Painting using Mundabitur Dust, the painting begins to show a vision of a fiery underworld."
+		""
+		"Placing it on the wall and jumping into it sends you to this place, where you decide to roam around in it for a while..."
+	]
+	quest.3466F4A80D63A8CA.quest_desc: [
+		"Hephaestus Forge rituals always need blood to operate."
+		""
+		"Blood can be collected in a Test Tube by placing it in your off-hand and letting it fill up as you damage and kill mobs. The more damage you do, the faster the tube will fill."
+		""
+		"Alternatively, killing mobs on the ritual grounds will automatically supply blood to the forge."
+	]
+	quest.3466F4A80D63A8CA.title: "Input: Blood"
 	quest.34E241519F633549.quest_desc: ["Spirit Crucibles allow you to generate novel materials with the help of spirit focusing. However, they seem to want a target for this."]
 	quest.369BB25919E26B8B.quest_desc: ["Using the alluring power of gold and augmenting it with Ether, you are able to enchant your White Chalk into Yellow Chalk, which enables the ability to use your rituals for spirit possession."]
 	quest.37D20317A737C7BC.quest_desc: ["Basic Components are made by laying iron across a Black Iron Slate and coating it in Luminessence. With the help of mechanical crafting, four of these can combined into a more powerful Basic Catalyst."]
 	quest.3BD68D5031E943B8.quest_desc: ["Black Iron Slates are crafting components made by flattening a Block of Black Iron. You'll certainly want a lot of black iron, given how quickly the cost adds up!"]
 	quest.3E3F317CF8D5095A.quest_desc: ["Four elements begin to take shape inside your Source Gems during imbuement discoveries: air, earth, fire, and water. They manifest as essences, which give you more insight on how those magical glyphs might be recorded."]
 	quest.3E3F317CF8D5095A.title: "Elemental Essences"
-	quest.457730397AC3EFF8.quest_desc: ["Common Ink is a result of mixing Arcane Essence with a common salvage material inside water. Fill a glass bottle if you want to use it for any spell crafting endeavors!"]
+	quest.44AB4F133C5EEB52.quest_desc: [
+		"An ingot from the gods, Deorum Ingots are a magically-empowered metal, whose uses are deeply entwined with the forbidden and the arcane."
+		""
+		"The magic of this metal may empower you with the ability to cross realms in the near future. Let's work towards that, shall we?"
+	]
+	quest.457730397AC3EFF8.quest_desc: [
+		"Common Ink is a result of mixing Arcane Essence with a common salvage material inside water. Fill a glass bottle if you want to use it for any spell crafting endeavors!"
+		""
+		"You may have a surplus of Common Ink after you've gone out to explore the world for a while."
+	]
+	quest.46179DAC74411551.quest_desc: [
+		"It's time to upgrade your forge!"
+		""
+		"Supply every required essence, add ingredient items to the pedestals, and strike the forge with your gavel to start the ritual."
+		""
+		"DO NOT INTERRUPT THE RITUAL! You risk losing your inputs."
+	]
 	quest.46179DAC74411551.title: "Tier 2 Forge"
 	quest.477DFE78CC262604.quest_desc: [
 		"Someone once made a mistake in trying to reform some Andesite, believing they were told to use pewter instead of niter."
 		""
 		"This mistake resulted in the first instance of Andesite Alloy, a powerful construction material that can enable a variety of automation processes. It looks versatile, but feels expensive to make. Perhaps there is a simpler way to produce it..."
 	]
-	quest.482172CAC298BD49.quest_desc: ["You begin to feel otherworldly spirits call out to you, whispering words that inspire you to conduct a larger-scale ritual. You purify more items within the Spirit Fire you previously lit, combining some of them into a book that can hold the name of a spirit within it."]
+	quest.482172CAC298BD49.quest_desc: [
+		"You begin to feel otherworldly spirits call out to you, whispering words that inspire you to conduct a larger-scale ritual. You purify more items within the Spirit Fire you previously lit, combining some of them into a book that can hold the name of a spirit within it."
+		""
+		"Note: For ease of understanding, we'll use Otherstone-based materials for quests. Otherrock is an opposite aesthetic to Otherstone, but is equally functional otherwise."
+	]
 	quest.482172CAC298BD49.title: "Otherworld Materials"
 	quest.488F39150CD4BAE0.quest_desc: [
 		"Magic Gray Box Project plays into the idea of \"gray box where the magic happens\", a phenomenon surrounding tech mods whose machine GUI compactly performs automation. This pack attempts to construct a progression that enables players to make such ambitious technological advancements with a bit more effort."
@@ -201,8 +301,27 @@
 		""
 		"This material, understood to normally come from more evil places, can be generated alchemically with the help of spirit focusing, as can Glowstone!"
 	]
+	quest.5BF9ADAA56F1E9D4.quest_desc: ["Mundabitur Dust is a potent transmutator item. Some of the ingredients needed to craft this material require a soul-touched mob drop..."]
+	quest.5D9CA1923AFE93F5.quest_desc: [
+		"Industrial Fermenters will process a variety of crops and foods into Ethanol. The input item used for fermenting will determine how much Ethanol you'll get."
+		""
+		"Balance out production rates with processing times to get the most consistent output for this key resource!"
+	]
 	quest.5D9CA1923AFE93F5.title: "Industrial Fermenter"
 	quest.5ECBA464F300C4BE.quest_desc: ["Crushing up some Obsidian nets you a gritty powder that has a variety of uses. There may be a use for it when you acquire some more chalk."]
+	quest.5F80808E154DE3CA.quest_desc: [
+		"Blacksmith Gavels are required to start any ritual. When the forge has every input item and essence ready, right-clicking the Hephaestus Forge with a gavel will begin the ritual."
+		""
+		"These gavels are not limited to rituals, however, They're pretty reasonable pickaxes that will double all ores that they mine!"
+	]
+	quest.5F80808E154DE3CA.title: "Blacksmith Gavel"
+	quest.5FA364F006FCB3E3.quest_desc: [
+		"Refineries are used in, well, refining fluids. If you're looking to improve your power supply, refining Ethanol and Seed Oil will produce Biodiesel, a burnable fuel source capable of powering large generators."
+		""
+		"For progression relevance, you'll need to refine your Ethanol into Acetaldehyde, which you can later combine with Creosote Oil to produce Phenolic Resin."
+		""
+		"Find a way to make this resin into a makeshift plastic. We'll need it for some advanced engineering very soon."
+	]
 	quest.5FA364F006FCB3E3.title: "Refinery"
 	quest.5FCA3184CF970B11.quest_desc: ["You've likely come across some fascinating gems from combat and looting. Pulverizing them gives you ideas on how to make use of some random salvage..."]
 	quest.6061E76AA58C67FF.quest_desc: ["Dyeing the book lets you understand what spirit you must call upon. You realize that some sacrifices must be made to bring this spirit to your world, so you craft bowls out of your otherworldly stone and grab a few candles."]
@@ -211,6 +330,11 @@
 		"The Scribe's Table is your tool for recording and learning new glyphs. With the help of some Magic Ink, you begin to find items around you that relate to the glyphs you see."
 		""
 		"Bring them to the Scribe's Table and expand your knowledge!"
+	]
+	quest.6290F7E3036FFB3B.quest_desc: [
+		"By stacking 5 Runewood Logs atop a Runewood Totem Pole and carving Arcane Spirits into the logs, you initiate an unstable totem rite that blights the world around it."
+		""
+		"You can channel this blight into creating Soulwood, a blighted version of Runewood that has its own set of totem rites."
 	]
 	quest.65DB37034A4934D1.quest_desc: [
 		"One important thing to note with this modpack is that it is NOT COMPLETE."
@@ -260,9 +384,26 @@
 		""
 		"You decide that it would be useful to grow some of those magical trees yourself, as they seem to have a more pure yet powerful form of magic waiting to be understood."
 	]
-	quest.67BB576CAAC503EC.title: "Archwood"
+	quest.67BB576CAAC503EC.title: "Archwood Sapling"
+	quest.68C602502B7CB050.quest_desc: [
+		"Coke Ovens are your primary source of Coal Coke, a form of carbon required in the production of steel."
+		""
+		"Alongside Coal Coke (or Charcoal, if you want to make that without needing fuel), Coke Ovens will produce Creosote Oil as a byproduct, which is used in creating Treated Wood."
+	]
+	quest.68C602502B7CB050.title: "Coke Oven"
+	quest.6A8D9BE3263D89DA.quest_desc: [
+		"Blast Furnaces are used in the production of steel, a more durable metal made from adding carbon to iron."
+		""
+		"The Blast Brick used in this multiblock requires Fiery Nether Bricks, a brick smelted from Fiery Netherrack. Find this material in the Torrid Wastelands biome in the Nether."
+	]
+	quest.6A8D9BE3263D89DA.title: "Blast Furnace"
 	quest.6B68A3958891AE50.quest_desc: ["Arcane Pedestals are used to enhance Imbuement Chambers to create even more powerful and versatile materials. Place them within a very short range of the chamber and add items to them!"]
 	quest.6C86EFCE60467A4C.quest_desc: ["You first put the Blaze to use by heating up your mixer, which allows you to construct a Kiln Brick, which you realize might be the perfect environment for alloying metals."]
+	quest.6C9D35CE47BBF721.quest_desc: [
+		"Crying Obsidian is acquired from the Unchained Rite. By placing Obsidian atop Blighted Earth near the rite grounds (a flat 5x5 area in front of the carved side of the totem), it will slowly transmute into Crying Obsidian, then Crushed Obsidian, and finally Darkstone, before blighting entirely."
+		""
+		"Be sure to pick up the Crying Obsidian before it transmutes!"
+	]
 	quest.6D1F7A4CDF1D4A4D.quest_desc: [
 		"Demon's Dream Seeds can be found hidden within grass, which can then be grown into a strange fruit. Eating it affects your vision in a bizarre way that feels like opening a Third Eye."
 		""
@@ -275,6 +416,14 @@
 		""
 		"Firstly, you need a place to store them. Perhaps a Novice Spell Book may be the most effective way to handle this."
 	]
+	quest.71DDB61957E1BD47.quest_desc: [
+		"The Hephaestus Forge operates on a more capable ritual ground that what the occult can normally achieve. However, it only operates on a specific multiblock layout."
+		""
+		"Use the Ponder scene for the forge to see how to build it!"
+		""
+		"Note: The Ponder scene claims that the forge need 45 Polished Darkstone. This is incorrect, as it needs a total of 48 instead."
+	]
+	quest.71DDB61957E1BD47.title: "Forge Foundations"
 	quest.72DEF0A26C9C70C2.quest_desc: ["Crucibles are a brewing base used for more complex and sequenced crafts. While witches tend to be the best at overseeing them, you'll benefit from using one yourself."]
 	quest.72FB981E202AF28B.quest_desc: ["You feel a compulsion to sanctify your gold. Its purity may offer a better way to handle spirit magic, or perhaps lead you into another realm of magical capabilities."]
 	quest.74A49A878CDDA8C4.quest_desc: ["Many machines are easily built with nothing more than Andesite Casing. Just encase a stripped log with some Andesite Alloy and you can start tinkering with the casing!"]
@@ -290,14 +439,21 @@
 	]
 	quest.7BD08BABA5551D05.title: "Reformation Array"
 	quest.7D827138C62A8B93.quest_desc: ["Within your newly-constructed Alloy Kiln, you combine some copper and zinc to make brass, a powerful alloy that will enhance your technological capabilties even further."]
-	task.04B9397CFB36A90D.title: "Book of Binding: Foliot"
-	task.22101273B5DE3A59.title: "Golden Ritual Bowl (Any)"
-	task.224BFCCAEA96C675.title: "Sacrificial Bowl (Any)"
+	task.0666076C429EB744.title: "Book of Binding: Foliot (Bound)"
+	task.078C55A438A926F1.title: "Otherstone/Otherrock"
+	task.09E7163769E99136.title: "Build an Obelisk!"
+	task.0A01CFBBAD0C30A1.title: "Any: Sacrificial Bowl"
+	task.1C133FC20AE4F2CB.title: "Any: Archwood Sapling"
 	task.23F276D913CB40B6.title: "Understood."
+	task.27F1CDF4BEC17797.title: "Build a Fermenter!"
+	task.27F322430A2A8F46.title: "Upgrade the forge!"
+	task.2AA5FFA49DA871F4.title: "Any: Soul"
+	task.2BBA831F34B5C4EF.title: "Any: Golden Ritual Bowl"
 	task.38C168E0653FBA58.title: "Sneak Peek?"
-	task.3C0021072DB2D4AF.title: "Any Spirit Stone"
-	task.47E52252B10420F9.title: "Candle (Any)"
+	task.453F704ACAC3F333.title: "Build a Refinery!"
+	task.4BDC67AFA8C05E85.title: "Any: Candle"
+	task.5A16DEEC36F1A740.title: "Create the Hephaestus Forge!"
 	task.5B4B87D319404863.title: "I'm ready!"
-	task.5DA2F210F502CCEE.title: "Otherstone or Otherrock"
-	task.61C8C0A597F6263B.title: "Any Archwood Sapling"
+	task.5B57EAAD1CCBED05.title: "Build an Improved Blast Furnace!"
+	task.6AE575058E6055ED.title: "Any: Blacksmith Gavel"
 }

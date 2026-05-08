@@ -58,17 +58,6 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "count": 1,
-                "id": "netherex:glowing_obsidian"
-        }
-    })
-    event.custom({
-        "type": "malum:unchained_transmutation",
-            "group": "nether",
-                "input": {
-            "item": "netherex:glowing_obsidian"
-        },
-        "result": {
-            "count": 1,
                 "id": "minecraft:crying_obsidian"
         }
     })
@@ -77,6 +66,17 @@ ServerEvents.recipes(event => {
             "group": "nether",
                 "input": {
             "item": "minecraft:crying_obsidian"
+        },
+        "result": {
+            "count": 1,
+                "id": "railcraft:crushed_obsidian"
+        }
+    })
+    event.custom({
+        "type": "malum:unchained_transmutation",
+            "group": "nether",
+                "input": {
+            "item": "railcraft:crushed_obsidian"
         },
         "result": {
             "count": 1,

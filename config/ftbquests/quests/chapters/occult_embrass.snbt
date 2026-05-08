@@ -161,16 +161,23 @@
 		}
 		{
 			dependencies: ["082534B546FCB12F"]
+			icon: {
+				id: "malum:tainted_rock"
+			}
 			id: "2DFE612F5FF30D0F"
 			shape: "hexagon"
-			tasks: [{
-				icon: {
-					id: "malum:twisted_rock"
+			tasks: [
+				{
+					id: "03F3EA67C87F5F7E"
+					item: { count: 1, id: "malum:tainted_rock" }
+					type: "item"
 				}
-				id: "3C0021072DB2D4AF"
-				item: { components: { "ftbfiltersystem:filter": "or(item(malum:tainted_rock)item(malum:twisted_rock))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
+				{
+					id: "554EF59C14D23A2C"
+					item: { count: 1, id: "malum:twisted_rock" }
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: 3.0d
 		}
@@ -185,10 +192,7 @@
 			id: "482172CAC298BD49"
 			tasks: [
 				{
-					icon: {
-						id: "occultism:otherstone"
-					}
-					id: "5DA2F210F502CCEE"
+					id: "078C55A438A926F1"
 					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:otherstone)item(occultism:otherrock))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
@@ -283,15 +287,12 @@
 					type: "item"
 				}
 				{
-					id: "04B9397CFB36A90D"
-					item: { components: { "occultism:spirit_name": "Bresirvyrn" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
+					id: "0666076C429EB744"
+					item: { components: { "occultism:spirit_name": "Zorklirth" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
 					type: "item"
 				}
 				{
-					icon: {
-						id: "occultism:golden_sacrificial_bowl"
-					}
-					id: "22101273B5DE3A59"
+					id: "2BBA831F34B5C4EF"
 					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:golden_sacrificial_bowl)item(occultism:dark_golden_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
@@ -402,19 +403,13 @@
 					type: "item"
 				}
 				{
-					icon: {
-						id: "occultism:sacrificial_bowl"
-					}
-					id: "224BFCCAEA96C675"
-					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:sacrificial_bowl)item(occultism:dark_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "4BDC67AFA8C05E85"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(minecraft:candles))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					icon: {
-						id: "minecraft:candle"
-					}
-					id: "47E52252B10420F9"
-					item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "0A01CFBBAD0C30A1"
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:sacrificial_bowl)item(occultism:dark_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
