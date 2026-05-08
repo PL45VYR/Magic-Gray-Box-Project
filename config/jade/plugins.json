@@ -113,6 +113,9 @@
     "advanced_auto_table": true,
     "compressor": true
   },
+  "enderio": {
+    "soul_bound": true
+  },
   "mekanism": {
     "chemical": true,
     "remove_builtin": true,
@@ -198,11 +201,6 @@
   },
   "ars_nouveau": {
     "mob_jar": true
-  },
-  "nautec": {
-    "aquatic_catalyst": true,
-    "laser_junction": true,
-    "mixer": true
   },
   "jadeaddons": {
     "equipment_requirement": ""

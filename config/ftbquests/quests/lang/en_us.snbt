@@ -5,13 +5,13 @@
 	chapter.1F131913C4CA8086.title: "Domination Approaches"
 	chapter.249F33A73BF94DD4.title: "Ultimate Creations"
 	chapter.34B62BFAC9ED7A18.title: "New Frontiers"
-	chapter.384E3AF55470E0ED.title: "Introduction"
 	chapter.501AC7115BF6E39C.title: "Steeling Souls"
 	chapter.51D8917162E0C863.title: "Crude Alchemy"
 	chapter.523773BCE6332715.title: "Enter Modularity"
 	chapter.6C6E08E813D598CE.title: "A Refined Gaze"
 	chapter.7853DDECCDBDC44A.title: "Foregone Power"
 	chapter.7CE68FF85A78F3CE.title: "Steeling Souls"
+	chapter.7F315A8A0704B687.title: "Introduction"
 	file.0000000000000001.title: "Magic Gray Box Project"
 	quest.04DA9AD9BFB95C1C.quest_desc: ["Imbuement Chambers draw energy from the world to transform the item inside of it into something more magical. What could you discover from this?"]
 	quest.0594441E0AB8F228.quest_desc: ["The heavy weight of obsidian, combined with a variety of other dark yet eccentric materials, can enchant White Chalk into Purple Chalk, capable of binding spirits to various items to enhance them with otherworldly power."]
@@ -46,6 +46,12 @@
 	]
 	quest.18950277D37C89F1.quest_desc: ["Mechanical Presses will flatten most things placed beneath them. This is a great way to make sheets from metals such as iron or gold!"]
 	quest.1B392C3A63390581.quest_desc: ["Magebloom is a plant that grows from a magical seed, with fibers that can be woven into very useful armor."]
+	quest.1B446A6EEC8D89A5.quest_desc: [
+		"Magic Gray Box Project plays into the idea of \"gray box where the magic happens\", a phenomenon surrounding tech mods whose machine GUI compactly performs automation. This pack attempts to construct a progression that enables players to make such ambitious technological advancements with a bit more effort."
+		""
+		"There are a number of things you need to do to push onward. Firstly, consider playing the game out normally. Go explore! Get some iron! Setting yourself up for success sooner ensures you'll feel comfortable later."
+	]
+	quest.1B446A6EEC8D89A5.title: "Welcome to MGBP!"
 	quest.1DB5FC44276D6EDC.quest_desc: ["As you begin to travel the world, you realize the tools of creation available to you. Technological advancements of all sorts lie ahead, but your indulgence in some magic should not be abandoned."]
 	quest.1EF964471B640AE3.quest_desc: ["Glow Berries are a food source distinctly found in Lush Caves. Mixing a bundle of them together using a Mechanical Mixer will allow you to create Lumisene, a fluid with a glimmering appearance."]
 	quest.203DDD360241C4A8.quest_desc: [
@@ -84,6 +90,28 @@
 		"Incubating your pewter-based alchemical sulfur will net you its ingot form! Many more magic endeavors lie ahead for you."
 		""
 		"Another benefit of alchemy comes from ore processing: you can triple your output!"
+	]
+	quest.2461DB16636B9DFC.quest_desc: [
+		"One important thing to note with this modpack is that it is NOT COMPLETE."
+		""
+		"Many untouched features that are currently unchanged may receive changes later."
+		""
+		"Some of the features that are not usable are either:"
+		""
+		"a) Unwanted for my design philosophy"
+		"b) Still pending proper implementation into the pack's progression"
+		""
+		"This pack is available now rather than at a much later date so that I can set up a good foundation early, address progression issues quickly, and receive feedback frequently."
+		""
+		"All issues should be reported to the modpack's GitHub page. I set it up later than desired but I plan to improve it continuously."
+		"{@pagebreak}"
+		"Feedback is also welcome! I already have a roadmap (privately maintained via Trello)  for planned features, but I'm always open to new ones."
+		""
+		"If you want to support development with completely unique or custom mechanics, please let me know! I'd love to have more hands on the project."
+		""
+		"Other things I'd be happy to incorporate from other players include quest art/flavor/writing, progression rewards, custom recipes, custom datapacks, and custom item/block textures."
+		""
+		"Feel free to reach out if you're interested!"
 	]
 	quest.27E0766149DA30CE.title: "Tier 1 Forge"
 	quest.2864E9109E77E701.quest_desc: [
@@ -210,6 +238,23 @@
 	quest.65DB37034A4934D1.title: "Important Note"
 	quest.668DE2BE460505E4.quest_desc: ["Placing Refined Soulstone into a scythe allows you to harvest the spirits of the enemies you slay, but only with this tool. There must be something you can do with these spirits."]
 	quest.66D8C5BA8732ADA2.quest_desc: ["Illwood is a wood type that only grows in Dark Forests. Gather some saplings, there may be a use for them if you've engaged with spirits..."]
+	quest.66E4A0255676A919.quest_desc: [
+		"If you're curious to know where this project is going, here are some major things I want to accomplish:"
+		""
+		"- Actual gating of Occultism progression (a modpack first?)"
+		"- Custom Apotheosis world tier progression"
+		"- Stargate Journey dimensions as home bases for Cataclysm bosses"
+		"- Reworked EndRemastered progression"
+		"- Leverage of Gateways to Eternity for progression points"
+		"- Automation of Compact Crafting"
+		"- Significantly upscaled boss fights that complement Apotheosis progression points"
+		"- Custom implementations of WIP features in some mods"
+		"- Large ore deposits in distinct locations"
+		"- Higher relevance for Singularities"
+		"- Ore processing lines with insanely high yield to make earlier Singularities feasible"
+		""
+		"Congrats if you made it this far! Don't hesitate to leave feedback, I want to make sure my intended audience (whoever that may be) enjoys this project as much as I do."
+	]
 	quest.67BB576CAAC503EC.quest_desc: [
 		"With a bit of support in your travels, you come across a very colorful forest inhabited by magical creatures."
 		""

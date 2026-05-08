@@ -1,13 +1,9 @@
 {
 	default_hide_dependency_lines: false
-	default_min_width: 350
 	default_quest_shape: ""
-	filename: "chapter_1"
+	filename: "introduction"
 	group: ""
-	icon: {
-		id: "compactmachines:wall"
-	}
-	id: "0FCAD8B2E7DFAE1F"
+	id: "7F315A8A0704B687"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -15,37 +11,38 @@
 			icon: {
 				id: "compactmachines:wall"
 			}
-			id: "488F39150CD4BAE0"
-			progression_mode: "flexible"
+			id: "1B446A6EEC8D89A5"
 			shape: "hexagon"
 			tasks: [{
-				id: "5B4B87D319404863"
+				id: "60D2176DC57F60AA"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["488F39150CD4BAE0"]
+			dependencies: ["1B446A6EEC8D89A5"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: {
 				id: "immersiveengineering:warning_sign_attention"
 			}
-			id: "65DB37034A4934D1"
+			id: "2461DB16636B9DFC"
 			shape: "gear"
 			tasks: [{
-				id: "23F276D913CB40B6"
-				optional_task: true
+				id: "2D69BBE4CAFAA96C"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["1105E3834B97B6AC"]
-			hide_details_until_startable: true
-			id: "206971DBCC243B0E"
+			icon: {
+				id: "actuallyadditions:engineers_goggles"
+			}
+			id: "66E4A0255676A919"
 			tasks: [{
-				id: "38C168E0653FBA58"
+				id: "6DF23FCF7F1F408B"
 				type: "checkmark"
 			}]
 			x: 0.0d
