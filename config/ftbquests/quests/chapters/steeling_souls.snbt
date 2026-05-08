@@ -64,8 +64,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -4.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["33E76ADA90D1249D"]
@@ -79,8 +79,8 @@
 				item: { count: 1, id: "immersiveengineering:blastbrick" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -93,8 +93,8 @@
 				item: { count: 1, id: "oritech:steel_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["17290FD4C5E324E8"]
@@ -104,8 +104,8 @@
 				item: { count: 1, id: "malum:soulwood_totem_base" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5BF9ADAA56F1E9D4"]
@@ -115,8 +115,8 @@
 				item: { count: 1, id: "malum:runewood_totem_base" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1105E3834B97B6AC"]
@@ -127,8 +127,8 @@
 				item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["71DDB61957E1BD47"]
@@ -154,8 +154,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -168,8 +168,8 @@
 				item: { count: 1, id: "dimpaintings:nether_painting" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -191,8 +191,8 @@
 				to_observe: "forbidden_arcanus:hephaestus_forge_tier_2"
 				type: "observation"
 			}]
-			x: -3.0d
-			y: -4.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6290F7E3036FFB3B"]
@@ -202,8 +202,8 @@
 				item: { count: 1, id: "minecraft:crying_obsidian" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5BF9ADAA56F1E9D4"]
@@ -213,8 +213,8 @@
 				item: { count: 1, id: "forbidden_arcanus:deorum_ingot" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5FA364F006FCB3E3"]
@@ -252,7 +252,7 @@
 		{
 			dependencies: [
 				"10B0FD3DFCB34ADE"
-				"0531552073A644EE"
+				"430A31B1C16C0D67"
 			]
 			icon: {
 				id: "immersiveengineering:fermenter"
@@ -280,7 +280,7 @@
 				id: "5B57EAAD1CCBED05"
 				type: "advancement"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -292,7 +292,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1105E3834B97B6AC"]
@@ -304,7 +304,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1105E3834B97B6AC"]
@@ -318,8 +318,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(forbidden_arcanus:soul)item(forbidden_arcanus:corrupt_soul)item(forbidden_arcanus:enchanted_soul))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.5d
+			x: -6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1105E3834B97B6AC"]
@@ -330,8 +330,8 @@
 				item: { count: 1, id: "minecraft:experience_bottle" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1105E3834B97B6AC"]
@@ -342,8 +342,8 @@
 				item: { count: 1, id: "forbidden_arcanus:test_tube" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1105E3834B97B6AC"]
@@ -357,8 +357,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forbidden_arcanus:blacksmith_gavel)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["44AB4F133C5EEB52"]
@@ -391,8 +391,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 0.0d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["27E0766149DA30CE"]
@@ -412,8 +412,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -3.0d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1105E3834B97B6AC"]
@@ -440,8 +440,41 @@
 					type: "observation"
 				}
 			]
-			x: -4.5d
-			y: -6.0d
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7B32D8598CF89F0A"]
+			icon: {
+				id: "immersiveengineering:wirecoil_electrum"
+			}
+			id: "430A31B1C16C0D67"
+			tasks: [
+				{
+					id: "0626E47B873E71DF"
+					item: { count: 1, id: "immersiveengineering:wirecoil_electrum" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "69489FA82D617B41"
+					item: { count: 1, id: "immersiveengineering:connector_mv" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0531552073A644EE"]
+			id: "7B32D8598CF89F0A"
+			tasks: [{
+				id: "55D726C584D1F30C"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 }

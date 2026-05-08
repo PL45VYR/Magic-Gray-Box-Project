@@ -62,6 +62,11 @@
 		"...but with the help of a Third Eye, you realize that you can interact with a tree from that otherworldly realm. Once that eye closed, everything went back to normal."
 	]
 	quest.17290FD4C5E324E8.quest_desc: ["Totem magic has the power to perform magical automations by carving spirits into Runewood Logs. Every primary spirit type has a unique set of totem rites that they can run, from breaking blocks to speeding up animal growth."]
+	quest.18928F465F3719B6.quest_desc: [
+		"This next tier of crafting optimizes the capabilities of your Advanced Electronic Components and puts them to greater use."
+		""
+		"Find a way to fuse these electronics with the arcane power of Deorum."
+	]
 	quest.18950277D37C89F1.quest_desc: ["Mechanical Presses will flatten most things placed beneath them. This is a great way to make sheets from metals such as iron or gold!"]
 	quest.1B392C3A63390581.quest_desc: [
 		"Magebloom is a plant that grows from a magical seed, with fibers that can be woven into very useful armor."
@@ -233,8 +238,20 @@
 	quest.369BB25919E26B8B.quest_desc: ["Using the alluring power of gold and augmenting it with Ether, you are able to enchant your White Chalk into Yellow Chalk, which enables the ability to use your rituals for spirit possession."]
 	quest.37D20317A737C7BC.quest_desc: ["Basic Components are made by laying iron across a Black Iron Slate and coating it in Luminessence. With the help of mechanical crafting, four of these can combined into a more powerful Basic Catalyst."]
 	quest.3BD68D5031E943B8.quest_desc: ["Black Iron Slates are crafting components made by flattening a Block of Black Iron. You'll certainly want a lot of black iron, given how quickly the cost adds up!"]
+	quest.3BD7A36502D45B57.quest_desc: [
+		"Finally, bring everything together to acquire your next tier of crafting!"
+		""
+		"The fun has only just begun."
+	]
 	quest.3E3F317CF8D5095A.quest_desc: ["Four elements begin to take shape inside your Source Gems during imbuement discoveries: air, earth, fire, and water. They manifest as essences, which give you more insight on how those magical glyphs might be recorded."]
 	quest.3E3F317CF8D5095A.title: "Elemental Essences"
+	quest.430A31B1C16C0D67.quest_desc: [
+		"Once you're able to get a power supply running, you need to send that power to your machines. This is where wiring comes into play."
+		""
+		"To make a connection, right-click two distinct connectors with a wire coil of the same voltage (LV, MV, HV). If you need to split off connections, use that voltage's respective relays."
+		""
+		"Now you can send power to whatever machines you please."
+	]
 	quest.44AB4F133C5EEB52.quest_desc: [
 		"An ingot from the gods, Deorum Ingots are a magically-empowered metal, whose uses are deeply entwined with the forbidden and the arcane."
 		""
@@ -430,6 +447,11 @@
 	quest.777BD223A35E7233.quest_desc: ["The Magic Workbench enables you to craft a variety of magical items. Some of these items will reveal more hidden secrets within the Overworld or enable you to gain more knowledge of it."]
 	quest.7A322E5A606919C5.quest_desc: ["Braziers made from pewter give you the ability to conduct simple rituals. One such ritual will allow you to slay nearby undead creatures to acquire Soul Shards, a primary ingredient for various magical crafts."]
 	quest.7A9D786A5C88E36E.quest_desc: ["Placing Water Wheels near flowing water helps them spin. Use this spinning to make some machines to some work for you!"]
+	quest.7B32D8598CF89F0A.quest_desc: [
+		"Part of your industrial machinery development requires a power generator. The best one you can currently get is the Thermoelectric Generator, a greater difference in block temperature will result in a greater power output."
+		""
+		"To achieve this, a cold block (snow, packed ice, blue ice) next to the generator and place a hot block (magma block, block of uranium) on the opposite side of the cold block."
+	]
 	quest.7BD08BABA5551D05.quest_desc: [
 		"Now for the fun part of alchemy: reformation. While exciting at first glance, it requires a bit of setup to get going."
 		""
