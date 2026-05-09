@@ -9,5 +9,37 @@
 	id: "6C6E08E813D598CE"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "0CA2235A662DAD0B"
+			shape: "rsquare"
+			tasks: [{
+				id: "68EDB05C0ACD8F8B"
+				item: { count: 1, id: "extendedcrafting:elite_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "extendedcrafting:elite_catalyst"
+			}
+			id: "73629B28897D556D"
+			tasks: [
+				{
+					id: "42AE9F35E2749A18"
+					item: { count: 1, id: "extendedcrafting:elite_catalyst" }
+					type: "item"
+				}
+				{
+					id: "5DB222223A0020F6"
+					item: { count: 1, id: "extendedcrafting:elite_component" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
 }

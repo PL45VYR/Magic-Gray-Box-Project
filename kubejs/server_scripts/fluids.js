@@ -37,6 +37,7 @@ ServerEvents.recipes(event => {
         ],
         "time": 1
     })
+    event.remove({ id: "immersivepetroleum:distillationtower/oil" })
     event.remove(/immersivepetroleum:crude.*/)
 
     // Gasoline Refinery
