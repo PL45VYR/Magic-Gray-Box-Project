@@ -964,13 +964,13 @@
     "curseForgeHash": 1683802829,
     "modrinthHash": "9344ab666080747af9f5d8de0644e5815ca15866"
   },
-  "eidolon_repraised-1.21.1-0.5.0.1.jar": {
-    "jarName": "eidolon_repraised-1.21.1-0.5.0.1.jar",
+  "eidolon_repraised-1.21.1-0.5.0.2.jar": {
+    "jarName": "eidolon_repraised-1.21.1-0.5.0.2.jar",
     "modId": "eidolon_repraised",
     "name": "Eidolon:Repraised",
-    "version": "0.5.0.1",
-    "curseForgeHash": 2856654829,
-    "modrinthHash": "64afe162bcddc78d6ac9ecc1fb5b2e576d209f65"
+    "version": "0.5.0.2",
+    "curseForgeHash": 2591360885,
+    "modrinthHash": "1f05ffd2f9fa672dc2ecff3c32de092cdbcde989"
   },
   "elytraslot-neoforge-9.0.2+1.21.1.jar": {
     "jarName": "elytraslot-neoforge-9.0.2+1.21.1.jar",
@@ -1028,13 +1028,13 @@
     "curseForgeHash": 53663144,
     "modrinthHash": "e4fa515c5deab3165f250f2a1297ac836d496064"
   },
-  "enderio-8.2.8-beta.jar": {
-    "jarName": "enderio-8.2.8-beta.jar",
+  "enderio-8.2.9-beta.jar": {
+    "jarName": "enderio-8.2.9-beta.jar",
     "modId": "enderio",
     "name": "Ender IO",
-    "version": "8.2.8-beta",
-    "curseForgeHash": 859338627,
-    "modrinthHash": "cd701b8f1254ac87e6743b0414518d32247f25ff"
+    "version": "8.2.9-beta",
+    "curseForgeHash": 3967605106,
+    "modrinthHash": "67d07c7613ee885f7467fbf73ea9a38bfd435062"
   },
   "endermanoverhaul-neoforge-1.21.1-2.0.3.jar": {
     "jarName": "endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
@@ -1316,13 +1316,13 @@
     "curseForgeHash": 1616861111,
     "modrinthHash": "6f4529268dc2cabba50b6d595380eb8c112e4392"
   },
-  "fruitsdelight-1.2.13.jar": {
-    "jarName": "fruitsdelight-1.2.13.jar",
+  "fruitsdelight-1.2.14.jar": {
+    "jarName": "fruitsdelight-1.2.14.jar",
     "modId": "fruitsdelight",
     "name": "Fruits Delight",
-    "version": "1.2.13",
-    "curseForgeHash": 2012021730,
-    "modrinthHash": "80844775990a0bc1f47aed52cc04b8bb579bcbc1"
+    "version": "1.2.14",
+    "curseForgeHash": 1998713974,
+    "modrinthHash": "04a62e52e359542d6eaeed3b9229b708115e10d2"
   },
   "ftb-chunks-neoforge-2101.1.14.jar": {
     "jarName": "ftb-chunks-neoforge-2101.1.14.jar",
@@ -1331,6 +1331,14 @@
     "version": "2101.1.14",
     "curseForgeHash": 3964500010,
     "modrinthHash": "908b63b11d0e00ae6c9557d3fe6440bdbcf21bb7"
+  },
+  "ftb-essentials-neoforge-2101.1.9.jar": {
+    "jarName": "ftb-essentials-neoforge-2101.1.9.jar",
+    "modId": "ftbessentials",
+    "name": "FTB Essentials",
+    "version": "2101.1.9",
+    "curseForgeHash": 2942477040,
+    "modrinthHash": "7d6f274b38d767215549ec066246390c49ac7ad8"
   },
   "ftb-filter-system-neoforge-21.1.4.jar": {
     "jarName": "ftb-filter-system-neoforge-21.1.4.jar",
@@ -2097,13 +2105,13 @@
     "curseForgeHash": 1604937896,
     "modrinthHash": "f4d535579462dc6436e4896daac4d2dd4ce8e428"
   },
-  "moonlight-neoforge-1.21.1-3.0.6.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.6.jar",
+  "moonlight-neoforge-1.21.1-3.0.7.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.7.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.6",
-    "curseForgeHash": 352124756,
-    "modrinthHash": "90cc54fdd859465a7ff44bff7486ca0f057a5ff4"
+    "version": "1.21.1-3.0.7",
+    "curseForgeHash": 3090681879,
+    "modrinthHash": "d2a8f9b2a7ddd7dc72cc880a4b2aaaacda72c42c"
   },
   "moreculling-neoforge-1.21.1-1.0.7.jar": {
     "jarName": "moreculling-neoforge-1.21.1-1.0.7.jar",
@@ -2201,13 +2209,13 @@
     "curseForgeHash": 3012964192,
     "modrinthHash": "e0c36cd85d3d31cc2afb1bfc6b885f505245252f"
   },
-  "not_enough_glyphs-1.21.1-4.3.2.jar": {
-    "jarName": "not_enough_glyphs-1.21.1-4.3.2.jar",
+  "not_enough_glyphs-1.21.1-4.4.0.jar": {
+    "jarName": "not_enough_glyphs-1.21.1-4.4.0.jar",
     "modId": "not_enough_glyphs",
     "name": "Not Enough Glyphs",
-    "version": "4.3.2",
-    "curseForgeHash": 3060951911,
-    "modrinthHash": "31ab835bc3d75c711ceab56fd044706a0a921fb6"
+    "version": "4.4.0",
+    "curseForgeHash": 4006777900,
+    "modrinthHash": "ab184795e98b8d2eb35d0135d87ce44bd2000111"
   },
   "notenoughcrashes-neoforge-4.4.9+1.21.1.jar": {
     "jarName": "notenoughcrashes-neoforge-4.4.9+1.21.1.jar",
@@ -2457,13 +2465,13 @@
     "curseForgeHash": 3206533594,
     "modrinthHash": "b03d05495be28d8cef7a34872941bb8d703d60e6"
   },
-  "relics-1.21.1-0.12.2.jar": {
-    "jarName": "relics-1.21.1-0.12.2.jar",
+  "relics-1.21.1-0.12.3.jar": {
+    "jarName": "relics-1.21.1-0.12.3.jar",
     "modId": "relics",
     "name": "Relics",
-    "version": "0.12.2",
-    "curseForgeHash": 140257719,
-    "modrinthHash": "d27c20588acf89ac4d6df79ccfcea8734ca39339"
+    "version": "0.12.3",
+    "curseForgeHash": 3310468548,
+    "modrinthHash": "73ccc1fcdac5b9c7d3022f775f85bce7d8619cd6"
   },
   "reliquary-1.21.1-2.0.70.1464.jar": {
     "jarName": "reliquary-1.21.1-2.0.70.1464.jar",
@@ -2473,13 +2481,13 @@
     "curseForgeHash": 4088110696,
     "modrinthHash": "f054199945c4b4af14424f03a66cfdad687ee7c0"
   },
-  "reliquified_artifacts-1.21.1-1.0.5.jar": {
-    "jarName": "reliquified_artifacts-1.21.1-1.0.5.jar",
+  "reliquified_artifacts-1.21.1-1.0.6.jar": {
+    "jarName": "reliquified_artifacts-1.21.1-1.0.6.jar",
     "modId": "reliquified_artifacts",
     "name": "reliquified_artifacts",
-    "version": "1.0.5",
-    "curseForgeHash": 1387215447,
-    "modrinthHash": "7966c58773e7e4e91a619f2d91bcef46cef2b71d"
+    "version": "1.0.6",
+    "curseForgeHash": 3412082950,
+    "modrinthHash": "1ee17757629cdcf48289a1744dff10030d7cc33e"
   },
   "rep_ae2_bridge-1.8.0.0.0-neoforge-1.21.1.jar": {
     "jarName": "rep_ae2_bridge-1.8.0.0.0-neoforge-1.21.1.jar",

@@ -19,6 +19,7 @@
 			id: "0EAC1D3DD4041EA6"
 			tasks: [
 				{
+					count: 4L
 					id: "0B038460B4B1CFF0"
 					item: { count: 1, id: "theurgy:pyromantic_brazier" }
 					type: "item"
@@ -39,8 +40,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -1.5d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			id: "31D531A8C48CEE32"
@@ -50,19 +51,22 @@
 				item: { count: 1, id: "hexerei:mixing_cauldron" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["31D531A8C48CEE32"]
+			dependencies: [
+				"31D531A8C48CEE32"
+				"267502764735DD9C"
+			]
 			id: "5506AE4B8F39A387"
 			tasks: [{
 				id: "6A0FCBB78005DEE4"
 				item: { count: 1, id: "hexerei:pestle_and_mortar" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5506AE4B8F39A387"]
@@ -72,15 +76,15 @@
 				item: { count: 1, id: "eidolon_repraised:pewter_blend" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2864E9109E77E701"]
 			icon: {
 				id: "theurgy:sal_ammoniac_accumulator"
 			}
 			id: "5271FF3BE99AB631"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "574FE6339D27F59A"
@@ -98,19 +102,22 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 0.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["4A1BF2244EDAF607"]
+			dependencies: [
+				"4A1BF2244EDAF607"
+				"2864E9109E77E701"
+			]
 			id: "245294110711B4ED"
 			tasks: [{
 				id: "7490603AF2381B81"
 				item: { count: 1, id: "eidolon_repraised:pewter_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0EAC1D3DD4041EA6"]
@@ -140,8 +147,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -3.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7BD08BABA5551D05"]
@@ -156,7 +163,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["245294110711B4ED"]
+			dependencies: [
+				"245294110711B4ED"
+				"6D1F7A4CDF1D4A4D"
+			]
 			icon: {
 				id: "theurgy:reformation_result_pedestal"
 			}
@@ -173,6 +183,7 @@
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "2E76F4363D5CBB74"
 					item: { count: 1, id: "theurgy:reformation_source_pedestal" }
 					type: "item"
@@ -188,8 +199,40 @@
 					type: "item"
 				}
 			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "occultism:datura"
+			}
+			id: "6D1F7A4CDF1D4A4D"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "34244323110DA727"
+					item: { count: 1, id: "occultism:datura_seeds" }
+					type: "item"
+				}
+				{
+					id: "2D957B10CCC9B325"
+					item: { count: 1, id: "occultism:datura" }
+					type: "item"
+				}
+			]
 			x: 1.5d
-			y: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "267502764735DD9C"
+			shape: "hexagon"
+			tasks: [{
+				id: "0408B5AD14664A6B"
+				item: { count: 1, id: "malum:natural_quartz" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
 		}
 	]
 }

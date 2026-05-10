@@ -114,7 +114,7 @@
 	]
 	quest.2410E7D0CDF35612.title: "Foliot Preparations"
 	quest.245294110711B4ED.quest_desc: [
-		"Incubating your pewter-based alchemical sulfur will net you its ingot form! Many more magic endeavors lie ahead for you."
+		"At this point in the game, Pewter Ingots can only be made alchemically, but now you at least have some! Many more magic endeavors lie ahead for you."
 		""
 		"Another benefit of alchemy comes from ore processing: you can triple your output!"
 	]
@@ -150,6 +150,7 @@
 		"The most powerful source of experience comes from Xpetrified Orbs. These are not yet available to you, but once you create your first Black Hole, this will change..."
 	]
 	quest.251F35A9BB62EB5A.title: "Input: Experience"
+	quest.267502764735DD9C.quest_desc: ["Natural Quartz will generate as an ore throughout the overworld, which is a reliable substitute for Nether Quartz. Additionally, Natural Quartz may generate inside its own large geode!"]
 	quest.27E0766149DA30CE.quest_desc: [
 		"Once you've built the ritual grounds, the final use of Mundabitur Dust on the Smithing Table will create your Tier 1 Forge!"
 		""
@@ -167,9 +168,9 @@
 	]
 	quest.2846407B73AC0432.title: "Input: Souls"
 	quest.2864E9109E77E701.quest_desc: [
-		"Pewter is a basic alloy composed mostly of lead and tin. Find a way to make these materials into a dust!"
+		"Pewter is a basic alloy composed mostly of lead and tin. Find a way to make these comprising materials into dusts!"
 		""
-		"From here, you'll notice that you can't make any sort of ingot out of it. This will require some alchemical processing. Get ready to have some fun!"
+		"From here, you'll notice that you can't make any sort of ingot out of Pewter Blend. This will require some alchemical processing."
 	]
 	quest.2A325823A1018E2B.quest_desc: ["Luminessence draws from Lumisene's glow, enhancing it with the conductivity of redstone and reactivity of gunpowder. There are a few uses for this strange material, so you may want a bit of it in reserve."]
 	quest.2BF233F471AB3CBF.quest_desc: [
@@ -377,6 +378,7 @@
 	]
 	quest.65DB37034A4934D1.quest_subtitle: "This pack is still WIP!"
 	quest.65DB37034A4934D1.title: "Important Note"
+	quest.667F1C1C07BE07C3.quest_desc: ["Blazing Quartz is normally acquired while in more fiery places, but with the Spirit Crucible, you can get your hands on some in this dimension alone! Not only does it burn well as a fuel source, but it lets you hand-craft some Netherrack!"]
 	quest.668DE2BE460505E4.quest_desc: ["Placing Refined Soulstone into a scythe allows you to harvest the spirits of the enemies you slay, but only with this tool. There must be something you can do with these spirits."]
 	quest.66D8C5BA8732ADA2.quest_desc: ["Illwood is a wood type that only grows in Dark Forests. Gather some saplings, there may be a use for them if you've engaged with spirits..."]
 	quest.66E4A0255676A919.quest_desc: [
@@ -441,11 +443,19 @@
 		"Note: The Ponder scene claims that the forge need 45 Polished Darkstone. This is incorrect, as it needs a total of 48 instead."
 	]
 	quest.71DDB61957E1BD47.title: "Forge Foundations"
-	quest.72DEF0A26C9C70C2.quest_desc: ["Crucibles are a brewing base used for more complex and sequenced crafts. While witches tend to be the best at overseeing them, you'll benefit from using one yourself."]
+	quest.72DEF0A26C9C70C2.quest_desc: [
+		"Crucibles are a brewing base used for more complex and sequenced crafts. While witches tend to be the best at overseeing them, you'll benefit from using one yourself."
+		""
+		"You may have also noticed that the Crucible can net you a greater amount of Pewter Blend! Take advantage of this and save on resources!"
+	]
 	quest.72FB981E202AF28B.quest_desc: ["You feel a compulsion to sanctify your gold. Its purity may offer a better way to handle spirit magic, or perhaps lead you into another realm of magical capabilities."]
 	quest.74A49A878CDDA8C4.quest_desc: ["Many machines are easily built with nothing more than Andesite Casing. Just encase a stripped log with some Andesite Alloy and you can start tinkering with the casing!"]
 	quest.777BD223A35E7233.quest_desc: ["The Magic Workbench enables you to craft a variety of magical items. Some of these items will reveal more hidden secrets within the Overworld or enable you to gain more knowledge of it."]
-	quest.7A322E5A606919C5.quest_desc: ["Braziers made from pewter give you the ability to conduct simple rituals. One such ritual will allow you to slay nearby undead creatures to acquire Soul Shards, a primary ingredient for various magical crafts."]
+	quest.7A322E5A606919C5.quest_desc: [
+		"Braziers made from pewter give you the ability to conduct simple rituals. One such ritual will allow you to slay nearby undead creatures to acquire Soul Shards, a primary ingredient for various magical crafts."
+		""
+		"Place some Stone Hands near the Brazier, add the input materials, and light the Brazier with Flint \\& Steel to begin the ritual!"
+	]
 	quest.7A9D786A5C88E36E.quest_desc: ["Placing Water Wheels near flowing water helps them spin. Use this spinning to make some machines to some work for you!"]
 	quest.7B32D8598CF89F0A.quest_desc: [
 		"Part of your industrial machinery development requires a power generator. The best one you can currently get is the Thermoelectric Generator, a greater difference in block temperature will result in a greater power output."

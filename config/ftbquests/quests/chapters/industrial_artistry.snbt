@@ -19,8 +19,8 @@
 				item: { count: 1, id: "eidolon_repraised:worktable" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1DB5FC44276D6EDC"]
@@ -30,8 +30,8 @@
 				item: { count: 1, id: "create:shaft" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -44,8 +44,8 @@
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["18950277D37C89F1"]
@@ -65,8 +65,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -1.5d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6D4A78DDED7FD016"]
@@ -76,8 +76,8 @@
 				item: { count: 1, id: "create:water_wheel" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["51D8917162E0C863"]
@@ -88,8 +88,8 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["777BD223A35E7233"]
@@ -99,7 +99,7 @@
 				item: { count: 1, id: "eidolon_repraised:athame" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -111,7 +111,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["51D8917162E0C863"]
@@ -133,8 +133,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -3.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["51D8917162E0C863"]
@@ -145,8 +145,8 @@
 				item: { count: 1, id: "eidolon_repraised:illwood_sapling" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -160,22 +160,19 @@
 				item: { count: 1, id: "malum:runewood_sapling" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"30976C41DB64AB90"
-				"4AA0ABCFB7E66232"
-			]
+			dependencies: ["30976C41DB64AB90"]
 			id: "2F721511198B7207"
 			tasks: [{
 				id: "55CB29DEFB8968F7"
 				item: { count: 1, id: "malum:spirit_altar" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -188,7 +185,7 @@
 				item: { count: 1, id: "malum:hallowed_gold_ingot" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -202,13 +199,13 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
-				"777BD223A35E7233"
 				"18950277D37C89F1"
+				"667F1C1C07BE07C3"
 			]
 			id: "5B0BE310AB5887F9"
 			tasks: [{
@@ -216,8 +213,8 @@
 				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -230,8 +227,8 @@
 				item: { count: 1, id: "immersiveengineering:alloybrick" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6C86EFCE60467A4C"]
@@ -242,8 +239,8 @@
 				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["51D8917162E0C863"]
@@ -257,8 +254,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling)item(ars_elemental:yellow_archwood_sapling))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["04DA9AD9BFB95C1C"]
@@ -268,7 +265,7 @@
 				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
@@ -280,8 +277,8 @@
 				item: { count: 1, id: "ars_nouveau:scribes_table" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4AA0ABCFB7E66232"]
@@ -291,7 +288,7 @@
 				item: { count: 1, id: "malum:crude_scythe" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -303,7 +300,7 @@
 				item: { count: 1, id: "eidolon_repraised:crucible" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
@@ -314,8 +311,8 @@
 				item: { count: 1, id: "create:andesite_casing" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["51D8917162E0C863"]
@@ -326,7 +323,7 @@
 				item: { count: 1, id: "malum:raw_soulstone" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -340,8 +337,8 @@
 				item: { count: 1, id: "eidolon_repraised:lesser_soul_gem" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3E3F317CF8D5095A"]
@@ -351,8 +348,8 @@
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["57D0D216A97B26D6"]
@@ -363,7 +360,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6B68A3958891AE50"]
@@ -393,8 +390,62 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 4.5d
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F721511198B7207"]
+			icon: {
+				id: "malum:tainted_rock"
+			}
+			id: "2DFE612F5FF30D0F"
+			tasks: [
+				{
+					id: "03F3EA67C87F5F7E"
+					item: { count: 1, id: "malum:tainted_rock" }
+					type: "item"
+				}
+				{
+					id: "554EF59C14D23A2C"
+					item: { count: 1, id: "malum:twisted_rock" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0CB5D35F7E1EDF28"]
+			id: "667F1C1C07BE07C3"
+			tasks: [{
+				id: "05F6D81358369CFD"
+				item: { count: 1, id: "malum:blazing_quartz" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34E241519F633549"]
+			id: "0CB5D35F7E1EDF28"
+			tasks: [{
+				id: "7C528FD27576B731"
+				item: { count: 1, id: "malum:alchemical_impetus" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DFE612F5FF30D0F"]
+			id: "34E241519F633549"
+			tasks: [{
+				id: "18AEF97ACB78AB0F"
+				item: { count: 1, id: "malum:spirit_crucible" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
 		}
 	]
 }

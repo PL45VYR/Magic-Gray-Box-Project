@@ -50,6 +50,7 @@
 				id: "actuallyadditions:engineers_goggles"
 			}
 			id: "66E4A0255676A919"
+			optional: true
 			tasks: [{
 				id: "6DF23FCF7F1F408B"
 				type: "checkmark"

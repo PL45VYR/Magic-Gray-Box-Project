@@ -162,34 +162,10 @@
 		{
 			dependencies: ["082534B546FCB12F"]
 			icon: {
-				id: "malum:tainted_rock"
-			}
-			id: "2DFE612F5FF30D0F"
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "03F3EA67C87F5F7E"
-					item: { count: 1, id: "malum:tainted_rock" }
-					type: "item"
-				}
-				{
-					id: "554EF59C14D23A2C"
-					item: { count: 1, id: "malum:twisted_rock" }
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"6D1F7A4CDF1D4A4D"
-				"2DFE612F5FF30D0F"
-			]
-			icon: {
 				id: "occultism:otherstone"
 			}
 			id: "482172CAC298BD49"
+			shape: "hexagon"
 			tasks: [
 				{
 					id: "078C55A438A926F1"
@@ -214,28 +190,6 @@
 				{
 					id: "503A08FF3BED6BC5"
 					item: { count: 1, id: "occultism:book_of_binding_empty" }
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["082534B546FCB12F"]
-			icon: {
-				id: "occultism:datura"
-			}
-			id: "6D1F7A4CDF1D4A4D"
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "34244323110DA727"
-					item: { count: 1, id: "occultism:datura_seeds" }
-					type: "item"
-				}
-				{
-					id: "2D957B10CCC9B325"
-					item: { count: 1, id: "occultism:datura" }
 					type: "item"
 				}
 			]
@@ -312,8 +266,9 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0CB5D35F7E1EDF28"]
+			dependencies: ["082534B546FCB12F"]
 			id: "5B84821179C454DB"
+			shape: "hexagon"
 			tasks: [{
 				id: "1DF441506A7C1839"
 				item: { count: 1, id: "malum:ether" }
@@ -321,28 +276,6 @@
 			}]
 			x: -4.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["34E241519F633549"]
-			id: "0CB5D35F7E1EDF28"
-			tasks: [{
-				id: "7C528FD27576B731"
-				item: { count: 1, id: "malum:alchemical_impetus" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2DFE612F5FF30D0F"]
-			id: "34E241519F633549"
-			tasks: [{
-				id: "18AEF97ACB78AB0F"
-				item: { count: 1, id: "malum:spirit_crucible" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["2410E7D0CDF35612"]
@@ -380,15 +313,16 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6D1F7A4CDF1D4A4D"]
+			dependencies: ["082534B546FCB12F"]
 			id: "166E83C318214F30"
+			shape: "hexagon"
 			tasks: [{
 				id: "728B8AAA17E22F29"
 				item: { count: 1, id: "occultism:otherworld_log" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["482172CAC298BD49"]
@@ -413,8 +347,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 3.0d
+			x: -3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1B392C3A63390581"]
