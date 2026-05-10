@@ -17,6 +17,15 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove("create:rose_quartz")
     event.remove("oritech:steel_block")
     event.remove("railcraft:bushing_gear")
+    event.remove("hazennstuff:crude_metal")
+
+})
+
+RecipeViewerEvents.removeEntriesCompletely("fluid", event => {
+    // Fluid Removal
+    // Removed fluids due to redundancy go here
+    event.remove(/immersivepetroleum:crude.*/)
+    event.remove(/immersivepetroleum:naphtha.*/)
 })
 
 ServerEvents.recipes(event => {

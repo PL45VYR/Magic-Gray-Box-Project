@@ -52,11 +52,14 @@
     "c:seeds/{material}",
     "c:flours/{material}"
   ],
-  "ignored_tags": [],
+  "ignored_tags": [
+    "c:gems/coal"
+  ],
   "ignored_items": [
     "oritech:biosteel_ingot",
     "malum:natural_quartz",
-    "immersiveengineering:storage_steel"
+    "immersiveengineering:storage_steel",
+    "fruitsdelight:lemon"
   ],
   "ignored_recipe_types": [
     "cucumber:shaped_tag"

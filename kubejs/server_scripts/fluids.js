@@ -38,7 +38,6 @@ ServerEvents.recipes(event => {
         "time": 1
     })
     event.remove({ id: "immersivepetroleum:distillationtower/oil" })
-    event.remove(/immersivepetroleum:crude.*/)
 
     // Gasoline Refinery
     event.custom({
@@ -78,9 +77,6 @@ ServerEvents.recipes(event => {
         "time": 300
     })
     event.remove({ id: "immersivepetroleum:hydrotreater/naphtha_cracking" })
-
-    // Remove Naphtha
-    event.remove(/immersivepetroleum:naphtha.*/)
 
     // Diesel Refinery
     event.custom({
