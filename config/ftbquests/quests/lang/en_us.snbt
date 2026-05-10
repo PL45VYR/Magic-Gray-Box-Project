@@ -314,11 +314,7 @@
 		""
 		"It succeeds, but the enigmatic nature of the Spawner Scrap's material occupies the cage with a fiery entity. Perhaps it might be able to help you."
 	]
-	quest.5B84821179C454DB.quest_desc: [
-		"Ether is a powerful source of light that draws from the bright glow of Blazing Quartz."
-		""
-		"This material, understood to normally come from more evil places, can be generated alchemically with the help of spirit focusing, as can Glowstone!"
-	]
+	quest.5B84821179C454DB.quest_desc: ["Ether is a powerful source of light that draws from the bright glow of Blazing Quartz and Glowstone. Not only can it be dyed to your liking, but it can be either placed on its own or used to make a torch!"]
 	quest.5BF9ADAA56F1E9D4.quest_desc: ["Mundabitur Dust is a potent transmutator item. Some of the ingredients needed to craft this material require a soul-touched mob drop..."]
 	quest.5D9CA1923AFE93F5.quest_desc: [
 		"Industrial Fermenters will process a variety of crops and foods into Ethanol. The input item used for fermenting will determine how much Ethanol you'll get."
