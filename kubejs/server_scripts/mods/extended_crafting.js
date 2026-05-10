@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
         ],
         {
             'I': 'forbidden_arcanus:deorum_ingot',
-            'S': 'extendedcrafting:black_iron_slate',
+            'S': 'extendedcrafting:basic_component',
             'A': 'immersiveengineering:component_electronic_adv'
         }
     )
@@ -118,7 +118,7 @@ ServerEvents.recipes(event => {
                 "item": "extendedcrafting:advanced_component"
             },
             "I": {
-                "item": "extendedcrafting:black_iron_ingot"
+                "item": "oritech:steel_ingot"
             }
         },
         "pattern": [
@@ -135,5 +135,46 @@ ServerEvents.recipes(event => {
 
     // Advanced Crafting Table
     event.replaceInput({ id: "extendedcrafting:advanced_table" }, 'minecraft:gold_block', 'forbidden_arcanus:deorum_block')
+
+    // Elite Component
+    event.shaped('extendedcrafting:elite_component',
+        [
+            'IS',
+            'AI'
+        ],
+        {
+            'I': 'occultism:iesnium_ingot',
+            'S': 'extendedcrafting:advanced_component',
+            'A': 'immersiveengineering:component_electronic_adv'
+        }
+    )
+
+    // Elite Catalyst
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "C": {
+                "item": "extendedcrafting:elite_component"
+            },
+            "I": {
+                "item": "enderio:dark_steel_ingot"
+            }
+        },
+        "pattern": [
+            "ICI",
+            "CIC",
+            "ICI"
+        ],
+        "result": {
+            "count": 1,
+            "id": "extendedcrafting:elite_catalyst"
+        },
+        "show_notification": false
+    })
+
+    // Elite Crafting Table
+    event.replaceInput({ id: "extendedcrafting:elite_table" }, 'minecraft:diamond_block', 'occultism:iesnium_block')
 
 })

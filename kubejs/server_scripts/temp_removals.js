@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
     event.remove({ input: /evolvedmekanism.*/ })
 
     // Oritech
-    event.remove({ output: /oritech.*/ })
+    // event.remove({ output: /oritech.*/ })
 
     // AE2
     event.remove({ mod: /.*ae.*/ })
@@ -23,10 +23,10 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "justdirethings" })
 
     // Ender IO
-    event.remove({ mod: "enderio" })
+    // event.remove({ mod: "enderio" })
 
     // Actually Additions
-    event.remove({ mod: "actuallyadditions" })
+    // event.remove({ mod: "actuallyadditions" })
 
     // Modular Routers
     event.remove({ mod: "modularrouters" })
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "dysoncubeproject" })
 
     // XyCraft
-    event.remove({ mod: /xycraft.*/ })
+    // event.remove({ mod: /xycraft.*/ })
 
     // Powah
     event.remove({ mod: "powah" })

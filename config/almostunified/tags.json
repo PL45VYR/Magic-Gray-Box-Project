@@ -23,6 +23,9 @@
     ],
     "c:crops/coffee/cooked": [
       "rusticdelight:roasted_coffee_beans"
+    ],
+    "c:nuggets/steel": [
+      "hazennstuff:steel_nugget"
     ]
   },
   "tag_substitutions": {

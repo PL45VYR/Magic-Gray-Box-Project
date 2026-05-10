@@ -235,7 +235,11 @@
 		"Alternatively, killing mobs on the ritual grounds will automatically supply blood to the forge."
 	]
 	quest.3466F4A80D63A8CA.title: "Input: Blood"
-	quest.34E241519F633549.quest_desc: ["Spirit Crucibles allow you to generate novel materials with the help of spirit focusing. However, they seem to want a target for this."]
+	quest.34E241519F633549.quest_desc: [
+		"Spirit Crucibles allow you to generate novel materials with the help of spirit focusing."
+		""
+		"However, they seem to want a target for this."
+	]
 	quest.369BB25919E26B8B.quest_desc: ["Using the alluring power of gold and augmenting it with Ether, you are able to enchant your White Chalk into Yellow Chalk, which enables the ability to use your rituals for spirit possession."]
 	quest.37D20317A737C7BC.quest_desc: ["Basic Components are made by laying iron across a Black Iron Slate and coating it in Luminessence. With the help of mechanical crafting, four of these can combined into a more powerful Basic Catalyst."]
 	quest.3BD68D5031E943B8.quest_desc: ["Black Iron Slates are crafting components made by flattening a Block of Black Iron. You'll certainly want a lot of black iron, given how quickly the cost adds up!"]

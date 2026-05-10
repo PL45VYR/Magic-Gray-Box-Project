@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
             }
         }
     )
-    
+
     // Coil Recipes Using Rolling
 
     // Copper Coil Recipe
@@ -244,4 +244,26 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Dark Steel Recipe
+    event.custom({
+        "type": "immersiveengineering:arc_furnace",
+        "additives": [
+            {
+                "tag": "c:dusts/hop_graphite"
+            }
+        ],
+        "energy": 102400,
+        "input": {
+            "tag": "c:ingots/iron"
+        },
+        "results": [
+            {
+                "basePredicate": {
+                    "tag": "c:ingots/dark_steel"
+                },
+                "count": 1
+            }
+        ],
+        "time": 100
+    })
 })

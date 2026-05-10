@@ -58,6 +58,8 @@ ServerEvents.recipes(event => {
 
     // Ender IO
     event.remove({ id: "enderio:iron_gear" })
+    event.remove({ output: "enderio:dark_steel_ingot" })
+    event.remove({ id: "oritech:foundry/alloy/compat/enderio/darksteel" })
 
     // Extended Crafting
     event.remove({ id: "extendedcrafting:black_iron_ingot" })
@@ -165,7 +167,11 @@ LootJS.modifiers(event => {
     event.addTableModifier(/.*chests\/.*/).removeLoot(/ars_.*/)
 
     // Eidolon Repraised
-    event.addTableModifier(/.*catacomb.*/).removeLoot("minecraft:soul_sand")
+    event.addTableModifier("eidolon_repraised:chests/catacomb_basic").removeLoot("minecraft:soul_sand")
+
+    // Ender IO
+    event.addTableModifier(/.*chests\/.*/).removeLoot(/enderio:.*/)
+    event.addTableModifier(/.*chests\/.*/).removeLoot(/enderio:.*/)
 
     // Extra Delight
     event.addTableModifier(/.*chests\/.*/).removeLoot(/extradelight:.*/)
@@ -177,4 +183,12 @@ LootJS.modifiers(event => {
 LootJS.lootTables(event => {
     // Loot Table Removal
     // Removed loot tables go here
+})
+
+LootJS.modifiers(event => {
+    // Eidolon Repraised
+    event.addTableModifier("eidolon_repraised:chests/catacomb_basic").removeLoot("minecraft:soul_sand")
+
+    // Ender IO
+    event.addTableModifier(/.*chests\/.*/).removeLoot(/enderio:.*/)
 })

@@ -1012,14 +1012,6 @@
     "curseForgeHash": 2390371856,
     "modrinthHash": "bd0326eeda721c87a29efd78f9a52f46d572392c"
   },
-  "emixx-neoforge-1.2.3.jar": {
-    "jarName": "emixx-neoforge-1.2.3.jar",
-    "modId": "emixx",
-    "name": "EMI++",
-    "version": "1.2.3",
-    "curseForgeHash": 1679885704,
-    "modrinthHash": "5bfd6ca144cd6cf72c6df9a9ab400403ca774e79"
-  },
   "enchdesc-neoforge-1.21.1-21.1.9.jar": {
     "jarName": "enchdesc-neoforge-1.21.1-21.1.9.jar",
     "modId": "enchdesc",
@@ -1824,6 +1816,14 @@
     "version": "1.21.1-0.13.0",
     "curseForgeHash": 1570576160,
     "modrinthHash": "37a773eec0df4e878222fa70e7f277dd733b3211"
+  },
+  "kubejs_oritech-1.0.0.jar": {
+    "jarName": "kubejs_oritech-1.0.0.jar",
+    "modId": "kubejs_oritech",
+    "name": "KubeJS Oritech",
+    "version": "1.0.0",
+    "curseForgeHash": 1429695134,
+    "modrinthHash": "7476d7743817518ca907dc68a4c3df86ac33af5e"
   },
   "kubejsarsnouveau-1.3.2.jar": {
     "jarName": "kubejsarsnouveau-1.3.2.jar",
@@ -2888,6 +2888,14 @@
     "version": "1.0.24",
     "curseForgeHash": 806726534,
     "modrinthHash": "17b1bbb96e922e683a1807a2e7bece603fdc491d"
+  },
+  "unsafe-world-random-access-detector-1.1.3+neoforge.jar": {
+    "jarName": "unsafe-world-random-access-detector-1.1.3+neoforge.jar",
+    "modId": "unsafe_world_random_access_detector",
+    "name": "Unsafe World Random Access Detector",
+    "version": "1.1.3+neoforge",
+    "curseForgeHash": 319420608,
+    "modrinthHash": "906b57a771c9bc52b3b8678b7ed568ffa4b8f825"
   },
   "upgrade_aquatic-1.21.1-7.0.1.jar": {
     "jarName": "upgrade_aquatic-1.21.1-7.0.1.jar",
