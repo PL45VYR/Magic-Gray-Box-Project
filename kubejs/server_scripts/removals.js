@@ -69,6 +69,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:basic_catalyst" })
     event.remove({ id: "extendedcrafting:advanced_component" })
     event.remove({ id: "extendedcrafting:advanced_catalyst" })
+    event.remove({ id: "extendedcrafting:elite_component" })
+    event.remove({ id: "extendedcrafting:elite_catalyst" })
 
 
     // Farming for Blockheads
