@@ -75,12 +75,18 @@ ServerEvents.recipes(event => {
     })
 
     // Blaze Burner Recipe
-    event.recipes.create.item_application(
-        'create:blaze_burner',
+    event.recipes.malum.spirit_infusion(
+        "create:empty_blaze_burner", //Input
+        "create:blaze_burner", //Result
         [
-            'create:empty_blaze_burner',
-            'forbidden_arcanus:spawner_scrap'
-        ]
+            "8x infernal",
+            "8x wicked",
+            "2x eldritch"
+        ], //Spirits
+        [
+            "6x malum:blazing_quartz",
+            "forbidden_arcanus:spawner_scrap"
+        ] //Additional Inputs, Defaults to []
     )
 
     // Molten Redstone Recipe
