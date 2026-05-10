@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.22",
-  "config_datetime": "2026-05-10_13-15-22",
+  "config_datetime": "2026-05-10_13-11-40",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -128,46 +128,6 @@
       "blacklisted_biomes": [],
       "step": "surface_structures",
       "terrain_adaptation": "bury"
-    },
-    {
-      "name": "ars_additions:arcane_library",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "ars_additions:nexus_tower",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "ars_additions:ruined_portal",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "ars_additions:ruined_portal_large",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
-    },
-    {
-      "name": "railcraft:geode",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none"
     }
   ],
   "structure_sets": []
