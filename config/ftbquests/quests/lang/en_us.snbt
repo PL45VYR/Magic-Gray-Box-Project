@@ -18,6 +18,7 @@
 		""
 		"Precision Mechanisms are a very useful item for enabling these improvements, and have a variety of applications within Create and RailCraft."
 	]
+	quest.032FC47543E5823B.title: "Fused Consciousness"
 	quest.0489B325535E51C7.quest_desc: [
 		"Edelwood is a darkened wood type made from Growing Edelwood. You can only get it by right-clicking a Corrupted Soul on an Oak Sapling. Edelwood itself has a number of uses, one of them being as a key resource for upgrading your Hephaestus Forge."
 		""
@@ -36,7 +37,9 @@
 		""
 		"Some recipes may strictly demand the use of Mechanical Crafters, so be wary of those recipes."
 	]
+	quest.0C536BDC372C9E8C.title: "Arc Furnace"
 	quest.0CB5D35F7E1EDF28.quest_desc: ["An Impetus is a perfect target for spirit focusing. Each impetus has a unique output that changes based on what spirits are used in the focusing process."]
+	quest.0CD328FDDC341D36.title: "Pumpjack"
 	quest.0E95DEFFA3DC23FE.quest_desc: [
 		"The Basic Crafting Table is a glorified Crafting Table, but it has more demands due to the foundational crafts that it will enable."
 		""
@@ -68,6 +71,7 @@
 		"Find a way to fuse these electronics with the arcane power of Deorum."
 	]
 	quest.18950277D37C89F1.quest_desc: ["Mechanical Presses will flatten most things placed beneath them. This is a great way to make sheets from metals such as iron or gold!"]
+	quest.1AF004E444A31F19.title: "Weeping Well"
 	quest.1B392C3A63390581.quest_desc: [
 		"Magebloom is a plant that grows from a magical seed, with fibers that can be woven into very useful armor."
 		""
@@ -105,6 +109,7 @@
 		""
 		"Congrats if you made it this far! Don't hesitate to leave feedback, I want to make sure my intended audience (whoever that may be) enjoys this project as much as I do."
 	]
+	quest.21219B904729865C.title: "Derrick"
 	quest.2410E7D0CDF35612.quest_desc: [
 		"The last step you need to start your ritual requires that you draw out some runes with chalk."
 		""
@@ -179,6 +184,7 @@
 		"You can even add two preheaters to the sides of the furnace to triple its production rate!"
 	]
 	quest.2BF233F471AB3CBF.title: "Improved Blast Furnace"
+	quest.2D3BA340F1A6957F.title: "Distillation Tower"
 	quest.2DFE612F5FF30D0F.quest_desc: ["Spirit Infusion gives you the ability to mass-infuse stones into more magical versions, but they don't feel fully pure. Their uses must extend beyond a simple building material, surely?"]
 	quest.2DFE612F5FF30D0F.title: "Spirit Stones"
 	quest.2F721511198B7207.quest_desc: [
@@ -306,6 +312,7 @@
 	]
 	quest.5506AE4B8F39A387.quest_desc: ["With a Pestle and Mortar, you can grind up materials into a blend or mixture. Perhaps a mixture of seeds could net you a little Crow friend?"]
 	quest.57D0D216A97B26D6.quest_desc: ["Source Gems are the most basic way to augment much purer magic. In wielding them, you see visions of mystical glyphs. There must be a way to document them..."]
+	quest.5A71F26573E823DD.title: "Black Hole"
 	quest.5ADF1210A1910739.quest_desc: [
 		"An Enchanting Apparatus allows you to handle a variety of crafts for useful magic trinkets."
 		""
@@ -327,6 +334,7 @@
 	]
 	quest.5D9CA1923AFE93F5.title: "Industrial Fermenter"
 	quest.5ECBA464F300C4BE.quest_desc: ["Crushing up some Obsidian nets you a gritty powder that has a variety of uses. There may be a use for it when you acquire some more chalk."]
+	quest.5F0623EFC64A7CB2.title: "Clibano Forge"
 	quest.5F80808E154DE3CA.quest_desc: [
 		"Blacksmith Gavels are required to start any ritual. When the forge has every input item and essence ready, right-clicking the Hephaestus Forge with a gavel will begin the ritual."
 		""
@@ -378,6 +386,7 @@
 	]
 	quest.65DB37034A4934D1.quest_subtitle: "This pack is still WIP!"
 	quest.65DB37034A4934D1.title: "Important Note"
+	quest.66562DFE55275190.title: "Coker"
 	quest.667F1C1C07BE07C3.quest_desc: ["Blazing Quartz is normally acquired while in more fiery places, but with the Spirit Crucible, you can get your hands on some in this dimension alone! Not only does it burn well as a fuel source, but it lets you hand-craft some Netherrack!"]
 	quest.668DE2BE460505E4.quest_desc: ["Placing Refined Soulstone into a scythe allows you to harvest the spirits of the enemies you slay, but only with this tool. There must be something you can do with these spirits."]
 	quest.66D8C5BA8732ADA2.quest_desc: ["Illwood is a wood type that only grows in Dark Forests. Gather some saplings, there may be a use for them if you've engaged with spirits..."]
@@ -475,7 +484,9 @@
 	task.078C55A438A926F1.title: "Otherstone/Otherrock"
 	task.09E7163769E99136.title: "Build an Obelisk!"
 	task.0A01CFBBAD0C30A1.title: "Any: Sacrificial Bowl"
+	task.10059B587FEBF766.title: "Build the Derrick!"
 	task.1C133FC20AE4F2CB.title: "Any: Archwood Sapling"
+	task.207A44E223587546.title: "Build the Coker!"
 	task.23F276D913CB40B6.title: "Understood."
 	task.27F1CDF4BEC17797.title: "Build a Fermenter!"
 	task.27F322430A2A8F46.title: "Upgrade the forge!"
@@ -487,5 +498,7 @@
 	task.5A16DEEC36F1A740.title: "Create the Hephaestus Forge!"
 	task.5B4B87D319404863.title: "I'm ready!"
 	task.5B57EAAD1CCBED05.title: "Build an Improved Blast Furnace!"
+	task.5FD5009665C194A0.title: "Find a Weeping Well!"
 	task.6AE575058E6055ED.title: "Any: Blacksmith Gavel"
+	task.7445806443BF718D.title: "Build a Distillation Tower!"
 }

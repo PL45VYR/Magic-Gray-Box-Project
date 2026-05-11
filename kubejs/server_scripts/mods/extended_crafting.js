@@ -145,7 +145,7 @@ ServerEvents.recipes(event => {
         {
             'I': 'occultism:iesnium_ingot',
             'S': 'extendedcrafting:advanced_component',
-            'A': 'immersiveengineering:component_electronic_adv'
+            'A': 'enderio:dark_steel_ingot'
         }
     )
 
@@ -163,9 +163,9 @@ ServerEvents.recipes(event => {
             }
         },
         "pattern": [
-            "ICI",
+            " C ",
             "CIC",
-            "ICI"
+            " C "
         ],
         "result": {
             "count": 1,

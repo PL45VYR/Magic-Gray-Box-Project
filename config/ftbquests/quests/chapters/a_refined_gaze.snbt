@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["73629B28897D556D"]
 			id: "0CA2235A662DAD0B"
 			shape: "rsquare"
 			tasks: [{
@@ -23,6 +24,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"6923B7F6A10F544C"
+				"250110B9401653FE"
+			]
 			icon: {
 				id: "extendedcrafting:elite_catalyst"
 			}
@@ -41,6 +46,346 @@
 			]
 			x: -1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6236075AA44E9589"
+				"7573CD1A0DE53E5A"
+			]
+			id: "250110B9401653FE"
+			tasks: [{
+				id: "0AB5818C0B7B21FF"
+				item: { count: 1, id: "occultism:iesnium_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C536BDC372C9E8C"]
+			id: "6923B7F6A10F544C"
+			tasks: [{
+				id: "6DC96D8D55D412D4"
+				item: { count: 1, id: "enderio:dark_steel_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["38ECD5C337E53585"]
+			icon: {
+				id: "immersiveengineering:arc_furnace"
+			}
+			id: "0C536BDC372C9E8C"
+			tasks: [
+				{
+					advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+					criterion: ""
+					icon: {
+						id: "immersiveengineering:arc_furnace"
+					}
+					id: "31431E7891FDEB09"
+					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "2503D5CB9C861EBF"
+					item: { count: 1, id: "immersiveengineering:graphite_electrode" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2AD723222CEDDB43"
+				"48717E26A84AC8DF"
+			]
+			icon: {
+				id: "occultism:infused_pickaxe"
+			}
+			id: "6236075AA44E9589"
+			tasks: [
+				{
+					id: "5C38913D853505F0"
+					item: { count: 1, id: "occultism:infused_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "431BBC22F9B95138"
+					item: { count: 1, id: "occultism:spirit_attuned_pickaxe_head" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "7573CD1A0DE53E5A"
+			shape: "hexagon"
+			tasks: [{
+				id: "262E4B9BC3B50CC0"
+				item: { count: 1, id: "occultism:divination_rod" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1632F319535286AC"]
+			id: "38ECD5C337E53585"
+			tasks: [{
+				id: "6040CE0EE43E92A1"
+				item: { count: 1, id: "immersiveengineering:dust_hop_graphite" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66562DFE55275190"]
+			id: "1632F319535286AC"
+			tasks: [{
+				id: "7EF5FD447CEEF922"
+				item: { count: 1, id: "immersivepetroleum:petcoke" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D3BA340F1A6957F"]
+			id: "66562DFE55275190"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_cokerunit"
+				criterion: ""
+				id: "207A44E223587546"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21219B904729865C"]
+			icon: {
+				id: "immersivepetroleum:distillation_tower"
+			}
+			id: "2D3BA340F1A6957F"
+			tasks: [
+				{
+					advancement: "immersivepetroleum:main/mb_distillationtower"
+					criterion: ""
+					id: "7445806443BF718D"
+					type: "advancement"
+				}
+				{
+					id: "582D1D9A16ECA339"
+					item: { count: 1, id: "immersivepetroleum:bitumen" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21219B904729865C"]
+			id: "0CD328FDDC341D36"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_pumpjack"
+				criterion: ""
+				id: "4EB7E6F8DE711499"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["575AE8579611B7C8"]
+			id: "21219B904729865C"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_derrick"
+				criterion: ""
+				id: "10059B587FEBF766"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "575AE8579611B7C8"
+			shape: "hexagon"
+			tasks: [{
+				id: "3D658D608D10C3BF"
+				item: { count: 1, id: "immersivepetroleum:seismic_survey" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"032FC47543E5823B"
+				"067E26A491F3DFB3"
+			]
+			id: "48717E26A84AC8DF"
+			tasks: [{
+				id: "6D8AFA156D652203"
+				item: { count: 1, id: "occultism:chalk_lime" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C2B41465E3BEFF7"]
+			id: "2AD723222CEDDB43"
+			tasks: [{
+				id: "6BED8F26A89A3BDF"
+				item: { count: 1, id: "occultism:chalk_light_gray" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["60625743869B669F"]
+			icon: {
+				id: "forbidden_arcanus:clibano_core"
+			}
+			id: "5F0623EFC64A7CB2"
+			tasks: [
+				{
+					id: "762639F58DF75F39"
+					item: { count: 1, id: "forbidden_arcanus:clibano_core" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "12105C6C9576C57A"
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "6753811B33D17429"
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone_bricks" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1AF004E444A31F19"]
+			id: "60625743869B669F"
+			tasks: [{
+				id: "4BA2BB3CC1BCD4CB"
+				item: { count: 1, id: "malum:auric_embers" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "1AF004E444A31F19"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					id: "malum:void_depot"
+				}
+				id: "5FD5009665C194A0"
+				structure: "malum:weeping_well"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "2C2B41465E3BEFF7"
+			shape: "hexagon"
+			tasks: [{
+				id: "444C37C5C3CBF74E"
+				item: { count: 1, id: "eidolon_repraised:wraith_heart" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1AF004E444A31F19"]
+			icon: {
+				id: "malum:fused_consciousness"
+			}
+			id: "032FC47543E5823B"
+			tasks: [
+				{
+					id: "0A7EABE6AAFBCF0F"
+					item: { count: 1, id: "malum:complete_design" }
+					type: "item"
+				}
+				{
+					id: "3DAFAD6F8B4BDA2B"
+					item: { count: 1, id: "malum:fused_consciousness" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A71F26573E823DD"]
+			icon: {
+				id: "occultism:research_fragment_dust"
+			}
+			id: "067E26A491F3DFB3"
+			tasks: [
+				{
+					id: "0C561B6F7C0E5E89"
+					item: { count: 1, id: "occultism:research_fragment_dust" }
+					type: "item"
+				}
+				{
+					id: "4EE8A891FD228BF2"
+					item: { count: 1, id: "forbidden_arcanus:xpetrified_orb" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["382107D709DFD4CD"]
+			icon: {
+				id: "forbidden_arcanus:dark_matter"
+			}
+			id: "5A71F26573E823DD"
+			tasks: [
+				{
+					id: "4DC7C50D33B12C83"
+					item: { count: 1, id: "forbidden_arcanus:dark_matter" }
+					type: "item"
+				}
+				{
+					id: "69B2D5F64CC54A92"
+					item: { count: 1, id: "forbidden_arcanus:corrupti_dust" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F0623EFC64A7CB2"]
+			id: "382107D709DFD4CD"
+			tasks: [{
+				id: "59A27910C80D4B03"
+				item: { count: 1, id: "forbidden_arcanus:obsidiansteel_ingot" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
 		}
 	]
 }
