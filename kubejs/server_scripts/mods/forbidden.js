@@ -10,4 +10,24 @@ ServerEvents.recipes(event => {
             'malum:hex_ash'
         ]
     )
+
+    // Iesnium Clibano Recipe
+    event.custom({
+        "type": "forbidden_arcanus:clibano_combustion",
+        "category": "misc",
+        "cooking_time": 100,
+        "experience": 1.0,
+        "fire_type": "enchanted_fire",
+        "ingredients": {
+            "tag": "c:dusts/iesnium"
+        },
+        "residue": {
+            "type": "forbidden_arcanus:diamond",
+            "chance": 0.25
+        },
+        "result": {
+            "count": 1,
+            "id": "occultism:iesnium_ingot"
+        }
+    })
 })

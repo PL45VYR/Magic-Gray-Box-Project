@@ -123,6 +123,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: "occultism:chalk_purple_impure" })
     event.remove({ output: "occultism:chalk_light_gray_impure" })
     event.remove({ output: "occultism:chalk_lime_impure" })
+    event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:smelting"})
+    event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:blasting"})
+    event.remove({ id: /engineeredcompatibility:arcfurnace\/occultism.*/ })
 
     // Oritech
     event.remove({ id: /oritech:crafting\/alloy\/.*/ })
