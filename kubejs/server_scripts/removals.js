@@ -81,6 +81,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "forbidden_arcanus:deorum_ingot" })
     event.remove({ id: "forbidden_arcanus:clibano_core" })
     event.remove({ id: "forbidden_arcanus:mundabitur_dust" })
+    event.remove({ id: "forbidden_arcanus:corrupti_dust" })
     event.remove({ output: "forbidden_arcanus:arcane_crystal_dust", type: "minecraft:smelting" })
     event.remove({ output: "forbidden_arcanus:arcane_crystal_dust", type: "minecraft:blasting" })
 
@@ -103,12 +104,15 @@ ServerEvents.recipes(event => {
     event.remove({ id: "immersiveengineering:arcfurnace/steel" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/ae2.*/ })
     event.remove({ id: "immersiveengineering:crafting/blastbrick" })
+    event.remove({ id: /engineeredcompatibility:arcfurnace\/forbidden.*/ })
+    event.remove({output: "immersivepetroleum:seismic_survey"})
 
     // Industrial Foregoing
     event.remove({ mod: "industrialforegoing", output: "#c:gears" })
 
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
+    event.remove([{ output: "hazennstuff:crude_metal" }, { input: "hazennstuff:crude_metal" }])
 
     // Malum
     event.remove({ output: "malum:spirit_altar" })
@@ -117,6 +121,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: "occultism:chalk_white_impure" })
     event.remove({ output: "occultism:chalk_yellow_impure" })
     event.remove({ output: "occultism:chalk_purple_impure" })
+    event.remove({ output: "occultism:chalk_light_gray_impure" })
+    event.remove({ output: "occultism:chalk_lime_impure" })
 
     // Oritech
     event.remove({ id: /oritech:crafting\/alloy\/.*/ })

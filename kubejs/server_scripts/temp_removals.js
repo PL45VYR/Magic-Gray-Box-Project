@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "dysoncubeproject" })
 
     // XyCraft
-    // event.remove({ mod: /xycraft.*/ })
+    event.remove({ mod: /xycraft.*/ })
 
     // Powah
     event.remove({ mod: "powah" })

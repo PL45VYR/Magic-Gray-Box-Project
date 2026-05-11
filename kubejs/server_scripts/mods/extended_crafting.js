@@ -9,7 +9,6 @@ ServerEvents.recipes(event => {
         "immersiveengineering:crafting/dynamo",
         "immersiveengineering:crafting/thermoelectric_generator",
         "immersiveengineering:crafting/sample_drill",
-        "immersivepetroleum:seismic_survey_tool",
         "immersivepetroleum:auto_lubricator",
         "immersivepetroleum:projector"
     ]

@@ -244,6 +244,24 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Seismic Survey Tool Recipe
+    event.recipes.extendedcrafting.shaped_table('immersivepetroleum:seismic_survey',
+        [
+            " SBH ",
+            " SBS ",
+            " SBS ",
+            "SCBCS",
+            "SCLCS"
+        ],
+        {
+            "S": 'immersiveengineering:steel_scaffolding_standard',
+            "B": 'immersiveengineering:gunpart_barrel',
+            "H": 'immersiveengineering:gunpart_hammer',
+            "C": 'immersiveengineering:component_iron',
+            "L": 'immersiveengineering:light_engineering'
+        }
+    )
+
     // Dark Steel Recipe
     event.custom({
         "type": "immersiveengineering:arc_furnace",

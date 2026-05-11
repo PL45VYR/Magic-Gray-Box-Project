@@ -94,4 +94,50 @@ ServerEvents.recipes(event => {
                 "id": "malum:blighted_earth"
         }
     })
+
+    // Corrupti Dust Recipe
+    event.recipes.malum.spirit_infusion(
+        "forbidden_arcanus:arcane_crystal_dust",
+        "forbidden_arcanus:corrupti_dust",
+        [
+            "1x umbral"
+        ],
+        [
+            "8x forbidden_arcanus:obsidiansteel_ingot",
+            "8x blaze_powder",
+            "8x nether_wart"
+        ]
+    )
+
+    // Lime Chalk Recipe
+    event.recipes.malum.spirit_infusion(
+        "occultism:chalk_white_impure",
+        "occultism:chalk_lime_impure",
+        [
+            "48x earthen",
+            "36x arcane",
+            "24x eldritch"
+        ],
+        [
+            "12x eidolon_repraised:avennian_sprig",
+            "8x occultism:research_fragment_dust",
+            "2x malum:fused_consciousness"
+        ]
+    )
+
+    // Light Gray Chalk Recipe
+    event.recipes.malum.spirit_infusion(
+        "occultism:chalk_white_impure",
+        "occultism:chalk_light_gray_impure",
+        [
+            "36x wicked",
+            "20x arcane",
+            "8x eldritch"
+        ],
+        [
+            "20x occultism:silver_dust",
+            "12x occultism:crushed_calcite",
+            "4x eidolon_repraised:wraith_heart"
+        ]
+    )
 })
