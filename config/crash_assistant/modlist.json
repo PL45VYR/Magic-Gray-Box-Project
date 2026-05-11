@@ -756,13 +756,13 @@
     "curseForgeHash": 3256624676,
     "modrinthHash": "a7a2945e8544a3a109ddb01f9c32574fc1e4b902"
   },
-  "crashexploitfixer-neoforge-1.1.0+1.21.jar": {
-    "jarName": "crashexploitfixer-neoforge-1.1.0+1.21.jar",
+  "crashexploitfixer-neoforge-2.0.0+1.21.4.jar": {
+    "jarName": "crashexploitfixer-neoforge-2.0.0+1.21.4.jar",
     "modId": "crashexploitfixer",
     "name": "CrashExploitFixer",
-    "version": "1.1.0",
-    "curseForgeHash": 301850515,
-    "modrinthHash": "2e8f4dd68b4d427c79475b2a868f4889875f3e20"
+    "version": "2.0.0",
+    "curseForgeHash": 1791211102,
+    "modrinthHash": "b5d3f1a493b82ad56808358a39a4b1162d605829"
   },
   "create-1.21.1-6.0.10.jar": {
     "jarName": "create-1.21.1-6.0.10.jar",
@@ -980,13 +980,13 @@
     "curseForgeHash": 1233383863,
     "modrinthHash": "8ac6cf959fe66399aa7e86b6e6f933e07d155b7e"
   },
-  "emi-1.1.22+1.21.1+neoforge.jar": {
-    "jarName": "emi-1.1.22+1.21.1+neoforge.jar",
+  "emi-1.1.23+1.21.1+neoforge.jar": {
+    "jarName": "emi-1.1.23+1.21.1+neoforge.jar",
     "modId": "emi",
     "name": "EMI",
-    "version": "1.1.22+1.21.1+neoforge",
-    "curseForgeHash": 1652373382,
-    "modrinthHash": "cbbd038194cd63249db185c53b1d50a1767f80a3"
+    "version": "1.1.23+1.21.1+neoforge",
+    "curseForgeHash": 2513204711,
+    "modrinthHash": "3ea453bcd0991bec9c963d0a068e4966503d7cdd"
   },
   "emi_create_schematics-1.1.0.jar": {
     "jarName": "emi_create_schematics-1.1.0.jar",
@@ -1484,21 +1484,21 @@
     "curseForgeHash": 1763741063,
     "modrinthHash": "252018dd20e23b76794016cb0ce875c23340097a"
   },
-  "hazentouvelib-1.0.2.jar": {
-    "jarName": "hazentouvelib-1.0.2.jar",
+  "hazentouvelib-1.0.4.jar": {
+    "jarName": "hazentouvelib-1.0.4.jar",
     "modId": "hazentouvelib",
     "name": "HazentouveLib",
-    "version": "1.0.2",
-    "curseForgeHash": 337847200,
-    "modrinthHash": "5bd3e7bf5776e67b571d7f0331efb6c2c23fb1dd"
+    "version": "1.0.4",
+    "curseForgeHash": 642801878,
+    "modrinthHash": "351d12fa59e7df5170db728a388a03450895efe6"
   },
-  "hearthandharvest-1.21.1-1.2.0.jar": {
-    "jarName": "hearthandharvest-1.21.1-1.2.0.jar",
+  "hearthandharvest-1.21.1-1.2.1.jar": {
+    "jarName": "hearthandharvest-1.21.1-1.2.1.jar",
     "modId": "hearthandharvest",
     "name": "Hearth and Harvest",
-    "version": "1.2.0",
-    "curseForgeHash": 2631682271,
-    "modrinthHash": "e59b1cd14b82e61bf8cb6f8219411995f8b66b88"
+    "version": "1.2.1",
+    "curseForgeHash": 1855326866,
+    "modrinthHash": "0420915defd7d7a47f796b04ddad54b5abb6aa49"
   },
   "hexerei-0.5.0.3.jar": {
     "jarName": "hexerei-0.5.0.3.jar",
