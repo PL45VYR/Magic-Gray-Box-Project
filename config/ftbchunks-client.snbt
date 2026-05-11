@@ -158,7 +158,9 @@
 			"eidolon_repraised:necromancer": true
 			"aquaculture:minnow": false
 			"quark:shiba": true
+			"yungscavebiomes:ice_cube": true
 			"endermanoverhaul:snowy_enderman": true
+			"quark:toretoise": true
 			"minecraft:cat": true
 			"minecraft:zombie": true
 			"creeperoverhaul:dripstone_creeper": true
@@ -224,7 +226,9 @@
 			"minecraft:bogged": true
 			"ars_nouveau:drygmy": true
 			"aquaculture:bayad": false
+			"minecraft:stray": true
 			"minecraft:axolotl": true
+			"upgrade_aquatic:thrasher": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

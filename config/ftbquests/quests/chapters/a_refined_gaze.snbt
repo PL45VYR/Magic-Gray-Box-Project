@@ -331,8 +331,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -3.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A71F26573E823DD"]
@@ -356,7 +356,10 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["382107D709DFD4CD"]
+			dependencies: [
+				"382107D709DFD4CD"
+				"36ECA3E8FBA267B3"
+			]
 			icon: {
 				id: "forbidden_arcanus:dark_matter"
 			}
@@ -386,6 +389,27 @@
 			}]
 			x: -6.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1AF004E444A31F19"]
+			icon: {
+				id: "malum:umbral_spirit"
+			}
+			id: "36ECA3E8FBA267B3"
+			tasks: [
+				{
+					id: "58F8FE095B368AC6"
+					item: { count: 1, id: "malum:umbral_spirit" }
+					type: "item"
+				}
+				{
+					id: "35DBAF8D4F91BF5D"
+					item: { count: 1, id: "gaze:veil_dagger" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -3.0d
 		}
 	]
 }
