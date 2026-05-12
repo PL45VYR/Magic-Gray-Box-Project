@@ -5,11 +5,11 @@ ServerEvents.recipes(event => {
 
     // Gold Replacement for Hallowed Gold
     event.replaceInput({ id: /ars.*/ }, 'minecraft:gold_ingot', 'malum:hallowed_gold_ingot')
-    event.replaceInput({ id: /ars.*/ }, 'minecraft:gold_nugget', 'malum:hallowed_gold_ingot')
-    event.replaceInput({ id: /ars.*/ }, 'minecraft:gold_block', 'malum:hallowed_gold_ingot')
+    event.replaceInput({ id: /ars.*/ }, 'minecraft:gold_nugget', 'malum:hallowed_gold_nugget')
+    event.replaceInput({ id: /ars.*/ }, 'minecraft:gold_block', 'malum:block_of_hallowed_gold')
     event.replaceInput({ id: /starbunclemania.*/ }, 'minecraft:gold_ingot', 'malum:hallowed_gold_ingot')
-    event.replaceInput({ id: /starbunclemania.*/ }, 'minecraft:gold_nugget', 'malum:hallowed_gold_ingot')
-    event.replaceInput({ id: /starbunclemania.*/ }, 'minecraft:gold_block', 'malum:hallowed_gold_ingot')
+    event.replaceInput({ id: /starbunclemania.*/ }, 'minecraft:gold_nugget', 'malum:hallowed_gold_nugget')
+    event.replaceInput({ id: /starbunclemania.*/ }, 'minecraft:gold_block', 'malum:block_of_hallowed_gold')
 
     // Air Essence Simplification
     event.replaceInput({ output: 'ars_nouveau:air_essence' }, 'ars_nouveau:wilden_wing', 'forbidden_arcanus:bat_wing')
