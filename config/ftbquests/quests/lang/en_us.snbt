@@ -18,6 +18,11 @@
 		""
 		"Precision Mechanisms are a very useful item for enabling these improvements, and have a variety of applications within Create and RailCraft."
 	]
+	quest.032FC47543E5823B.quest_desc: [
+		"Throwing an Iron Block into the well will create an Incomplete Design. If you're wondering what exactly is needed to, well, &ocomplete&r this design... you just need all 8 different essential spirits, 4 of each, to infuse the design for completion."
+		""
+		"After obtaining your Complete Design, the well can transform it into Fused Consciousness, a bizarre item used in crafting a number of powerful trinkets and weapons for use in acquiring spirits and eviscerating your foes."
+	]
 	quest.032FC47543E5823B.title: "Fused Consciousness"
 	quest.0489B325535E51C7.quest_desc: [
 		"Edelwood is a darkened wood type made from Growing Edelwood. You can only get it by right-clicking a Corrupted Soul on an Oak Sapling. Edelwood itself has a number of uses, one of them being as a key resource for upgrading your Hephaestus Forge."
@@ -29,6 +34,11 @@
 	quest.0531552073A644EE.quest_desc: ["Rolling Machines are the most reliable way to bend and shape your metals into construction-viable building materials. This includes rods, sheetmetal, and coils, which you'll certainly need to make a lot of going forward."]
 	quest.0594441E0AB8F228.quest_desc: ["The heavy weight of obsidian, combined with a variety of other dark yet eccentric materials, can enchant White Chalk into Purple Chalk, capable of binding spirits to various items to enhance them with otherworldly power."]
 	quest.05DEE6A13589D014.quest_desc: ["Salvaging Tables are used to easily turn gems into dust, but will also recycle armor and tools into their base materials. If these tools have peculiar names, there may be something else useful to salvage from them."]
+	quest.067E26A491F3DFB3.quest_desc: [
+		"Using your occult ritual grounds, you can sacrifice some Xpetrified Orbs and a bit of Emerald Dust to create Research Fragment Dust."
+		""
+		"One great use of Research Fragment Dust is for Knowledge Tablets, which will let you store your experience in an item so you can minimize the XP you lose on death!"
+	]
 	quest.06B6CE6A813EE15E.quest_desc: ["Brewing up some Soul Shards with minerals such as Redstone and Quartz (find some in a geode down in the caves!) will allow them to coalesce as a Lesser Soul Gem."]
 	quest.076C783CF8207D8C.quest_desc: ["An Athame is a dagger often used in ritual magic. These rituals often use unique herbs, which may only be acquired by an Athame itself."]
 	quest.0832C3C66887F0B9.quest_desc: ["Cutting down some white flowers such as White Tulips with an Athame will allow you to extract Merammer Root."]
@@ -37,8 +47,18 @@
 		""
 		"Some recipes may strictly demand the use of Mechanical Crafters, so be wary of those recipes."
 	]
+	quest.0C536BDC372C9E8C.quest_desc: [
+		"Arc Furnaces are the ultimate upgrade for your alloying endeavors. However, in order to function, they need to constantly maintain 3 Graphite Electrodes."
+		""
+		"These require a mix of Creosote Oil and HOP Graphite Dust in a Bottling Machine to make, but they'll last you quite a while."
+	]
 	quest.0C536BDC372C9E8C.title: "Arc Furnace"
 	quest.0CB5D35F7E1EDF28.quest_desc: ["An Impetus is a perfect target for spirit focusing. Each impetus has a unique output that changes based on what spirits are used in the focusing process."]
+	quest.0CD328FDDC341D36.quest_desc: [
+		"After your Derrick finishes releasing the built-up reserves of oil, you can deconstruct it and build a Pumpjack over the well pipe."
+		""
+		"The Pumpjack will slowly output the remainder of the reservoir, but should only be done after the Derrick has completely stopped outputting any fluid."
+	]
 	quest.0CD328FDDC341D36.title: "Pumpjack"
 	quest.0E95DEFFA3DC23FE.quest_desc: [
 		"The Basic Crafting Table is a glorified Crafting Table, but it has more demands due to the foundational crafts that it will enable."
@@ -71,6 +91,11 @@
 		"Find a way to fuse these electronics with the arcane power of Deorum."
 	]
 	quest.18950277D37C89F1.quest_desc: ["Mechanical Presses will flatten most things placed beneath them. This is a great way to make sheets from metals such as iron or gold!"]
+	quest.1AF004E444A31F19.quest_desc: [
+		"The Weeping Well is a mysterious structure that may be encountered deep underground. Its magical properties transform various items that fall into them."
+		""
+		"Upon reaching the well, you may want to learn more about exactly what it can do. Throw your Encyclopedia Arcana into the well to transform it into Encyclopedia Esoterica, which opens a completely new section of documentation about the Malum mod."
+	]
 	quest.1AF004E444A31F19.title: "Weeping Well"
 	quest.1B392C3A63390581.quest_desc: [
 		"Magebloom is a plant that grows from a magical seed, with fibers that can be woven into very useful armor."
@@ -109,6 +134,13 @@
 		""
 		"Congrats if you made it this far! Don't hesitate to leave feedback, I want to make sure my intended audience (whoever that may be) enjoys this project as much as I do."
 	]
+	quest.21219B904729865C.quest_desc: [
+		"Derricks are the machines responsible for drilling down to the reservoir of whatever fluid you found, preferably oil."
+		""
+		"After giving it power, you'll need liquid concrete, water, and fluid pipes. This will establish the well that you'll need to reach the reservoir. Once everything is set up, the derrick will begin releasing fluid from the reservoir!"
+		""
+		"The best way to store the high amount of fluid from oil reservoirs in particular is using the Oil Tank. It can store just over a thousand buckets of fluid, and oil reservoir sizes may demand that you build up to 5 or 6 to store everything from the Derrick!"
+	]
 	quest.21219B904729865C.title: "Derrick"
 	quest.2410E7D0CDF35612.quest_desc: [
 		"The last step you need to start your ritual requires that you draw out some runes with chalk."
@@ -145,6 +177,13 @@
 		""
 		"Feel free to reach out if you're interested!"
 	]
+	quest.250110B9401653FE.quest_desc: [
+		"Iesnium Ore is only attainable in the otherworld, but using your Infused Pickaxe, you can pull it into your world. Divination Rods that target Netherrack will be able to point out Iesnium Ore in the Nether."
+		""
+		"In order to mine it properly, you must consume a Demon's Dream Fruit, as the Otherworld Goggles will only let you see the blocks. The dream fruit elevates your sight enough to be able to mine it."
+		""
+		"After you get your hands on some, you'll need to crush it down into dust, which will let you smelt it. However, the only way to smelt it is using enchanted fire in the Clibano Forge. Add Enchanted Souls to your Clibano Forge to transform your Iesnium Dust into a useable ingot!"
+	]
 	quest.251F35A9BB62EB5A.quest_desc: [
 		"Hephaestus Forge rituals sometimes, but not always, need experience to operate."
 		""
@@ -178,12 +217,19 @@
 		"From here, you'll notice that you can't make any sort of ingot out of Pewter Blend. This will require some alchemical processing."
 	]
 	quest.2A325823A1018E2B.quest_desc: ["Luminessence draws from Lumisene's glow, enhancing it with the conductivity of redstone and reactivity of gunpowder. There are a few uses for this strange material, so you may want a bit of it in reserve."]
+	quest.2AD723222CEDDB43.quest_desc: ["To improve the foundation of your ritual grounds, you'll want to darken your chalks some more. Light Gray is the next best chalk for this, requiring some silver, some crushed calcite, and a few Wraith Hearts."]
 	quest.2BF233F471AB3CBF.quest_desc: [
 		"Reinforced Blast Brick serves as the foundation for an Improved Blast Furnace, which can properly receive inputs and outputs for automation purposes."
 		""
 		"You can even add two preheaters to the sides of the furnace to triple its production rate!"
 	]
 	quest.2BF233F471AB3CBF.title: "Improved Blast Furnace"
+	quest.2C2B41465E3BEFF7.quest_desc: ["Fighting enough of those scary Wraiths may cause you to come across one of their hearts. The cold feeling of these hearts inclines you to believe they might have some more occult uses."]
+	quest.2D3BA340F1A6957F.quest_desc: [
+		"Distillation Towers let you turn your new Crude Oil into a variety of byproducts. This includes Naphtha, Kerosene, Sulfurized Diesel, and Lubricant, which all have their own sets of uses."
+		""
+		"Another byproduct of your oil distillation is Bitumen, a material whose low output rate per operation is compensated by the copious amount of oil you'll be processing."
+	]
 	quest.2D3BA340F1A6957F.title: "Distillation Tower"
 	quest.2DFE612F5FF30D0F.quest_desc: ["Spirit Infusion gives you the ability to mass-infuse stones into more magical versions, but they don't feel fully pure. Their uses must extend beyond a simple building material, surely?"]
 	quest.2DFE612F5FF30D0F.title: "Spirit Stones"
@@ -247,7 +293,20 @@
 		"However, they seem to want a target for this."
 	]
 	quest.369BB25919E26B8B.quest_desc: ["Using the alluring power of gold and augmenting it with Ether, you are able to enchant your White Chalk into Yellow Chalk, which enables the ability to use your rituals for spirit possession."]
+	quest.36ECA3E8FBA267B3.quest_desc: [
+		"Curious players may decide to throw themselves into the well as some sort of intrusive thought, but as the other half of the saying goes, \"satisfaction brought it back.\""
+		""
+		"Jumping into the Weeping Well brings you an Umbral Spirit, a completely darkened yet very meaningful spirit type. Infusing it into your Encyclopedia Esoterica will \"unveil\" an even more vast set of powers that can only be accomplished by the knowledge of the umbral."
+		""
+		"Since only the first jump into the Weeping Well grants you an Umbral Spirit, there must be a way to get more. The alternative is to use Veil's Edge, a sinister dagger that can reap spirits from players and villagers alike, which has a low chance to generate another Umbral Spirit."
+	]
 	quest.37D20317A737C7BC.quest_desc: ["Basic Components are made by laying iron across a Black Iron Slate and coating it in Luminessence. With the help of mechanical crafting, four of these can combined into a more powerful Basic Catalyst."]
+	quest.382107D709DFD4CD.quest_desc: [
+		"Obsidiansteel is a magically-created alloy made of Raw Iron and Obsidian, which can only be alloyed using Clibano Combustion."
+		""
+		"While its best use lies in durable armor that only the most accomplished players can craft, it does have some other bizarre utilities."
+	]
+	quest.38ECD5C337E53585.quest_desc: ["Crush your Petcoke into a dust. This way, you can use an Industrial Squeezer to make HOP Graphite Dust. This will let you make some incredibly powerful technology."]
 	quest.3BD68D5031E943B8.quest_desc: ["Black Iron Slates are crafting components made by flattening a Block of Black Iron. You'll certainly want a lot of black iron, given how quickly the cost adds up!"]
 	quest.3BD7A36502D45B57.quest_desc: [
 		"Finally, bring everything together to acquire your next tier of crafting!"
@@ -292,6 +351,11 @@
 		"Note: For ease of understanding, we'll use Otherstone-based materials for quests. Otherrock is an opposite aesthetic to Otherstone, but is equally functional otherwise."
 	]
 	quest.482172CAC298BD49.title: "Otherworld Materials"
+	quest.48717E26A84AC8DF.quest_desc: [
+		"Lime Chalk helps you bring more powerful spirits for your rituals. Composed of a new magical herb, some experience, and some Fused Consciousness, you can create this chalk for your own use. Infuse this chalk with a lot of your most powerful spirits to make sure the infusion goes without error."
+		""
+		"Remember to purify it!"
+	]
 	quest.488F39150CD4BAE0.quest_desc: [
 		"Magic Gray Box Project plays into the idea of \"gray box where the magic happens\", a phenomenon surrounding tech mods whose machine GUI compactly performs automation. This pack attempts to construct a progression that enables players to make such ambitious technological advancements with a bit more effort."
 		""
@@ -311,7 +375,21 @@
 		"You may choose to not use any crystals in the accumulator, but this will return a tenth of the Sal Ammoniac."
 	]
 	quest.5506AE4B8F39A387.quest_desc: ["With a Pestle and Mortar, you can grind up materials into a blend or mixture. Perhaps a mixture of seeds could net you a little Crow friend?"]
+	quest.575AE8579611B7C8.quest_desc: [
+		"Oil is an incredibly valuable resource used in a number of industrial spaces for providing power. To start your oil-tapping journey, you'll need a Seismic Survey Tool, which you'll have to supply with a Buckshot Cartridge."
+		""
+		"By right-clicking the survey tool with your cartridge, you'll load it up with the cartridge. Right-click it a second time to get your Survey Result, which will indicate if you hit anything. You can hit water, lava, oil, or nothing at all."
+		""
+		"If a result has a blot of white on it, that's a source of fluid! Try to move your survey tool to that spot and see what's in that area."
+	]
 	quest.57D0D216A97B26D6.quest_desc: ["Source Gems are the most basic way to augment much purer magic. In wielding them, you see visions of mystical glyphs. There must be a way to document them..."]
+	quest.5A71F26573E823DD.quest_desc: [
+		"With your knowledge of both Obsidiansteel and Umbral Spirits, you can infuse Arcane Crystal Dust with them to produce Corrupti Dust."
+		""
+		"This dark substance can be merged in-world with Dark Matter (just drop them on the ground in the same block) to create a Black Hole. While a black hole will destroy 99% of items that go into it, any experience orbs that go in will instead build up."
+		""
+		"With enough orbs supplied to it, the black hole will spit out an Xpetrified Orb, an item incapable of being destroyed by black holes. It grants a lot of experience when consumed, but its dense and portable storage of experience lets it be used for crafting new items."
+	]
 	quest.5A71F26573E823DD.title: "Black Hole"
 	quest.5ADF1210A1910739.quest_desc: [
 		"An Enchanting Apparatus allows you to handle a variety of crafts for useful magic trinkets."
@@ -334,6 +412,13 @@
 	]
 	quest.5D9CA1923AFE93F5.title: "Industrial Fermenter"
 	quest.5ECBA464F300C4BE.quest_desc: ["Crushing up some Obsidian nets you a gritty powder that has a variety of uses. There may be a use for it when you acquire some more chalk."]
+	quest.5F0623EFC64A7CB2.quest_desc: [
+		"The Clibano Forge is a magic furnace capable of smelting various ores and netting some \"residue\" from them. This residue can give you extra yield from everything you process."
+		""
+		"In order to make one, you'll need the Clibano Core as well as some darkstone to build the rest of the furnace. By placing Polished Darkstone in each corner of the 3-block cube, the Clibano Core at the front face, and Polished Darkstone Bricks everywhere except the center, you can right-click the core with Mundabitur Dust to construct the furnace!"
+		""
+		"Note: You'll notice that there's a slot for souls in the furnace as well. By providing souls to the Clibano Forge, you can accelerate the speed at which you process items inside it. In fact, some items specifically &orely&r on soul fire to even process in the first place!"
+	]
 	quest.5F0623EFC64A7CB2.title: "Clibano Forge"
 	quest.5F80808E154DE3CA.quest_desc: [
 		"Blacksmith Gavels are required to start any ritual. When the forge has every input item and essence ready, right-clicking the Hephaestus Forge with a gavel will begin the ritual."
@@ -352,10 +437,20 @@
 	quest.5FCA3184CF970B11.quest_desc: ["You've likely come across some fascinating gems from combat and looting. Pulverizing them gives you ideas on how to make use of some random salvage..."]
 	quest.6061E76AA58C67FF.quest_desc: ["Dyeing the book lets you understand what spirit you must call upon. You realize that some sacrifices must be made to bring this spirit to your world, so you craft bowls out of your otherworldly stone and grab a few candles."]
 	quest.6061E76AA58C67FF.title: "Foliot Precursors"
+	quest.60625743869B669F.quest_desc: [
+		"Blaze Powder can be thrown into the Weeping Well to grant Auric Embers, a golden flame that has enough heat to power even the most magical furnaces."
+		""
+		"Word around is that you can lob them as explosive magic bolts to serve as an augment to mining... perhaps that's a sidequest worth exploring!"
+	]
 	quest.62080B375B86310C.quest_desc: [
 		"The Scribe's Table is your tool for recording and learning new glyphs. With the help of some Magic Ink, you begin to find items around you that relate to the glyphs you see."
 		""
 		"Bring them to the Scribe's Table and expand your knowledge!"
+	]
+	quest.6236075AA44E9589.quest_desc: [
+		"Upgrading your ritual grounds well let you bind a spirit to a Spirit-Attuned Pickaxe Head, which will grant you an Infused Pickaxe. This pickaxe is capable of mining more elusive otherworld materials that may appear in the Nether."
+		""
+		"However, you must be mindful of its lower durability. If you want to get the best use out of this pickaxe, try to enchant it with Silk Touch!"
 	]
 	quest.6290F7E3036FFB3B.quest_desc: [
 		"By stacking 5 Runewood Logs atop a Runewood Totem Pole and carving Arcane Spirits into the logs, you initiate an unstable totem rite that blights the world around it."
@@ -386,6 +481,11 @@
 	]
 	quest.65DB37034A4934D1.quest_subtitle: "This pack is still WIP!"
 	quest.65DB37034A4934D1.title: "Important Note"
+	quest.66562DFE55275190.quest_desc: [
+		"The Coker is the largest multiblock structure you'll ever make!"
+		""
+		"This tower's main purpose is to hydrate Bitumen to turn it into both Petcoke and Sulfurized Diesel. The Petcoke output can enable some very powerful technology if put to the right use."
+	]
 	quest.66562DFE55275190.title: "Coker"
 	quest.667F1C1C07BE07C3.quest_desc: ["Blazing Quartz is normally acquired while in more fiery places, but with the Spirit Crucible, you can get your hands on some in this dimension alone! Not only does it burn well as a fuel source, but it lets you hand-craft some Netherrack!"]
 	quest.668DE2BE460505E4.quest_desc: ["Placing Refined Soulstone into a scythe allows you to harvest the spirits of the enemies you slay, but only with this tool. There must be something you can do with these spirits."]
@@ -419,6 +519,7 @@
 		"Alongside Coal Coke (or Charcoal, if you want to make that without needing fuel), Coke Ovens will produce Creosote Oil as a byproduct, which is used in creating Treated Wood."
 	]
 	quest.68C602502B7CB050.title: "Coke Oven"
+	quest.6923B7F6A10F544C.quest_desc: ["Dark Steel is only craftable inside the Arc Furnace due to its hefty requirement of HOP Graphite Dust as a crafting ingredient. Its much more durable composition gives it a variety of uses in high-tier tech."]
 	quest.6A8D9BE3263D89DA.quest_desc: [
 		"Blast Furnaces are used in the production of steel, a more durable metal made from adding carbon to iron."
 		""
@@ -458,7 +559,15 @@
 		"You may have also noticed that the Crucible can net you a greater amount of Pewter Blend! Take advantage of this and save on resources!"
 	]
 	quest.72FB981E202AF28B.quest_desc: ["You feel a compulsion to sanctify your gold. Its purity may offer a better way to handle spirit magic, or perhaps lead you into another realm of magical capabilities."]
+	quest.73629B28897D556D.quest_desc: ["The Elite Crafting Table requires the otherworldly eminence of Iesnium and the high-end foundational structure of Dark Steel to construct its components. Make sure to have a reliable amount of these materials handy!"]
 	quest.74A49A878CDDA8C4.quest_desc: ["Many machines are easily built with nothing more than Andesite Casing. Just encase a stripped log with some Andesite Alloy and you can start tinkering with the casing!"]
+	quest.7573CD1A0DE53E5A.quest_desc: [
+		"If you want to locate otherworldly materials in your world, you may benefit from a tool that can find them for you. This is where the Divination Rod comes in handy!"
+		""
+		"Right-click a block with this rod to tell it what your searching for. After selecting a valid target block, the rod will send energy towards an otherworldly block that's currently disguising as the block you selected."
+		""
+		"If you wish to see the blocks more consistently, equip a pair of Otherworld Goggles!"
+	]
 	quest.777BD223A35E7233.quest_desc: ["The Magic Workbench enables you to craft a variety of magical items. Some of these items will reveal more hidden secrets within the Overworld or enable you to gain more knowledge of it."]
 	quest.7A322E5A606919C5.quest_desc: [
 		"Braziers made from pewter give you the ability to conduct simple rituals. One such ritual will allow you to slay nearby undead creatures to acquire Soul Shards, a primary ingredient for various magical crafts."

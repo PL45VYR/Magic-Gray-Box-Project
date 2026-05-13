@@ -1,6 +1,7 @@
 {
 	always_invisible: true
 	default_hide_dependency_lines: false
+	default_min_width: 350
 	default_quest_shape: ""
 	filename: "a_refined_gaze"
 	group: ""
@@ -123,49 +124,58 @@
 			y: -3.0d
 		}
 		{
+			icon: {
+				id: "occultism:divination_rod"
+			}
 			id: "7573CD1A0DE53E5A"
 			shape: "hexagon"
-			tasks: [{
-				id: "262E4B9BC3B50CC0"
-				item: { count: 1, id: "occultism:divination_rod" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "262E4B9BC3B50CC0"
+					item: { count: 1, id: "occultism:divination_rod" }
+					type: "item"
+				}
+				{
+					id: "48D158D2D2BA0DBA"
+					item: { count: 1, id: "occultism:otherworld_goggles" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -1.5d
 		}
 		{
-			dependencies: ["1632F319535286AC"]
+			dependencies: ["66562DFE55275190"]
 			id: "38ECD5C337E53585"
 			tasks: [{
 				id: "6040CE0EE43E92A1"
 				item: { count: 1, id: "immersiveengineering:dust_hop_graphite" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["66562DFE55275190"]
-			id: "1632F319535286AC"
-			tasks: [{
-				id: "7EF5FD447CEEF922"
-				item: { count: 1, id: "immersivepetroleum:petcoke" }
-				type: "item"
-			}]
 			x: -3.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2D3BA340F1A6957F"]
+			icon: {
+				id: "immersivepetroleum:coker_unit"
+			}
 			id: "66562DFE55275190"
-			tasks: [{
-				advancement: "immersivepetroleum:main/mb_cokerunit"
-				criterion: ""
-				id: "207A44E223587546"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "immersivepetroleum:main/mb_cokerunit"
+					criterion: ""
+					id: "207A44E223587546"
+					type: "advancement"
+				}
+				{
+					id: "7E39034B24FAD9D4"
+					item: { count: 1, id: "immersivepetroleum:petcoke" }
+					type: "item"
+				}
+			]
 			x: -4.5d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21219B904729865C"]
@@ -187,19 +197,20 @@
 				}
 			]
 			x: -6.0d
-			y: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["21219B904729865C"]
 			id: "0CD328FDDC341D36"
+			shape: "rsquare"
 			tasks: [{
 				advancement: "immersivepetroleum:main/mb_pumpjack"
 				criterion: ""
 				id: "4EB7E6F8DE711499"
 				type: "advancement"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["575AE8579611B7C8"]
@@ -210,7 +221,7 @@
 				id: "10059B587FEBF766"
 				type: "advancement"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 3.0d
 		}
 		{
@@ -221,7 +232,7 @@
 				item: { count: 1, id: "immersivepetroleum:seismic_survey" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 1.5d
 		}
 		{
@@ -268,7 +279,7 @@
 					type: "item"
 				}
 				{
-					count: 7L
+					count: 17L
 					id: "6753811B33D17429"
 					item: { count: 1, id: "forbidden_arcanus:polished_darkstone_bricks" }
 					type: "item"
