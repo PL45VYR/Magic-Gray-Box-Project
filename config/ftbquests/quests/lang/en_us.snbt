@@ -53,6 +53,7 @@
 		"These require a mix of Creosote Oil and HOP Graphite Dust in a Bottling Machine to make, but they'll last you quite a while."
 	]
 	quest.0C536BDC372C9E8C.title: "Arc Furnace"
+	quest.0CA2235A662DAD0B.quest_desc: ["Now that you've acquired all the major components for it, you can now craft the Elite Crafting Table, unlocking the next major stage of your technological developments!"]
 	quest.0CB5D35F7E1EDF28.quest_desc: ["An Impetus is a perfect target for spirit focusing. Each impetus has a unique output that changes based on what spirits are used in the focusing process."]
 	quest.0CD328FDDC341D36.quest_desc: [
 		"After your Derrick finishes releasing the built-up reserves of oil, you can deconstruct it and build a Pumpjack over the well pipe."
@@ -177,6 +178,7 @@
 		""
 		"Feel free to reach out if you're interested!"
 	]
+	quest.2461DB16636B9DFC.title: "Important Notes"
 	quest.250110B9401653FE.quest_desc: [
 		"Iesnium Ore is only attainable in the otherworld, but using your Infused Pickaxe, you can pull it into your world. Divination Rods that target Netherrack will be able to point out Iesnium Ore in the Nether."
 		""
@@ -507,6 +509,7 @@
 		""
 		"Congrats if you made it this far! Don't hesitate to leave feedback, I want to make sure my intended audience (whoever that may be) enjoys this project as much as I do."
 	]
+	quest.66E4A0255676A919.title: "Looking Ahead"
 	quest.67BB576CAAC503EC.quest_desc: [
 		"With a bit of support in your travels, you come across a very colorful forest inhabited by magical creatures."
 		""
@@ -601,6 +604,7 @@
 	task.27F322430A2A8F46.title: "Upgrade the forge!"
 	task.2AA5FFA49DA871F4.title: "Any: Soul"
 	task.2BBA831F34B5C4EF.title: "Any: Golden Ritual Bowl"
+	task.2D69BBE4CAFAA96C.title: "Thanks for letting me know!"
 	task.38C168E0653FBA58.title: "Sneak Peek?"
 	task.453F704ACAC3F333.title: "Build a Refinery!"
 	task.4BDC67AFA8C05E85.title: "Any: Candle"
@@ -608,6 +612,8 @@
 	task.5B4B87D319404863.title: "I'm ready!"
 	task.5B57EAAD1CCBED05.title: "Build an Improved Blast Furnace!"
 	task.5FD5009665C194A0.title: "Find a Weeping Well!"
+	task.60D2176DC57F60AA.title: "I'm ready!"
 	task.6AE575058E6055ED.title: "Any: Blacksmith Gavel"
+	task.6DF23FCF7F1F408B.title: "Hey mom can you pick me up?"
 	task.7445806443BF718D.title: "Build a Distillation Tower!"
 }
