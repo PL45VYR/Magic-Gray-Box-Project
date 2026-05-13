@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_min_width: 350
 	default_quest_shape: ""
@@ -124,6 +123,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["501AC7115BF6E39C"]
 			icon: {
 				id: "occultism:divination_rod"
 			}
@@ -225,6 +225,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["501AC7115BF6E39C"]
 			id: "575AE8579611B7C8"
 			shape: "hexagon"
 			tasks: [{
@@ -300,6 +301,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["501AC7115BF6E39C"]
 			id: "1AF004E444A31F19"
 			shape: "hexagon"
 			tasks: [{
@@ -314,6 +316,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["501AC7115BF6E39C"]
 			id: "2C2B41465E3BEFF7"
 			shape: "hexagon"
 			tasks: [{
