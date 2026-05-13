@@ -137,14 +137,11 @@ ServerEvents.recipes(event => {
 
     // Railcraft Reborn
     event.remove({ id: /railcraft:.*crafted_with_ingots/ })
-    event.remove({ id: "railcraft:rolling/rebar_bronze" })
-    event.remove({ id: "railcraft:rolling/rebar_invar" })
-    event.remove({ id: "railcraft:rolling/rebar_iron" })
+    event.remove({ id: /railcraft:rolling\/rebar.*/ })
     event.remove({ id: "railcraft:bag_of_cement_slag" })
     event.remove({ output: "railcraft:blast_furnace_bricks" })
     event.remove({ output: "railcraft:coke_oven_bricks" })
     event.remove({ output: "railcraft:crusher" })
-    event.remove({ id: "railcraft:rolling/rebar_steel" })
     event.remove({ id: /railcraft:.*/, output: "#c:gears" })
     event.remove({ output: "railcraft:bushing_gear" })
 
