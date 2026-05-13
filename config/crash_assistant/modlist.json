@@ -5,13 +5,13 @@
     "name": "neoforge",
     "version": "neoforge-21.1.228"
   },
-  "aces_spell_utils-1.2.6-1.21.1.jar": {
-    "jarName": "aces_spell_utils-1.2.6-1.21.1.jar",
+  "aces_spell_utils-1.2.6.1-1.21.1.jar": {
+    "jarName": "aces_spell_utils-1.2.6.1-1.21.1.jar",
     "modId": "aces_spell_utils",
     "name": "Ace\u0027s Spell Utils",
-    "version": "1.2.6-1.21.1",
-    "curseForgeHash": 120653159,
-    "modrinthHash": "00457c57c2b73e49df7f691b1fa515c4d1c01621"
+    "version": "1.2.6.1-1.21.1",
+    "curseForgeHash": 1417081703,
+    "modrinthHash": "6cad17fe69b70ac13c2d31cd6e2cad15e21998e8"
   },
   "AchievementOptimizer-neoforge-1.21.1-2.1.0.jar": {
     "jarName": "AchievementOptimizer-neoforge-1.21.1-2.1.0.jar",
@@ -333,13 +333,13 @@
     "curseForgeHash": 2445792967,
     "modrinthHash": "2354710ea312e2a6e0fbc3eb2dbafb8e06f10cf4"
   },
-  "ars_nouveau-1.21.1-5.11.4.jar": {
-    "jarName": "ars_nouveau-1.21.1-5.11.4.jar",
+  "ars_nouveau-1.21.1-5.11.5.jar": {
+    "jarName": "ars_nouveau-1.21.1-5.11.5.jar",
     "modId": "ars_nouveau",
     "name": "Ars Nouveau",
-    "version": "5.11.4",
-    "curseForgeHash": 2656984995,
-    "modrinthHash": "7e7fbc1522d9cdd1ac70fbabd23f61934ef74017"
+    "version": "5.11.5",
+    "curseForgeHash": 2711572095,
+    "modrinthHash": "202512e3a48c169ea4c68c85c2208f1813a92f26"
   },
   "ars_ocultas-1.21.1-2.4.1.jar": {
     "jarName": "ars_ocultas-1.21.1-2.4.1.jar",
@@ -980,13 +980,13 @@
     "curseForgeHash": 1233383863,
     "modrinthHash": "8ac6cf959fe66399aa7e86b6e6f933e07d155b7e"
   },
-  "emi-1.1.23+1.21.1+neoforge.jar": {
-    "jarName": "emi-1.1.23+1.21.1+neoforge.jar",
+  "emi-1.1.24+1.21.1+neoforge.jar": {
+    "jarName": "emi-1.1.24+1.21.1+neoforge.jar",
     "modId": "emi",
     "name": "EMI",
-    "version": "1.1.23+1.21.1+neoforge",
-    "curseForgeHash": 2513204711,
-    "modrinthHash": "3ea453bcd0991bec9c963d0a068e4966503d7cdd"
+    "version": "1.1.24+1.21.1+neoforge",
+    "curseForgeHash": 2937070771,
+    "modrinthHash": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a"
   },
   "emi_create_schematics-1.1.0.jar": {
     "jarName": "emi_create_schematics-1.1.0.jar",
@@ -1492,13 +1492,13 @@
     "curseForgeHash": 642801878,
     "modrinthHash": "351d12fa59e7df5170db728a388a03450895efe6"
   },
-  "hearthandharvest-1.21.1-1.2.1.jar": {
-    "jarName": "hearthandharvest-1.21.1-1.2.1.jar",
+  "hearthandharvest-1.21.1-1.2.1a.jar": {
+    "jarName": "hearthandharvest-1.21.1-1.2.1a.jar",
     "modId": "hearthandharvest",
     "name": "Hearth and Harvest",
-    "version": "1.2.1",
-    "curseForgeHash": 1855326866,
-    "modrinthHash": "0420915defd7d7a47f796b04ddad54b5abb6aa49"
+    "version": "1.2.1a",
+    "curseForgeHash": 609479192,
+    "modrinthHash": "69fd7af049131a5fea1b13fdfc779caca79e1565"
   },
   "hexerei-0.5.0.3.jar": {
     "jarName": "hexerei-0.5.0.3.jar",
@@ -2465,13 +2465,13 @@
     "curseForgeHash": 3206533594,
     "modrinthHash": "b03d05495be28d8cef7a34872941bb8d703d60e6"
   },
-  "relics-1.21.1-0.12.3.jar": {
-    "jarName": "relics-1.21.1-0.12.3.jar",
+  "relics-1.21.1-0.12.4.jar": {
+    "jarName": "relics-1.21.1-0.12.4.jar",
     "modId": "relics",
     "name": "Relics",
-    "version": "0.12.3",
-    "curseForgeHash": 3310468548,
-    "modrinthHash": "73ccc1fcdac5b9c7d3022f775f85bce7d8619cd6"
+    "version": "0.12.4",
+    "curseForgeHash": 413562266,
+    "modrinthHash": "3e6595a230f1d7a14b676ae05555fbff3f4d9f45"
   },
   "reliquary-1.21.1-2.0.70.1464.jar": {
     "jarName": "reliquary-1.21.1-2.0.70.1464.jar",
