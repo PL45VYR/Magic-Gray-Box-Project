@@ -174,12 +174,8 @@ LootJS.modifiers(event => {
     // Ars Nouveau
     event.addTableModifier(/.*chests\/.*/).removeLoot(/ars_.*/)
 
-    // Eidolon Repraised
-    event.addTableModifier("eidolon_repraised:chests/catacomb_basic").removeLoot("minecraft:soul_sand")
-
     // Ender IO
-    event.addTableModifier(/.*chests\/.*/).removeLoot(/enderio:.*/)
-    event.addTableModifier(/.*chests\/.*/).removeLoot(/enderio:.*/)
+    event.removeGlobalModifiers("enderio:alloy_loot")
 
     // Extra Delight
     event.addTableModifier(/.*chests\/.*/).removeLoot(/extradelight:.*/)
@@ -191,12 +187,12 @@ LootJS.modifiers(event => {
 LootJS.lootTables(event => {
     // Loot Table Removal
     // Removed loot tables go here
-})
-
-LootJS.modifiers(event => {
-    // Eidolon Repraised
-    event.addTableModifier("eidolon_repraised:chests/catacomb_basic").removeLoot("minecraft:soul_sand")
 
     // Ender IO
-    event.removeGlobalModifiers("enderio:alloy_loot")
+    let enderio_tables = event.getLootTableIds(/enderio.*/)
+
+    enderio_tables.forEach(table => {
+        event.getLootTable(table).removeItem("enderio:dark_steel_ingot")
+        event.getLootTable(table).removeItem("minecraft:ender_pearl")
+    })
 })
