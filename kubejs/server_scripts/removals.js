@@ -198,5 +198,5 @@ LootJS.modifiers(event => {
     event.addTableModifier("eidolon_repraised:chests/catacomb_basic").removeLoot("minecraft:soul_sand")
 
     // Ender IO
-    event.addTableModifier(/.*chests\/.*/).removeLoot(/enderio:.*/)
+    event.removeGlobalModifiers("enderio:alloy_loot")
 })
