@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: /.*app.*/ })
 
     // Just Dire Things
-    event.remove({ mod: "justdirethings" })
+    // event.remove({ mod: "justdirethings" })
 
     // Ender IO
     // event.remove({ mod: "enderio" })
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "dysoncubeproject" })
 
     // XyCraft
-    event.remove({ mod: /xycraft.*/ })
+    // event.remove({ mod: /xycraft.*/ })
 
     // Powah
     event.remove({ mod: "powah" })
