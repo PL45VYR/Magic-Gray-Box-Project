@@ -21,6 +21,9 @@ ServerEvents.recipes(event => {
 
     // Just Dire Things
     // event.remove({ mod: "justdirethings" })
+    event.remove({ output: "justdirethings:gooblock_tier2"})
+    event.remove({ output: "justdirethings:gooblock_tier3"})
+    event.remove({ output: "justdirethings:gooblock_tier4"})
 
     // Ender IO
     // event.remove({ mod: "enderio" })
