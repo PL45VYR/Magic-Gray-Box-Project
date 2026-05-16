@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
     // Actually Additions
     event.remove({ input: /actuallyadditions:tiny_c.*/, output: /actuallyadditions:tiny_c.*/ })
     event.remove({ output: /.*crystal_block/, type: "actuallyadditions:laser" })
+    event.remove({ output: /.*crystal_block/, type: "actuallyadditions:empowering"})
 
     // Ars Nouveau
     event.remove({ id: /ars_nouveau:novice.*/ })
