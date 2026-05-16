@@ -48,7 +48,7 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -58,7 +58,7 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -68,8 +68,18 @@
 				item: { count: 1, id: "compactcrafting:field_projector" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: -1.5d
+		}
+		{
+			id: "5811EA04E7CF30E7"
+			tasks: [{
+				id: "4A6C85333F8DC171"
+				item: { count: 1, id: "xycraft_machines:machine_base" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 }

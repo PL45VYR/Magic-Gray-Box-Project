@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
     // Actually Additions
     event.remove({ input: /actuallyadditions:tiny_c.*/, output: /actuallyadditions:tiny_c.*/ })
     event.remove({ output: /.*crystal_block/, type: "actuallyadditions:laser" })
-    event.remove({ output: /.*crystal_block/, type: "actuallyadditions:empowering"})
+    event.remove({ output: /.*crystal_block/, type: "actuallyadditions:empowering" })
 
     // Ars Nouveau
     event.remove({ id: /ars_nouveau:novice.*/ })
@@ -152,6 +152,9 @@ ServerEvents.recipes(event => {
 
     // Theurgy
     event.remove({ output: "theurgy:pyromantic_brazier" })
+
+    // XyCraft
+    event.remove({ output: "xycraft_machines:machine_base" })
 })
 
 ServerEvents.tags("item", event => {
