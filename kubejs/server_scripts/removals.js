@@ -18,6 +18,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove("oritech:steel_block")
     event.remove("railcraft:bushing_gear")
     event.remove("hazennstuff:crude_metal")
+    event.remove("oritech:raw_silicon")
 
 })
 
@@ -137,7 +138,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: /oritech:primitive_compat\/.*/ })
     event.remove({ id: "oritech:mixing/compat/create/biosteel" })
     event.remove({ id: "oritech:mixing/compat/create/steel" })
-    event.remove({ output: "oritech:raw_silicon" })
+    event.remove({ input: "oritech:raw_silicon" })
     event.remove({ id: "oritech:centrifuge/carbon" })
 
     // Railcraft Reborn
