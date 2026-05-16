@@ -10,5 +10,66 @@
 	id: "0960486528B903A8"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: {
+				id: "extendedcrafting:flux_crafter"
+			}
+			id: "531AC0805169CEBF"
+			tasks: [
+				{
+					id: "3C88A22CB8D6B5CC"
+					item: { count: 1, id: "extendedcrafting:flux_crafter" }
+					type: "item"
+				}
+				{
+					id: "7997C70F13508EF9"
+					item: { count: 1, id: "extendedcrafting:flux_alternator" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "658FE15E322D56FF"
+			tasks: [{
+				id: "1E958A6BE5EB5437"
+				item: { count: 1, id: "xycraft_machines:extractor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "30F43F6EFA0D7850"
+			tasks: [{
+				id: "11E4FDCD8B009C30"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "0C321C88817418A1"
+			tasks: [{
+				id: "54FC0D8854D5B220"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "4A792E46F811CE2E"
+			tasks: [{
+				id: "6851EA5DD63711F9"
+				item: { count: 1, id: "compactcrafting:field_projector" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
 }

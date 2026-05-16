@@ -820,13 +820,13 @@
     "curseForgeHash": 2332909618,
     "modrinthHash": "c594e20659b73a67bd0b0c2de45b29b78a2eb160"
   },
-  "CreateDragonsPlus-1.10.0b.jar": {
-    "jarName": "CreateDragonsPlus-1.10.0b.jar",
+  "CreateDragonsPlus-1.10.1.jar": {
+    "jarName": "CreateDragonsPlus-1.10.1.jar",
     "modId": "create_dragons_plus",
     "name": "Create: Dragons Plus",
-    "version": "1.10.0b",
-    "curseForgeHash": 2901045699,
-    "modrinthHash": "e50ae4f50173b12232b8dbd6b85568b4b657c0cf"
+    "version": "1.10.1",
+    "curseForgeHash": 1801152909,
+    "modrinthHash": "0759898cc7ca22ece49e7d7a210db8becfd79cdf"
   },
   "createstockbridge-1.21.1-0.2.0.jar": {
     "jarName": "createstockbridge-1.21.1-0.2.0.jar",
@@ -1628,13 +1628,13 @@
     "curseForgeHash": 550229315,
     "modrinthHash": "2e5d8024024643edf7917fb70cf889511ac93b3e"
   },
-  "integratedscripting-1.21.1-neoforge-1.0.21-339.jar": {
-    "jarName": "integratedscripting-1.21.1-neoforge-1.0.21-339.jar",
+  "integratedscripting-1.21.1-neoforge-1.0.22.jar": {
+    "jarName": "integratedscripting-1.21.1-neoforge-1.0.22.jar",
     "modId": "integratedscripting",
     "name": "IntegratedScripting",
-    "version": "1.0.21",
-    "curseForgeHash": 2093579765,
-    "modrinthHash": "f2ae961a3fe97b0de0830fcfebb34f30e7146bd1"
+    "version": "1.0.22",
+    "curseForgeHash": 755778460,
+    "modrinthHash": "db11756440f332f4a408045da700fb9967fc8999"
   },
   "integratedterminals-1.21.1-neoforge-1.6.28.jar": {
     "jarName": "integratedterminals-1.21.1-neoforge-1.6.28.jar",
@@ -1841,13 +1841,13 @@
     "curseForgeHash": 2672915247,
     "modrinthHash": "6548ec47aa6b0498c3018cde40d9d0a203b67446"
   },
-  "L_Ender\u0027s Cataclysm 1.21.1-3.27.jar": {
-    "jarName": "L_Ender\u0027s Cataclysm 1.21.1-3.27.jar",
+  "L_Ender\u0027s Cataclysm 1.21.1-3.28.jar": {
+    "jarName": "L_Ender\u0027s Cataclysm 1.21.1-3.28.jar",
     "modId": "cataclysm",
     "name": "L_Ender\u0027s Cataclysm 1.21.1",
-    "version": "3.27",
-    "curseForgeHash": 2946987299,
-    "modrinthHash": "f34a5e3994fff1953c631b87b3dfa89ed62c26dc"
+    "version": "3.28",
+    "curseForgeHash": 1113823042,
+    "modrinthHash": "450584c5f708a7d0abb32fb2fe1d2dc7d1afb426"
   },
   "lambdynamiclights-4.8.8+1.21.1.jar": {
     "jarName": "lambdynamiclights-4.8.8+1.21.1.jar",
@@ -1889,13 +1889,13 @@
     "curseForgeHash": 1151907983,
     "modrinthHash": "f15a3b88c926d2dc9d06c2b876cd89287791773c"
   },
-  "lionfishapi-2.7-fix-fix.jar": {
-    "jarName": "lionfishapi-2.7-fix-fix.jar",
+  "lionfishapi-3.0-beta.jar": {
+    "jarName": "lionfishapi-3.0-beta.jar",
     "modId": "lionfishapi",
     "name": "lionfishapi",
-    "version": "2.7",
-    "curseForgeHash": 3722162517,
-    "modrinthHash": "af90b807eed100e899b9afa13bb75e7d45294ba3"
+    "version": "3.0-beta",
+    "curseForgeHash": 233805358,
+    "modrinthHash": "0bcbc7d9674f3152414648e041a488cc875a4853"
   },
   "lithium-neoforge-0.15.3+mc1.21.1.jar": {
     "jarName": "lithium-neoforge-0.15.3+mc1.21.1.jar",
@@ -1905,13 +1905,13 @@
     "curseForgeHash": 1666655641,
     "modrinthHash": "9fd5fa9076044180ae7f51672de74669196ec72e"
   },
-  "lithostitched-1.7.5-neoforge-21.1.jar": {
-    "jarName": "lithostitched-1.7.5-neoforge-21.1.jar",
+  "lithostitched-1.7.6-neoforge-21.1.jar": {
+    "jarName": "lithostitched-1.7.6-neoforge-21.1.jar",
     "modId": "lithostitched",
     "name": "Lithostitched",
-    "version": "1.7.5",
-    "curseForgeHash": 4036205515,
-    "modrinthHash": "a4bd924dda20fa56faf08df2f9766834d72f0494"
+    "version": "1.7.6",
+    "curseForgeHash": 3114886124,
+    "modrinthHash": "eb8a920ecb923582bdc0974825b1de042d83a3b3"
   },
   "lmft-1.1.1+1.21.9-neoforge.jar": {
     "jarName": "lmft-1.1.1+1.21.9-neoforge.jar",
@@ -2401,13 +2401,13 @@
     "curseForgeHash": 3352390329,
     "modrinthHash": "5174059ecf97340a0de5ef211b938de26c4eaa36"
   },
-  "ProbeJS-8.0.0.jar": {
-    "jarName": "ProbeJS-8.0.0.jar",
+  "ProbeJS-8.0.1.jar": {
+    "jarName": "ProbeJS-8.0.1.jar",
     "modId": "probejs",
     "name": "ProbeJS",
-    "version": "8.0.0",
-    "curseForgeHash": 88763412,
-    "modrinthHash": "a1982dfea630c0df16a355e1df9718eefa35a577"
+    "version": "8.0.1",
+    "curseForgeHash": 3860603727,
+    "modrinthHash": "f86cc0f29f0c41e780e1b723825a2bb89f8f2c90"
   },
   "prometheus-neoforge-1.21-1.2.5.jar": {
     "jarName": "prometheus-neoforge-1.21-1.2.5.jar",
