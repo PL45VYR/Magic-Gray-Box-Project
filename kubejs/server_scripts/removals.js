@@ -34,6 +34,7 @@ ServerEvents.recipes(event => {
 
     // Actually Additions
     event.remove({ input: /actuallyadditions:tiny_c.*/, output: /actuallyadditions:tiny_c.*/ })
+    event.remove({ output: /.*crystal_block/, type: "actuallyadditions:laser" })
 
     // Ars Nouveau
     event.remove({ id: /ars_nouveau:novice.*/ })
@@ -105,7 +106,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: /engineeredcompatibility:arcfurnace\/ae2.*/ })
     event.remove({ id: "immersiveengineering:crafting/blastbrick" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/forbidden.*/ })
-    event.remove({output: "immersivepetroleum:seismic_survey"})
+    event.remove({ output: "immersivepetroleum:seismic_survey" })
 
     // Industrial Foregoing
     event.remove({ mod: "industrialforegoing", output: "#c:gears" })
@@ -113,6 +114,9 @@ ServerEvents.recipes(event => {
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
     event.remove([{ output: "hazennstuff:crude_metal" }, { input: "hazennstuff:crude_metal" }])
+
+    // Just Dire Things
+    event.remove({ output: "justdirethings:gooblock_tier1" })
 
     // Malum
     event.remove({ output: "malum:spirit_altar" })
@@ -123,8 +127,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: "occultism:chalk_purple_impure" })
     event.remove({ output: "occultism:chalk_light_gray_impure" })
     event.remove({ output: "occultism:chalk_lime_impure" })
-    event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:smelting"})
-    event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:blasting"})
+    event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:smelting" })
+    event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:blasting" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/occultism.*/ })
 
     // Oritech
