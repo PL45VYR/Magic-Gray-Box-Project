@@ -40,6 +40,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: /.*crystal_block/, type: "actuallyadditions:empowering" })
     event.remove({ output: "actuallyadditions:lava_factory_casing" })
     event.remove({ output: "actuallyadditions:atomic_reconstructor" })
+    event.remove({ output: "actuallyadditions:ender_casing" })
 
     // Ars Nouveau
     event.remove({ id: /ars_nouveau:novice.*/ })
@@ -85,6 +86,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:advanced_catalyst" })
     event.remove({ id: "extendedcrafting:elite_component" })
     event.remove({ id: "extendedcrafting:elite_catalyst" })
+    event.remove({ id: "extendedcrafting:redstone_ingot" })
 
 
     // Farming for Blockheads
@@ -127,6 +129,7 @@ ServerEvents.recipes(event => {
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
     event.remove([{ output: "hazennstuff:crude_metal" }, { input: "hazennstuff:crude_metal" }])
+    event.remove({ output: "hazennstuff:lemon" })
 
     // Just Dire Things
     event.remove({ output: "justdirethings:gooblock_tier1" })

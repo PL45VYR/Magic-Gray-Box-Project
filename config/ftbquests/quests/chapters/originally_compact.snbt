@@ -38,7 +38,7 @@
 				item: { count: 1, id: "xycraft_machines:extractor" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -48,7 +48,7 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -58,7 +58,7 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -68,7 +68,7 @@
 				item: { count: 1, id: "compactcrafting:field_projector" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -78,7 +78,7 @@
 				item: { count: 1, id: "xycraft_machines:machine_base" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -88,6 +88,46 @@
 				item: { count: 1, id: "actuallyadditions:lava_factory_casing" }
 				type: "item"
 			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "actuallyadditions:restonia_crystal"
+			}
+			id: "4299D9545D9A81EB"
+			tasks: [
+				{
+					id: "260FDC47424F52AC"
+					item: { count: 1, id: "actuallyadditions:restonia_crystal" }
+					type: "item"
+				}
+				{
+					id: "26594D715252FA2C"
+					item: { count: 1, id: "actuallyadditions:palis_crystal" }
+					type: "item"
+				}
+				{
+					id: "5304DD32DBA13051"
+					item: { count: 1, id: "actuallyadditions:diamatine_crystal" }
+					type: "item"
+				}
+				{
+					id: "73AAD06FBCA42D72"
+					item: { count: 1, id: "actuallyadditions:void_crystal" }
+					type: "item"
+				}
+				{
+					id: "3D0B430F770E3D44"
+					item: { count: 1, id: "actuallyadditions:emeradic_crystal" }
+					type: "item"
+				}
+				{
+					id: "31B5F261EEDDB3AE"
+					item: { count: 1, id: "actuallyadditions:enori_crystal" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}

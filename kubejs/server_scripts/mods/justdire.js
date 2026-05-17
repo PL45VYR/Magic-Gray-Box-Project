@@ -28,4 +28,7 @@ ServerEvents.recipes(event => {
             }
         }
     )
+
+    // Ferricore Recipe Tweak
+    event.replaceInput({type: "justdirethings:goospread"}, "minecraft:iron_block", "minecraft:raw_iron_block")
 })
