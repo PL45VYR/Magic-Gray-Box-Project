@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "justdirethings:gooblock_tier4" })
 
     // Ender IO
-    // event.remove({ mod: "enderio" })
+    event.remove({ mod: "enderio" })
 
     // Actually Additions
     // event.remove({ mod: "actuallyadditions" })

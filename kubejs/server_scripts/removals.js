@@ -44,6 +44,14 @@ ServerEvents.recipes(event => {
     event.remove({ output: "ars_nouveau:imbuement_chamber" })
     event.remove({ output: "ars_nouveau:scribes_table" })
 
+    // Compact Crafting
+    event.remove({ id: "compactmachines:wall" })
+    event.remove({ output: "compactcrafting:field_projector" })
+    event.remove({ output: "compactcrafting:base" })
+    event.remove({ output: "compactcrafting:projector_dish" })
+    event.remove({ output: "compactcrafting:rescan_proxy" })
+    event.remove({ output: "compactcrafting:match_proxy" })
+
     // Create
     event.remove({ id: "create:crafting/materials/andesite_alloy" })
     event.remove({ id: "create:crafting/materials/andesite_alloy_from_zinc" })

@@ -38,8 +38,8 @@
 				item: { count: 1, id: "xycraft_machines:extractor" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			id: "30F43F6EFA0D7850"
@@ -48,8 +48,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			id: "0C321C88817418A1"
@@ -58,8 +58,8 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			id: "4A792E46F811CE2E"
@@ -68,14 +68,24 @@
 				item: { count: 1, id: "compactcrafting:field_projector" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			id: "5811EA04E7CF30E7"
 			tasks: [{
 				id: "4A6C85333F8DC171"
 				item: { count: 1, id: "xycraft_machines:machine_base" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "618A82E325286D95"
+			tasks: [{
+				id: "6999CD75321C1235"
+				item: { count: 1, id: "actuallyadditions:lava_factory_casing" }
 				type: "item"
 			}]
 			x: 3.0d
