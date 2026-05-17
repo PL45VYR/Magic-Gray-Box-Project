@@ -86,6 +86,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:advanced_catalyst" })
     event.remove({ id: "extendedcrafting:elite_component" })
     event.remove({ id: "extendedcrafting:elite_catalyst" })
+    event.remove({ id: "extendedcrafting:crystaltine_ingot" })
     event.remove({ id: "extendedcrafting:redstone_ingot" })
 
 
@@ -133,6 +134,9 @@ ServerEvents.recipes(event => {
 
     // Just Dire Things
     event.remove({ output: "justdirethings:gooblock_tier1" })
+    event.remove({ id: "justdirethings:raw_ferricore_ore-goospread" })
+    event.remove({ id: "justdirethings:raw_blazegold_ore-goospread" })
+    event.remove({ id: "justdirethings:raw_celestigem_ore-goospread" })
 
     // Malum
     event.remove({ output: "malum:spirit_altar" })

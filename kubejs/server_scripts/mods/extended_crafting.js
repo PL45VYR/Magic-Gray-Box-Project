@@ -176,4 +176,30 @@ ServerEvents.recipes(event => {
     // Elite Crafting Table
     event.replaceInput({ id: "extendedcrafting:elite_table" }, 'minecraft:diamond_block', 'occultism:iesnium_block')
 
+    // Crystaltine Ingot Recipe
+    event.recipes.extendedcrafting.shaped_table('4x extendedcrafting:crystaltine_ingot',
+        [
+            "       ",
+            "ABBBBBA",
+            "ACCDCCA",
+            "ACCDCCA",
+            "ABBBBBA",
+            "       ",
+            "       "
+        ], {
+        "A": {
+            "item": "occultism:iesnium_ingot"
+        },
+        "B": {
+            "tag": "c:ingots/platinum"
+        },
+        "C": {
+            "item": "forbidden_arcanus:arcane_crystal"
+        },
+        "D": {
+            "item": "apotheosis:rare_material"
+        }
+    }
+)
+
 })

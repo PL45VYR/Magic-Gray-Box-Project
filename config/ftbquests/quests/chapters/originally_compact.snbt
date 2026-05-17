@@ -131,5 +131,25 @@
 			x: 3.0d
 			y: 0.0d
 		}
+		{
+			id: "5C7FC2B04B1CC0E1"
+			tasks: [{
+				id: "6AD32ED93AB19114"
+				item: { count: 1, id: "extendedcrafting:crystaltine_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "23CA5965D3EB1AB4"
+			tasks: [{
+				id: "3EB71DC7A371EE42"
+				item: { count: 1, id: "actuallyadditions:empowerer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
 	]
 }
