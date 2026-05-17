@@ -41,6 +41,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "actuallyadditions:lava_factory_casing" })
     event.remove({ output: "actuallyadditions:atomic_reconstructor" })
     event.remove({ output: "actuallyadditions:ender_casing" })
+    event.remove({ output: "actuallyadditions:empowerer" })
 
     // Ars Nouveau
     event.remove({ id: /ars_nouveau:novice.*/ })
