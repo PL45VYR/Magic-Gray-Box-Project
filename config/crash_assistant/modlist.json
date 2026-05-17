@@ -181,13 +181,13 @@
     "curseForgeHash": 2086789492,
     "modrinthHash": "54673bad0e7b84fdafc6d0802406c01316b37659"
   },
-  "Apotheosis-1.21.1-8.5.2.jar": {
-    "jarName": "Apotheosis-1.21.1-8.5.2.jar",
+  "Apotheosis-1.21.1-8.5.3.jar": {
+    "jarName": "Apotheosis-1.21.1-8.5.3.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.5.2",
-    "curseForgeHash": 3263674676,
-    "modrinthHash": "eb484177b383dc397bfa37d06ef09ec39053bb50"
+    "version": "8.5.3",
+    "curseForgeHash": 1206032462,
+    "modrinthHash": "9a334c834b4b11f90c0b86595fd0a47fae3a8e3a"
   },
   "apothic_amendments__enchanting-NF1.21.1-0.1.4.jar": {
     "jarName": "apothic_amendments__enchanting-NF1.21.1-0.1.4.jar",
@@ -1476,21 +1476,21 @@
     "curseForgeHash": 917328710,
     "modrinthHash": "26d0f6f428f04110351f0274fda4ffe3620df38d"
   },
-  "hazennstuff-1.4.0.12.jar": {
-    "jarName": "hazennstuff-1.4.0.12.jar",
+  "hazennstuff-1.4.0.13.jar": {
+    "jarName": "hazennstuff-1.4.0.13.jar",
     "modId": "hazennstuff",
     "name": "Hazen N Stuff",
-    "version": "1.4.0.12",
-    "curseForgeHash": 1763741063,
-    "modrinthHash": "252018dd20e23b76794016cb0ce875c23340097a"
+    "version": "1.4.0.13",
+    "curseForgeHash": 4140898030,
+    "modrinthHash": "73f341eee740d71d3453aacf454445d99acda37c"
   },
-  "hazentouvelib-1.0.5.jar": {
-    "jarName": "hazentouvelib-1.0.5.jar",
+  "hazentouvelib-1.0.6.jar": {
+    "jarName": "hazentouvelib-1.0.6.jar",
     "modId": "hazentouvelib",
     "name": "HazentouveLib",
-    "version": "1.0.5",
-    "curseForgeHash": 1034498744,
-    "modrinthHash": "a6e4d20818bc5f9570de0e726316b22e90998946"
+    "version": "1.0.6",
+    "curseForgeHash": 1060110783,
+    "modrinthHash": "3414ed7be09deda989328f64af1564c6396f82c4"
   },
   "hearthandharvest-1.21.1-1.2.1a.jar": {
     "jarName": "hearthandharvest-1.21.1-1.2.1a.jar",
@@ -1905,13 +1905,13 @@
     "curseForgeHash": 1666655641,
     "modrinthHash": "9fd5fa9076044180ae7f51672de74669196ec72e"
   },
-  "lithostitched-1.7.6-neoforge-21.1.jar": {
-    "jarName": "lithostitched-1.7.6-neoforge-21.1.jar",
+  "lithostitched-1.7.7-neoforge-21.1.jar": {
+    "jarName": "lithostitched-1.7.7-neoforge-21.1.jar",
     "modId": "lithostitched",
     "name": "Lithostitched",
-    "version": "1.7.6",
-    "curseForgeHash": 3114886124,
-    "modrinthHash": "eb8a920ecb923582bdc0974825b1de042d83a3b3"
+    "version": "1.7.7",
+    "curseForgeHash": 648179697,
+    "modrinthHash": "ebaa90fb9893adec03cff52bd75c1155a72f7dd9"
   },
   "lmft-1.1.1+1.21.9-neoforge.jar": {
     "jarName": "lmft-1.1.1+1.21.9-neoforge.jar",
@@ -2073,13 +2073,13 @@
     "curseForgeHash": 2008040170,
     "modrinthHash": "9608b1bff92e075ad8c2feb07f7ef095f6887117"
   },
-  "modernfix-neoforge-5.27.7+mc1.21.1.jar": {
-    "jarName": "modernfix-neoforge-5.27.7+mc1.21.1.jar",
+  "modernfix-neoforge-5.27.8+mc1.21.1.jar": {
+    "jarName": "modernfix-neoforge-5.27.8+mc1.21.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.7+mc1.21.1",
-    "curseForgeHash": 233728764,
-    "modrinthHash": "e6aa8b31150c9bae8eded03ba9137d66b7452252"
+    "version": "5.27.8+mc1.21.1",
+    "curseForgeHash": 3496257519,
+    "modrinthHash": "2fbce2437be5a2ac69aa093a388ca43f44245237"
   },
   "modonomicon-1.21.1-neoforge-1.120.1.jar": {
     "jarName": "modonomicon-1.21.1-neoforge-1.120.1.jar",
@@ -2473,13 +2473,13 @@
     "curseForgeHash": 3206533594,
     "modrinthHash": "b03d05495be28d8cef7a34872941bb8d703d60e6"
   },
-  "relics-1.21.1-0.12.4.jar": {
-    "jarName": "relics-1.21.1-0.12.4.jar",
+  "relics-1.21.1-0.12.5.jar": {
+    "jarName": "relics-1.21.1-0.12.5.jar",
     "modId": "relics",
     "name": "Relics",
-    "version": "0.12.4",
-    "curseForgeHash": 413562266,
-    "modrinthHash": "3e6595a230f1d7a14b676ae05555fbff3f4d9f45"
+    "version": "0.12.5",
+    "curseForgeHash": 2094336063,
+    "modrinthHash": "17da9f1bf39145486579241a74786360d385c6f1"
   },
   "reliquary-1.21.1-2.0.70.1464.jar": {
     "jarName": "reliquary-1.21.1-2.0.70.1464.jar",
@@ -2545,13 +2545,13 @@
     "curseForgeHash": 3887879530,
     "modrinthHash": "5dcc80079095706645d567353095297948a41eea"
   },
-  "rusticdelight-neoforge-1.21-1.6.0.jar": {
-    "jarName": "rusticdelight-neoforge-1.21-1.6.0.jar",
+  "rusticdelight-neoforge-1.21-1.6.1.jar": {
+    "jarName": "rusticdelight-neoforge-1.21-1.6.1.jar",
     "modId": "rusticdelight",
     "name": "Rustic Delight",
-    "version": "1.6.0",
-    "curseForgeHash": 679813647,
-    "modrinthHash": "eeebc3ecf50afad61f2a5c9b36e498cc3a5fec13"
+    "version": "1.6.1",
+    "curseForgeHash": 2204286534,
+    "modrinthHash": "b5c343d01cf4c9cc77815a15f9a45da4a3205002"
   },
   "schematicenergistics-1.21.1-1.5.2.jar": {
     "jarName": "schematicenergistics-1.21.1-1.5.2.jar",
