@@ -212,7 +212,7 @@ ServerEvents.recipes(event => {
         "components": {
             "B": {
                 "type": "compactcrafting:block",
-                "block": "extendedcrafting:black_iron_block"
+                "block": "create:polished_cut_deepslate"
             },
             "H": {
                 "type": "compactcrafting:block",
@@ -230,4 +230,40 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    // Atomic Reconstructor Recipe
+    event.recipes.extendedcrafting.shaped_table("actuallyadditions:atomic_reconstructor",
+        [
+            "AAAAAAA",
+            "ABAAABA",
+            "AACDCEF",
+            "AADGEEF",
+            "AACDCEF",
+            "ABAAABA",
+            "AAAAAAA"
+        ],
+        {
+            "A": {
+                "item": "create:polished_cut_deepslate"
+            },
+            "B": {
+                "item": "immersiveengineering:capacitor_hv"
+            },
+            "C": {
+                "item": "create:electron_tube"
+            },
+            "D": {
+                "item": "industrialforegoing:iron_gear"
+            },
+            "E": {
+                "item": "extendedcrafting:crystaltine_ingot"
+            },
+            "F": {
+                "item": "xycraft_world:glass_viewer_immortal"
+            },
+            "G": {
+                "item": "actuallyadditions:lava_factory_casing"
+            }
+        }
+    )
 })

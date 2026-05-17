@@ -6,4 +6,8 @@ ServerEvents.recipes(event => {
     event.replaceInput({ output: "actuallyadditions:void_crystal" }, "minecraft:coal", "minecraft:coal_block")
     event.replaceInput({ output: "actuallyadditions:emeradic_crystal" }, "minecraft:emerald", "minecraft:emerald_block")
     event.replaceInput({ output: "actuallyadditions:enori_crystal" }, "minecraft:iron_ingot", "minecraft:iron_block")
+
+    // Machine Casing Replacements
+    event.replaceInput({ input: "actuallyadditions:iron_casing" }, "actuallyadditions:iron_casing", "actuallyadditions:lava_factory_casing")
+    event.replaceInput({ id: "actuallyadditions:feeder" }, "actuallyadditions:wood_casing", "actuallyadditions:lava_factory_casing")
 })

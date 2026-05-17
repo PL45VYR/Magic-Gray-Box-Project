@@ -19,6 +19,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove("railcraft:bushing_gear")
     event.remove("hazennstuff:crude_metal")
     event.remove("oritech:raw_silicon")
+    event.remove("actuallyadditions:iron_casing")
 
 })
 
@@ -37,6 +38,8 @@ ServerEvents.recipes(event => {
     event.remove({ input: /actuallyadditions:tiny_c.*/, output: /actuallyadditions:tiny_c.*/ })
     event.remove({ output: /.*crystal_block/, type: "actuallyadditions:laser" })
     event.remove({ output: /.*crystal_block/, type: "actuallyadditions:empowering" })
+    event.remove({ output: "actuallyadditions:lava_factory_casing" })
+    event.remove({ output: "actuallyadditions:atomic_reconstructor" })
 
     // Ars Nouveau
     event.remove({ id: /ars_nouveau:novice.*/ })
@@ -188,14 +191,14 @@ LootJS.modifiers(event => {
     // Loot Modifier Removal
     // Removed loot modifiers go here
 
+    // Actually Additions
+    event.addTableModifier(/.*chests\/.*/).removeLoot(/actuallyadditions.*/)
+
     // Ars Nouveau
     event.addTableModifier(/.*chests\/.*/).removeLoot(/ars_.*/)
 
     // Ender IO
     event.removeGlobalModifiers("enderio:alloy_loot")
-
-    // Extra Delight
-    event.addTableModifier(/.*chests\/.*/).removeLoot(/extradelight:.*/)
 
     // Forbidden Arcanus
     event.addTableModifier(/.*chests\/.*/).removeLoot(/forbidden_arcanus.*/)
