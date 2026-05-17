@@ -42,6 +42,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "actuallyadditions:atomic_reconstructor" })
     event.remove({ output: "actuallyadditions:ender_casing" })
     event.remove({ output: "actuallyadditions:empowerer" })
+    event.remove({ type: "actuallyadditions:empowering", not: { output: "actuallyadditions:empowered_canola_seed" } })
 
     // Ars Nouveau
     event.remove({ id: /ars_nouveau:novice.*/ })
@@ -89,6 +90,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:elite_catalyst" })
     event.remove({ id: "extendedcrafting:crystaltine_ingot" })
     event.remove({ id: "extendedcrafting:redstone_ingot" })
+    event.remove({ id: "extendedcrafting:flux_crafter" })
+    event.remove({ id: "extendedcrafting:flux_alternator" })
 
 
     // Farming for Blockheads
@@ -175,6 +178,7 @@ ServerEvents.recipes(event => {
 
     // XyCraft
     event.remove({ output: "xycraft_machines:machine_base" })
+    event.remove({ output: "xycraft_machines:extractor" })
 })
 
 ServerEvents.tags("item", event => {

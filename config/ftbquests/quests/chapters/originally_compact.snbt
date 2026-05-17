@@ -16,6 +16,7 @@
 				id: "extendedcrafting:flux_crafter"
 			}
 			id: "531AC0805169CEBF"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "3C88A22CB8D6B5CC"
@@ -23,6 +24,7 @@
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "7997C70F13508EF9"
 					item: { count: 1, id: "extendedcrafting:flux_alternator" }
 					type: "item"
@@ -38,17 +40,18 @@
 				item: { count: 1, id: "xycraft_machines:extractor" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			id: "30F43F6EFA0D7850"
+			shape: "hexagon"
 			tasks: [{
 				id: "11E4FDCD8B009C30"
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -58,8 +61,8 @@
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			id: "4A792E46F811CE2E"
@@ -68,8 +71,8 @@
 				item: { count: 1, id: "compactcrafting:field_projector" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			id: "5811EA04E7CF30E7"
@@ -78,7 +81,7 @@
 				item: { count: 1, id: "xycraft_machines:machine_base" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -88,8 +91,8 @@
 				item: { count: 1, id: "actuallyadditions:lava_factory_casing" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			icon: {
@@ -128,18 +131,19 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "5C7FC2B04B1CC0E1"
+			shape: "rsquare"
 			tasks: [{
 				id: "6AD32ED93AB19114"
 				item: { count: 1, id: "extendedcrafting:crystaltine_ingot" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			id: "23CA5965D3EB1AB4"
@@ -148,8 +152,59 @@
 				item: { count: 1, id: "actuallyadditions:empowerer" }
 				type: "item"
 			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "actuallyadditions:empowered_restonia_crystal"
+			}
+			id: "15341EDB20E0F0DA"
+			tasks: [
+				{
+					id: "1206E324A9C4660D"
+					item: { count: 1, id: "actuallyadditions:empowered_restonia_crystal" }
+					type: "item"
+				}
+				{
+					id: "5C600CB928994ACB"
+					item: { count: 1, id: "actuallyadditions:empowered_palis_crystal" }
+					type: "item"
+				}
+				{
+					id: "5FDB7405B4A581D4"
+					item: { count: 1, id: "actuallyadditions:empowered_diamatine_crystal" }
+					type: "item"
+				}
+				{
+					id: "7D87B1A4AAC86B7E"
+					item: { count: 1, id: "actuallyadditions:empowered_void_crystal" }
+					type: "item"
+				}
+				{
+					id: "393F52C3876C8C05"
+					item: { count: 1, id: "actuallyadditions:empowered_emeradic_crystal" }
+					type: "item"
+				}
+				{
+					id: "408F67A03D053D57"
+					item: { count: 1, id: "actuallyadditions:empowered_enori_crystal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "3B1D635299257794"
+			shape: "hexagon"
+			tasks: [{
+				id: "46A071A05E34B857"
+				item: { count: 1, id: "compactmachines:wall" }
+				type: "item"
+			}]
 			x: 1.5d
-			y: 0.0d
+			y: -1.5d
 		}
 	]
 }

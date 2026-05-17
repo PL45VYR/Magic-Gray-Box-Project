@@ -199,7 +199,76 @@ ServerEvents.recipes(event => {
         "D": {
             "item": "apotheosis:rare_material"
         }
-    }
-)
+    })
 
+    // Flux Crafter Recipe
+    event.recipes.extendedcrafting.shaped_table('extendedcrafting:flux_crafter',
+        [
+            "AAAAAAA",
+            "ABBBBBA",
+            "ABCDCBA",
+            "EFGHGFE",
+            "EFGIGFE",
+            "EFFFFFE",
+            "EEEEEEE"
+        ],
+        {
+            "A": {
+                "tag": "c:ingots/electrum"
+            },
+            "B": {
+                "tag": "c:plates/electrum"
+            },
+            "C": {
+                "item": "immersiveengineering:component_electronic_adv"
+            },
+            "D": {
+                "item": "create_connected:control_chip"
+            },
+            "E": {
+                "item": "extendedcrafting:redstone_ingot"
+            },
+            "F": {
+                "item": "actuallyadditions:restonia_crystal"
+            },
+            "G": {
+                "item": "actuallyadditions:quadruple_battery"
+            },
+            "H": {
+                "item": "minecraft:crafting_table"
+            },
+            "I": {
+                "item": "actuallyadditions:empowered_restonia_crystal_block"
+            }
+        })
+
+    // Flux Alternator Recipe
+    event.recipes.extendedcrafting.shaped_table('4x extendedcrafting:flux_alternator',
+        [
+            " AAAAA ",
+            "  ABA  ",
+            "  ABA  ",
+            "  ABA  ",
+            "CCCDCCC",
+            "CCEEECC",
+            "CCCCCCC"
+        ],
+        {
+            "A": {
+                "item": "oritech:electrum_ingot"
+            },
+            "B": {
+                "item": "actuallyadditions:advanced_coil"
+            },
+            "C": {
+                "item": "extendedcrafting:redstone_ingot"
+            },
+            "D": {
+                "item": "actuallyadditions:quadruple_battery"
+            },
+            "E": {
+                "item": "actuallyadditions:empowered_restonia_crystal"
+            }
+        }
+    )
 })

@@ -79,6 +79,7 @@
 		"Bear in mind that this process is rather slow, but consumes Iron Ingots and Coal Coke at a rate of 1-to-1 to produce a single Steel Ingot."
 	]
 	quest.136140C6D0246D99.quest_desc: ["Items that have a common rarity will drop scrap metal when salvaged. This can be used for creating new items with special effects, but is equally relevant to magic."]
+	quest.15341EDB20E0F0DA.title: "Empowered Crystals"
 	quest.1575B4620DE8EFD5.quest_desc: ["Crushing up some gold into dust gives you a foundation for a new type of chalk. However, you may need more than just one pile of it."]
 	quest.166E83C318214F30.quest_desc: [
 		"Purifying an Oak Sapling with Spirit Fire grants you an Otherworld Sapling, which you at first believed had grown into a normal Oak Tree..."

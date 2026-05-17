@@ -30,4 +30,30 @@ ServerEvents.recipes(event => {
             "id": "occultism:iesnium_ingot"
         }
     })
+
+    // Redstone Ingot Recipe
+    event.custom({
+        "type": "forbidden_arcanus:clibano_combustion",
+        "category": "misc",
+        "cooking_time": 100,
+        "enhancer": "forbidden_arcanus:artisan_relic",
+        "experience": 0.4,
+        "fire_type": "fire",
+        "ingredients": {
+            "first": {
+                "item": "minecraft:iron_ingot"
+            },
+            "second": {
+                "item": "actuallyadditions:restonia_crystal"
+            }
+        },
+        "residue": {
+            "type": "forbidden_arcanus:rune",
+            "chance": 0.1
+        },
+        "result": {
+            "count": 1,
+            "id": "extendedcrafting:redstone_ingot"
+        }
+    })
 })

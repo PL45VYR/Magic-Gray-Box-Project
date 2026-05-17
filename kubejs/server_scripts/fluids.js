@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         "type": "immersivepetroleum:distillation",
         "byproducts": [
             {
-                "chance": 0.07,
+                "chance": 0.25,
                 "output": {
                     "id": "immersivepetroleum:bitumen"
                 }
