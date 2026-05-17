@@ -12,6 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["15341EDB20E0F0DA"]
 			icon: {
 				id: "extendedcrafting:flux_crafter"
 			}
@@ -34,6 +35,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5811EA04E7CF30E7"]
 			id: "658FE15E322D56FF"
 			tasks: [{
 				id: "1E958A6BE5EB5437"
@@ -44,6 +46,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6C6E08E813D598CE"]
 			id: "30F43F6EFA0D7850"
 			shape: "hexagon"
 			tasks: [{
@@ -51,10 +54,14 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
+			dependencies: [
+				"5C7FC2B04B1CC0E1"
+				"618A82E325286D95"
+			]
 			id: "0C321C88817418A1"
 			tasks: [{
 				id: "54FC0D8854D5B220"
@@ -65,6 +72,10 @@
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"3B1D635299257794"
+				"16D830C067671767"
+			]
 			id: "4A792E46F811CE2E"
 			tasks: [{
 				id: "6851EA5DD63711F9"
@@ -75,6 +86,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["4A792E46F811CE2E"]
 			id: "5811EA04E7CF30E7"
 			tasks: [{
 				id: "4A6C85333F8DC171"
@@ -85,6 +97,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5811EA04E7CF30E7"]
 			id: "618A82E325286D95"
 			tasks: [{
 				id: "6999CD75321C1235"
@@ -95,48 +108,23 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["0C321C88817418A1"]
 			icon: {
 				id: "actuallyadditions:restonia_crystal"
 			}
 			id: "4299D9545D9A81EB"
-			tasks: [
-				{
-					id: "260FDC47424F52AC"
-					item: { count: 1, id: "actuallyadditions:restonia_crystal" }
-					type: "item"
-				}
-				{
-					id: "26594D715252FA2C"
-					item: { count: 1, id: "actuallyadditions:palis_crystal" }
-					type: "item"
-				}
-				{
-					id: "5304DD32DBA13051"
-					item: { count: 1, id: "actuallyadditions:diamatine_crystal" }
-					type: "item"
-				}
-				{
-					id: "73AAD06FBCA42D72"
-					item: { count: 1, id: "actuallyadditions:void_crystal" }
-					type: "item"
-				}
-				{
-					id: "3D0B430F770E3D44"
-					item: { count: 1, id: "actuallyadditions:emeradic_crystal" }
-					type: "item"
-				}
-				{
-					id: "31B5F261EEDDB3AE"
-					item: { count: 1, id: "actuallyadditions:enori_crystal" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "260FDC47424F52AC"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(actuallyadditions:crystals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 3.0d
 		}
 		{
+			dependencies: ["6C6E08E813D598CE"]
 			id: "5C7FC2B04B1CC0E1"
-			shape: "rsquare"
+			shape: "hexagon"
 			tasks: [{
 				id: "6AD32ED93AB19114"
 				item: { count: 1, id: "extendedcrafting:crystaltine_ingot" }
@@ -146,6 +134,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["4299D9545D9A81EB"]
 			id: "23CA5965D3EB1AB4"
 			tasks: [{
 				id: "3EB71DC7A371EE42"
@@ -156,6 +145,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["23CA5965D3EB1AB4"]
 			icon: {
 				id: "actuallyadditions:empowered_restonia_crystal"
 			}
@@ -196,6 +186,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["6C6E08E813D598CE"]
 			id: "3B1D635299257794"
 			shape: "hexagon"
 			tasks: [{
@@ -203,8 +194,19 @@
 				item: { count: 1, id: "compactmachines:wall" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["30F43F6EFA0D7850"]
+			id: "16D830C067671767"
+			tasks: [{
+				id: "76FE73FBB669CA37"
+				item: { count: 1, id: "justdirethings:ferricore_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 }
