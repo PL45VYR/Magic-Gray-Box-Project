@@ -30,4 +30,7 @@ ServerEvents.recipes(event => {
                 "item": "occultism:dimensional_extractor"
             }
         })
+
+    // Collector Recipe Tweak
+    event.replaceInput({output: "xycraft_machines:collector"}, "minecraft:redstone", "xycraft_machines:machine_base")
 })

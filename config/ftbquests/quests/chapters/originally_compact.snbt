@@ -130,8 +130,8 @@
 				item: { count: 1, id: "extendedcrafting:crystaltine_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4299D9545D9A81EB"]

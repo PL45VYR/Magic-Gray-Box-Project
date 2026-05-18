@@ -60,4 +60,7 @@ ServerEvents.recipes(event => {
     // Laser IO
     event.remove({ mod: "laserio" })
 
+    // Ars Nouveau
+    event.remove({ id: /.*book_upgrade/ })
+
 })
