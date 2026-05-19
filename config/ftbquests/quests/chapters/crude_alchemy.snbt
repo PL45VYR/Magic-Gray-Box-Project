@@ -56,10 +56,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"31D531A8C48CEE32"
-				"267502764735DD9C"
-			]
+			dependencies: ["31D531A8C48CEE32"]
 			id: "5506AE4B8F39A387"
 			tasks: [{
 				id: "6A0FCBB78005DEE4"
@@ -225,18 +222,6 @@
 			]
 			x: 1.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["1B446A6EEC8D89A5"]
-			id: "267502764735DD9C"
-			shape: "hexagon"
-			tasks: [{
-				id: "0408B5AD14664A6B"
-				item: { count: 1, id: "malum:natural_quartz" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.5d
 		}
 	]
 }

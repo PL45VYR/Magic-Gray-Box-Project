@@ -197,7 +197,6 @@
 		"The most powerful source of experience comes from Xpetrified Orbs. These are not yet available to you, but once you create your first Black Hole, this will change..."
 	]
 	quest.251F35A9BB62EB5A.title: "Input: Experience"
-	quest.267502764735DD9C.quest_desc: ["Natural Quartz will generate as an ore throughout the overworld, which is a reliable substitute for Nether Quartz. Additionally, Natural Quartz may generate inside its own large geode!"]
 	quest.27E0766149DA30CE.quest_desc: [
 		"Once you've built the ritual grounds, the final use of Mundabitur Dust on the Smithing Table will create your Tier 1 Forge!"
 		""
@@ -378,7 +377,11 @@
 		""
 		"You may choose to not use any crystals in the accumulator, but this will return a tenth of the Sal Ammoniac."
 	]
-	quest.5506AE4B8F39A387.quest_desc: ["With a Pestle and Mortar, you can grind up materials into a blend or mixture. Perhaps a mixture of seeds could net you a little Crow friend?"]
+	quest.5506AE4B8F39A387.quest_desc: [
+		"With a Pestle and Mortar, you can grind up materials into a blend or mixture. Perhaps a mixture of seeds could net you a little Crow friend?"
+		""
+		"The Quartz needed for this craft can be found deep underground as either a standalone ore or as part of its own geode!"
+	]
 	quest.575AE8579611B7C8.quest_desc: [
 		"Oil is an incredibly valuable resource used in a number of industrial spaces for providing power. To start your oil-tapping journey, you'll need a Seismic Survey Tool, which you'll have to supply with a Buckshot Cartridge."
 		""
