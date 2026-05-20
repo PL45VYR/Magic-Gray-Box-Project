@@ -1,7 +1,7 @@
 // Visit the wiki for more info - https://kubejs.com/
 console.info('Hello, World! (Loaded server example script)')
 
-// Custom Vanilla Recipes
+// Custom Miscellaneous Recipes
 
 ServerEvents.recipes(event => {
     // Pyromantic Brazier Recipe
@@ -110,4 +110,63 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    // Sophisticated Backpacks Recipe Tweaks
+    event.custom({
+        "type": "apotheosis:sized_upgrade_recipe",
+        "addition": {
+            "count": 4,
+            "tag": "c:ingots/iron"
+        },
+        "base": {
+            "item": "sophisticatedbackpacks:copper_backpack"
+        },
+        "result": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:iron_backpack"
+        },
+        "template": {
+            "item": "apotheosis:iron_upgrade_smithing_template"
+        }
+    })
+    event.custom({
+        "type": "apotheosis:sized_upgrade_recipe",
+        "addition": {
+            "count": 4,
+            "tag": "c:ingots/gold"
+        },
+        "base": {
+            "item": "sophisticatedbackpacks:iron_backpack"
+        },
+        "result": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:gold_backpack"
+        },
+        "template": {
+            "item": "apotheosis:gold_upgrade_smithing_template"
+        }
+    })
+    event.custom({
+        "type": "apotheosis:sized_upgrade_recipe",
+        "addition": {
+            "count": 4,
+            "tag": "c:gems/diamond"
+        },
+        "base": {
+            "item": "sophisticatedbackpacks:gold_backpack"
+        },
+        "result": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:diamond_backpack"
+        },
+        "template": {
+            "item": "apotheosis:diamond_upgrade_smithing_template"
+        }
+    })
+
+    // Sophisticated Storage Recipe Tweaks
+    event.replaceInput({output: /sophisticatedstorage.*/}, 'minecraft:iron_ingot', 'extendedcrafting:black_iron_ingot')
+    event.replaceInput({output: /sophisticatedstorage.*/}, 'minecraft:gold_ingot', 'forbidden_arcanus:deorum_ingot')
+    event.replaceInput({output: /sophisticatedstorage.*/}, 'minecraft:diamond', 'occultism:iesnium_ingot')
+    event.replaceInput({output: /sophisticatedstorage.*/}, 'minecraft:netherite_ingot', 'oritech:duratium_ingot')
 })
