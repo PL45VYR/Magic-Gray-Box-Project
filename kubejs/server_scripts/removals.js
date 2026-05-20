@@ -181,6 +181,7 @@ ServerEvents.recipes(event => {
     // Sophisticated Core
     event.remove({ type: 'sophisticatedstorage:storage_tier_upgrade' })
     event.remove({ type: 'sophisticatedbackpacks:backpack_upgrade' })
+    event.remove({ output: /sophisticatedstorage:.*tier_upgrade/, not: { output: /.*basic_tier.*/ } })
     event.remove({ output: /sophisticated.*copper.*/ })
     event.remove({ output: 'sophisticatedstorage:stack_upgrade_tier_1_plus' })
     event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_starter_tier' })
