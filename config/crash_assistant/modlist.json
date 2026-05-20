@@ -525,12 +525,12 @@
     "curseForgeHash": 2767968248,
     "modrinthHash": "e4c2e1af4e3082d68f7df75f7c8ce30116d71515"
   },
-  "CarbonConfig-Neoforge-1.21-2.0.2.jar": {
-    "jarName": "CarbonConfig-Neoforge-1.21-2.0.2.jar",
+  "CarbonConfig-Neoforge-1.21.1-2.0.2.1.jar": {
+    "jarName": "CarbonConfig-Neoforge-1.21.1-2.0.2.1.jar",
     "modId": "carbonconfig",
     "name": "Carbon Config Library",
-    "curseForgeHash": 4070786627,
-    "modrinthHash": "b24622e274256f6804d4b98eceb8f717f6941233"
+    "curseForgeHash": 2001632824,
+    "modrinthHash": "c582eb81822d33f1ca49ab4df4c8696fb6564072"
   },
   "carryon-neoforge-1.21.1-2.2.4.4.jar": {
     "jarName": "carryon-neoforge-1.21.1-2.2.4.4.jar",
@@ -556,13 +556,13 @@
     "curseForgeHash": 64323446,
     "modrinthHash": "f810a8ab7efd707500da4f153a5a64843edf4aac"
   },
-  "Chunk-Pregenerator-Neoforge-1.21-4.4.5.2.jar": {
-    "jarName": "Chunk-Pregenerator-Neoforge-1.21-4.4.5.2.jar",
+  "Chunk-Pregenerator-Neoforge-1.21-4.5.1.jar": {
+    "jarName": "Chunk-Pregenerator-Neoforge-1.21-4.5.1.jar",
     "modId": "chunkpregen",
     "name": "Chunk Pregenerator",
-    "version": "1.21-4.4.5.2",
-    "curseForgeHash": 2008015836,
-    "modrinthHash": "e301aef1ec1cbf5e90d6a51303d4fd0be4267abc"
+    "version": "1.21-4.5.1",
+    "curseForgeHash": 1714781777,
+    "modrinthHash": "2cbcb62faf45b1d8c90a7df7dd82b576b76ca24b"
   },
   "clayworks-1.21.1-4.0.3.jar": {
     "jarName": "clayworks-1.21.1-4.0.3.jar",
@@ -1500,13 +1500,13 @@
     "curseForgeHash": 1060110783,
     "modrinthHash": "3414ed7be09deda989328f64af1564c6396f82c4"
   },
-  "hearthandharvest-1.21.1-1.2.1a.jar": {
-    "jarName": "hearthandharvest-1.21.1-1.2.1a.jar",
+  "hearthandharvest-1.21.1-1.2.2.jar": {
+    "jarName": "hearthandharvest-1.21.1-1.2.2.jar",
     "modId": "hearthandharvest",
     "name": "Hearth and Harvest",
-    "version": "1.2.1a",
-    "curseForgeHash": 609479192,
-    "modrinthHash": "69fd7af049131a5fea1b13fdfc779caca79e1565"
+    "version": "1.2.2",
+    "curseForgeHash": 3761017316,
+    "modrinthHash": "78aa3e21fec1c54d18097c319db9cb6e714f3d15"
   },
   "hexerei-0.5.0.3.jar": {
     "jarName": "hexerei-0.5.0.3.jar",
@@ -2577,13 +2577,13 @@
     "curseForgeHash": 2093242437,
     "modrinthHash": "5b8a0b43a474c066371b2e16f9bfb88622552a74"
   },
-  "servercore-neoforge-1.5.10+1.21.1.jar": {
-    "jarName": "servercore-neoforge-1.5.10+1.21.1.jar",
+  "servercore-neoforge-1.5.17+1.21.1.jar": {
+    "jarName": "servercore-neoforge-1.5.17+1.21.1.jar",
     "modId": "servercore",
     "name": "ServerCore",
-    "version": "1.5.10+1.21.1",
-    "curseForgeHash": 4288444823,
-    "modrinthHash": "4524cd40cfa5019d8b5fbcb628b1616031838a0c"
+    "version": "1.5.17+1.21.1",
+    "curseForgeHash": 373790998,
+    "modrinthHash": "6d3b89ceeecae56baa37427e858fb1cb4718b9b0"
   },
   "SmartBrainLib-neoforge-1.21.1-1.16.11.jar": {
     "jarName": "SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
@@ -2641,21 +2641,21 @@
     "curseForgeHash": 3799943056,
     "modrinthHash": "32e9bbe18ae1f2f7f672ce08af51ec1928599182"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.45.1742.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.45.1742.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.46.1746.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.46.1746.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.45",
-    "curseForgeHash": 2726846575,
-    "modrinthHash": "5aae4550409eaddef7ab08200cb5bb0c6748de10"
+    "version": "3.25.46",
+    "curseForgeHash": 1380327138,
+    "modrinthHash": "a56ddd1d048f1ce71a13a1e3627aae350a5b03b3"
   },
-  "sophisticatedcore-1.21.1-1.4.39.1852.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.39.1852.jar",
+  "sophisticatedcore-1.21.1-1.4.40.1855.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.40.1855.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.39",
-    "curseForgeHash": 4062048323,
-    "modrinthHash": "6365d4d66c86c2a8f02c04513d6fd127e47801ff"
+    "version": "1.4.40",
+    "curseForgeHash": 1581975146,
+    "modrinthHash": "93261164f4cdaed72690d810d156ad51c7cd7e8c"
   },
   "sophisticateditemactions-1.21.1-0.5.3.250.jar": {
     "jarName": "sophisticateditemactions-1.21.1-0.5.3.250.jar",
@@ -2665,13 +2665,13 @@
     "curseForgeHash": 1136634605,
     "modrinthHash": "6f604052149a07aaf7903981d542f12b726b7e91"
   },
-  "sophisticatedstorage-1.21.1-1.5.47.1724.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.47.1724.jar",
+  "sophisticatedstorage-1.21.1-1.5.48.1728.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.48.1728.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.47",
-    "curseForgeHash": 747520839,
-    "modrinthHash": "95705e7391880b84831abe3ef8c68dbfd75a7739"
+    "version": "1.5.48",
+    "curseForgeHash": 75412784,
+    "modrinthHash": "d5a9e634188f675abfb1146f918aba086447eb8a"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
