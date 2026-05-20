@@ -52,8 +52,8 @@ ServerEvents.recipes(event => {
         }
     })
 
-    // Sophisticated Storage Recipe Tweaks
-    let storage_types = [
+    // Sophisticated Storage Barrel and Chest Tweaks
+    let storage_variants = [
         'barrel',
         '_barrel_1',
         '_barrel_2',
@@ -63,7 +63,8 @@ ServerEvents.recipes(event => {
         'shulker_box'
     ]
 
-    storage_types.forEach((type, index) => {
+    // Barrel and Chest Recipes
+    storage_variants.forEach((type, index) => {
         if (type.charAt(0) != '_') {
             // Iron Upgrades
             event.custom({
@@ -190,4 +191,5 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({ type: 'sophisticatedstorage:storage_tier_upgrade' })
+    event.remove({ type: 'sophisticatedbackpacks:backpack_upgrade' })
 })
