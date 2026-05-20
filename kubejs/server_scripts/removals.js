@@ -65,6 +65,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "create:crafting/materials/andesite_alloy_from_zinc" })
     event.remove({ id: /create:mixing\/andesite_alloy.*/ })
     event.remove({ id: "create:crafting/kinetics/empty_blaze_burner" })
+    event.remove({ output: "create:track" })
 
     // Dim Paintings
     event.remove("dimpaintings:end_painting")
@@ -185,6 +186,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: /sophisticated.*copper.*/ })
     event.remove({ output: 'sophisticatedstorage:stack_upgrade_tier_1_plus' })
     event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_starter_tier' })
+    event.remove({ input: 'sophisticatedstorage:stack_upgrade_tier_1_plus' })
+    event.remove({ input: 'sophisticatedbackpacks:stack_upgrade_starter_tier' })
 
     // XyCraft
     event.remove({ output: "xycraft_machines:machine_base" })

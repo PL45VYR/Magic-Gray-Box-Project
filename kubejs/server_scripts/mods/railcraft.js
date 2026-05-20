@@ -78,4 +78,7 @@ ServerEvents.recipes(event => {
 
     // Blast Furnace Brick Unification
     event.replaceInput({ input: "railcraft:blast_furnace_bricks" }, 'railcraft:blast_furnace_bricks', 'immersiveengineering:blastbrick')
+
+    // Stone Tie Recipe
+    event.recipes.create.cutting('railcraft:stone_tie', 'minecraft:stone_slab')
 })

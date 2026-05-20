@@ -218,7 +218,6 @@ ServerEvents.recipes(event => {
 
     from_basic.forEach((base_material, base_index) => {
         to_upgrade.forEach((new_material, new_index) => {
-            // One-Tier Gap Upgrades
             if (new_material != 'netherite') {
                 if (new_index - base_index == 1) {
                     if (base_material == 'basic') { // Basic to Iron

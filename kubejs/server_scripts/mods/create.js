@@ -155,4 +155,20 @@ ServerEvents.recipes(event => {
         ]
     ).heated()
 
+    // Train Track Recipe
+    event.recipes.create.sequenced_assembly(
+        [
+            CreateItem.of('create:track')
+        ],
+        'railcraft:stone_tie',
+        [
+            event.recipes.create.deploying('create:incomplete_track', ['create:incomplete_track', 'railcraft:stone_tie']),
+            event.recipes.create.filling('create:incomplete_track', ['create:incomplete_track', Fluid.of('immersiveengineering:creosote', 100)]),
+            event.recipes.create.deploying('create:incomplete_track', ['create:incomplete_track', 'railcraft:advanced_rail']),
+            event.recipes.create.pressing('create:incomplete_track', 'create:incomplete_track')
+        ]
+    )
+    .transitionalItem('create:incomplete_track')
+    .loops(2)
+
 })
