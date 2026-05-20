@@ -23,6 +23,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove(/sophisticated.*copper.*/)
     event.remove('sophisticatedstorage:stack_upgrade_tier_1_plus')
     event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier')
+    event.remove(/igleelib.*/)
 })
 
 RecipeViewerEvents.removeEntriesCompletely("fluid", event => {

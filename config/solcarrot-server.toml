@@ -6,13 +6,13 @@
 	#Number of hearts you gain for reaching a new milestone.
 	# Default: 2
 	# Range: 0 ~ 1000
-	heartsPerMilestone = 2
+	heartsPerMilestone = 5
 	#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.
-	milestones = [5, 10, 15, 20, 25]
+	milestones = [21, 45, 78, 120, 171, 231, 300, 378, 465, 561]
 
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
-	blacklist = []
+	blacklist = ["minecraft:ominous_bottle", "aquaculture:algae", "cataclysm:lionfish", "upgrade_aquatic:lionfish", "upgrade_aquatic:pike", "upgrade_aquatic:perch", "eidolon_repraised:zombie_heart", "eidolon_repraised:withered_heart", "farmersdelight:pie_crust", "farmersdelight:wheat_dough", "mynethersdelight:ghast_dough", "mynethersdelight:ghast_sourdough", "forbidden_arcanus:tentacle", "forbidden_arcanus:cooked_tentacle", "oceansdelight:tentacles", "hearthandharvest:charred_marshmallow_stick", "hexerei:seed_mixture", "hexerei:quicksilver_bottle", "hexerei:blood_bottle", "hexerei:tallow_bottle", "hexerei:packing_peanut", "hexerei:tallow_impurity", "minecraft:poisonous_potato", "minecraft:pufferfish", "mynethersdelight:ghasta", "mynethersdelight:hoglin_loin", "mynethersdelight:strider_slice", "sgjourney:goauld_carcass", "farmersdelight:raw_pasta", "malum:concentrated_gluttony", "rusticdelight:batter"]
 	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
 	whitelist = []
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
