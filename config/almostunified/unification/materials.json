@@ -53,7 +53,8 @@
     "c:flours/{material}"
   ],
   "ignored_tags": [
-    "c:gems/coal"
+    "c:gems/coal",
+    "c:coal"
   ],
   "ignored_items": [
     "oritech:biosteel_ingot",

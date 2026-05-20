@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "immersiveengineering:wirecoil_redstone" })
     event.remove({ output: /immersiveengineering:.*_engineering/ })
     event.remove({ id: "immersiveengineering:squeezer/graphite_dust" })
-    event.remove({ id: "immersiveengineering:arcfurnace/steel" })
+    event.remove({ input: "#c:dusts/coal", output: "#c:ingots/steel"})
     event.remove({ id: /engineeredcompatibility:arcfurnace\/ae2.*/ })
     event.remove({ id: "immersiveengineering:crafting/blastbrick" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/forbidden.*/ })

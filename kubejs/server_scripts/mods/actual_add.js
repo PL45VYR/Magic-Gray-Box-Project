@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
                 "item": "railcraft:charge_coil"
             },
             "D": {
-                "item": "actuallyadditions:quintuple_battery"
+                "item": "immersiveengineering:capacitor_hv"
             },
             "E": {
                 "item": "actuallyadditions:lava_factory_casing"
