@@ -189,4 +189,109 @@ ServerEvents.recipes(event => {
             )
         }
     })
+
+    // Tier Upgrades
+
+    let from_basic = [
+        'basic',
+        'iron',
+        'gold',
+        'diamond',
+        'netherite'
+    ]
+
+    let to_upgrade = [
+        'basic',
+        'iron',
+        'gold',
+        'diamond',
+        'netherite'
+    ]
+
+    let tier_material = [
+        'minecraft:lever',
+        'minecraft:iron_ingot',
+        'minecraft:gold_ingot',
+        'minecraft:diamond',
+        'minecraft:netherite_ingot'
+    ]
+
+    from_basic.forEach((base_material, base_index) => {
+        to_upgrade.forEach((new_material, new_index) => {
+            // One-Tier Gap Upgrades
+            if (new_material != 'netherite') {
+                if (new_index - base_index == 1) {
+                    if (base_material == 'basic') { // Basic to Iron
+                        event.custom({
+                            "type": "apotheosis:sized_upgrade_recipe",
+                            "addition": {
+                                "count": 4,
+                                "item": `${tier_material[new_index]}`
+                            },
+                            "base": {
+                                "item": `sophisticatedstorage:basic_tier_upgrade`
+                            },
+                            "result": {
+                                "count": 1,
+                                "id": `sophisticatedstorage:${base_material}_to_${new_material}_tier_upgrade`
+                            },
+                            "template": {
+                                "item": `apotheosis:${new_material}_upgrade_smithing_template`
+                            }
+                        })
+                    } else { // Iron to Gold, Gold to Diamond
+                        event.custom({
+                            "type": "apotheosis:sized_upgrade_recipe",
+                            "addition": {
+                                "count": 4,
+                                "item": `${tier_material[new_index]}`
+                            },
+                            "base": {
+                                "item": `sophisticatedstorage:basic_tier_upgrade`
+                            },
+                            "result": {
+                                "count": 1,
+                                "id": `sophisticatedstorage:${base_material}_to_${new_material}_tier_upgrade`
+                            },
+                            "template": {
+                                "item": `apotheosis:${new_material}_upgrade_smithing_template`
+                            }
+                        })
+                    }
+                } else if (new_index - base_index > 1) { // Basic to Gold, Iron to Diamond
+                    event.custom({
+                        "type": "apotheosis:sized_upgrade_recipe",
+                        "addition": {
+                            "count": 4,
+                            "item": `${tier_material[new_index]}`
+                        },
+                        "base": {
+                            "item": `sophisticatedstorage:${base_material}_to_${to_upgrade[new_index - 1]}_tier_upgrade`
+                        },
+                        "result": {
+                            "count": 1,
+                            "id": `sophisticatedstorage:${base_material}_to_${new_material}_tier_upgrade`
+                        },
+                        "template": {
+                            "item": `apotheosis:${new_material}_upgrade_smithing_template`
+                        }
+                    })
+                }
+            } else if (base_index != new_index) {
+                if (new_index - base_index == 1) {
+                    event.smithing(`sophisticatedstorage:${base_material}_to_${new_material}_tier_upgrade`,
+                        'minecraft:netherite_upgrade_smithing_template',
+                        `sophisticatedstorage:basic_tier_upgrade`,
+                        'minecraft:netherite_ingot'
+                    )
+                } else {
+                    event.smithing(`sophisticatedstorage:${base_material}_to_${new_material}_tier_upgrade`,
+                        'minecraft:netherite_upgrade_smithing_template',
+                        `sophisticatedstorage:${base_material}_to_${to_upgrade[new_index - 1]}_tier_upgrade`,
+                        'minecraft:netherite_ingot'
+                    )
+                }
+            }
+        })
+    })
 })
