@@ -20,7 +20,9 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove("hazennstuff:crude_metal")
     event.remove("oritech:raw_silicon")
     event.remove("actuallyadditions:iron_casing")
-
+    event.remove(/sophisticated.*copper.*/)
+    event.remove('sophisticatedstorage:stack_upgrade_tier_1_plus')
+    event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier')
 })
 
 RecipeViewerEvents.removeEntriesCompletely("fluid", event => {
@@ -122,7 +124,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "immersiveengineering:wirecoil_redstone" })
     event.remove({ output: /immersiveengineering:.*_engineering/ })
     event.remove({ id: "immersiveengineering:squeezer/graphite_dust" })
-    event.remove({ input: "#c:dusts/coal", output: "#c:ingots/steel"})
+    event.remove({ input: "#c:dusts/coal", output: "#c:ingots/steel" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/ae2.*/ })
     event.remove({ id: "immersiveengineering:crafting/blastbrick" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/forbidden.*/ })
@@ -175,6 +177,13 @@ ServerEvents.recipes(event => {
 
     // Theurgy
     event.remove({ output: "theurgy:pyromantic_brazier" })
+
+    // Sophisticated Core
+    event.remove({ type: 'sophisticatedstorage:storage_tier_upgrade' })
+    event.remove({ type: 'sophisticatedbackpacks:backpack_upgrade' })
+    event.remove({ output: /sophisticated.*copper.*/ })
+    event.remove({ output: 'sophisticatedstorage:stack_upgrade_tier_1_plus' })
+    event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_starter_tier' })
 
     // XyCraft
     event.remove({ output: "xycraft_machines:machine_base" })

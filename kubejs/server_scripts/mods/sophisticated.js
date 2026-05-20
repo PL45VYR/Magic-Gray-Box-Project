@@ -189,7 +189,4 @@ ServerEvents.recipes(event => {
             )
         }
     })
-
-    event.remove({ type: 'sophisticatedstorage:storage_tier_upgrade' })
-    event.remove({ type: 'sophisticatedbackpacks:backpack_upgrade' })
 })
