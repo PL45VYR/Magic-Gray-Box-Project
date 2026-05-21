@@ -256,7 +256,7 @@ ServerEvents.recipes(event => {
         "type": "xycraft_machines:extractor",
         "adjacent": [
             {
-                "fluid_type": "create_dragons_plus:dragons_breath",
+                "fluid_type": "create_dragons_plus:dragon_breath",
                 "predicate_type": "xycraft_core:fluid_type_rule"
             },
             {
@@ -280,7 +280,7 @@ ServerEvents.recipes(event => {
         "type": "xycraft_machines:extractor",
         "adjacent": [
             {
-                "fluid_type": "create_dragons_plus:dragons_breath",
+                "fluid_type": "create_dragons_plus:dragon_breath",
                 "predicate_type": "xycraft_core:fluid_type_rule"
             },
             {
@@ -304,7 +304,7 @@ ServerEvents.recipes(event => {
         "type": "xycraft_machines:extractor",
         "adjacent": [
             {
-                "fluid_type": "create_dragons_plus:dragons_breath",
+                "fluid_type": "create_dragons_plus:dragon_breath",
                 "predicate_type": "xycraft_core:fluid_type_rule"
             },
             {
