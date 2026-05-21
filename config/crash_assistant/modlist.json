@@ -2665,13 +2665,13 @@
     "curseForgeHash": 1136634605,
     "modrinthHash": "6f604052149a07aaf7903981d542f12b726b7e91"
   },
-  "sophisticatedstorage-1.21.1-1.5.48.1728.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.48.1728.jar",
+  "sophisticatedstorage-1.21.1-1.5.49.1731.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.49.1731.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.48",
-    "curseForgeHash": 75412784,
-    "modrinthHash": "d5a9e634188f675abfb1146f918aba086447eb8a"
+    "version": "1.5.49",
+    "curseForgeHash": 3454215653,
+    "modrinthHash": "916a59b3dc53272ef0a82a5eb1536988210d3a7b"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
@@ -2761,13 +2761,13 @@
     "curseForgeHash": 3414849852,
     "modrinthHash": "84802fbe1645de8caf61ccb07db6cf451e614f68"
   },
-  "supplementaries-neoforge-1.21.1-3.6.4.jar": {
-    "jarName": "supplementaries-neoforge-1.21.1-3.6.4.jar",
+  "supplementaries-neoforge-1.21.1-3.6.5.jar": {
+    "jarName": "supplementaries-neoforge-1.21.1-3.6.5.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21.1-3.6.4",
-    "curseForgeHash": 3238514946,
-    "modrinthHash": "54ac028b2a73cca26c021cdccb7328cf0037ff62"
+    "version": "1.21.1-3.6.5",
+    "curseForgeHash": 155777381,
+    "modrinthHash": "3ed53e2480eea26271f10eff7777feff4af3c415"
   },
   "suppsquared-1.21-1.2.17-neoforge.jar": {
     "jarName": "suppsquared-1.21-1.2.17-neoforge.jar",
