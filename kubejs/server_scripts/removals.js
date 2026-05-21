@@ -67,6 +67,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: /create:mixing\/andesite_alloy.*/ })
     event.remove({ id: "create:crafting/kinetics/empty_blaze_burner" })
     event.remove({ output: "create:track" })
+    event.remove({ id: "create:mixing/brass_ingot" })
 
     // Dim Paintings
     event.remove("dimpaintings:end_painting")
