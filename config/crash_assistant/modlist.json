@@ -2113,13 +2113,13 @@
     "curseForgeHash": 1604937896,
     "modrinthHash": "f4d535579462dc6436e4896daac4d2dd4ce8e428"
   },
-  "moonlight-neoforge-1.21.1-3.0.10.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.10.jar",
+  "moonlight-neoforge-1.21.1-3.0.12.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.12.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.10",
-    "curseForgeHash": 573414067,
-    "modrinthHash": "4f714ab05830405824d241c6ec7f02cf7b5d2fef"
+    "version": "1.21.1-3.0.12",
+    "curseForgeHash": 3070015926,
+    "modrinthHash": "ce564ae2843fe62451d1392907c1f98044db3a62"
   },
   "moreculling-neoforge-1.21.1-1.0.7.jar": {
     "jarName": "moreculling-neoforge-1.21.1-1.0.7.jar",
@@ -2409,13 +2409,13 @@
     "curseForgeHash": 3352390329,
     "modrinthHash": "5174059ecf97340a0de5ef211b938de26c4eaa36"
   },
-  "ProbeJS-8.0.1.jar": {
-    "jarName": "ProbeJS-8.0.1.jar",
+  "ProbeJS-8.0.2.jar": {
+    "jarName": "ProbeJS-8.0.2.jar",
     "modId": "probejs",
     "name": "ProbeJS",
-    "version": "8.0.1",
-    "curseForgeHash": 3860603727,
-    "modrinthHash": "f86cc0f29f0c41e780e1b723825a2bb89f8f2c90"
+    "version": "8.0.2",
+    "curseForgeHash": 4207338400,
+    "modrinthHash": "1d7d75f040cf8f9b9bd7aa52a1ac5e82c3edb31f"
   },
   "prometheus-neoforge-1.21-1.2.5.jar": {
     "jarName": "prometheus-neoforge-1.21-1.2.5.jar",
@@ -2481,13 +2481,13 @@
     "curseForgeHash": 3206533594,
     "modrinthHash": "b03d05495be28d8cef7a34872941bb8d703d60e6"
   },
-  "relics-1.21.1-0.12.6.jar": {
-    "jarName": "relics-1.21.1-0.12.6.jar",
+  "relics-1.21.1-0.12.7.jar": {
+    "jarName": "relics-1.21.1-0.12.7.jar",
     "modId": "relics",
     "name": "Relics",
-    "version": "0.12.6",
-    "curseForgeHash": 1136014819,
-    "modrinthHash": "2bc2ae87de2368c3402d51f559523372646814d7"
+    "version": "0.12.7",
+    "curseForgeHash": 677507324,
+    "modrinthHash": "ae131ee8ba1d4e368f4bb5ab7ec75181ff3decfa"
   },
   "reliquary-1.21.1-2.0.70.1464.jar": {
     "jarName": "reliquary-1.21.1-2.0.70.1464.jar",
