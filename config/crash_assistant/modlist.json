@@ -133,13 +133,13 @@
     "curseForgeHash": 84069332,
     "modrinthHash": "d613dbc38ca5bcc718408db432385c2e67ac763f"
   },
-  "almostunified-neoforge-1.21.1-1.4.1.jar": {
-    "jarName": "almostunified-neoforge-1.21.1-1.4.1.jar",
+  "almostunified-neoforge-1.21.1-1.4.2.jar": {
+    "jarName": "almostunified-neoforge-1.21.1-1.4.2.jar",
     "modId": "almostunified",
     "name": "AlmostUnified",
-    "version": "1.21.1-1.4.1",
-    "curseForgeHash": 1774341468,
-    "modrinthHash": "69913ae6d63f2e10603b272bb8a957c7d0f3f0e4"
+    "version": "1.21.1-1.4.2",
+    "curseForgeHash": 1987996700,
+    "modrinthHash": "f9a58fa95780f4b045d30559c1fdaedaa7f0fba3"
   },
   "almostunified_ie-neoforge-1.21.1-1.0.1.jar": {
     "jarName": "almostunified_ie-neoforge-1.21.1-1.0.1.jar",
@@ -836,13 +836,13 @@
     "curseForgeHash": 2593446321,
     "modrinthHash": "1dec765e324bf968a1685a173aff5a13c11d0856"
   },
-  "CreativeCore_NEOFORGE_v2.13.38_mc1.21.1.jar": {
-    "jarName": "CreativeCore_NEOFORGE_v2.13.38_mc1.21.1.jar",
+  "CreativeCore_NEOFORGE_v2.13.39_mc1.21.1.jar": {
+    "jarName": "CreativeCore_NEOFORGE_v2.13.39_mc1.21.1.jar",
     "modId": "creativecore",
     "name": "CreativeCore",
-    "version": "2.13.38",
-    "curseForgeHash": 1531775076,
-    "modrinthHash": "c3f1aa493ce0d3d60ba76e2b2d6b1dd65f60bde6"
+    "version": "2.13.39",
+    "curseForgeHash": 1564725388,
+    "modrinthHash": "7508452be5a791568d0d9ee42fedc449ee0a946e"
   },
   "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar": {
     "jarName": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
@@ -2657,13 +2657,13 @@
     "curseForgeHash": 1136634605,
     "modrinthHash": "6f604052149a07aaf7903981d542f12b726b7e91"
   },
-  "sophisticatedstorage-1.21.1-1.5.49.1731.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.49.1731.jar",
+  "sophisticatedstorage-1.21.1-1.5.50.1740.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.50.1740.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.49",
-    "curseForgeHash": 3454215653,
-    "modrinthHash": "916a59b3dc53272ef0a82a5eb1536988210d3a7b"
+    "version": "1.5.50",
+    "curseForgeHash": 2699528613,
+    "modrinthHash": "e0baf002a9f086bc210007045eb1302d6f6805ca"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",

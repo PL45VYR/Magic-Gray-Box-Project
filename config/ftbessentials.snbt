@@ -199,11 +199,11 @@
 		blacklists: {
 			# Dimensions players aren't permitted to run teleport commands in.
 			# Default: []
-			from: [ 'sgjourney:*']
+			from: ["sgjourney:*"]
 			
 			# Dimensions players aren't permitted to teleport into.
 			# Default: []
-			to: [ 'sgjourney:*' ]
+			to: ["sgjourney:*"]
 		}
 		
 		# Allows users to set 'homes', which they can then freely teleport to by using /home afterwards
