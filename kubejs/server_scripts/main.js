@@ -15,6 +15,15 @@ ServerEvents.recipes(event => {
         F: 'sgjourney:fire_pit'
     })
 
+    // Bundle Recipe
+    event.shaped('1x minecraft:bundle', [
+        'S',
+        'L'
+    ], {
+        S: 'minecraft:string',
+        L: '#c:leathers'
+    })
+
     // Quartz Block Recipe Tweak
     event.replaceInput({ id: 'minecraft:quartz_block' }, 'minecraft:quartz', '#c:gems/quartz')
 
@@ -111,5 +120,5 @@ ServerEvents.recipes(event => {
         ]
     })
 
-    
+
 })
