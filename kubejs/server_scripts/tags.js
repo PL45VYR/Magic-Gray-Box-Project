@@ -16,6 +16,16 @@ ServerEvents.tags('item', event => {
     event.add("theurgy:alchemical_sulfurs/metals", 'kubejs:alchemical_sulfur_andesite_alloy')
     event.add("theurgy:alchemical_sulfurs/metals/rare", 'kubejs:alchemical_sulfur_andesite_alloy')
 
+    // Malum Soul Shattering Tweaks
+    
+    let weapons = event.get('lodestone:enchantable/weapon').getObjectIds()
+    let weapon_whitelist = Ingredient.of(/hazennstuff.*/)
+    weapons.forEach(weapon => {
+        if (weapon_whitelist.test(weapon)) {
+            event.add('malum:soul_shatter_capable_weapon', weapon)
+        }
+    })
+
     // EMI Collapsible Tags
 
     event.add('kubejs:seed_pouch', "quark:seed_pouch")

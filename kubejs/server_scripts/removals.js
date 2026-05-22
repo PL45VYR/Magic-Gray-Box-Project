@@ -24,6 +24,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove('sophisticatedstorage:stack_upgrade_tier_1_plus')
     event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier')
     event.remove(/igleelib.*/)
+    event.remove(/.*aiot/)
 })
 
 RecipeViewerEvents.removeEntriesCompletely("fluid", event => {
@@ -39,6 +40,7 @@ ServerEvents.recipes(event => {
 
     // Actually Additions
     event.remove({ input: /actuallyadditions:tiny_c.*/, output: /actuallyadditions:tiny_c.*/ })
+    event.remove({ output: /.*aiot/ })
     event.remove({ output: /.*crystal_block/, type: "actuallyadditions:laser" })
     event.remove({ output: /.*crystal_block/, type: "actuallyadditions:empowering" })
     event.remove({ output: "actuallyadditions:lava_factory_casing" })
