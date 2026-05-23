@@ -30,6 +30,12 @@ ServerEvents.recipes(event => {
         { output: 'enderio:dark_steel_block'}
     ] })
 
+    // Ender Storage
+    event.remove({ mod: "enderstorage" })
+
+    // Entangled
+    event.remove({ mod: "entangled" })
+
     // Actually Additions
     // event.remove({ mod: "actuallyadditions" })
 

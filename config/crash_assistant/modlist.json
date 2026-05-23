@@ -37,13 +37,13 @@
     "curseForgeHash": 1795295701,
     "modrinthHash": "c0b51977a06b3578023a4e16772aa1f8d2b6bcca"
   },
-  "AdLods-1.21.1-9.1.3.0-NeoForge-build.0768.jar": {
-    "jarName": "AdLods-1.21.1-9.1.3.0-NeoForge-build.0768.jar",
+  "AdLods-1.21.1-9.1.4.0-NeoForge-build.0824.jar": {
+    "jarName": "AdLods-1.21.1-9.1.4.0-NeoForge-build.0824.jar",
     "modId": "adlods",
     "name": "Large Ore Deposits",
-    "version": "9.1.3.0",
-    "curseForgeHash": 1663534137,
-    "modrinthHash": "86fea187efe30b21a6289ced5f34c9842840caad"
+    "version": "9.1.4.0",
+    "curseForgeHash": 301739384,
+    "modrinthHash": "849c7c46f0d1b60a079b7b4097eeece0e0bfda79"
   },
   "AdvancedAE-1.6.11-1.21.1.jar": {
     "jarName": "AdvancedAE-1.6.11-1.21.1.jar",
@@ -1460,13 +1460,13 @@
     "curseForgeHash": 3268995161,
     "modrinthHash": "3674669dcacef907369219ed3869c83889e4f1ee"
   },
-  "guideme-21.1.15.jar": {
-    "jarName": "guideme-21.1.15.jar",
+  "guideme-21.1.16.jar": {
+    "jarName": "guideme-21.1.16.jar",
     "modId": "guideme",
     "name": "GuideME",
-    "version": "21.1.15",
-    "curseForgeHash": 3112478022,
-    "modrinthHash": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5"
+    "version": "21.1.16",
+    "curseForgeHash": 3677823189,
+    "modrinthHash": "6c89cb18fd426a5dd851dd30ec72f02cb8bbcce7"
   },
   "harvest-with-ease-neoforge-1.21-9.4.0.jar": {
     "jarName": "harvest-with-ease-neoforge-1.21-9.4.0.jar",
@@ -2105,13 +2105,13 @@
     "curseForgeHash": 1604937896,
     "modrinthHash": "f4d535579462dc6436e4896daac4d2dd4ce8e428"
   },
-  "moonlight-neoforge-1.21.1-3.0.13.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.13.jar",
+  "moonlight-neoforge-1.21.1-3.0.14.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.14.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.13",
-    "curseForgeHash": 549831598,
-    "modrinthHash": "71776d37deb6dadfad08d4a35766b803b6a01cb9"
+    "version": "1.21.1-3.0.14",
+    "curseForgeHash": 135195502,
+    "modrinthHash": "a865d9a00a595038d35b908c42565930189be68a"
   },
   "moreculling-neoforge-1.21.1-1.0.7.jar": {
     "jarName": "moreculling-neoforge-1.21.1-1.0.7.jar",
@@ -2633,13 +2633,13 @@
     "curseForgeHash": 3799943056,
     "modrinthHash": "32e9bbe18ae1f2f7f672ce08af51ec1928599182"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.48.1759.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.48.1759.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.49.1768.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.49.1768.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.48",
-    "curseForgeHash": 3632982238,
-    "modrinthHash": "bdf39c9f367efd27e52530c13af3b733ca8e3f2c"
+    "version": "3.25.49",
+    "curseForgeHash": 922449100,
+    "modrinthHash": "b4ef5b6463f15bcb813ac69c6a952816ebb49855"
   },
   "sophisticatedcore-1.21.1-1.4.41.1867.jar": {
     "jarName": "sophisticatedcore-1.21.1-1.4.41.1867.jar",
