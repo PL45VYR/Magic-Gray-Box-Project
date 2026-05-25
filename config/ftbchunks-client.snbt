@@ -138,97 +138,97 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:vindicator": true
-			"minecraft:villager": true
-			"minecraft:trader_llama": true
-			"minecraft:witch": true
-			"hexerei:crow": true
-			"minecraft:sheep": true
-			"friendsandfoes:rascal": true
-			"minecraft:zombie_villager": true
-			"quark:stoneling": true
-			"quark:toretoise": true
-			"minecraft:cow": true
-			"aquaculture:smallmouth_bass": false
-			"ars_elemental:siren_entity": true
-			"aquaculture:carp": false
-			"creeperoverhaul:dripstone_creeper": true
-			"aquaculture:piranha": false
-			"aquaculture:bluegill": false
-			"yungscavebiomes:ice_cube": true
-			"minecraft:armadillo": true
-			"creeperoverhaul:ocean_creeper": true
-			"irons_spellbooks:pyromancer": true
-			"friendsandfoes:glare": true
-			"creeperoverhaul:bamboo_creeper": true
-			"minecraft:skeleton": true
-			"aquaculture:synodontis": false
-			"endermanoverhaul:dark_oak_enderman": true
+			"minecraft:horse": true
 			"minecraft:creeper": true
-			"upgrade_aquatic:thrasher": true
-			"minecraft:bogged": true
-			"irons_spellbooks:necromancer": true
-			"eidolon_repraised:wraith": true
-			"endermanoverhaul:snowy_enderman": true
-			"minecraft:stray": true
-			"ars_nouveau:drygmy": true
-			"aquaculture:minnow": false
-			"creeperoverhaul:cave_creeper": true
-			"minecraft:chicken": true
-			"minecraft:drowned": true
-			"aquaculture:tambaqui": false
-			"minecraft:spider": true
-			"aquaculture:boulti": false
-			"minecraft:donkey": true
-			"ars_nouveau:cascading_weald_walker": true
-			"ars_nouveau:starbuncle": true
+			"minecraft:pig": true
 			"quark:shiba": true
-			"irons_spellbooks:priest": true
-			"aquaculture:muskellunge": false
-			"minecraft:glow_squid": true
-			"friendsandfoes:moobloom": true
-			"eidolon_repraised:raven": true
-			"minecraft:guardian": true
-			"minecraft:cat": true
 			"aquaculture:gar": false
+			"quark:toretoise": true
+			"yungscavebiomes:ice_cube": true
+			"minecraft:villager": true
+			"minecraft:wandering_trader": true
+			"minecraft:spider": true
+			"minecraft:rabbit": true
+			"minecraft:witch": true
+			"minecraft:vindicator": true
 			"aquaculture:catfish": false
-			"endermanoverhaul:cave_enderman": true
-			"ars_nouveau:vexing_weald_walker": true
-			"minecraft:iron_golem": true
-			"minecraft:pillager": true
-			"minecraft:vex": true
+			"friendsandfoes:crab": true
+			"irons_spellbooks:pyromancer": true
+			"minecraft:elder_guardian": true
+			"aquaculture:bayad": false
+			"minecraft:guardian": true
+			"minecraft:squid": true
+			"minecraft:bogged": true
 			"artifacts:mimic": true
-			"hexerei:owl": true
-			"minecraft:enderman": true
-			"aquaculture:perch": false
-			"aquaculture:brown_trout": false
-			"friendsandfoes:mauler": true
+			"minecraft:wolf": true
+			"ars_nouveau:blazing_weald_walker": true
+			"endermanoverhaul:cave_enderman": true
+			"friendsandfoes:rascal": true
 			"ars_nouveau:whirlisprig": true
 			"minecraft:cave_spider": true
-			"minecraft:squid": true
-			"ars_nouveau:blazing_weald_walker": true
 			"creeperoverhaul:dark_oak_creeper": true
-			"forbidden_arcanus:lost_soul": true
-			"minecraft:horse": true
-			"eidolon_repraised:necromancer": true
-			"ars_nouveau:alakarkinos": true
-			"minecraft:elder_guardian": true
-			"minecraft:slime": true
-			"minecraft:bee": true
-			"minecraft:wandering_trader": true
-			"minecraft:ocelot": true
-			"minecraft:wolf": true
-			"friendsandfoes:crab": true
-			"eidolon_repraised:zombie_brute": true
-			"minecraft:axolotl": true
-			"aquaculture:bayad": false
-			"minecraft:rabbit": true
+			"minecraft:armadillo": true
+			"endermanoverhaul:dark_oak_enderman": true
+			"aquaculture:muskellunge": false
+			"aquaculture:synodontis": false
+			"aquaculture:bluegill": false
+			"minecraft:chicken": true
+			"ars_nouveau:starbuncle": true
+			"creeperoverhaul:bamboo_creeper": true
 			"minecraft:zombie": true
-			"minecraft:bat": true
-			"minecraft:pig": true
-			"eidolon_repraised:slimy_slug": true
+			"minecraft:donkey": true
+			"minecraft:zombie_villager": true
+			"friendsandfoes:moobloom": true
+			"endermanoverhaul:snowy_enderman": true
 			"hearthandharvest:crow": true
+			"hexerei:crow": true
+			"minecraft:iron_golem": true
+			"minecraft:drowned": true
+			"upgrade_aquatic:thrasher": true
+			"eidolon_repraised:wraith": true
+			"minecraft:trader_llama": true
 			"minecraft:parrot": true
+			"friendsandfoes:glare": true
+			"minecraft:glow_squid": true
+			"creeperoverhaul:ocean_creeper": true
+			"minecraft:skeleton": true
+			"eidolon_repraised:raven": true
+			"aquaculture:brown_trout": false
+			"minecraft:axolotl": true
+			"minecraft:bat": true
+			"aquaculture:piranha": false
+			"creeperoverhaul:cave_creeper": true
+			"ars_nouveau:alakarkinos": true
+			"aquaculture:perch": false
+			"minecraft:stray": true
+			"friendsandfoes:mauler": true
+			"minecraft:sheep": true
+			"aquaculture:smallmouth_bass": false
+			"irons_spellbooks:necromancer": true
+			"aquaculture:minnow": false
+			"minecraft:pillager": true
+			"eidolon_repraised:zombie_brute": true
+			"eidolon_repraised:slimy_slug": true
+			"aquaculture:tambaqui": false
+			"ars_nouveau:drygmy": true
+			"creeperoverhaul:dripstone_creeper": true
+			"ars_nouveau:cascading_weald_walker": true
+			"ars_nouveau:vexing_weald_walker": true
+			"minecraft:enderman": true
+			"aquaculture:carp": false
+			"minecraft:bee": true
+			"minecraft:vex": true
+			"eidolon_repraised:necromancer": true
+			"aquaculture:boulti": false
+			"minecraft:ocelot": true
+			"minecraft:cow": true
+			"ars_elemental:siren_entity": true
+			"minecraft:slime": true
+			"quark:stoneling": true
+			"irons_spellbooks:priest": true
+			"hexerei:owl": true
+			"minecraft:cat": true
+			"forbidden_arcanus:lost_soul": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
