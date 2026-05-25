@@ -2833,13 +2833,13 @@
     "curseForgeHash": 1338619755,
     "modrinthHash": "4a1f4307fc8dea95667fe88c8d39f87e2b370643"
   },
-  "toomanyrecipeviewers-0.8.0+mc.21.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.8.0+mc.21.1.jar",
+  "toomanyrecipeviewers-0.7.3+mc.21.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.7.3+mc.21.1.jar",
     "modId": "toomanyrecipeviewers",
     "name": "TooManyRecipeViewers",
-    "version": "0.8.0+mc.21.1",
-    "curseForgeHash": 2597159856,
-    "modrinthHash": "2af8463025d873c538ef5125b8957f286351d4d7"
+    "version": "0.7.3+mc.21.1",
+    "curseForgeHash": 4226614424,
+    "modrinthHash": "266605572d63d834b99e930e477ee01b0b7082df"
   },
   "torchmaster-neoforge-1.21.1-21.1.9.jar": {
     "jarName": "torchmaster-neoforge-1.21.1-21.1.9.jar",
