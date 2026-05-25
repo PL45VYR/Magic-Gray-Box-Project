@@ -192,6 +192,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: /sophisticated.*copper.*/ })
     event.remove({ output: /.*upgrade/, mod: 'sophisticatedbackpacks' })
     event.remove({ output: /.*upgrade/, mod: 'sophisticatedstorage' })
+    event.remove({ output: /sophisticatedstorage:storage.*/})
+    event.remove({ output: 'sophisticatedstorage:controller'})
 
     // XyCraft
     event.remove({ output: "xycraft_machines:machine_base" })

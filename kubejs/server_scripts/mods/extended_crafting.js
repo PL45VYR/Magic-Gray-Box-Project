@@ -10,7 +10,11 @@ ServerEvents.recipes(event => {
         "immersiveengineering:crafting/thermoelectric_generator",
         "immersiveengineering:crafting/sample_drill",
         "immersivepetroleum:auto_lubricator",
-        "immersivepetroleum:projector"
+        "immersivepetroleum:projector",
+        "sophisticatedstorage:controller",
+        "sophisticatedstorage:storage_io",
+        "sophisticatedstorage:storage_input",
+        "sophisticatedstorage:storage_output"
     ]
 
     excrafting_only.forEach(recipe_id => {

@@ -931,4 +931,50 @@ ServerEvents.recipes(event => {
             }
         }
     )
+
+    // Storage Link Recipe
+    event.recipes.extendedcrafting.shaped_table('sophisticatedstorage:storage_link',
+        [
+            "AB ",
+            "CD ",
+            "   "
+        ],
+        {
+            "A": {
+                "item": "endermanoverhaul:soul_pearl"
+            },
+            "B": {
+                "tag": "minecraft:planks"
+            },
+            "C": {
+                "item": "create:transmitter"
+            },
+            "D": {
+                "tag": "c:stones"
+            }
+        }
+    )
+
+    // Storage Tool Recipe
+    event.recipes.extendedcrafting.shaped_table('sophisticatedstorage:storage_tool',
+        [
+            " AB",
+            " CD",
+            "C  "
+        ],
+        {
+            "A": {
+                "item": "endermanoverhaul:soul_pearl"
+            },
+            "B": {
+                "item": "minecraft:iron_ingot"
+            },
+            "C": {
+                "item": "minecraft:stick"
+            },
+            "D": {
+                "item": "minecraft:redstone_torch"
+            }
+        }
+    )
 })
