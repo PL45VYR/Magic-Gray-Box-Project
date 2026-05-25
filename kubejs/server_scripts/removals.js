@@ -23,6 +23,8 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove(/sophisticated.*copper.*/)
     event.remove('sophisticatedstorage:stack_upgrade_tier_1_plus')
     event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier')
+    event.remove(/.*omega_tier/)
+    event.remove(/.*survival_infinity_upgrade/)
     event.remove(/igleelib.*/)
     event.remove(/.*aiot/)
 })
@@ -188,10 +190,8 @@ ServerEvents.recipes(event => {
     event.remove({ type: 'sophisticatedbackpacks:backpack_upgrade' })
     event.remove({ output: /sophisticatedstorage:.*tier_upgrade/, not: { output: /.*basic_tier.*/ } })
     event.remove({ output: /sophisticated.*copper.*/ })
-    event.remove({ output: 'sophisticatedstorage:stack_upgrade_tier_1_plus' })
-    event.remove({ output: 'sophisticatedbackpacks:stack_upgrade_starter_tier' })
-    event.remove({ input: 'sophisticatedstorage:stack_upgrade_tier_1_plus' })
-    event.remove({ input: 'sophisticatedbackpacks:stack_upgrade_starter_tier' })
+    event.remove({ output: /.*upgrade/, mod: 'sophisticatedbackpacks' })
+    event.remove({ output: /.*upgrade/, mod: 'sophisticatedstorage' })
 
     // XyCraft
     event.remove({ output: "xycraft_machines:machine_base" })

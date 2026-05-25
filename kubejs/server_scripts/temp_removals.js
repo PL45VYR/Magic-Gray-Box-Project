@@ -16,8 +16,16 @@ ServerEvents.recipes(event => {
     // event.remove({ output: /oritech.*/ })
 
     // AE2
-    event.remove({ mod: /.*ae.*/ })
-    event.remove({ mod: /.*app.*/ })
+    event.remove({ mod: "ae2" })
+    event.remove({ mod: "ae2things" })
+    event.remove({ mod: "ae2_mega_things" })
+    event.remove({ mod: "megacells" })
+    event.remove({ mod: "aeinfinitybooster" })
+    event.remove({ mod: "extendedae" })
+    event.remove({ mod: "advanced_ae" })
+    event.remove({ mod: "appflux" })
+    event.remove({ mod: "appmek" })
+    event.remove({ mod: "rep_ae2_bridge" })
 
     // Just Dire Things
     // event.remove({ mod: "justdirethings" })
