@@ -1,1 +1,1 @@
-You can edit this description in ./config/starterkit/description/spawn.txt!
+The really fun kit where all the magic happens!
