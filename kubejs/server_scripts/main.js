@@ -277,7 +277,6 @@ ServerEvents.recipes(event => {
     event.replaceInput({ id: 'occultism:ritual/possess_weak_shulker' }, 'minecraft:ender_pearl', 'endermanoverhaul:warped_pearl')
 
     // Gateways
-
     let summoner_gateways = [
         Ingredient.of('gateways:gate_pearl[gateways:gateway="gateways:emerald_grove"]'),
         Ingredient.of('gateways:gate_pearl[gateways:gateway="apotheosis:tiered/summit"]'),

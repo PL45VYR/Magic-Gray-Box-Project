@@ -7,7 +7,12 @@ ServerEvents.tags('entity_type', event => {
         "cataclysm:the_leviathan",
         "cataclysm:ancient_remnant",
         "cataclysm:maledictus",
-        "cataclysm:scylla"
+        "cataclysm:scylla",
+        "irons_spellbooks:fire_boss",
+        "irons_spellbooks:dead_king",
+        "discerning_the_eldritch:ascended_one",
+        "discerning_the_eldritch:ascended_one_cultist",
+        "ars_nouveau:wilden_boss"
     ]
 
     drygmyBlacklist.forEach(type => {
