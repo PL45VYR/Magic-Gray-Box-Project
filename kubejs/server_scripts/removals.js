@@ -27,6 +27,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove(/.*survival_infinity_upgrade/)
     event.remove(/igleelib.*/)
     event.remove(/.*aiot/)
+    event.remove('ars_nouveau:ritual_containment')
 })
 
 RecipeViewerEvents.removeEntriesCompletely("fluid", event => {
@@ -56,6 +57,7 @@ ServerEvents.recipes(event => {
     event.remove({ input: "lapis_lazuli", output: "ars_nouveau:source_gem" })
     event.remove({ output: "ars_nouveau:imbuement_chamber" })
     event.remove({ output: "ars_nouveau:scribes_table" })
+    event.remove({ output: /ars_.*:ritual.*/, not: { output: "ars_nouveau:ritual_brazier" } })
 
     // Compact Crafting
     event.remove({ id: "compactmachines:wall" })
@@ -192,8 +194,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: /sophisticated.*copper.*/ })
     event.remove({ output: /.*upgrade/, mod: 'sophisticatedbackpacks' })
     event.remove({ output: /.*upgrade/, mod: 'sophisticatedstorage' })
-    event.remove({ output: /sophisticatedstorage:storage.*/})
-    event.remove({ output: 'sophisticatedstorage:controller'})
+    event.remove({ output: /sophisticatedstorage:storage.*/ })
+    event.remove({ output: 'sophisticatedstorage:controller' })
 
     // XyCraft
     event.remove({ output: "xycraft_machines:machine_base" })
