@@ -161,11 +161,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: /endrem.*/ })
 
     // Occultism
-    event.remove({ output: "occultism:chalk_white_impure" })
-    event.remove({ output: "occultism:chalk_yellow_impure" })
-    event.remove({ output: "occultism:chalk_purple_impure" })
-    event.remove({ output: "occultism:chalk_light_gray_impure" })
-    event.remove({ output: "occultism:chalk_lime_impure" })
+    event.remove({ output: /occultism.*impure/ })
     event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:smelting" })
     event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:blasting" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/occultism.*/ })
@@ -255,4 +251,14 @@ LootJS.lootTables(event => {
         event.getLootTable(table).removeItem("enderio:dark_steel_ingot")
         event.getLootTable(table).removeItem("minecraft:ender_pearl")
     })
+
+    // Forbidden Arcanus
+    let forbidden_tables = event.getLootTableIds(/forbidden.*/)
+
+    forbidden_tables.forEach(table => {
+        event.getLootTable(table).removeItem('forbidden_arcanus:crimson_stone')
+        event.getLootTable(table).removeItem('forbidden_arcanus:elementarium')
+        event.getLootTable(table).removeItem('forbidden_arcanus:maledictus_pact')
+    })
+
 })
