@@ -156,6 +156,10 @@ ServerEvents.recipes(event => {
     // Malum
     event.remove({ output: "malum:spirit_altar" })
 
+    // Miscellaneous
+    event.remove({ id: "endermanoverhaul:ender_eye" })
+    event.remove({ output: /endrem.*/ })
+
     // Occultism
     event.remove({ output: "occultism:chalk_white_impure" })
     event.remove({ output: "occultism:chalk_yellow_impure" })
@@ -229,6 +233,9 @@ LootJS.modifiers(event => {
 
     // Ars Nouveau
     event.addTableModifier(/.*chests\/.*/).removeLoot(/ars_.*/)
+
+    // End Remastered
+    event.addTableModifier(/.*/).removeLoot(/.*endrem.*/)
 
     // Ender IO
     event.removeGlobalModifiers("enderio:alloy_loot")
