@@ -163,6 +163,8 @@ ServerEvents.recipes(event => {
     // Miscellaneous
     event.remove({ id: "endermanoverhaul:ender_eye" })
     event.remove({ output: /endrem.*/ })
+    event.remove({ output: /igleelib.*/ })
+    event.remove({ output: /cataclysm.*eye/ })
 
     // Occultism
     event.remove({ output: /occultism.*impure/ })
@@ -263,6 +265,34 @@ LootJS.lootTables(event => {
         event.getLootTable(table).removeItem('forbidden_arcanus:crimson_stone')
         event.getLootTable(table).removeItem('forbidden_arcanus:elementarium')
         event.getLootTable(table).removeItem('forbidden_arcanus:maledictus_pact')
+    })
+
+})
+
+MoreJS.villagerTrades(event => {
+    // Villager Trade Removal
+    // Removed villager trades go here
+    let ars_trades = [
+        "ars_nouveau:ritual_flight",
+        "ars_nouveau:ritual_containment",
+        "ars_nouveau:ritual_restoration",
+        "ars_nouveau:ritual_scrying",
+        "ars_nouveau:ritual_sanctuary",
+        "ars_nouveau:ritual_overgrowth",
+        "ars_nouveau:ritual_wilden_summon",
+        "ars_elemental:ritual_tesla_coil",
+        "ars_elemental:ritual_detection",
+        "ars_elemental:ritual_pollination",
+        "ars_additions:ritual_locate_structure",
+        "ars_additions:ritual_chunk_loading"
+    ]
+    ars_trades.forEach(trade => {
+        event.removeTrades({
+            first: trade,
+            outputCount: [0, 64],
+            level: 3,
+            professions: "ars_nouveau:shady_wizard"
+        })
     })
 
 })
