@@ -174,11 +174,13 @@ ServerEvents.recipes(event => {
         "reliquary:ender_staff",
         "ars_additions:stabilized_warp_index",
         "integrateddynamics:part_extradimensional_reader",
-        "actuallyadditions:phantom_connector"
+        "actuallyadditions:phantom_connector",
+        "functionalstorage:ender_drawer"
     ]
     ancient_items.forEach(item => {
         event.replaceInput({ output: item }, 'minecraft:ender_pearl', 'endermanoverhaul:ancient_pearl')
         event.replaceInput({ output: item }, 'minecraft:ender_eye', 'endermanoverhaul:ancient_pearl')
+        event.replaceInput({ output: item }, 'minecraft:ender_chest', 'endermanoverhaul:ancient_pearl')
     })
 
     // Bubble Pearl

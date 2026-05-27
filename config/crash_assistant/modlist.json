@@ -2121,6 +2121,14 @@
     "curseForgeHash": 3317811947,
     "modrinthHash": "834cc35294be3bb514bc0ba571ab7337961af383"
   },
+  "morejs-neoforge-1.21.1-0.16.0.jar": {
+    "jarName": "morejs-neoforge-1.21.1-0.16.0.jar",
+    "modId": "morejs",
+    "name": "MoreJS",
+    "version": "1.21.1-0.16.0",
+    "curseForgeHash": 3732970515,
+    "modrinthHash": "7e8aea4f03b18076cab5555f6d30e35ff919b342"
+  },
   "Morph-o-Tool-1.8-39.jar": {
     "jarName": "Morph-o-Tool-1.8-39.jar",
     "modId": "morphtool",

@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
     event.remove({ input: /evolvedmekanism.*/ })
 
     // Oritech
-    // event.remove({ output: /oritech.*/ })
+    event.remove({ id: /oritech:crafting\/.*/ })
 
     // AE2
     event.remove({ mod: "ae2" })
@@ -34,15 +34,23 @@ ServerEvents.recipes(event => {
     event.remove({ output: "justdirethings:gooblock_tier4" })
 
     // Ender IO
-    event.remove({ mod: "enderio", not: [
-        { output: 'enderio:dark_steel_block'}
-    ] })
+    event.remove({
+        mod: "enderio", not: [
+            { output: 'enderio:dark_steel_block' }
+        ]
+    })
 
     // Ender Storage
     event.remove({ mod: "enderstorage" })
 
     // Entangled
     event.remove({ mod: "entangled" })
+
+    // Extended Crafting
+    event.remove({ output: /.*_auto_table/ })
+    event.remove({ mod: "extendedcrafting", output: /.*ender.*/ })
+    event.remove({ mod: "extendedcrafting", output: /.*ultimate.*/ })
+    event.remove({ output: "extendedcrafting:compressor" })
 
     // Actually Additions
     // event.remove({ mod: "actuallyadditions" })

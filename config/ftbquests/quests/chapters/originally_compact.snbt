@@ -37,6 +37,7 @@
 		{
 			dependencies: ["5811EA04E7CF30E7"]
 			id: "658FE15E322D56FF"
+			shape: "rsquare"
 			tasks: [{
 				id: "1E958A6BE5EB5437"
 				item: { count: 1, id: "xycraft_machines:extractor" }
