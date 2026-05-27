@@ -33,6 +33,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: "justdirethings:gooblock_tier3" })
     event.remove({ output: "justdirethings:gooblock_tier4" })
 
+    // Explorer Compass
+    event.remove({ output: "explorerscompass:explorerscompass"})
+
     // Ender IO
     event.remove({
         mod: "enderio", not: [
