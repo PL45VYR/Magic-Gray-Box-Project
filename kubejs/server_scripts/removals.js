@@ -52,6 +52,10 @@ ServerEvents.recipes(event => {
     event.remove({ output: "actuallyadditions:empowerer" })
     event.remove({ type: "actuallyadditions:empowering", not: { output: "actuallyadditions:empowered_canola_seed" } })
 
+    // Apotheosis
+    event.remove({ output: /apothic_enchanting:.*shelf.*/, type: "minecraft:crafting_shaped" })
+    event.remove({ output: "apothic_enchanting:library" })
+
     // Ars Nouveau
     event.remove({ id: /ars_nouveau:novice.*/ })
     event.remove({ input: "lapis_lazuli", output: "ars_nouveau:source_gem" })

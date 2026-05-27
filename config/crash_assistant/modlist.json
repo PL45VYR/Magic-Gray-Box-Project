@@ -333,13 +333,13 @@
     "curseForgeHash": 2445792967,
     "modrinthHash": "2354710ea312e2a6e0fbc3eb2dbafb8e06f10cf4"
   },
-  "ars_nouveau-1.21.1-5.11.5.jar": {
-    "jarName": "ars_nouveau-1.21.1-5.11.5.jar",
+  "ars_nouveau-1.21.1-5.11.6.jar": {
+    "jarName": "ars_nouveau-1.21.1-5.11.6.jar",
     "modId": "ars_nouveau",
     "name": "Ars Nouveau",
-    "version": "5.11.5",
-    "curseForgeHash": 2711572095,
-    "modrinthHash": "202512e3a48c169ea4c68c85c2208f1813a92f26"
+    "version": "5.11.6",
+    "curseForgeHash": 2923805987,
+    "modrinthHash": "b424f6b0dfd77d1803d1de3cde792e04bf26be40"
   },
   "ars_ocultas-1.21.1-2.4.1.jar": {
     "jarName": "ars_ocultas-1.21.1-2.4.1.jar",
@@ -2833,13 +2833,13 @@
     "curseForgeHash": 1338619755,
     "modrinthHash": "4a1f4307fc8dea95667fe88c8d39f87e2b370643"
   },
-  "toomanyrecipeviewers-0.7.3+mc.21.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.7.3+mc.21.1.jar",
+  "toomanyrecipeviewers-0.8.1+mc.21.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.8.1+mc.21.1.jar",
     "modId": "toomanyrecipeviewers",
     "name": "TooManyRecipeViewers",
-    "version": "0.7.3+mc.21.1",
-    "curseForgeHash": 4226614424,
-    "modrinthHash": "266605572d63d834b99e930e477ee01b0b7082df"
+    "version": "0.8.1+mc.21.1",
+    "curseForgeHash": 388871551,
+    "modrinthHash": "4f349431752b0881f900a52475de494de5d83f53"
   },
   "torchmaster-neoforge-1.21.1-21.1.9.jar": {
     "jarName": "torchmaster-neoforge-1.21.1-21.1.9.jar",

@@ -14,7 +14,13 @@ ServerEvents.recipes(event => {
         "sophisticatedstorage:controller",
         "sophisticatedstorage:storage_io",
         "sophisticatedstorage:storage_input",
-        "sophisticatedstorage:storage_output"
+        "sophisticatedstorage:storage_output",
+        "apothic_enchanting:seashelf",
+        "apothic_enchanting:hellshelf",
+        "apothic_enchanting:geode_shelf",
+        "apothic_enchanting:beeshelf",
+        "apothic_enchanting:melonshelf",
+        "apothic_enchanting:stoneshelf"
     ]
 
     excrafting_only.forEach(recipe_id => {
