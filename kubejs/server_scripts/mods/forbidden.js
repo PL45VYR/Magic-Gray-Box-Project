@@ -56,4 +56,22 @@ ServerEvents.recipes(event => {
             "id": "extendedcrafting:redstone_ingot"
         }
     })
+
+    // Crimson Stone Recipe
+    event.recipes.malum.spirit_infusion(
+        "4x eidolon_repraised:crimson_gem",
+        "forbidden_arcanus:crimson_stone",
+        [
+            "64x sacred",
+            "64x arcane",
+            "64x eldritch"
+        ],
+        [
+            "forbidden_arcanus:enchanted_soul"
+        ]
+    )
+})
+
+LootJS.lootTables(event => {
+    event.getLootTable("cataclysm:entities/maledictus").firstPool().addEntry("forbidden_arcanus:maledictus_pact")
 })
