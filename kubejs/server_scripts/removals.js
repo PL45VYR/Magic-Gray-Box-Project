@@ -165,6 +165,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: /endrem.*/ })
     event.remove({ output: /igleelib.*/ })
     event.remove({ output: /cataclysm.*eye/ })
+    event.remove({ id: "gag:time_sand_pouch" })
 
     // Occultism
     event.remove({ output: /occultism.*impure/ })

@@ -69,7 +69,11 @@
 	quest.0EAC1D3DD4041EA6.quest_desc: [
 		"With some Sal Ammoniac ready, you can liquefact your Pewter Blend in a Liquefaction Cauldron."
 		""
-		"You will also want to get some Alchemical Salt, as well as Mercury Crystals, which are crucial catalysts for making the alchemical sulfur into its output material."
+		"Liquefaction Cauldrons take Sal Ammoniac fluid and a given input item to output its respective Alchemical Sulfur."
+		""
+		"Mercury Distillers process various material types into Mercury Shards. Charcoal is a great renewable resource for Mercury, but any excess Sal Ammoniac Crystals can produce much more!"
+		""
+		"Calcination Ovens reduce various material types into their respective Alchemical Salt. Use Mineral Salt with ore-like materials, which can also be obtained with Charcoal!"
 	]
 	quest.0EAC1D3DD4041EA6.title: "Alchemy Prep"
 	quest.0F830CA4F664ADAF.quest_desc: ["Using brass as a casing material gives you a more versatile block to tweak for enhanced machines in future crafts."]
@@ -369,7 +373,13 @@
 	quest.4A1BF2244EDAF607.quest_desc: [
 		"Incubation is the final step of alchemical processing."
 		""
-		"Place the three incubation vessels around the Incubator and supply heat with a brazier to begin the incubation step!"
+		"Place:"
+		"- Mercury in the Incubator Mercury Vessel"
+		"- Alchemical Salt in the Incubator Salt Vessel"
+		"- Alchemical Sulfur in the Incubator Sulfur Vessel"
+		"- Burnable fuel in the Pyromantic Brazier"
+		""
+		"Once smoke starts coming from the Incubator, it'll start producing your final output!"
 	]
 	quest.4AA0ABCFB7E66232.quest_desc: ["A strange eminence from the ground reveals the presence of soulstone, a material that needs some refinement. Its magical aura feels like a way to enhance your crafting capabilities even further..."]
 	quest.5271FF3BE99AB631.quest_desc: [
@@ -591,9 +601,13 @@
 	quest.7BD08BABA5551D05.quest_desc: [
 		"Now for the fun part of alchemy: reformation. While exciting at first glance, it requires a bit of setup to get going."
 		""
-		"Your reformation pedestals are the centerpieces of your setup. This process also requires some fuel, but not from braziers; instead, you need a Sulfuric Flux Emitter that hits every pedestal used in your reformation array."
+		"Place:"
+		"- Targeted material in the Reformation Target Pedestal (not consumed)"
+		"- Required material(s) in each Reformation Source Pedestal (consumed)"
+		"- Reformation Result Pedestal near the other pedestals"
+		"- Mercury Catalyst near the other pedestals"
 		""
-		"Mercury Catalysts are a great way to store backup flux in case you want to automate this process!"
+		"Then, link your Sulfuric Flux Emitter to each pedestal and place it on the Mercury Catalyst. After adding Mercury to the Mercury Catalyst, watch as the resulting product starts being produced at the Reformation Result Pedestal!"
 	]
 	quest.7BD08BABA5551D05.title: "Reformation Array"
 	quest.7D827138C62A8B93.quest_desc: ["Within your newly-constructed Alloy Kiln, you combine some copper and zinc to make brass, a powerful alloy that will enhance your technological capabilties even further."]

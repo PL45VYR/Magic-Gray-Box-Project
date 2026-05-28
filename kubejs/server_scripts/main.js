@@ -120,6 +120,35 @@ ServerEvents.recipes(event => {
         ]
     })
 
+    // Temporal Pouch Recipe
+
+    event.recipes.extendedcrafting.shaped_table('gag:time_sand_pouch',
+        [
+            "ABCBA",
+            "BAAAB",
+            "BDEDB",
+            "BDDDB",
+            "BBBBB"
+        ],
+        {
+            "A": {
+                "item": "forbidden_arcanus:deorum_ingot"
+            },
+            "B": {
+                "tag": "c:leathers"
+            },
+            "C": {
+                "item": "minecraft:nautilus_shell"
+            },
+            "D": {
+                "item": "yungscavebiomes:ancient_sand"
+            },
+            "E": {
+                "item": "endermanoverhaul:icy_pearl"
+            }
+        }
+    )
+
     // Ender Pearl Overhauls
 
     // Corrupted Pearl
@@ -225,7 +254,6 @@ ServerEvents.recipes(event => {
         "malum:necklace_of_the_mystic_mirror",
         "ironfurnaces:crystal_furnace",
         "ironfurnaces:upgrade_crystal",
-        "gag:time_sand_pouch",
         "apotheosis:sigil_of_withdrawal",
         "actuallyadditions:void_sack",
         "eidolon_repraised:reversal_pick",
@@ -280,10 +308,7 @@ ServerEvents.recipes(event => {
 
     // Gateways
     let summoner_gateways = [
-        Ingredient.of('gateways:gate_pearl[gateways:gateway="gateways:emerald_grove"]'),
         Ingredient.of('gateways:gate_pearl[gateways:gateway="apotheosis:tiered/summit"]'),
-        Ingredient.of('gateways:gate_pearl[gateways:gateway="gateways:basic/enderman"]'),
-        Ingredient.of('gateways:gate_pearl[gateways:gateway="gateways:basic/slime"]'),
         Ingredient.of('gateways:gate_pearl[gateways:gateway="apotheosis:tiered/frontier"]'),
         Ingredient.of('gateways:gate_pearl[gateways:gateway="apotheosis:tiered/ascent"]')
     ]
@@ -291,7 +316,4 @@ ServerEvents.recipes(event => {
         event.replaceInput({ output: gateway }, 'minecraft:ender_pearl', 'endermanoverhaul:summoner_pearl')
         event.replaceInput({ output: gateway }, 'minecraft:ender_eye', 'endermanoverhaul:summoner_pearl')
     })
-
-    event.replaceInput({ output: Ingredient.of('gateways:gate_pearl[gateways:gateway="gateways:overworldian_nights"]')}, 'minecraft:ender_eye', 'endermanoverhaul:icy_pearl')
-    event.replaceInput({ output: Ingredient.of('gateways:gate_pearl[gateways:gateway="gateways:hellish_fortress"]')}, 'minecraft:ender_eye', 'endermanoverhaul:crimson_pearl')
 })
