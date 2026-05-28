@@ -4,7 +4,7 @@
 	#Spawn chances for pieces of Bronze gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 	[mobGearSpawnRate.bronze]
 		#If enabled, zombies can spawn with Bronze weapons.
-		canSpawnWeapon = true
+		canSpawnWeapon = false
 		#The chance that mobs will spawn with Bronze swords rather than Bronze shovels. Requires canSpawnWeapon to be enabled.
 		# Default: 0.33
 		# Range: 0.0 ~ 1.0
@@ -45,7 +45,7 @@
 	#Spawn chances for pieces of Lapis Lazuli gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 	[mobGearSpawnRate.lapis_lazuli]
 		#If enabled, zombies can spawn with Lapis Lazuli weapons.
-		canSpawnWeapon = true
+		canSpawnWeapon = false
 		#The chance that mobs will spawn with Lapis Lazuli swords rather than Lapis Lazuli shovels. Requires canSpawnWeapon to be enabled.
 		# Default: 0.33
 		# Range: 0.0 ~ 1.0

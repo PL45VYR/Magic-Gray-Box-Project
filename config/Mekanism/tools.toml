@@ -16,7 +16,7 @@
 	#Spawn chances for pieces of Bronze gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 	[mobGearSpawnRate.bronze]
 		#If enabled, zombies can spawn with Bronze weapons.
-		canSpawnWeapon = true
+		canSpawnWeapon = false
 		#The chance that mobs will spawn with Bronze swords rather than Bronze shovels. Requires canSpawnWeapon to be enabled.
 		# Default: 0.33
 		# Range: 0.0 ~ 1.0
@@ -57,7 +57,7 @@
 	#Spawn chances for pieces of Lapis Lazuli gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 	[mobGearSpawnRate.lapis_lazuli]
 		#If enabled, zombies can spawn with Lapis Lazuli weapons.
-		canSpawnWeapon = true
+		canSpawnWeapon = false
 		#The chance that mobs will spawn with Lapis Lazuli swords rather than Lapis Lazuli shovels. Requires canSpawnWeapon to be enabled.
 		# Default: 0.33
 		# Range: 0.0 ~ 1.0
@@ -98,7 +98,7 @@
 	#Spawn chances for pieces of Osmium gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 	[mobGearSpawnRate.osmium]
 		#If enabled, zombies can spawn with Osmium weapons.
-		canSpawnWeapon = true
+		canSpawnWeapon = false
 		#The chance that mobs will spawn with Osmium swords rather than Osmium shovels. Requires canSpawnWeapon to be enabled.
 		# Default: 0.33
 		# Range: 0.0 ~ 1.0
@@ -139,7 +139,7 @@
 	#Spawn chances for pieces of Refined Glowstone gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 	[mobGearSpawnRate.refined_glowstone]
 		#If enabled, zombies can spawn with Refined Glowstone weapons.
-		canSpawnWeapon = true
+		canSpawnWeapon = false
 		#The chance that mobs will spawn with Refined Glowstone swords rather than Refined Glowstone shovels. Requires canSpawnWeapon to be enabled.
 		# Default: 0.33
 		# Range: 0.0 ~ 1.0
@@ -180,7 +180,7 @@
 	#Spawn chances for pieces of Refined Obsidian gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 	[mobGearSpawnRate.refined_obsidian]
 		#If enabled, zombies can spawn with Refined Obsidian weapons.
-		canSpawnWeapon = true
+		canSpawnWeapon = false
 		#The chance that mobs will spawn with Refined Obsidian swords rather than Refined Obsidian shovels. Requires canSpawnWeapon to be enabled.
 		# Default: 0.33
 		# Range: 0.0 ~ 1.0
@@ -221,7 +221,7 @@
 	#Spawn chances for pieces of Steel gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
 	[mobGearSpawnRate.steel]
 		#If enabled, zombies can spawn with Steel weapons.
-		canSpawnWeapon = true
+		canSpawnWeapon = false
 		#The chance that mobs will spawn with Steel swords rather than Steel shovels. Requires canSpawnWeapon to be enabled.
 		# Default: 0.33
 		# Range: 0.0 ~ 1.0
