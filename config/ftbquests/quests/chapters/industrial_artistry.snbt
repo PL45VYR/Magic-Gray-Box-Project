@@ -271,7 +271,8 @@
 		{
 			dependencies: ["6F1668CE37F52D5E"]
 			id: "62080B375B86310C"
-			shape: "rsquare"
+			optional: true
+			shape: "octagon"
 			tasks: [{
 				id: "7960D68867E6560A"
 				item: { count: 1, id: "ars_nouveau:scribes_table" }
@@ -343,6 +344,8 @@
 		{
 			dependencies: ["3E3F317CF8D5095A"]
 			id: "6F1668CE37F52D5E"
+			optional: true
+			shape: "octagon"
 			tasks: [{
 				id: "3E37E524BADF8BC9"
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
@@ -354,6 +357,7 @@
 		{
 			dependencies: ["57D0D216A97B26D6"]
 			id: "6B68A3958891AE50"
+			shape: "circle"
 			tasks: [{
 				id: "0F0667E3C5E82A65"
 				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
@@ -368,6 +372,7 @@
 				id: "ars_nouveau:air_essence"
 			}
 			id: "3E3F317CF8D5095A"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "41CC3C4ABF7B04A0"

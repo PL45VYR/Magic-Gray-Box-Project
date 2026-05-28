@@ -273,7 +273,7 @@
 				id: "immersiveengineering:advanced_blast_furnace"
 			}
 			id: "2BF233F471AB3CBF"
-			shape: "rsquare"
+			shape: "octagon"
 			tasks: [{
 				advancement: "immersiveengineering:multiblocks/mb_improvedblastfurnace"
 				criterion: ""

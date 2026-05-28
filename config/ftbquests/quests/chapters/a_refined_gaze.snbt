@@ -202,7 +202,8 @@
 		{
 			dependencies: ["21219B904729865C"]
 			id: "0CD328FDDC341D36"
-			shape: "rsquare"
+			optional: true
+			shape: "octagon"
 			tasks: [{
 				advancement: "immersivepetroleum:main/mb_pumpjack"
 				criterion: ""

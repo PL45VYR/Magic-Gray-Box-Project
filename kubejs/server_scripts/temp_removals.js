@@ -39,7 +39,8 @@ ServerEvents.recipes(event => {
     // Ender IO
     event.remove({
         mod: "enderio", not: [
-            { output: 'enderio:dark_steel_block' }
+            { output: 'enderio:dark_steel_block' },
+            { output: 'enderio:dark_steel_nugget' }
         ]
     })
 
@@ -50,7 +51,9 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "entangled" })
 
     // Extended Crafting
-    event.remove({ output: /.*_auto_table/ })
+    event.remove({ mod: "extendedcrafting", output: /.*auto.*/ })
+    event.remove({ mod: "extendedcrafting", output: /.*component.*/ })
+    event.remove({ mod: "extendedcrafting", output: /.*catalyst.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*ender.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*ultimate.*/ })
     event.remove({ output: "extendedcrafting:compressor" })

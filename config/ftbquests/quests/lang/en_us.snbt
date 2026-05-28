@@ -47,6 +47,11 @@
 		""
 		"Some recipes may strictly demand the use of Mechanical Crafters, so be wary of those recipes."
 	]
+	quest.0C321C88817418A1.quest_desc: [
+		"Atomic Reconstructors are used in, well, reconstructing atoms. In particular, a select set of metals and gems can be reconstructed into powerful crystals for hi-tech utility."
+		""
+		"Give the reconstructor some power and watch the magic happen!"
+	]
 	quest.0C536BDC372C9E8C.quest_desc: [
 		"Arc Furnaces are the ultimate upgrade for your alloying endeavors. However, in order to function, they need to constantly maintain 3 Graphite Electrodes."
 		""
@@ -82,7 +87,12 @@
 		""
 		"Bear in mind that this process is rather slow, but consumes Iron Ingots and Coal Coke at a rate of 1-to-1 to produce a single Steel Ingot."
 	]
-	quest.136140C6D0246D99.quest_desc: ["Items that have a common rarity will drop scrap metal when salvaged. This can be used for creating new items with special effects, but is equally relevant to magic."]
+	quest.136140C6D0246D99.quest_desc: [
+		"Items that have a common rarity will drop scrap metal when salvaged. This can be used for creating new items with special effects, but is equally relevant to magic."
+		""
+		"You're very likely to get these rarity-affixed items in a general mob farm. Try setting one up!"
+	]
+	quest.15341EDB20E0F0DA.quest_desc: ["Empowered Crystals are even more relevant to hi-tech crafts than their respective Reconstructed Crystals. Be ready to use these in high quantity in the near future!"]
 	quest.15341EDB20E0F0DA.title: "Empowered Crystals"
 	quest.1575B4620DE8EFD5.quest_desc: ["Crushing up some gold into dust gives you a foundation for a new type of chalk. However, you may need more than just one pile of it."]
 	quest.166E83C318214F30.quest_desc: [
@@ -90,6 +100,7 @@
 		""
 		"...but with the help of a Third Eye, you realize that you can interact with a tree from that otherworldly realm. Once that eye closed, everything went back to normal."
 	]
+	quest.16D830C067671767.quest_desc: ["Mining Ferricore clusters drops Raw Ferricore Ore, which you can smelt into Ferricore Ingots, a material used in a variety of nifty machines."]
 	quest.17290FD4C5E324E8.quest_desc: ["Totem magic has the power to perform magical automations by carving spirits into Runewood Logs. Every primary spirit type has a unique set of totem rites that they can run, from breaking blocks to speeding up animal growth."]
 	quest.18928F465F3719B6.quest_desc: [
 		"This next tier of crafting optimizes the capabilities of your Advanced Electronic Components and puts them to greater use."
@@ -148,6 +159,11 @@
 		"The best way to store the high amount of fluid from oil reservoirs in particular is using the Oil Tank. It can store just over a thousand buckets of fluid, and oil reservoir sizes may demand that you build up to 5 or 6 to store everything from the Derrick!"
 	]
 	quest.21219B904729865C.title: "Derrick"
+	quest.23CA5965D3EB1AB4.quest_desc: [
+		"Empowerers can turn Reconstructed Crystal Blocks into an empowered form of their base reconstructed crystal. However, this empowerment is only made possible by using a few catalyst items."
+		""
+		"All empowerment recipes need a respective Corundum Cluster and dye color, but the other materials will vary."
+	]
 	quest.2410E7D0CDF35612.quest_desc: [
 		"The last step you need to start your ritual requires that you draw out some runes with chalk."
 		""
@@ -249,6 +265,7 @@
 		""
 		"The transformed resin can also be extracted from the trees to create a sticky substance that can function similarly to materials such as slime."
 	]
+	quest.30F43F6EFA0D7850.quest_desc: ["Primogel Goo is a basic goo capable of turning Raw Iron into Ferricore. Place the Raw Iron Blocks next to the goo and feed it with either Sugar or Rotten Flesh to begin the conversion process!"]
 	quest.316FD8F81322D15E.quest_desc: [
 		"Hephaestus Forge rituals always need aureal to operate."
 		""
@@ -313,6 +330,7 @@
 		"While its best use lies in durable armor that only the most accomplished players can craft, it does have some other bizarre utilities."
 	]
 	quest.38ECD5C337E53585.quest_desc: ["Crush your Petcoke into a dust. This way, you can use an Industrial Squeezer to make HOP Graphite Dust. This will let you make some incredibly powerful technology."]
+	quest.3B1D635299257794.quest_desc: ["Binding some of your Deepslate to a Dark Steel Nugget allows you to make a Compact Machine Wall. Something about this wall seems useful for building some potentially powerful tech that can operate on a much smaller scale..."]
 	quest.3BD68D5031E943B8.quest_desc: ["Black Iron Slates are crafting components made by flattening a Block of Black Iron. You'll certainly want a lot of black iron, given how quickly the cost adds up!"]
 	quest.3BD7A36502D45B57.quest_desc: [
 		"Finally, bring everything together to acquire your next tier of crafting!"
@@ -321,6 +339,18 @@
 	]
 	quest.3E3F317CF8D5095A.quest_desc: ["Four elements begin to take shape inside your Source Gems during imbuement discoveries: air, earth, fire, and water. They manifest as essences, which give you more insight on how those magical glyphs might be recorded."]
 	quest.3E3F317CF8D5095A.title: "Elemental Essences"
+	quest.4299D9545D9A81EB.quest_desc: [
+		"Reconstructed crystals come in 6 forms, based on the material used:"
+		""
+		"- Restonia Crystals from Redstone Blocks"
+		"- Enori Crystals from Iron Blocks"
+		"- Void Crystals from Coal Blocks"
+		"- Palis Crystals from Lapis Blocks"
+		"- Emeradic Crystals from Emerald Blocks"
+		"- Diamatine Crytals from Diamond Blocks"
+		""
+		"These each have a variety of important uses, so try to automate the reconstruction process if possible!"
+	]
 	quest.4299D9545D9A81EB.title: "Reconstructed Crystals"
 	quest.430A31B1C16C0D67.quest_desc: [
 		"Once you're able to get a power supply running, you need to send that power to your machines. This is where wiring comes into play."
@@ -381,12 +411,15 @@
 		""
 		"Once smoke starts coming from the Incubator, it'll start producing your final output!"
 	]
+	quest.4A792E46F811CE2E.quest_desc: ["With enough Compact Machine Walls, you can build some Field Projectors. After getting four of them, place one at a raised height to start visualizing where you should place your second one. The further out the projector is, the larger your projection area will be."]
+	quest.4A792E46F811CE2E.title: "Field Projector"
 	quest.4AA0ABCFB7E66232.quest_desc: ["A strange eminence from the ground reveals the presence of soulstone, a material that needs some refinement. Its magical aura feels like a way to enhance your crafting capabilities even further..."]
 	quest.5271FF3BE99AB631.quest_desc: [
 		"Alchemy relies heavily on Sal Ammoniac, a material that liquifies materials into an alchemical sulfur. Combine a Sal Ammoniac Crystal with some water to make it into a fluid using the Sal Ammoniac Accumulator!"
 		""
 		"You may choose to not use any crystals in the accumulator, but this will return a tenth of the Sal Ammoniac."
 	]
+	quest.531AC0805169CEBF.quest_desc: ["Flux Crafters need powered Flux Alternators to operate. Placing more Flux Alternators near the Flux Crafter will increase its crafting speed. Some recipes are only handled in this crafter exclusively, so make sure its crafting speed is sufficient!"]
 	quest.5506AE4B8F39A387.quest_desc: [
 		"With a Pestle and Mortar, you can grind up materials into a blend or mixture. Perhaps a mixture of seeds could net you a little Crow friend?"
 		""
@@ -400,6 +433,11 @@
 		"If a result has a blot of white on it, that's a source of fluid! Try to move your survey tool to that spot and see what's in that area."
 	]
 	quest.57D0D216A97B26D6.quest_desc: ["Source Gems are the most basic way to augment much purer magic. In wielding them, you see visions of mystical glyphs. There must be a way to document them..."]
+	quest.5811EA04E7CF30E7.quest_desc: [
+		"The field made by the projectors gives you a rather large space to build in. Try constructing a Machine Base using your currently-available technology, finalizing the assembly with a Basic Catalyst."
+		""
+		"Watch as your large build compacts into a much smaller form that can be used for various technological uses!"
+	]
 	quest.5A71F26573E823DD.quest_desc: [
 		"With your knowledge of both Obsidiansteel and Umbral Spirits, you can infuse Arcane Crystal Dust with them to produce Corrupti Dust."
 		""
@@ -422,6 +460,7 @@
 	]
 	quest.5B84821179C454DB.quest_desc: ["Ether is a powerful source of light that draws from the bright glow of Blazing Quartz and Glowstone. Not only can it be dyed to your liking, but it can be either placed on its own or used to make a torch!"]
 	quest.5BF9ADAA56F1E9D4.quest_desc: ["Mundabitur Dust is a potent transmutator item. Some of the ingredients needed to craft this material require a soul-touched mob drop..."]
+	quest.5C7FC2B04B1CC0E1.quest_desc: ["Alloying a variety of shiny blue materials lets you create Crystaltine Ingots, a powerful alloy that enables some reconstructive technology. Since it's pretty expensive to make, you get a substantial amount of it with every craft!"]
 	quest.5D9CA1923AFE93F5.quest_desc: [
 		"Industrial Fermenters will process a variety of crops and foods into Ethanol. The input item used for fermenting will determine how much Ethanol you'll get."
 		""
@@ -459,6 +498,7 @@
 		""
 		"Word around is that you can lob them as explosive magic bolts to serve as an augment to mining... perhaps that's a sidequest worth exploring!"
 	]
+	quest.618A82E325286D95.quest_desc: ["With even more compacting, you can make the more versatile Lava Factory Casing. This casing allows you to build even more advanced machinery that cannot otherwise work without making oversized machines!"]
 	quest.62080B375B86310C.quest_desc: [
 		"The Scribe's Table is your tool for recording and learning new glyphs. With the help of some Magic Ink, you begin to find items around you that relate to the glyphs you see."
 		""
@@ -474,6 +514,7 @@
 		""
 		"You can channel this blight into creating Soulwood, a blighted version of Runewood that has its own set of totem rites."
 	]
+	quest.658FE15E322D56FF.quest_desc: ["Extractors are fantastic tools for generating materials infinitely. While great for building materials like Stone or Shale, you can also automate large quantities of Crimsite or Ochrum to extract infinite Iron and Gold respectively."]
 	quest.65DB37034A4934D1.quest_desc: [
 		"One important thing to note with this modpack is that it is NOT COMPLETE."
 		""
