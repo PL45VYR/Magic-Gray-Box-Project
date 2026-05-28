@@ -16,6 +16,15 @@ ServerEvents.tags('entity_type', event => {
     ]
 
     drygmyBlacklist.forEach(type => {
-        event.add(type, "#ars_nouveau:drygmy_blacklist")
+        event.add("ars_nouveau:drygmy_blacklist", type)
+        event.add("ars_nouveau:jar_blacklist", type)
     })
+
+    event.add("ars_nouveau:drygmy_blacklist", /.*possessed.*/)
+    event.add("ars_nouveau:drygmy_blacklist", /occultism:wild.*/)
+
+    event.add("ars_nouveau:drygmy_blacklist", "occultism:afrit_wild")
+    event.add("ars_nouveau:drygmy_blacklist", "occultism:iesnium_golem")
+    event.add("ars_nouveau:drygmy_blacklist", "occultism:marid_unbound")
+    event.add("ars_nouveau:drygmy_blacklist", "occultism:mercy_goat")
 })
