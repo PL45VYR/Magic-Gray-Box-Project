@@ -1,104 +1,67 @@
 {
     "parent": "apotheosis:progression/ascent",
     "criteria": {
-        "kill_wither": {
+        "complete_ascent_gate": {
+            "conditions": {
+                "gateway": "apotheosis:tiered/ascent"
+            },
+            "trigger": "gateways:finish_gateway"
+        },
+        "kill_tyros": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:wither"
+                            "type": "irons_spellbooks:fire_boss"
                         }
                     }
                 ]
             },
             "trigger": "minecraft:player_killed_entity"
         },
-        "rare_chest": {
+        "kill_netherite_monstrosity": {
             "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "cataclysm:netherite_monstrosity"
                         }
                     }
-                },
-                "slots": "chest"
+                ]
             },
-            "trigger": "apotheosis:equipped_item"
+            "trigger": "minecraft:player_killed_entity"
         },
-        "rare_feet": {
+        "kill_the_harbinger": {
             "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "cataclysm:the_harbinger"
                         }
                     }
-                },
-                "slots": "feet"
+                ]
             },
-            "trigger": "apotheosis:equipped_item"
+            "trigger": "minecraft:player_killed_entity"
         },
-        "rare_hand": {
+        "kill_maledictus": {
             "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "cataclysm:maledictus"
                         }
                     }
-                },
-                "slots": "hand"
+                ]
             },
-            "trigger": "apotheosis:equipped_item"
-        },
-        "rare_helm": {
-            "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "head"
-            },
-            "trigger": "apotheosis:equipped_item"
-        },
-        "rare_legs": {
-            "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "legs"
-            },
-            "trigger": "apotheosis:equipped_item"
+            "trigger": "minecraft:player_killed_entity"
         }
     },
     "display": {
@@ -117,23 +80,23 @@
     },
     "requirements": [
         [
-            "rare_helm"
+            "complete_ascent_gate"
         ],
         [
-            "rare_chest"
+            "kill_tyros"
         ],
         [
-            "rare_legs"
+            "kill_netherite_monstrosity"
         ],
         [
-            "rare_feet"
+            "kill_the_harbinger"
         ],
         [
-            "rare_hand"
-        ],
-        [
-            "kill_wither"
+            "kill_maledictus"
         ]
     ],
+    "rewards": {
+        "function": "apotheosis:summit_tier"
+    },
     "sends_telemetry_event": true
 }

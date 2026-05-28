@@ -1,0 +1,36 @@
+{
+    "advancements.apotheosis.progression.root.title": "Apothic World Tiers",
+    "advancements.apotheosis.progression.root.desc": "Milestones for unlocking World Tiers in Apotheosis.\nPress CTRL+T to open the navigation screen",
+
+    "advancements.apotheosis.progression.haven.title": "World Tier: Haven",
+    "advancements.apotheosis.progression.haven.desc": "Haven is unlocked when you first load into the world",
+    "advancements.apotheosis.progression.haven.criteria.tick": "This tier unlocks on world load!",
+
+    "advancements.apotheosis.progression.frontier.title": "World Tier: Frontier",
+    "advancements.apotheosis.progression.frontier.desc": "Slay an Elder Guardian to progress into the Frontier.\nIt will unlock automatically",
+    "advancements.apotheosis.progression.frontier.criteria.kill_elder_guardian": "Slay an Elder Guardian",
+
+    "advancements.apotheosis.progression.ascent.title": "World Tier: Ascent",
+    "advancements.apotheosis.progression.ascent.desc": "Slay some evil bosses to begin your Ascent. Access to the Nether, a new Frontier, is required",
+    "advancements.apotheosis.progression.ascent.criteria.complete_frontier_gate": "Cross the First Frontier",
+    "advancements.apotheosis.progression.ascent.criteria.kill_wither": "Slay the Wither",
+    "advancements.apotheosis.progression.ascent.criteria.kill_dead_king": "Slay the Dead King",
+    "advancements.apotheosis.progression.ascent.criteria.kill_chimera": "Slay the Wilden Chimera",
+
+    "advancements.apotheosis.progression.summit.title": "World Tier: Summit",
+    "advancements.apotheosis.progression.summit.desc": "To reach the Summit, begin searching for Cataclysmic fights during your Ascent",
+    "advancements.apotheosis.progression.summit.criteria.complete_ascent_gate": "Climb the Sunlit Ascent",
+    "advancements.apotheosis.progression.summit.criteria.kill_tyros": "Slay Tyros",
+    "advancements.apotheosis.progression.summit.criteria.kill_netherite_monstrosity": "Slay the Netherite Monstrosity",
+    "advancements.apotheosis.progression.summit.criteria.kill_the_harbinger": "Slay The Harbinger",
+    "advancements.apotheosis.progression.summit.criteria.kill_maledictus": "Slay Maledictus",
+
+    "advancements.apotheosis.progression.pinnacle.title": "World Tier: Pinnacle",
+    "advancements.apotheosis.progression.pinnacle.desc": "Entering the Pinnacle requires Stargate travel, slaying those at the Summit of those realms",
+    "advancements.apotheosis.progression.pinnacle.criteria.complete_summit_gate": "Overcome the Thundering Summit",
+    "advancements.apotheosis.progression.pinnacle.criteria.kill_ignis": "Slay Ignis",
+    "advancements.apotheosis.progression.pinnacle.criteria.kill_ancient_remnant": "Slay the Ancient Remnant",
+    "advancements.apotheosis.progression.pinnacle.criteria.kill_ascended_one": "Slay The Ascended One",
+    "advancements.apotheosis.progression.pinnacle.criteria.kill_the_leviathan": "Slay The Leviathan",
+    "advancements.apotheosis.progression.pinnacle.criteria.kill_scylla": "Slay Scylla"
+}

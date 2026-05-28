@@ -1,95 +1,76 @@
-
 {
     "parent": "apotheosis:progression/summit",
     "criteria": {
-        "epic_chest": {
+        "complete_summit_gate": {
             "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "chest"
+                "gateway": "apotheosis:tiered/summit"
             },
-            "trigger": "apotheosis:equipped_item"
+            "trigger": "gateways:finish_gateway"
         },
-        "epic_feet": {
-            "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "feet"
-            },
-            "trigger": "apotheosis:equipped_item"
-        },
-        "epic_hand": {
-            "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "hand"
-            },
-            "trigger": "apotheosis:equipped_item"
-        },
-        "epic_helm": {
-            "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "head"
-            },
-            "trigger": "apotheosis:equipped_item"
-        },
-        "epic_legs": {
-            "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "legs"
-            },
-            "trigger": "apotheosis:equipped_item"
-        },
-        "kill_ender_dragon": {
+        "kill_ignis": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:ender_dragon"
+                            "type": "cataclysm:ignis"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "kill_ancient_remnant": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "cataclysm:ancient_remnant"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "kill_ascended_one": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "discerning_the_eldritch:ascended_one"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "kill_the_leviathan": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "cataclysm:the_leviathan"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
+        "kill_scylla": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "cataclysm:scylla"
                         }
                     }
                 ]
@@ -113,23 +94,26 @@
     },
     "requirements": [
         [
-            "epic_helm"
+            "complete_summit_gate"
         ],
         [
-            "epic_chest"
+            "kill_ignis"
         ],
         [
-            "epic_legs"
+            "kill_ancient_remnant"
         ],
         [
-            "epic_feet"
+            "kill_ascended_one"
         ],
         [
-            "epic_hand"
+            "kill_the_leviathan"
         ],
         [
-            "kill_ender_dragon"
+            "kill_scylla"
         ]
     ],
+    "rewards": {
+        "function": "apotheosis:pinnacle_tier"
+    },
     "sends_telemetry_event": true
 }

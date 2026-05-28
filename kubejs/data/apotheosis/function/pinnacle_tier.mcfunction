@@ -1,0 +1,1 @@
+apoth set_world_tier @s pinnacle

@@ -1,111 +1,53 @@
 {
     "parent": "apotheosis:progression/frontier",
     "criteria": {
-        "kill_apothic_invader": {
+        "complete_frontier_gate": {
+            "conditions": {
+                "gateway": "apotheosis:tiered/frontier"
+            },
+            "trigger": "gateways:finish_gateway"
+        },
+        "kill_wither": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type_specific": {
-                                "type": "apotheosis:is_invader"
-                            }
+                            "type": "minecraft:wither"
                         }
                     }
                 ]
             },
             "trigger": "minecraft:player_killed_entity"
         },
-        "uncommon_chest": {
+        "kill_dead_king": {
             "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:uncommon",
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "irons_spellbooks:dead_king"
                         }
                     }
-                },
-                "slots": "chest"
+                ]
             },
-            "trigger": "apotheosis:equipped_item"
+            "trigger": "minecraft:player_killed_entity"
         },
-        "uncommon_feet": {
+        "kill_chimera": {
             "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:uncommon",
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "ars_nouveau:wilden_boss"
                         }
                     }
-                },
-                "slots": "feet"
+                ]
             },
-            "trigger": "apotheosis:equipped_item"
-        },
-        "uncommon_hand": {
-            "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:uncommon",
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "hand"
-            },
-            "trigger": "apotheosis:equipped_item"
-        },
-        "uncommon_helm": {
-            "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:uncommon",
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "head"
-            },
-            "trigger": "apotheosis:equipped_item"
-        },
-        "uncommon_legs": {
-            "conditions": {
-                "items": {
-                    "predicates": {
-                        "apotheosis:item_with_rarity": {
-                            "rarities": [
-                                "apotheosis:uncommon",
-                                "apotheosis:rare",
-                                "apotheosis:epic",
-                                "apotheosis:mythic"
-                            ]
-                        }
-                    }
-                },
-                "slots": "legs"
-            },
-            "trigger": "apotheosis:equipped_item"
+            "trigger": "minecraft:player_killed_entity"
         }
     },
     "display": {
@@ -124,23 +66,20 @@
     },
     "requirements": [
         [
-            "uncommon_helm"
+            "complete_frontier_gate"
         ],
         [
-            "uncommon_chest"
+            "kill_wither"
         ],
         [
-            "uncommon_legs"
+            "kill_dead_king"
         ],
         [
-            "uncommon_feet"
-        ],
-        [
-            "uncommon_hand"
-        ],
-        [
-            "kill_apothic_invader"
+            "kill_chimera"
         ]
     ],
+    "rewards": {
+        "function": "apotheosis:ascent_tier"
+    },
     "sends_telemetry_event": true
 }
