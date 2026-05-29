@@ -39,4 +39,24 @@ ServerEvents.tags('item', event => {
     event.add('kubejs:mob_charm', 'reliquary:mob_charm')
     event.add('kubejs:affix_gem', 'apotheosis:gem')
     event.add('kubejs:foil', 'xycraft_machines:foil')
+
+    // Ars Nouveau Rituals
+
+    let ritual_blacklist = [
+        "ars_nouveau:ritual_flight",
+        "ars_nouveau:ritual_containment",
+        "ars_nouveau:ritual_restoration",
+        "ars_nouveau:ritual_scrying",
+        "ars_nouveau:ritual_sanctuary",
+        "ars_nouveau:ritual_overgrowth",
+        "ars_nouveau:ritual_wilden_summon",
+        "ars_elemental:ritual_tesla_coil",
+        "ars_elemental:ritual_detection",
+        "ars_elemental:ritual_pollination",
+        "ars_additions:ritual_locate_structure",
+        "ars_affinity:ritual_amnesia"
+    ]
+    ritual_blacklist.forEach(ritual => {
+        event.add('ars_nouveau:ritual_trade_blacklist', ritual)
+    })
 })

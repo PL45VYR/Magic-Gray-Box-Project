@@ -269,31 +269,3 @@ LootJS.lootTables(event => {
     })
 
 })
-
-MoreJS.villagerTrades(event => {
-    // Villager Trade Removal
-    // Removed villager trades go here
-    let ars_trades = [
-        "ars_nouveau:ritual_flight",
-        "ars_nouveau:ritual_containment",
-        "ars_nouveau:ritual_restoration",
-        "ars_nouveau:ritual_scrying",
-        "ars_nouveau:ritual_sanctuary",
-        "ars_nouveau:ritual_overgrowth",
-        "ars_nouveau:ritual_wilden_summon",
-        "ars_elemental:ritual_tesla_coil",
-        "ars_elemental:ritual_detection",
-        "ars_elemental:ritual_pollination",
-        "ars_additions:ritual_locate_structure",
-        "ars_additions:ritual_chunk_loading"
-    ]
-    ars_trades.forEach(trade => {
-        event.removeTrades({
-            first: trade,
-            outputCount: [0, 64],
-            level: 3,
-            professions: "ars_nouveau:shady_wizard"
-        })
-    })
-
-})
