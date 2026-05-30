@@ -53,13 +53,13 @@
     "curseForgeHash": 3606340089,
     "modrinthHash": "0af8033f7291b9f5062b229053e16b439a906db9"
   },
-  "AdvancedLootInfo-neoforge-1.21.1-1.11.0.jar": {
-    "jarName": "AdvancedLootInfo-neoforge-1.21.1-1.11.0.jar",
+  "AdvancedLootInfo-neoforge-1.21.1-1.12.0.jar": {
+    "jarName": "AdvancedLootInfo-neoforge-1.21.1-1.12.0.jar",
     "modId": "ali",
     "name": "AdvancedLootInfo",
-    "version": "1.10.0",
-    "curseForgeHash": 1593122859,
-    "modrinthHash": "e3d33e86ad704486a78a54b727394a379b88e549"
+    "version": "1.12.0",
+    "curseForgeHash": 364277560,
+    "modrinthHash": "d4d48bde7b92449f34281159232650d8dda28ad0"
   },
   "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar": {
     "jarName": "AdvancementPlaques-1.21.1-neoforge-1.6.8.jar",
@@ -836,13 +836,13 @@
     "curseForgeHash": 2593446321,
     "modrinthHash": "1dec765e324bf968a1685a173aff5a13c11d0856"
   },
-  "CreativeCore_NEOFORGE_v2.13.39_mc1.21.1.jar": {
-    "jarName": "CreativeCore_NEOFORGE_v2.13.39_mc1.21.1.jar",
+  "CreativeCore_NEOFORGE_v2.13.40_mc1.21.1.jar": {
+    "jarName": "CreativeCore_NEOFORGE_v2.13.40_mc1.21.1.jar",
     "modId": "creativecore",
     "name": "CreativeCore",
-    "version": "2.13.39",
-    "curseForgeHash": 1564725388,
-    "modrinthHash": "7508452be5a791568d0d9ee42fedc449ee0a946e"
+    "version": "2.13.40",
+    "curseForgeHash": 3916884626,
+    "modrinthHash": "265c82bfd086afe96cf81fca0bee78256129adaa"
   },
   "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar": {
     "jarName": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
@@ -1620,13 +1620,13 @@
     "curseForgeHash": 1550083294,
     "modrinthHash": "79019a59c8023f5883d7a6c2f2308c995f828aa3"
   },
-  "integrateddynamics-1.21.1-neoforge-1.33.1.jar": {
-    "jarName": "integrateddynamics-1.21.1-neoforge-1.33.1.jar",
+  "integrateddynamics-1.21.1-neoforge-1.33.2.jar": {
+    "jarName": "integrateddynamics-1.21.1-neoforge-1.33.2.jar",
     "modId": "integrateddynamics",
     "name": "IntegratedDynamics",
-    "version": "1.33.1",
-    "curseForgeHash": 3708303332,
-    "modrinthHash": "0339227aa7ce5c8534ae04b3f6d66d5c44047317"
+    "version": "1.33.2",
+    "curseForgeHash": 3172679816,
+    "modrinthHash": "02715316de6af4488050a4fce22f5cf7f1e261f8"
   },
   "integratedscripting-1.21.1-neoforge-1.0.22.jar": {
     "jarName": "integratedscripting-1.21.1-neoforge-1.0.22.jar",
