@@ -1,10 +1,9 @@
 ServerEvents.recipes(event => {
     // Sophisticated Backpacks Recipe Tweaks
     event.custom({
-        "type": "apotheosis:sized_upgrade_recipe",
+        "type": "sophisticatedbackpacks:smithing_backpack_upgrade",
         "addition": {
-            "count": 4,
-            "tag": "c:ingots/iron"
+            "tag": "c:storage_blocks/iron"
         },
         "base": {
             "item": "sophisticatedbackpacks:backpack"
@@ -18,10 +17,9 @@ ServerEvents.recipes(event => {
         }
     })
     event.custom({
-        "type": "apotheosis:sized_upgrade_recipe",
+        "type": "sophisticatedbackpacks:smithing_backpack_upgrade",
         "addition": {
-            "count": 4,
-            "tag": "c:ingots/gold"
+            "tag": "c:storage_blocks/gold"
         },
         "base": {
             "item": "sophisticatedbackpacks:iron_backpack"
@@ -35,10 +33,9 @@ ServerEvents.recipes(event => {
         }
     })
     event.custom({
-        "type": "apotheosis:sized_upgrade_recipe",
+        "type": "sophisticatedbackpacks:smithing_backpack_upgrade",
         "addition": {
-            "count": 4,
-            "tag": "c:gems/diamond"
+            "tag": "c:storage_blocks/diamond"
         },
         "base": {
             "item": "sophisticatedbackpacks:gold_backpack"
@@ -49,6 +46,22 @@ ServerEvents.recipes(event => {
         },
         "template": {
             "item": "apotheosis:diamond_upgrade_smithing_template"
+        }
+    })
+    event.custom({
+        "type": "sophisticatedbackpacks:smithing_backpack_upgrade",
+        "addition": {
+            "tag": "c:storage_blocks/netherite"
+        },
+        "base": {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+        },
+        "result": {
+            "count": 1,
+            "id": "sophisticatedbackpacks:netherite_backpack"
+        },
+        "template": {
+            "item": "minecraft:netherite_upgrade_smithing_template"
         }
     })
 
@@ -70,8 +83,8 @@ ServerEvents.recipes(event => {
             event.custom({
                 "type": "apotheosis:sized_upgrade_recipe",
                 "addition": {
-                    "count": 4,
-                    "item": "minecraft:iron_ingot"
+                    "count": 1,
+                    "tag": "c:storage_blocks/iron"
                 },
                 "base": {
                     "item": `sophisticatedstorage:${type}`
@@ -88,8 +101,8 @@ ServerEvents.recipes(event => {
             event.custom({
                 "type": "apotheosis:sized_upgrade_recipe",
                 "addition": {
-                    "count": 4,
-                    "item": "minecraft:gold_ingot"
+                    "count": 1,
+                    "tag": "c:storage_blocks/gold"
                 },
                 "base": {
                     "item": `sophisticatedstorage:iron_${type}`
@@ -106,8 +119,8 @@ ServerEvents.recipes(event => {
             event.custom({
                 "type": "apotheosis:sized_upgrade_recipe",
                 "addition": {
-                    "count": 4,
-                    "item": "minecraft:diamond"
+                    "count": 1,
+                    "tag": "c:storage_blocks/diamond"
                 },
                 "base": {
                     "item": `sophisticatedstorage:gold_${type}`
@@ -124,15 +137,15 @@ ServerEvents.recipes(event => {
             event.smithing(`sophisticatedstorage:netherite_${type}`,
                 'minecraft:netherite_upgrade_smithing_template',
                 `sophisticatedstorage:diamond_${type}`,
-                'minecraft:netherite_ingot'
+                'minecraft:netherite_block'
             )
         } else {
             // Iron Upgrades
             event.custom({
                 "type": "apotheosis:sized_upgrade_recipe",
                 "addition": {
-                    "count": 4,
-                    "item": "minecraft:iron_ingot"
+                    "count": 1,
+                    "tag": "c:storage_blocks/iron"
                 },
                 "base": {
                     "item": `sophisticatedstorage:limited${type}`
@@ -149,8 +162,8 @@ ServerEvents.recipes(event => {
             event.custom({
                 "type": "apotheosis:sized_upgrade_recipe",
                 "addition": {
-                    "count": 4,
-                    "item": "minecraft:gold_ingot"
+                    "count": 1,
+                    "tag": "c:storage_blocks/gold"
                 },
                 "base": {
                     "item": `sophisticatedstorage:limited_iron${type}`
@@ -167,8 +180,8 @@ ServerEvents.recipes(event => {
             event.custom({
                 "type": "apotheosis:sized_upgrade_recipe",
                 "addition": {
-                    "count": 4,
-                    "item": "minecraft:diamond"
+                    "count": 1,
+                    "tag": "c:storage_blocks/diamond"
                 },
                 "base": {
                     "item": `sophisticatedstorage:limited_gold${type}`
@@ -185,7 +198,7 @@ ServerEvents.recipes(event => {
             event.smithing(`sophisticatedstorage:limited_netherite${type}`,
                 'minecraft:netherite_upgrade_smithing_template',
                 `sophisticatedstorage:limited_diamond${type}`,
-                'minecraft:netherite_ingot'
+                'minecraft:netherite_block'
             )
         }
     })
@@ -208,13 +221,15 @@ ServerEvents.recipes(event => {
         'netherite'
     ]
 
-    let tier_material = [
-        'minecraft:lever',
-        'minecraft:iron_ingot',
-        'minecraft:gold_ingot',
-        'minecraft:diamond',
-        'minecraft:netherite_ingot'
-    ]
+    event.shaped('1x sophisticatedstorage:basic_tier_upgrade', [
+        ' S ',
+        'SLS',
+        ' S '
+    ], {
+        'S': 'minecraft:stick',
+        'L': 'minecraft:lever'
+    })
+
 
     from_basic.forEach((base_material, base_index) => {
         to_upgrade.forEach((new_material, new_index) => {
@@ -224,8 +239,8 @@ ServerEvents.recipes(event => {
                         event.custom({
                             "type": "apotheosis:sized_upgrade_recipe",
                             "addition": {
-                                "count": 4,
-                                "item": `${tier_material[new_index]}`
+                                "count": 1,
+                                "tag": `c:storage_blocks/${new_material}`
                             },
                             "base": {
                                 "item": `sophisticatedstorage:basic_tier_upgrade`
@@ -242,8 +257,8 @@ ServerEvents.recipes(event => {
                         event.custom({
                             "type": "apotheosis:sized_upgrade_recipe",
                             "addition": {
-                                "count": 4,
-                                "item": `${tier_material[new_index]}`
+                                "count": 1,
+                                "tag": `c:storage_blocks/${new_material}`
                             },
                             "base": {
                                 "item": `sophisticatedstorage:basic_tier_upgrade`
@@ -261,8 +276,8 @@ ServerEvents.recipes(event => {
                     event.custom({
                         "type": "apotheosis:sized_upgrade_recipe",
                         "addition": {
-                            "count": 4,
-                            "item": `${tier_material[new_index]}`
+                            "count": 1,
+                            "tag": `c:storage_blocks/${new_material}`
                         },
                         "base": {
                             "item": `sophisticatedstorage:${base_material}_to_${to_upgrade[new_index - 1]}_tier_upgrade`
@@ -281,13 +296,13 @@ ServerEvents.recipes(event => {
                     event.smithing(`sophisticatedstorage:${base_material}_to_${new_material}_tier_upgrade`,
                         'minecraft:netherite_upgrade_smithing_template',
                         `sophisticatedstorage:basic_tier_upgrade`,
-                        'minecraft:netherite_ingot'
+                        'minecraft:netherite_block'
                     )
                 } else {
                     event.smithing(`sophisticatedstorage:${base_material}_to_${new_material}_tier_upgrade`,
                         'minecraft:netherite_upgrade_smithing_template',
                         `sophisticatedstorage:${base_material}_to_${to_upgrade[new_index - 1]}_tier_upgrade`,
-                        'minecraft:netherite_ingot'
+                        'minecraft:netherite_block'
                     )
                 }
             }
@@ -350,7 +365,7 @@ ServerEvents.recipes(event => {
                 event.custom({
                     "type": "apotheosis:sized_upgrade_recipe",
                     "addition": {
-                        "count": 4,
+                        "count": 8,
                         "tag": `c:storage_blocks/${base_material}`
                     },
                     "base": {
@@ -367,7 +382,7 @@ ServerEvents.recipes(event => {
                 event.custom({
                     "type": "apotheosis:sized_upgrade_recipe",
                     "addition": {
-                        "count": 4,
+                        "count": 8,
                         "tag": `c:storage_blocks/${base_material}`
                     },
                     "base": {
@@ -385,7 +400,7 @@ ServerEvents.recipes(event => {
                 event.custom({
                     "type": "apotheosis:sized_upgrade_recipe",
                     "addition": {
-                        "count": 4,
+                        "count": 8,
                         "tag": `c:storage_blocks/${base_material}`
                     },
                     "base": {
@@ -402,7 +417,7 @@ ServerEvents.recipes(event => {
                 event.custom({
                     "type": "apotheosis:sized_upgrade_recipe",
                     "addition": {
-                        "count": 4,
+                        "count": 8,
                         "tag": `c:storage_blocks/${base_material}`
                     },
                     "base": {
@@ -420,7 +435,7 @@ ServerEvents.recipes(event => {
                 event.custom({
                     "type": "apotheosis:sized_upgrade_recipe",
                     "addition": {
-                        "count": 4,
+                        "count": 8,
                         "tag": `c:storage_blocks/${base_material}`
                     },
                     "base": {
@@ -437,7 +452,7 @@ ServerEvents.recipes(event => {
                 event.custom({
                     "type": "apotheosis:sized_upgrade_recipe",
                     "addition": {
-                        "count": 4,
+                        "count": 8,
                         "tag": `c:storage_blocks/${base_material}`
                     },
                     "base": {
