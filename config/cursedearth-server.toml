@@ -24,6 +24,6 @@
 	# Range: > 1
 	"spawn radius" = 1
 	#item used to create cursed earth
-	"cursed item" = "minecraft:wither_rose"
+	"cursed item" = "eidolon_repraised:death_essence"
 	#item used to create blessed earth
 	"blessed item" = "cursedearth:blessed_flower"
