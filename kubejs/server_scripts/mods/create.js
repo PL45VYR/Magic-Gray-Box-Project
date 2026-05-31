@@ -145,6 +145,18 @@ ServerEvents.recipes(event => {
         ]
     })
 
+    // Amalgametal Recipe
+    event.recipes.createCompacting(
+        '2x kubejs:amalgametal',
+        [
+            'apotheosis:common_material',
+            Ingredient.of('#c:dusts/iron')
+        ]
+    ).heated()
+
+    // Scrap from Amalgametal Recipe
+    event.recipes.create.crushing(['apotheosis:common_material', CreateItem.of('apotheosis:common_material', 0.35)], 'kubejs:amalgametal')
+
     // Common Ink Recipe
     event.recipes.createMixing(
         Fluid.of('irons_spellbooks:common_ink', 250),
