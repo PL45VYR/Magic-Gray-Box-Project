@@ -4,7 +4,9 @@
     "server-override-mod-id"
   ],
   "client": [
-    "client-override-mod-id"
+    "ae2jeiintegration",
+    "jeimultiblocks",
+    "justenoughmekanismmultiblocks"
   ],
   "both": [
     "both-override-mod-id"

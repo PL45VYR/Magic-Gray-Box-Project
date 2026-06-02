@@ -181,13 +181,13 @@
     "curseForgeHash": 2086789492,
     "modrinthHash": "54673bad0e7b84fdafc6d0802406c01316b37659"
   },
-  "Apotheosis-1.21.1-8.5.3.jar": {
-    "jarName": "Apotheosis-1.21.1-8.5.3.jar",
+  "Apotheosis-1.21.1-8.5.4.jar": {
+    "jarName": "Apotheosis-1.21.1-8.5.4.jar",
     "modId": "apotheosis",
     "name": "Apotheosis",
-    "version": "8.5.3",
-    "curseForgeHash": 1206032462,
-    "modrinthHash": "9a334c834b4b11f90c0b86595fd0a47fae3a8e3a"
+    "version": "8.5.4",
+    "curseForgeHash": 2047241094,
+    "modrinthHash": "24c28cdf26514148a92f7b8c620ec54a2cd2c9ca"
   },
   "apothic_amendments__enchanting-NF1.21.1-0.1.4.jar": {
     "jarName": "apothic_amendments__enchanting-NF1.21.1-0.1.4.jar",
@@ -1060,13 +1060,13 @@
     "curseForgeHash": 1197693341,
     "modrinthHash": "bfba2c654f3df8cc7d6006056eefbf2b9070dcd4"
   },
-  "ends_delight-2.5.1+neoforge.1.21.1.jar": {
-    "jarName": "ends_delight-2.5.1+neoforge.1.21.1.jar",
+  "ends_delight-2.6+neoforge.1.21.1.jar": {
+    "jarName": "ends_delight-2.6+neoforge.1.21.1.jar",
     "modId": "ends_delight",
     "name": "End\u0027s Delight",
-    "version": "2.5.1+neoforge.1.21.1",
-    "curseForgeHash": 3283171823,
-    "modrinthHash": "22b63e1c852fbbedb9f7add64990fd9f8eca0787"
+    "version": "2.6+neoforge.1.21.1",
+    "curseForgeHash": 2177094174,
+    "modrinthHash": "be12ea8ec050d47e1774392354cd363ca4ed60fe"
   },
   "engineeredcompatibility-4.3.0.jar": {
     "jarName": "engineeredcompatibility-4.3.0.jar",
@@ -1372,13 +1372,13 @@
     "curseForgeHash": 697946099,
     "modrinthHash": "0c25fc1a43c99eaa68c883dc77e3ebf4539629e6"
   },
-  "functionalstorage-1.21.1-1.5.6.jar": {
-    "jarName": "functionalstorage-1.21.1-1.5.6.jar",
+  "functionalstorage-1.21.1-1.5.7.jar": {
+    "jarName": "functionalstorage-1.21.1-1.5.7.jar",
     "modId": "functionalstorage",
     "name": "Functional Storage",
-    "version": "1.21.1-1.5.6",
-    "curseForgeHash": 3842358469,
-    "modrinthHash": "1c1b8e82eea20a6414f83c7a5847dd15e8b76c53"
+    "version": "1.21.1-1.5.7",
+    "curseForgeHash": 1511937694,
+    "modrinthHash": "19ed7ed8edfddf26c5fc29fe66084b2c3b313981"
   },
   "fusion-1.2.12-neoforge-mc1.21.1.jar": {
     "jarName": "fusion-1.2.12-neoforge-mc1.21.1.jar",
@@ -1484,21 +1484,21 @@
     "curseForgeHash": 4140898030,
     "modrinthHash": "73f341eee740d71d3453aacf454445d99acda37c"
   },
-  "hazentouvelib-1.0.6.jar": {
-    "jarName": "hazentouvelib-1.0.6.jar",
+  "hazentouvelib-1.0.7.jar": {
+    "jarName": "hazentouvelib-1.0.7.jar",
     "modId": "hazentouvelib",
     "name": "HazentouveLib",
-    "version": "1.0.6",
-    "curseForgeHash": 1060110783,
-    "modrinthHash": "3414ed7be09deda989328f64af1564c6396f82c4"
+    "version": "1.0.7",
+    "curseForgeHash": 2100116873,
+    "modrinthHash": "ed8b39c08645b38c91c5f04548f171f193d9d3bc"
   },
-  "hearthandharvest-1.21.1-1.2.2a.jar": {
-    "jarName": "hearthandharvest-1.21.1-1.2.2a.jar",
+  "hearthandharvest-1.21.1-1.2.2b.jar": {
+    "jarName": "hearthandharvest-1.21.1-1.2.2b.jar",
     "modId": "hearthandharvest",
     "name": "Hearth and Harvest",
-    "version": "1.2.2a",
-    "curseForgeHash": 3554280324,
-    "modrinthHash": "dc970f3fb55f1787e3f2250c80e94ac0d3066e66"
+    "version": "1.2.2b",
+    "curseForgeHash": 1973169866,
+    "modrinthHash": "beb04dfc5a9ac47ab6ef2f1839437fc575c77812"
   },
   "hexerei-0.5.0.3.jar": {
     "jarName": "hexerei-0.5.0.3.jar",
@@ -2553,13 +2553,13 @@
     "curseForgeHash": 2204286534,
     "modrinthHash": "b5c343d01cf4c9cc77815a15f9a45da4a3205002"
   },
-  "schematicenergistics-1.21.1-1.5.2.jar": {
-    "jarName": "schematicenergistics-1.21.1-1.5.2.jar",
+  "schematicenergistics-1.21.1-1.5.3.jar": {
+    "jarName": "schematicenergistics-1.21.1-1.5.3.jar",
     "modId": "schematicenergistics",
     "name": "Schematic Energistics",
-    "version": "1.5.2",
-    "curseForgeHash": 1346134687,
-    "modrinthHash": "f1886c1ff111bec1cec121c4be349585011c8438"
+    "version": "1.5.3",
+    "curseForgeHash": 2905173711,
+    "modrinthHash": "65fe9b399be48efded68f873831de0194cc232c5"
   },
   "Searchables-neoforge-1.21.1-1.0.2.jar": {
     "jarName": "Searchables-neoforge-1.21.1-1.0.2.jar",
@@ -2633,21 +2633,21 @@
     "curseForgeHash": 3799943056,
     "modrinthHash": "32e9bbe18ae1f2f7f672ce08af51ec1928599182"
   },
-  "sophisticatedbackpacks-1.21.1-3.25.49.1791.jar": {
-    "jarName": "sophisticatedbackpacks-1.21.1-3.25.49.1791.jar",
+  "sophisticatedbackpacks-1.21.1-3.25.51.1801.jar": {
+    "jarName": "sophisticatedbackpacks-1.21.1-3.25.51.1801.jar",
     "modId": "sophisticatedbackpacks",
     "name": "Sophisticated Backpacks",
-    "version": "3.25.49",
-    "curseForgeHash": 2319230096,
-    "modrinthHash": "829afe4b75db0ea5a52c548fb8a3d8cfcf738d44"
+    "version": "3.25.51",
+    "curseForgeHash": 4199988580,
+    "modrinthHash": "383b1bbf6add783eef5ea99ec90b8a14284ddc87"
   },
-  "sophisticatedcore-1.21.1-1.4.42.1892.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.42.1892.jar",
+  "sophisticatedcore-1.21.1-1.4.44.1923.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.44.1923.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.42",
-    "curseForgeHash": 696262703,
-    "modrinthHash": "c96bc37fac2de3a76ce2bffe3881c5f08d04264c"
+    "version": "1.4.44",
+    "curseForgeHash": 3048315302,
+    "modrinthHash": "a20903b6c99dc2e6c0412488b97cb6972128121c"
   },
   "sophisticateditemactions-1.21.1-0.5.4.273.jar": {
     "jarName": "sophisticateditemactions-1.21.1-0.5.4.273.jar",
@@ -2657,13 +2657,13 @@
     "curseForgeHash": 2491092360,
     "modrinthHash": "7f75f2aa68ed4e79ec36e35399f90ec5cb703252"
   },
-  "sophisticatedstorage-1.21.1-1.5.52.1756.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.52.1756.jar",
+  "sophisticatedstorage-1.21.1-1.5.55.1772.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.55.1772.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.52",
-    "curseForgeHash": 3606107375,
-    "modrinthHash": "163b04fa1a3ccee1c91697aa17889dc0ef8ca257"
+    "version": "1.5.55",
+    "curseForgeHash": 948762039,
+    "modrinthHash": "6b1ce54c3e39fd006cf61428718e56df6aa0746c"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
