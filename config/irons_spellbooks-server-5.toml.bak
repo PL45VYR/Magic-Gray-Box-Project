@@ -80,6 +80,7 @@
 #Individual Spell Configuration
 [Spells]
 
+	#irons_spellbooks:fire
 	[Spells."irons_spellbooks:fire_breath"]
 		Enabled = true
 		School = "irons_spellbooks:fire"
@@ -102,7 +103,6 @@
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
-	#irons_spellbooks:fire
 	[Spells."irons_spellbooks:magma_bomb"]
 		Enabled = true
 		School = "irons_spellbooks:fire"
@@ -323,6 +323,7 @@
 		CooldownInSeconds = 25.0
 		AllowCrafting = false
 
+	#irons_spellbooks:nature
 	[Spells."irons_spellbooks:poison_arrow"]
 		Enabled = true
 		School = "irons_spellbooks:nature"
@@ -334,7 +335,6 @@
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
-	#irons_spellbooks:nature
 	[Spells."cataclysm_spellbooks:conjure_amethyst_crab"]
 		Enabled = true
 		School = "irons_spellbooks:nature"
@@ -687,6 +687,7 @@
 		CooldownInSeconds = 1.5
 		AllowCrafting = true
 
+	#irons_spellbooks:ender
 	[Spells."irons_spellbooks:evasion"]
 		Enabled = true
 		School = "irons_spellbooks:ender"
@@ -698,7 +699,6 @@
 		CooldownInSeconds = 180.0
 		AllowCrafting = true
 
-	#irons_spellbooks:ender
 	[Spells."irons_spellbooks:recall"]
 		Enabled = true
 		School = "irons_spellbooks:ender"
@@ -886,6 +886,7 @@
 		CooldownInSeconds = 50.0
 		AllowCrafting = true
 
+	#irons_spellbooks:ice
 	[Spells."irons_spellbooks:frostbite"]
 		Enabled = true
 		School = "irons_spellbooks:ice"
@@ -1618,17 +1619,6 @@
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
-	[Spells."traveloptics:ashen_breath"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 15.0
-		AllowCrafting = true
-
 	[Spells."hazennstuff:spectral_axe"]
 		Enabled = true
 		School = "irons_spellbooks:evocation"
@@ -1638,17 +1628,6 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 3.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:lingering_strain"]
-		Enabled = true
-		School = "irons_spellbooks:evocation"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
 		AllowCrafting = true
 
 	[Spells."discerning_the_eldritch:boogie_woogie"]
@@ -1697,39 +1676,6 @@
 		CooldownInSeconds = 25.0
 		AllowCrafting = true
 
-	[Spells."traveloptics:summon_desert_dwellers"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 420.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:sword_of_the_ancients"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 330.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:nullflare"]
-		Enabled = true
-		School = "irons_spellbooks:holy"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 40.0
-		AllowCrafting = true
-
 	[Spells."hazennstuff:golden_shower"]
 		Enabled = true
 		School = "irons_spellbooks:holy"
@@ -1752,28 +1698,6 @@
 		CooldownInSeconds = 25.0
 		AllowCrafting = true
 
-	[Spells."traveloptics:ignited_onslaught"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 360.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:meteor_storm"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 90.0
-		AllowCrafting = true
-
 	[Spells."hazennstuff:scorching_slash"]
 		Enabled = true
 		School = "irons_spellbooks:fire"
@@ -1785,28 +1709,6 @@
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
-	[Spells."traveloptics:gyro_slash"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:lava_bomb"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 18.0
-		AllowCrafting = true
-
 	[Spells."hazennstuff:cinderous_step"]
 		Enabled = true
 		School = "irons_spellbooks:fire"
@@ -1816,17 +1718,6 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 12.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:burning_judgment"]
-		Enabled = true
-		School = "irons_spellbooks:fire"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 18.0
 		AllowCrafting = true
 
 	[Spells."hazennstuff:counterspell_spider_lily"]
@@ -1862,28 +1753,6 @@
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
-	[Spells."traveloptics:stele_cascade"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 22.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:aerial_collapse"]
-		Enabled = true
-		School = "irons_spellbooks:nature"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 45.0
-		AllowCrafting = true
-
 	[Spells."hazennstuff:death_sentence"]
 		Enabled = true
 		School = "irons_spellbooks:nature"
@@ -1893,84 +1762,6 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:void_eruption"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:cursed_minefield"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:orbital_void"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:eternal_sentinel"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 330.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:vortex_punch"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 18.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:astral_sense"]
-		Enabled = true
-		School = "irons_spellbooks:ender"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
-		AllowCrafting = true
-
-	#irons_spellbooks:ice
-	[Spells."traveloptics:cursed_revenants"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 150.0
 		AllowCrafting = true
 
 	[Spells."hazennstuff:crystal_volley"]
@@ -1995,17 +1786,6 @@
 		CooldownInSeconds = 8.0
 		AllowCrafting = true
 
-	[Spells."traveloptics:halberd_horizon"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 20.0
-		AllowCrafting = true
-
 	[Spells."discerning_the_eldritch:crystalline_carver"]
 		Enabled = true
 		School = "irons_spellbooks:ice"
@@ -2017,28 +1797,6 @@
 		CooldownInSeconds = 35.0
 		AllowCrafting = true
 
-	[Spells."traveloptics:cursed_blast"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:axe_of_the_doomed"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 360.0
-		AllowCrafting = true
-
 	[Spells."discerning_the_eldritch:glacial_edge"]
 		Enabled = true
 		School = "irons_spellbooks:ice"
@@ -2048,29 +1806,6 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 25.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:despair"]
-		Enabled = true
-		School = "irons_spellbooks:ice"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 18.0
-		AllowCrafting = true
-
-	#irons_spellbooks:eldritch
-	[Spells."traveloptics:blackout"]
-		Enabled = true
-		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
 		AllowCrafting = true
 
 	[Spells."discerning_the_eldritch:conjure_forsaken_aid"]
@@ -2106,17 +1841,6 @@
 		CooldownInSeconds = 600.0
 		AllowCrafting = true
 
-	[Spells."traveloptics:psychic_bolt"]
-		Enabled = true
-		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 40.0
-		AllowCrafting = true
-
 	[Spells."hazennstuff:soul_seekers"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
@@ -2150,6 +1874,7 @@
 		CooldownInSeconds = 75.0
 		AllowCrafting = true
 
+	#irons_spellbooks:eldritch
 	[Spells."discerning_the_eldritch:mend_flesh"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
@@ -2159,39 +1884,6 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 30.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:spectral_blink"]
-		Enabled = true
-		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 25.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:abyssal_blast"]
-		Enabled = true
-		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 22.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:reversal"]
-		Enabled = true
-		School = "irons_spellbooks:eldritch"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3.0
 		AllowCrafting = true
 
 	[Spells."discerning_the_eldritch:otherworldly_presence"]
@@ -2227,39 +1919,6 @@
 		CooldownInSeconds = 200.0
 		AllowCrafting = true
 
-	[Spells."traveloptics:blood_howl"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 20.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:mechanized_predator"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 540.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:death_laser"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 3
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 16.0
-		AllowCrafting = true
-
 	[Spells."hazennstuff:energy_burst"]
 		Enabled = true
 		School = "irons_spellbooks:lightning"
@@ -2269,28 +1928,6 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 6.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:rapid_laser"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 12.0
-		AllowCrafting = true
-
-	[Spells."traveloptics:em_pulse"]
-		Enabled = true
-		School = "irons_spellbooks:lightning"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 45.0
 		AllowCrafting = true
 
 	[Spells."gaze:soulward_shield"]

@@ -65,6 +65,9 @@
   "apothic_spawners": {
     "spawner": true
   },
+  "hostilenetworks": {
+    "io_port_mode": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
