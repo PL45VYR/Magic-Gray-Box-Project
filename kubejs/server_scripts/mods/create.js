@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
 
     // Amalgametal Recipe
     event.recipes.createCompacting(
-        '2x kubejs:amalgametal',
+        'kubejs:amalgametal',
         [
             'apotheosis:common_material',
             Ingredient.of('#c:dusts/iron')
