@@ -13,21 +13,21 @@
 	#[@cui:RequiresReload:server]
 	# Default: 10
 	# Range: > 1
-	gemCutterCostGemDustToCrystalEssenceRatio = 10
+	gemCutterCostGemDustToCrystalEssenceRatio = 5
 	#.
 	#The config above has explained the calculation mechanism for the operating costs of Gem Cutter.
 	#This config determines the conversion ratio of Gem of "Cracked" purity to Crystal Essence (mB) IN GEM CUTTING ONLY.
 	#[@cui:RequiresReload:server]
 	# Default: 20
 	# Range: > 1
-	gemCutterCostCrackedGemToCrystalEssenceRatio = 20
+	gemCutterCostCrackedGemToCrystalEssenceRatio = 10
 	#.
 	#The config above has explained the calculation mechanism for the operating costs of Gem Cutter.
 	#This config determines the conversion ratio of Apotheotic Essence (mB) to Crystal Essence (mB) IN GEM CUTTER ONLY.
 	#[@cui:RequiresReload:server]
 	# Default: 10
 	# Range: > 1
-	gemCutterCostApotheoticEssenceCostToCrystalEssenceRatio = 10
+	gemCutterCostApotheoticEssenceCostToCrystalEssenceRatio = 5
 	#.
 	#This setting affects the calculation of operating costs of Affix Augmentor.
 	#In Apotheosis, Affix augmenting requires consuming 225 levels of Player Experience and 2 Sigil of Enhancement.
@@ -37,7 +37,7 @@
 	#[@cui:RequiresReload:server]
 	# Default: 19347
 	# Range: > 1
-	affixAugmentorCostExperienceToApotheoticEssenceTotal = 19347
+	affixAugmentorCostExperienceToApotheoticEssenceTotal = 38694
 	#.
 	#The config above has explained the calculation mechanism for the operating costs of Affix Augmentor.
 	#This config determines the conversion ratio of Sigil of Enhancement to Apotheotic Essence (mB) IN AFFIX AUGMENTOR ONLY.

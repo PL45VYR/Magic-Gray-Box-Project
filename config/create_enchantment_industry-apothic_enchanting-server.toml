@@ -7,29 +7,29 @@
 	#[@cui:RequiresReload:server]
 	# Default: 25
 	# Range: 1 ~ 100
-	brassBookshelfMaxEterna = 25
+	brassBookshelfMaxEterna = 15
 	#.
 	#The max Quanta a Brass Bookshelf can provide.
 	#[@cui:RequiresReload:server]
 	# Default: 0.25
 	# Range: 0.009999999776482582 ~ 1.0
-	brassBookshelfMaxQuanta = 0.25
+	brassBookshelfMaxQuanta = 0.1
 	#.
 	#The max Arcana a Brass Bookshelf can provide.
 	#[@cui:RequiresReload:server]
 	# Default: 0.25
 	# Range: 0.009999999776482582 ~ 1.0
-	brassBookshelfMaxArcana = 0.25
+	brassBookshelfMaxArcana = 0.1
 	#.
 	#Brass Bookshelf can provide treasures.
 	#[@cui:RequiresReload:server]
-	brassBookshelfAllowTreasures = true
+	brassBookshelfAllowTreasures = false
 	#.
 	#The max Eterna Brass Bookshelves can provide.
 	#[@cui:RequiresReload:server]
 	# Default: 100
 	# Range: 1 ~ 100
-	multipleBrassBookshelfMaxEterna = 100
+	multipleBrassBookshelfMaxEterna = 60
 	#.
 	#Creative Bookshelf can provide treasures.
 	#[@cui:RequiresReload:server]
@@ -67,7 +67,7 @@
 		#[in Stress Units]
 		#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
 		[stressValues.v1.impact]
-			brass_bookshelf = 4.0
+			brass_bookshelf = 128.0
 
 	#.
 	#Parameters and abilities of various utility components
