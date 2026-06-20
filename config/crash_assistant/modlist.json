@@ -21,13 +21,13 @@
     "curseForgeHash": 3649856519,
     "modrinthHash": "691c4686c52c8740cba6beff392cbc3fbface5b0"
   },
-  "actuallyadditions-1.3.25+mc1.21.1.jar": {
-    "jarName": "actuallyadditions-1.3.25+mc1.21.1.jar",
+  "actuallyadditions-1.3.26+mc1.21.1.jar": {
+    "jarName": "actuallyadditions-1.3.26+mc1.21.1.jar",
     "modId": "actuallyadditions",
     "name": "Actually Additions",
-    "version": "1.3.25",
-    "curseForgeHash": 1149406267,
-    "modrinthHash": "6b82d694f873c0bae4a9757654ee4c719b3d7354"
+    "version": "1.3.26",
+    "curseForgeHash": 1037777664,
+    "modrinthHash": "bd1826f117065dc3d73f0a7197091a4c37829a06"
   },
   "additional_attributes-1.21.1-1.2.2.jar": {
     "jarName": "additional_attributes-1.21.1-1.2.2.jar",
@@ -1252,13 +1252,13 @@
     "curseForgeHash": 2808038058,
     "modrinthHash": "9563692efb708b6b568df27a01ec52f6311928ef"
   },
-  "findme-3.3.3-neoforge.jar": {
-    "jarName": "findme-3.3.3-neoforge.jar",
+  "findme-3.3.4-neoforge.jar": {
+    "jarName": "findme-3.3.4-neoforge.jar",
     "modId": "findme",
     "name": "FindMe",
-    "version": "3.3.3",
-    "curseForgeHash": 3715018735,
-    "modrinthHash": "096121af0007724cc8666994d5b5df669475a145"
+    "version": "3.3.4",
+    "curseForgeHash": 1297852109,
+    "modrinthHash": "03c82a2fd81f70bddf0da087ccfb27196c631481"
   },
   "FluxNetworks-1.21.1-8.0.0.jar": {
     "jarName": "FluxNetworks-1.21.1-8.0.0.jar",
@@ -2265,13 +2265,13 @@
     "curseForgeHash": 2521303851,
     "modrinthHash": "f4f66d677b104c6af7f5c0f7e3c08d8e4370ecad"
   },
-  "oracle_index-neoforge-1.2.0.jar": {
-    "jarName": "oracle_index-neoforge-1.2.0.jar",
+  "oracle_index-neoforge-1.3.0.jar": {
+    "jarName": "oracle_index-neoforge-1.3.0.jar",
     "modId": "oracle_index",
     "name": "Oracle Index",
-    "version": "1.2.0",
-    "curseForgeHash": 2546963881,
-    "modrinthHash": "70ddb13f7642c166370d2bf68c4ba3a1aeab688c"
+    "version": "1.3.0",
+    "curseForgeHash": 2038541308,
+    "modrinthHash": "cd3f553fcb22e72442fe52783e326991c32123b5"
   },
   "oreharvester-1.21.1-1.5.jar": {
     "jarName": "oreharvester-1.21.1-1.5.jar",
