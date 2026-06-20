@@ -180,7 +180,106 @@ ServerEvents.recipes(event => {
             event.recipes.create.pressing('create:incomplete_track', 'create:incomplete_track')
         ]
     )
-    .transitionalItem('create:incomplete_track')
-    .loops(2)
+        .transitionalItem('create:incomplete_track')
+        .loops(2)
 
+    // Gem Cutter Recipe
+    event.recipes.extendedcrafting.shaped_table('create_enchantment_industry:gem_cutter',
+        [
+            " ABA ",
+            "AC CA",
+            "B   B",
+            "AC CA",
+            " ABA "
+        ],
+        {
+            "A": {
+                "item": "minecraft:amethyst_shard"
+            },
+            "B": {
+                "item": "create:brass_ingot"
+            },
+            "C": {
+                "item": "apotheosis:gem_dust"
+            }
+        }
+    )
+
+    // Affix Augmentor Recipe
+    event.recipes.extendedcrafting.shaped_table('create_enchantment_industry:affix_augmentor',
+        [
+            "AAAAAAA",
+            "ABBCBBA",
+            "AACDCAA",
+            "A EFE A",
+            "A EEE A",
+            "A     A",
+            "A     A"
+        ],
+        {
+            "A": {
+                "item": "create:brass_sheet"
+            },
+            "B": {
+                "item": "minecraft:amethyst_shard"
+            },
+            "C": {
+                "item": "create:brass_casing"
+            },
+            "D": {
+                "item": "minecraft:nether_star"
+            },
+            "E": {
+                "item": "apotheosis:mythic_material"
+            },
+            "F": {
+                "item": "create:nixie_tube"
+            }
+        }
+    )
+
+    // Brass Bookshelf Recipe
+    event.recipes.create.sequenced_assembly(
+        [
+            CreateItem.of('create_enchantment_industry:brass_bookshelf')
+        ],
+        'apothic_enchanting:pearl_endshelf',
+        [
+            event.recipes.create.deploying('create_enchantment_industry:incomplete_brass_bookshelf', ['create_enchantment_industry:incomplete_brass_bookshelf', 'create:brass_ingot']),
+            event.recipes.create.filling('create_enchantment_industry:incomplete_brass_bookshelf', ['create_enchantment_industry:incomplete_brass_bookshelf', Fluid.of('create_enchantment_industry:infused_dragon_breath', 1000)]),
+            event.recipes.create.deploying('create_enchantment_industry:incomplete_brass_bookshelf', ['create_enchantment_industry:incomplete_brass_bookshelf', 'create:precision_mechanism']),
+            event.recipes.create.filling('create_enchantment_industry:incomplete_brass_bookshelf', ['create_enchantment_industry:incomplete_brass_bookshelf', Fluid.of('create_enchantment_industry:experience', 1000)]),
+            event.recipes.create.deploying('create_enchantment_industry:incomplete_brass_bookshelf', ['create_enchantment_industry:incomplete_brass_bookshelf', 'create_connected:control_chip'])
+        ]
+    )
+        .transitionalItem('create_enchantment_industry:incomplete_brass_bookshelf')
+        .loops(5)
+
+    // Ender Woven Bag Recipe
+    event.recipes.extendedcrafting.shaped_table('create_enchantment_industry:ender_woven_bag',
+        [
+            "AAAAA",
+            "ABCBA",
+            "ABDBA",
+            "ABEBA",
+            "AAAAA"
+        ],
+        {
+            "A": {
+                "item": "create:brass_sheet"
+            },
+            "B": {
+                "item": "apothic_enchanting:ender_lead"
+            },
+            "C": {
+                "item": "create:rose_quartz_lamp"
+            },
+            "D": {
+                "item": "create:precision_mechanism"
+            },
+            "E": {
+                "item": "create:brass_casing"
+            }
+        }
+    )
 })

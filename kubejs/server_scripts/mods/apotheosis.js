@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+
+    // Cryptic Eye Recipe
     event.custom({
         "type": "apothic_enchanting:infusion",
         "input": {
@@ -372,4 +374,26 @@ ServerEvents.recipes(event => {
             }
         }
     )
+
+    // Infuser Recipe
+    event.custom({
+        "type": "apothic_enchanting:infusion",
+        "input": {
+            "item": "create:spout"
+        },
+        "requirements": {
+            "eterna": 80,
+            "quanta": 50,
+            "arcana": 100
+        },
+        "max_requirements": {
+            "eterna": 80,
+            "quanta": 50,
+            "arcana": 100
+        },
+        "result": {
+            "id": "create_enchantment_industry:infuser",
+            "count": 1
+        }
+    })
 })
