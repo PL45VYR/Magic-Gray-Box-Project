@@ -167,6 +167,46 @@ ServerEvents.recipes(event => {
         ]
     ).heated()
 
+    // Uncommon Ink Recipe
+    event.recipes.createMixing(
+        Fluid.of('irons_spellbooks:uncommon_ink', 250),
+        [
+            Fluid.of('irons_spellbooks:common_ink', 500),
+            '2x eidolon_repraised:warped_sprouts',
+            '2x apotheosis:uncommon_material'
+        ]
+    ).heated()
+
+    // Rare Ink Recipe
+    event.recipes.createMixing(
+        Fluid.of('irons_spellbooks:rare_ink', 250),
+        [
+            Fluid.of('irons_spellbooks:uncommon_ink', 500),
+            '2x malum:wind_nucleus',
+            '2x apotheosis:rare_material'
+        ]
+    ).heated()
+
+    // Epic Ink Recipe
+    event.recipes.createMixing(
+        Fluid.of('irons_spellbooks:epic_ink', 250),
+        [
+            Fluid.of('irons_spellbooks:rare_ink', 500),
+            '2x hazennstuff:deus_essence',
+            '2x apotheosis:epic_material'
+        ]
+    ).superheated()
+
+    // Legendary Ink Recipe
+    event.recipes.createMixing(
+        Fluid.of('irons_spellbooks:legendary_ink', 250),
+        [
+            Fluid.of('irons_spellbooks:epic_ink', 500),
+            '2x forbidden_arcanus:golden_dragon_scale',
+            '2x apotheosis:mythic_material'
+        ]
+    ).superheated()
+
     // Train Track Recipe
     event.recipes.create.sequenced_assembly(
         [
