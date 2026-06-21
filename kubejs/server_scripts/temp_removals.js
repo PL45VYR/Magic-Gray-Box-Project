@@ -29,20 +29,20 @@ ServerEvents.recipes(event => {
 
     // Just Dire Things
     // event.remove({ mod: "justdirethings" })
-    event.remove({ output: "justdirethings:gooblock_tier2" })
+    // event.remove({ output: "justdirethings:gooblock_tier2" })
     event.remove({ output: "justdirethings:gooblock_tier3" })
     event.remove({ output: "justdirethings:gooblock_tier4" })
 
     // Explorer Compass
-    event.remove({ output: "explorerscompass:explorerscompass"})
+    event.remove({ output: "explorerscompass:explorerscompass" })
 
     // Ender IO
-    event.remove({
+    /*event.remove({
         mod: "enderio", not: [
             { output: 'enderio:dark_steel_block' },
             { output: 'enderio:dark_steel_nugget' }
         ]
-    })
+    })*/
 
     // Ender Storage
     event.remove({ mod: "enderstorage" })
@@ -51,18 +51,15 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "entangled" })
 
     // Extended Crafting
-    event.remove({ mod: "extendedcrafting", output: /.*auto.*/ })
+    //event.remove({ mod: "extendedcrafting", output: /.*auto.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*component.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*catalyst.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*ender.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*ultimate.*/ })
     event.remove({ output: "extendedcrafting:compressor" })
 
-    // Actually Additions
-    // event.remove({ mod: "actuallyadditions" })
-
     // Modular Routers
-    event.remove({ mod: "modularrouters" })
+    //event.remove({ mod: "modularrouters" })
 
     // Replication
     event.remove({ mod: "replication" })
@@ -72,9 +69,6 @@ ServerEvents.recipes(event => {
 
     // Dyson Cube Project
     event.remove({ mod: "dysoncubeproject" })
-
-    // XyCraft
-    // event.remove({ mod: /xycraft.*/ })
 
     // Powah
     event.remove({ mod: "powah" })
@@ -86,7 +80,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "hostilenetworks" })
 
     // Laser IO
-    event.remove({ mod: "laserio" })
+    //event.remove({ mod: "laserio" })
 
     // Ars Nouveau
     event.remove({ id: /.*book_upgrade/ })
