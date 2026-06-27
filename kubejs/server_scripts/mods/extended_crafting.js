@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     // Extended Crafting Shaped Table Conversions
-    let excrafting_only = [
+    let excrafting_table = [
         "immersiveengineering:crafting/cokebrick",
         "railcraft:powered_rolling_machine",
         "immersiveengineering:crafting/fluid_pump",
@@ -23,11 +23,48 @@ ServerEvents.recipes(event => {
         "apothic_enchanting:stoneshelf"
     ]
 
-    excrafting_only.forEach(recipe_id => {
+    excrafting_table.forEach(recipe_id => {
         event.forEachRecipe({ type: "minecraft:crafting_shaped", id: recipe_id }, new_recipe => {
             let old_recipe = JSON.parse(new_recipe.json.toString())
             event.custom({
                 "type": "extendedcrafting:shaped_table",
+                "pattern": old_recipe.pattern,
+                "key": old_recipe.key,
+                "result": old_recipe.result
+            })
+        })
+        event.remove({ id: recipe_id })
+    })
+
+    // Extended Crafting Flux Crafter Conversions
+    let excrafting_flux = [
+        "enderio:basic_capacitor",
+        "enderio:double_layer_capacitor",
+        "enderio:octadic_capacitor"
+    ]
+
+    excrafting_flux.forEach(recipe_id => {
+        event.forEachRecipe({ type: "minecraft:crafting_shaped", id: recipe_id }, new_recipe => {
+            let old_recipe = JSON.parse(new_recipe.json.toString())
+            event.custom({
+                "type": "extendedcrafting:shaped_flux_crafter",
+                "power_required": 100000,
+                "power_rate": 400,
+                "pattern": old_recipe.pattern,
+                "key": old_recipe.key,
+                "result": old_recipe.result
+            })
+        })
+        event.remove({ id: recipe_id })
+    })
+
+    let excrafting_ender = []
+
+    excrafting_ender.forEach(recipe_id => {
+        event.forEachRecipe({ type: "minecraft:crafting_shaped", id: recipe_id }, new_recipe => {
+            let old_recipe = JSON.parse(new_recipe.json.toString())
+            event.custom({
+                "type": "extendedcrafting:shaped_ender_crafter",
                 "pattern": old_recipe.pattern,
                 "key": old_recipe.key,
                 "result": old_recipe.result
@@ -281,4 +318,339 @@ ServerEvents.recipes(event => {
             }
         }
     )
+
+    // Flux Star
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 500000,
+        "power_rate": 400,
+        "pattern": [
+            " A ",
+            "ABA",
+            " A "
+        ],
+        "key": {
+            "A": {
+                "item": "oritech:electrum_ingot"
+            },
+            "B": {
+                "item": "minecraft:nether_star"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:flux_star"
+        }
+    })
+
+    // Enhanced Redstone
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 125000,
+        "power_rate": 400,
+        "pattern": [
+            " A ",
+            "ABA",
+            " A "
+        ],
+        "key": {
+            "A": {
+                "item": "enderio:redstone_alloy_ingot"
+            },
+            "B": {
+                "item": "extendedcrafting:flux_star"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:enhanced_redstone_ingot",
+            "count": 4
+        }
+    })
+
+    // Crystaltine Component
+    event.shaped('extendedcrafting:crystaltine_component',
+        [
+            'IS',
+            'CI'
+        ],
+        {
+            'I': 'extendedcrafting:crystaltine_ingot',
+            'S': 'extendedcrafting:elite_component',
+            'C': 'actuallyadditions:empowered_diamatine_crystal'
+        }
+    )
+
+    // Crystaltine Catalyst
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "C": {
+                "item": "extendedcrafting:crystaltine_component"
+            },
+            "I": {
+                "item": "enderio:dark_steel_ingot"
+            }
+        },
+        "pattern": [
+            " C ",
+            "CIC",
+            " C "
+        ],
+        "result": {
+            "count": 1,
+            "id": "extendedcrafting:crystaltine_catalyst"
+        },
+        "show_notification": false
+    })
+
+    // Redstone Component
+    event.shaped('extendedcrafting:redstone_component',
+        [
+            'IS',
+            'CI'
+        ],
+        {
+            'I': 'extendedcrafting:redstone_ingot',
+            'S': 'extendedcrafting:elite_component',
+            'C': 'enderio:basic_capacitor'
+        }
+    )
+
+    // Redstone Catalyst
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "C": {
+                "item": "extendedcrafting:redstone_component"
+            },
+            "I": {
+                "item": "enderio:dark_steel_ingot"
+            }
+        },
+        "pattern": [
+            " C ",
+            "CIC",
+            " C "
+        ],
+        "result": {
+            "count": 1,
+            "id": "extendedcrafting:redstone_catalyst"
+        },
+        "show_notification": false
+    })
+
+    // Enhanced Redstone Component
+    event.shaped('extendedcrafting:enhanced_redstone_component',
+        [
+            'IS',
+            'CI'
+        ],
+        {
+            'I': 'extendedcrafting:enhanced_redstone_ingot',
+            'S': 'extendedcrafting:redstone_component',
+            'C': 'actuallyadditions:empowered_restonia_crystal'
+        }
+    )
+
+    // Enhanced Redstone Catalyst
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "C": {
+                "item": "extendedcrafting:enhanced_redstone_component"
+            },
+            "I": {
+                "item": "enderio:dark_steel_ingot"
+            }
+        },
+        "pattern": [
+            " C ",
+            "CIC",
+            " C "
+        ],
+        "result": {
+            "count": 1,
+            "id": "extendedcrafting:enhanced_redstone_catalyst"
+        },
+        "show_notification": false
+    })
+
+    // Basic Auto Crafter
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 125000,
+        "power_rate": 400,
+        "pattern": [
+            "ABA",
+            "CDC",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "extendedcrafting:black_iron_ingot"
+            },
+            "B": {
+                "item": "extendedcrafting:crystaltine_catalyst"
+            },
+            "C": {
+                "item": "extendedcrafting:enhanced_redstone_catalyst"
+            },
+            "D": {
+                "item": "extendedcrafting:basic_table"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:basic_auto_table"
+        }
+    })
+
+    // Advanced Auto Crafter
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 250000,
+        "power_rate": 400,
+        "pattern": [
+            "ABA",
+            "CDC",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "extendedcrafting:black_iron_ingot"
+            },
+            "B": {
+                "item": "extendedcrafting:crystaltine_catalyst"
+            },
+            "C": {
+                "item": "extendedcrafting:enhanced_redstone_catalyst"
+            },
+            "D": {
+                "item": "extendedcrafting:advanced_table"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:advanced_auto_table"
+        }
+    })
+
+    // Elite Auto Crafter
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 375000,
+        "power_rate": 400,
+        "pattern": [
+            "ABA",
+            "CDC",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "extendedcrafting:black_iron_ingot"
+            },
+            "B": {
+                "item": "extendedcrafting:crystaltine_catalyst"
+            },
+            "C": {
+                "item": "extendedcrafting:enhanced_redstone_catalyst"
+            },
+            "D": {
+                "item": "extendedcrafting:elite_table"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:elite_auto_table"
+        }
+    })
+
+    // Ultimate Auto Crafter
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 500000,
+        "power_rate": 400,
+        "pattern": [
+            "ABA",
+            "CDC",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "extendedcrafting:black_iron_ingot"
+            },
+            "B": {
+                "item": "extendedcrafting:crystaltine_catalyst"
+            },
+            "C": {
+                "item": "extendedcrafting:enhanced_redstone_catalyst"
+            },
+            "D": {
+                "item": "extendedcrafting:ultimate_table"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:ultimate_auto_table"
+        }
+    })
+
+    // Flux Auto Crafter
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 500000,
+        "power_rate": 400,
+        "pattern": [
+            "ABA",
+            "CDC",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "extendedcrafting:black_iron_ingot"
+            },
+            "B": {
+                "item": "extendedcrafting:crystaltine_catalyst"
+            },
+            "C": {
+                "item": "extendedcrafting:enhanced_redstone_catalyst"
+            },
+            "D": {
+                "item": "extendedcrafting:flux_crafter"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:auto_flux_crafter"
+        }
+    })
+
+    // Ender Auto Crafter
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 100000,
+        "power_rate": 400,
+        "pattern": [
+            "ABA",
+            "CDC",
+            "ABA"
+        ],
+        "key": {
+            "A": {
+                "item": "extendedcrafting:black_iron_ingot"
+            },
+            "B": {
+                "item": "extendedcrafting:crystaltine_catalyst"
+            },
+            "C": {
+                "item": "extendedcrafting:enhanced_redstone_catalyst"
+            },
+            "D": {
+                "item": "extendedcrafting:ender_crafter"
+            }
+        },
+        "result": {
+            "id": "extendedcrafting:auto_ender_crafter"
+        }
+    })
 })
