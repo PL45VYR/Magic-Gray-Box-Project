@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
     // Ender IO
     event.remove({ id: "enderio:iron_gear" })
     event.remove({ output: "enderio:dark_steel_ingot" })
-    event.remove({ id: "oritech:foundry/alloy/compat/enderio/darksteel" })
+    event.remove({ id: /.*alloy_smelting.*ingot/ })
 
     // Extended Crafting
     event.remove({ id: "extendedcrafting:black_iron_ingot" })
@@ -109,6 +109,14 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:redstone_ingot" })
     event.remove({ id: "extendedcrafting:flux_crafter" })
     event.remove({ id: "extendedcrafting:flux_alternator" })
+    event.remove({ id: "extendedcrafting:enhanced_redstone_ingot" })
+    event.remove({ id: "extendedcrafting:flux_star" })
+    event.remove({ id: "extendedcrafting:redstone_component" })
+    event.remove({ id: "extendedcrafting:redstone_catalyst" })
+    event.remove({ id: "extendedcrafting:enhanced_redstone_component" })
+    event.remove({ id: "extendedcrafting:enhanced_redstone_catalyst" })
+    event.remove({ id: "extendedcrafting:crystaltine_component" })
+    event.remove({ id: "extendedcrafting:crystaltine_catalyst" })
 
 
     // Farming for Blockheads
@@ -138,6 +146,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: "immersiveengineering:wirecoil_steel" })
     event.remove({ output: "immersiveengineering:wirecoil_redstone" })
     event.remove({ output: /immersiveengineering:.*_engineering/ })
+    event.remove({ output: "immersiveengineering:radiator" })
+    event.remove({ output: "immersiveengineering:generator" })
     event.remove({ id: "immersiveengineering:squeezer/graphite_dust" })
     event.remove({ input: "#c:dusts/coal", output: "#c:ingots/steel" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/ae2.*/ })
@@ -162,6 +172,9 @@ ServerEvents.recipes(event => {
     // Malum
     event.remove({ output: "malum:spirit_altar" })
 
+    // Mekanism
+    event.remove({ id: /.*alloying\/compat\/enderio.*/ })
+
     // Miscellaneous
     event.remove({ id: "endermanoverhaul:ender_eye" })
     event.remove({ output: /endrem.*/ })
@@ -170,7 +183,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gag:time_sand_pouch" })
 
     // Occultism
-    event.remove({ output: /occultism.*impure/ })
+    //event.remove({ output: /occultism.*impure/ })
     event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:smelting" })
     event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:blasting" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/occultism.*/ })
@@ -182,6 +195,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: "oritech:mixing/compat/create/steel" })
     event.remove({ input: "oritech:raw_silicon" })
     event.remove({ id: "oritech:centrifuge/carbon" })
+    event.remove({ id: /.*alloy\/compat\/enderio.*/ })
+    event.remove({ id: /compat/, output: "oritech:fluxite" })
+
+    // Powah
+    event.remove({ output: /powah:crystal.*/ })
 
     // Railcraft Reborn
     event.remove({ id: /railcraft:.*crafted_with_ingots/ })

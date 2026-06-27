@@ -10,5 +10,278 @@
 	id: "523773BCE6332715"
 	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3CC6BA7644BDBAE0"
+				"2A66F6DC396BCEB7"
+			]
+			id: "29F4AC8647FA5506"
+			shape: "rsquare"
+			tasks: [{
+				id: "07961CFA7F598D7D"
+				item: { count: 1, id: "extendedcrafting:elite_auto_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2C9A21C911AA39F7"
+			tasks: [{
+				id: "75C78A91C46B330C"
+				item: { count: 1, id: "occultism:chalk_gray" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "4E6EC8EE2C8CD5B8"
+			tasks: [{
+				id: "6726A62C68C04A9C"
+				item: { count: 1, id: "occultism:chalk_orange" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["324FF3DD46AE7CA5"]
+			id: "08E97D8A59DAED2A"
+			tasks: [{
+				id: "65F89B3856542D50"
+				item: { count: 1, id: "occultism:chalk_red" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08E97D8A59DAED2A"]
+			id: "14ADE066C6529295"
+			tasks: [{
+				id: "256A904CE6F04FAB"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4E6EC8EE2C8CD5B8"
+				"2C9A21C911AA39F7"
+			]
+			id: "324FF3DD46AE7CA5"
+			tasks: [{
+				id: "1F1F3FDC924873FA"
+				item: { count: 1, id: "occultism:afrit_essence" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18FF3BBD5DCC2844"]
+			id: "4FBFC3DE08B8B3C6"
+			tasks: [{
+				id: "55FAAE14DD5F6F51"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4C8B410232BA63BB"]
+			id: "3D8285CDE13C408A"
+			tasks: [{
+				id: "702119FCFBF83ADA"
+				item: { count: 1, id: "enderio:ensouled_chassis" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["407E3BBAE5713AA7"]
+			id: "4C8B410232BA63BB"
+			tasks: [{
+				id: "7AA85678E0F6511B"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77D8553E491BD317"]
+			id: "2F7FA743F3111DDC"
+			tasks: [{
+				id: "7C4CA90FE6444957"
+				item: { count: 1, id: "justdirethings:blazegold_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08E97D8A59DAED2A"]
+			id: "77D8553E491BD317"
+			tasks: [{
+				id: "3C1AC2EC6CAF9999"
+				item: { count: 1, id: "justdirethings:gooblock_tier2" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["202B6F0CFF14222A"]
+			icon: {
+				id: "extendedcrafting:enhanced_redstone_catalyst"
+			}
+			id: "3CC6BA7644BDBAE0"
+			tasks: [
+				{
+					id: "50CCC501CC784597"
+					item: { count: 1, id: "extendedcrafting:enhanced_redstone_catalyst" }
+					type: "item"
+				}
+				{
+					id: "774DE48707BC5531"
+					item: { count: 1, id: "extendedcrafting:enhanced_redstone_component" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"40022A3394135546"
+				"4C8B410232BA63BB"
+			]
+			id: "202B6F0CFF14222A"
+			tasks: [{
+				id: "289A6D3E808C9752"
+				item: { count: 1, id: "extendedcrafting:flux_star" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C4B5E1579509716"]
+			id: "40022A3394135546"
+			tasks: [{
+				id: "30D636CC7F358B5A"
+				item: { count: 1, id: "enderio:redstone_alloy_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18FF3BBD5DCC2844"]
+			id: "407E3BBAE5713AA7"
+			tasks: [{
+				id: "6F5284E0A0FC334A"
+				item: { count: 1, id: "powah:dielectric_casing" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "4CF512A76BBD9F7E"
+			shape: "square"
+			tasks: [{
+				id: "47DF4A848896699A"
+				item: { count: 1, id: "enderio:basic_capacitor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4CF512A76BBD9F7E"]
+			icon: {
+				id: "extendedcrafting:redstone_catalyst"
+			}
+			id: "18FF3BBD5DCC2844"
+			tasks: [
+				{
+					id: "18F55EC1550D3E2A"
+					item: { count: 1, id: "extendedcrafting:redstone_catalyst" }
+					type: "item"
+				}
+				{
+					id: "216F147B46FC9735"
+					item: { count: 1, id: "extendedcrafting:redstone_component" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4FBFC3DE08B8B3C6"]
+			id: "4C453502BD8554C2"
+			tasks: [{
+				id: "3D9278AE402646B4"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4C453502BD8554C2"
+				"2F7FA743F3111DDC"
+			]
+			id: "0C4B5E1579509716"
+			tasks: [{
+				id: "18A347D28B14AF13"
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["435F23B4BD2583E0"]
+			icon: {
+				id: "extendedcrafting:crystaltine_catalyst"
+			}
+			id: "2A66F6DC396BCEB7"
+			tasks: [
+				{
+					id: "209B087501DC82B8"
+					item: { count: 1, id: "extendedcrafting:crystaltine_catalyst" }
+					type: "item"
+				}
+				{
+					id: "12C642B0BDB44AF9"
+					item: { count: 1, id: "extendedcrafting:crystaltine_component" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C8B410232BA63BB"]
+			id: "435F23B4BD2583E0"
+			tasks: [{
+				id: "0E1BC116E36524EF"
+				item: { count: 1, id: "powah:crystal_niotic" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
 }
