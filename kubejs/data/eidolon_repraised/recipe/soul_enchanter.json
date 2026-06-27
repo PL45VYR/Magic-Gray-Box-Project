@@ -1,0 +1,32 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    " b ",
+    "gog",
+    "ooo"
+  ],
+  "reagents": ["sidi"],
+  "key": {
+    "b": {
+      "item": "minecraft:book"
+    },
+    "g": {
+      "tag": "c:ingots/arcane_gold"
+    },
+    "o": {
+      "item": "minecraft:obsidian"
+    },
+    "s": {
+      "item": "forbidden_arcanus:soul_binding_crystal"
+    },
+    "i": {
+      "item": "eidolon_repraised:gold_inlay"
+    },
+    "d": {
+        "tag": "c:gems/diamond"
+    }
+  },
+  "result": {
+    "id": "eidolon_repraised:soul_enchanter"
+  }
+}
