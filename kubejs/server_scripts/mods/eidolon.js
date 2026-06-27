@@ -133,4 +133,104 @@ ServerEvents.recipes(event => {
             "id": "ars_nouveau:scribes_table"
         }
     })
+
+    // Orange Chalk Recipe
+    event.custom({
+        "type": "eidolon_repraised:ritual_brazier_crafting",
+        "focus_items": [
+            {
+                "item": "occultism:chalk_white_impure"
+            }
+        ],
+        "pedestal_items": [
+            {
+                "item": "reliquary:guardian_spike"
+            },
+            {
+                "item": "reliquary:molten_core"
+            },
+            {
+                "item": "reliquary:molten_core"
+            },
+            {
+                "item": "reliquary:guardian_spike"
+            }
+        ],
+        "reagent": {
+            "item": "occultism:cursed_honey"
+        },
+        "result": {
+            "count": 1,
+            "id": "occultism:chalk_orange_impure"
+        }
+    })
+
+    // Gray Chalk Recipe
+    event.custom({
+        "type": "eidolon_repraised:ritual_brazier_crafting",
+        "focus_items": [
+            {
+                "item": "occultism:chalk_white_impure"
+            }
+        ],
+        "pedestal_items": [
+            {
+                "item": "reliquary:bat_wing"
+            },
+            {
+                "item": "hazennstuff:runestone_fragments"
+            },
+            {
+                "item": "hazennstuff:runestone_fragments"
+            },
+            {
+                "item": "reliquary:bat_wing"
+            }
+        ],
+        "reagent": {
+            "item": "occultism:gray_paste"
+        },
+        "result": {
+            "count": 1,
+            "id": "occultism:chalk_gray_impure"
+        }
+    })
+
+    // Red Chalk
+    event.custom({
+        "type": "eidolon_repraised:ritual_brazier_crafting",
+        "focus_items": [
+            {
+                "item": "occultism:chalk_white_impure"
+            }
+        ],
+        "health_requirement": 100.0,
+        "pedestal_items": [
+            {
+                "item": "friendsandfoes:wildfire_crown_fragment"
+            },
+            {
+                "item": "eidolon_repraised:crimson_essence"
+            },
+            {
+                "item": "malum:living_flesh"
+            },
+            {
+                "item": "malum:living_flesh"
+            },
+            {
+                "item": "eidolon_repraised:crimson_essence"
+            },
+            {
+                "item": "friendsandfoes:wildfire_crown_fragment"
+            },
+        ],
+        "reagent": {
+            "item": "occultism:afrit_essence"
+        },
+        "result": {
+            "count": 1,
+            "id": "occultism:chalk_red_impure"
+        }
+    })
 })

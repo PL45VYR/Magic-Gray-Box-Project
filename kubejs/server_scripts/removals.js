@@ -183,7 +183,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gag:time_sand_pouch" })
 
     // Occultism
-    //event.remove({ output: /occultism.*impure/ })
+    event.remove({ output: /occultism.*impure/ })
     event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:smelting" })
     event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:blasting" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/occultism.*/ })
