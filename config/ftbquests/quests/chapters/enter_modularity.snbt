@@ -27,23 +27,28 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"76545252F04F6E22"
+				"089903D5C1D065A9"
+			]
 			id: "2C9A21C911AA39F7"
 			tasks: [{
 				id: "75C78A91C46B330C"
 				item: { count: 1, id: "occultism:chalk_gray" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["7AE9544959A7D1C1"]
 			id: "4E6EC8EE2C8CD5B8"
 			tasks: [{
 				id: "6726A62C68C04A9C"
 				item: { count: 1, id: "occultism:chalk_orange" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -58,15 +63,16 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["08E97D8A59DAED2A"]
+			dependencies: ["324FF3DD46AE7CA5"]
 			id: "14ADE066C6529295"
+			shape: "octagon"
 			tasks: [{
 				id: "256A904CE6F04FAB"
 				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
 				type: "item"
 			}]
 			x: -4.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -96,6 +102,7 @@
 		{
 			dependencies: ["4C8B410232BA63BB"]
 			id: "3D8285CDE13C408A"
+			shape: "octagon"
 			tasks: [{
 				id: "702119FCFBF83ADA"
 				item: { count: 1, id: "enderio:ensouled_chassis" }
@@ -196,7 +203,7 @@
 		}
 		{
 			id: "4CF512A76BBD9F7E"
-			shape: "square"
+			shape: "hexagon"
 			tasks: [{
 				id: "47DF4A848896699A"
 				item: { count: 1, id: "enderio:basic_capacitor" }
@@ -282,6 +289,39 @@
 			}]
 			x: 1.5d
 			y: -1.5d
+		}
+		{
+			id: "7AE9544959A7D1C1"
+			shape: "hexagon"
+			tasks: [{
+				id: "7772A7CC3A3B0862"
+				item: { count: 1, id: "occultism:cursed_honey" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "76545252F04F6E22"
+			shape: "hexagon"
+			tasks: [{
+				id: "0E01363E4615873C"
+				item: { count: 1, id: "hazennstuff:runestone_fragments" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "089903D5C1D065A9"
+			shape: "hexagon"
+			tasks: [{
+				id: "568B979A78DD8BEF"
+				item: { count: 1, id: "occultism:gray_paste" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
 		}
 	]
 }

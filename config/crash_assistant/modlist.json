@@ -2105,13 +2105,13 @@
     "curseForgeHash": 1582266717,
     "modrinthHash": "20fdf4da5776954bdb9608732c703362acbfaa9e"
   },
-  "moonlight-neoforge-1.21.1-3.0.19.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.19.jar",
+  "moonlight-neoforge-1.21.1-3.0.20.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.0.20.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.19",
-    "curseForgeHash": 332113419,
-    "modrinthHash": "3defd4e67f63c808a33d2c8062f964f334a8b1c3"
+    "version": "1.21.1-3.0.20",
+    "curseForgeHash": 3318350807,
+    "modrinthHash": "d11bf3ef47be313db8804af242a48cd4046268dc"
   },
   "moreculling-neoforge-1.21.1-1.0.8.jar": {
     "jarName": "moreculling-neoforge-1.21.1-1.0.8.jar",
@@ -2657,13 +2657,13 @@
     "curseForgeHash": 55907026,
     "modrinthHash": "3d6f4b38e05fc1aa5fb267a99d389fa29ffad036"
   },
-  "sophisticatedstorage-1.21.1-1.5.63.1872.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.63.1872.jar",
+  "sophisticatedstorage-1.21.1-1.5.64.1881.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.64.1881.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.63",
-    "curseForgeHash": 3126844235,
-    "modrinthHash": "4cb5976e32a3978a548dfcf69ef5583ba3c6ec31"
+    "version": "1.5.64",
+    "curseForgeHash": 3932424109,
+    "modrinthHash": "d2d45965025700db5ab4d2762d7ec2ae0177a112"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
