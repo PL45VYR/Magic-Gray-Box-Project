@@ -375,7 +375,7 @@ ServerEvents.recipes(event => {
         {
             'I': 'extendedcrafting:crystaltine_ingot',
             'S': 'extendedcrafting:elite_component',
-            'C': 'actuallyadditions:empowered_diamatine_crystal'
+            'C': 'powah:crystal_niotic'
         }
     )
 
