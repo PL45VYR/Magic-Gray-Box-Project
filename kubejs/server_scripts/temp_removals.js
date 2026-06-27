@@ -52,9 +52,9 @@ ServerEvents.recipes(event => {
 
     // Extended Crafting
     //event.remove({ mod: "extendedcrafting", output: /.*auto.*/ })
-    event.remove({ mod: "extendedcrafting", output: /.*component.*/ })
-    event.remove({ mod: "extendedcrafting", output: /.*catalyst.*/ })
-    event.remove({ mod: "extendedcrafting", output: /.*ender.*/ })
+    //event.remove({ mod: "extendedcrafting", output: /.*component.*/ })
+    //event.remove({ mod: "extendedcrafting", output: /.*catalyst.*/ })
+    //event.remove({ mod: "extendedcrafting", output: /.*ender.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*ultimate.*/ })
     event.remove({ output: "extendedcrafting:compressor" })
 
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "dysoncubeproject" })
 
     // Powah
-    event.remove({ mod: "powah" })
+    //event.remove({ mod: "powah" })
 
     // Flux Networks
     event.remove({ mod: "fluxnetworks" })
