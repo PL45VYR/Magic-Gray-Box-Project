@@ -206,7 +206,7 @@ ServerEvents.recipes(event => {
             }
         ],
         "catalyst": {
-            "id": "extendedcrafting:basic_catalyst",
+            "id": "extendedcrafting:advanced_catalyst",
             "Count": 1
         },
         "components": {
@@ -226,6 +226,148 @@ ServerEvents.recipes(event => {
         "outputs": [
             {
                 "id": "actuallyadditions:lava_factory_casing",
+                "Count": 1
+            }
+        ]
+    })
+
+    // Void Chassis Recipe
+    event.custom({
+        "type": "compactcrafting:miniaturization",
+        "recipeSize": 5,
+        "layers": [
+            {
+                "type": "compactcrafting:mixed",
+                "pattern": [
+                    ["S", "S", "S", "S", "S"],
+                    ["S", "-", "S", "-", "S"],
+                    ["S", "S", "S", "S", "S"],
+                    ["S", "-", "S", "-", "S"],
+                    ["S", "S", "S", "S", "S"]
+                ]
+            },
+            {
+                "type": "compactcrafting:mixed",
+                "pattern": [
+                    ["S", "-", "S", "-", "S"],
+                    ["-", "-", "-", "-", "-"],
+                    ["S", "-", "D", "-", "S"],
+                    ["-", "-", "-", "-", "-"],
+                    ["S", "-", "S", "-", "S"]
+                ]
+            },
+            {
+                "type": "compactcrafting:mixed",
+                "pattern": [
+                    ["S", "S", "S", "S", "S"],
+                    ["S", "-", "D", "-", "S"],
+                    ["S", "D", "C", "D", "S"],
+                    ["S", "-", "D", "-", "S"],
+                    ["S", "S", "S", "S", "S"]
+                ]
+            },
+            {
+                "type": "compactcrafting:mixed",
+                "pattern": [
+                    ["S", "-", "S", "-", "S"],
+                    ["-", "-", "-", "-", "-"],
+                    ["S", "-", "D", "-", "S"],
+                    ["-", "-", "-", "-", "-"],
+                    ["S", "-", "S", "-", "S"]
+                ]
+            },
+            {
+                "type": "compactcrafting:mixed",
+                "pattern": [
+                    ["S", "S", "S", "S", "S"],
+                    ["S", "-", "S", "-", "S"],
+                    ["S", "S", "S", "S", "S"],
+                    ["S", "-", "S", "-", "S"],
+                    ["S", "S", "S", "S", "S"]
+                ]
+            }
+        ],
+        "catalyst": {
+            "id": "extendedcrafting:redstone_catalyst",
+            "Count": 1
+        },
+        "components": {
+            "S": {
+                "type": "compactcrafting:block",
+                "block": "immersiveengineering:steel_scaffolding_standard"
+            },
+            "D": {
+                "type": "compactcrafting:block",
+                "block": "immersiveengineering:storage_steel"
+            },
+            "C": {
+                "type": "compactcrafting:block",
+                "block": "actuallyadditions:lava_factory_casing"
+            }
+        },
+        "outputs": [
+            {
+                "id": "enderio:void_chassis",
+                "Count": 1
+            }
+        ]
+    })
+
+    // Dielectric Casing Recipe
+    event.custom({
+        "type": "compactcrafting:miniaturization",
+        "recipeSize": 5,
+        "layers": [
+            {
+                "type": "compactcrafting:mixed",
+                "pattern": [
+                    ["A", "I", "A"],
+                    ["I", "G", "I"],
+                    ["A", "I", "A"]
+                ]
+            },
+            {
+                "type": "compactcrafting:mixed",
+                "pattern": [
+                    ["I", "G", "I"],
+                    ["G", "C", "G"],
+                    ["I", "G", "I"]
+                ]
+            },
+            {
+                "type": "compactcrafting:mixed",
+                "pattern": [
+                    ["A", "I", "A"],
+                    ["I", "G", "I"],
+                    ["A", "I", "A"]
+                ]
+            }
+        ],
+        "catalyst": {
+            "id": "extendedcrafting:redstone_catalyst",
+            "Count": 1
+        },
+        "components": {
+            "A": {
+                "type": "compactcrafting:block",
+                "block": "create:andesite_alloy_block"
+            },
+            "I": {
+                "type": "compactcrafting:block",
+                "block": "extendedcrafting:black_iron_block"
+            },
+            "G": {
+                "type": "compactcrafting:block",
+                "block": "xycraft_world:glass_viewer_silicon"
+            },
+            "C": {
+                "type": "compactcrafting:block",
+                "block": "actuallyadditions:lava_factory_casing"
+            }
+        },
+        "outputs": [
+            {
+                "id": "powah:dielectric_casing",
                 "Count": 1
             }
         ]
