@@ -1,0 +1,40 @@
+{
+  "essences": {
+    "aureal": 2500,
+    "blood": 12000,
+    "experience": 1000,
+    "souls": 50
+  },
+  "forge_tier": 3,
+  "inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "irons_spellbooks:cinder_essence"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "apotheosis:epic_material"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:netherite_scrap"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "minecraft:echo_shard"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "irons_spellbooks:cinderous_soulcaller"
+    }
+  }
+}
