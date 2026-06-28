@@ -14,6 +14,7 @@ ServerEvents.recipes(event => {
 
     // Oritech
     event.remove({ id: /oritech:crafting\/.*/ })
+    event.remove({ id: /oritech:motor\/.*/ })
 
     // AE2
     event.remove({ mod: "ae2" })
