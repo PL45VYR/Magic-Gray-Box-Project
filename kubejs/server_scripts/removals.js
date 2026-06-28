@@ -162,6 +162,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: "hazennstuff:rose_quartz" })
     event.remove([{ output: "hazennstuff:crude_metal" }, { input: "hazennstuff:crude_metal" }])
     event.remove({ output: "hazennstuff:lemon" })
+    event.remove({ output: "hazennstuff:nether_star_fragment" })
+    event.remove({ output: "hazennstuff:starkissed_zenalite" })
 
     // Just Dire Things
     event.remove({ output: "justdirethings:gooblock_tier1" })

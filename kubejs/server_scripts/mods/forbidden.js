@@ -57,6 +57,32 @@ ServerEvents.recipes(event => {
         }
     })
 
+    // Zenalite Ingot Recipe
+    event.custom({
+        "type": "forbidden_arcanus:clibano_combustion",
+        "category": "misc",
+        "cooking_time": 400,
+        "enhancer": "forbidden_arcanus:artisan_relic",
+        "experience": 2.5,
+        "fire_type": "enchanted_fire",
+        "ingredients": {
+            "first": {
+                "item": "hazennstuff:raw_zenalite"
+            },
+            "second": {
+                "item": "hazennstuff:nether_star_fragment"
+            }
+        },
+        "residue": {
+            "type": "forbidden_arcanus:rune",
+            "chance": 0.5
+        },
+        "result": {
+            "count": 1,
+            "id": "hazennstuff:zenalite_ingot"
+        }
+    })
+
     // Crimson Stone Recipe
     event.recipes.malum.spirit_infusion(
         "4x eidolon_repraised:crimson_gem",
