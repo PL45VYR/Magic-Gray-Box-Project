@@ -627,6 +627,7 @@
 		""
 		"If you wish to see the blocks more consistently, equip a pair of Otherworld Goggles!"
 	]
+	quest.7778CF10C5B6076E.title: "Frontier Gateway"
 	quest.777BD223A35E7233.quest_desc: ["The Magic Workbench enables you to craft a variety of magical items. Some of these items will reveal more hidden secrets within the Overworld or enable you to gain more knowledge of it."]
 	quest.7A322E5A606919C5.quest_desc: [
 		"Braziers made from pewter give you the ability to conduct simple rituals. One such ritual will allow you to slay nearby undead creatures to acquire Soul Shards, a primary ingredient for various magical crafts."

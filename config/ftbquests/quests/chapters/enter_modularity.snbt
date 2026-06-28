@@ -48,7 +48,7 @@
 				item: { count: 1, id: "occultism:chalk_orange" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
@@ -298,7 +298,7 @@
 				item: { count: 1, id: "occultism:cursed_honey" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -4.5d
 			y: 3.0d
 		}
 		{
@@ -309,7 +309,7 @@
 				item: { count: 1, id: "hazennstuff:runestone_fragments" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -1.5d
 			y: 3.0d
 		}
 		{

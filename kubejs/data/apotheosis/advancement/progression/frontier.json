@@ -1,6 +1,20 @@
 {
     "parent": "apotheosis:progression/haven",
     "criteria": {
+        "kill_wither": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:wither"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
         "kill_elder_guardian": {
             "conditions": {
                 "entity": [
@@ -30,6 +44,9 @@
         }
     },
     "requirements": [
+        [
+            "kill_wither"
+        ],
         [
             "kill_elder_guardian"
         ]

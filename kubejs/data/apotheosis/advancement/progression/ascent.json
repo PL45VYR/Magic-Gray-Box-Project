@@ -7,20 +7,6 @@
             },
             "trigger": "gateways:finish_gateway"
         },
-        "kill_wither": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:wither"
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:player_killed_entity"
-        },
         "kill_dead_king": {
             "conditions": {
                 "entity": [
@@ -67,9 +53,6 @@
     "requirements": [
         [
             "complete_frontier_gate"
-        ],
-        [
-            "kill_wither"
         ],
         [
             "kill_dead_king"
