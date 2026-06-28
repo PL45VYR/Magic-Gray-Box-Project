@@ -164,6 +164,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "hazennstuff:lemon" })
     event.remove({ output: "hazennstuff:nether_star_fragment" })
     event.remove({ output: "hazennstuff:starkissed_zenalite" })
+    event.remove({ output: "irons_spellbooks:cinderous_soulcaller" })
 
     // Just Dire Things
     event.remove({ output: "justdirethings:gooblock_tier1" })
