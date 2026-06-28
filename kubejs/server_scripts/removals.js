@@ -28,6 +28,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove(/igleelib.*/)
     event.remove(/.*aiot/)
     event.remove('ars_nouveau:ritual_containment')
+    event.remove('hazennstuff:starkissed_zenalite')
 })
 
 RecipeViewerEvents.removeEntriesCompletely("fluid", event => {
@@ -131,6 +132,9 @@ ServerEvents.recipes(event => {
     event.remove({ output: "forbidden_arcanus:arcane_crystal_dust", type: "minecraft:smelting" })
     event.remove({ output: "forbidden_arcanus:arcane_crystal_dust", type: "minecraft:blasting" })
 
+    // Gateways
+    event.remove({ id: "apotheosis:gateways/tiered/frontier" })
+
     // Hexerei
 
     // Immersive Engineering
@@ -164,6 +168,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "hazennstuff:lemon" })
     event.remove({ output: "hazennstuff:nether_star_fragment" })
     event.remove({ output: "hazennstuff:starkissed_zenalite" })
+    event.remove({ id: /.*zenalite_from.*/ })
     event.remove({ output: "irons_spellbooks:cinderous_soulcaller" })
 
     // Just Dire Things

@@ -121,7 +121,6 @@ ServerEvents.recipes(event => {
     })
 
     // Temporal Pouch Recipe
-
     event.recipes.extendedcrafting.shaped_table('gag:time_sand_pouch',
         [
             "ABCBA",
@@ -148,6 +147,9 @@ ServerEvents.recipes(event => {
             }
         }
     )
+
+    // Wayward Compass Tweak
+    event.replaceInput({output: 'irons_spellbooks:wayward_compass'}, 'minecraft:soul_lantern', 'quark:soul_bead')
 
     // Ender Pearl Overhauls
 
@@ -309,7 +311,6 @@ ServerEvents.recipes(event => {
     // Gateways
     let summoner_gateways = [
         Ingredient.of('gateways:gate_pearl[gateways:gateway="apotheosis:tiered/summit"]'),
-        Ingredient.of('gateways:gate_pearl[gateways:gateway="apotheosis:tiered/frontier"]'),
         Ingredient.of('gateways:gate_pearl[gateways:gateway="apotheosis:tiered/ascent"]')
     ]
     summoner_gateways.forEach(gateway => {

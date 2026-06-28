@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
         "energy": 1000000,
         "ingredients": [
             {
-                "item": "actuallyadditions:emeradic_crystal"
+                "item": "oritech:uranium_gem"
             }
         ],
         "result": {
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
         "energy": 20000000,
         "ingredients": [
             {
-                "item": "extendedcrafting:flux_star"
+                "item": "oritech:overcharged_crystal"
             },
             {
                 "item": "actuallyadditions:restonia_crystal_block"
