@@ -1,0 +1,46 @@
+{
+  "enhancers": "forbidden_arcanus:elementarium",
+  "essences": {
+    "aureal": 1000,
+    "blood": 2250,
+    "souls": 3
+  },
+  "forge_tier": 2,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "reliquary:bat_wing"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "malum:wind_nucleus"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "ars_nouveau:air_essence"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "malum:block_of_astral_weave"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "forbidden_arcanus:whirlwind_prism"
+    }
+  }
+}
