@@ -699,7 +699,7 @@ ServerEvents.recipes(event => {
                 "item": "malum:imitation_heart"
             },
             "D": {
-                "item": "endermanoverhaul:summoner_pearl"
+                "item": "actuallyadditions:empowered_emeradic_crystal"
             }
         }
     )
