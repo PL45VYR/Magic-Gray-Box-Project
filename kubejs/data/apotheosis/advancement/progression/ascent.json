@@ -7,6 +7,20 @@
             },
             "trigger": "gateways:finish_gateway"
         },
+        "kill_netherite_monstrosity": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "cataclysm:netherite_monstrosity"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        },
         "kill_dead_king": {
             "conditions": {
                 "entity": [
@@ -59,6 +73,9 @@
         ],
         [
             "kill_chimera"
+        ],
+        [
+            "kill_netherite_monstrosity"
         ]
     ],
     "rewards": {

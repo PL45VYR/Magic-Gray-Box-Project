@@ -7,20 +7,6 @@
             },
             "trigger": "gateways:finish_gateway"
         },
-        "kill_ignis": {
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "cataclysm:ignis"
-                        }
-                    }
-                ]
-            },
-            "trigger": "minecraft:player_killed_entity"
-        },
         "kill_ancient_remnant": {
             "conditions": {
                 "entity": [
@@ -95,9 +81,6 @@
     "requirements": [
         [
             "complete_summit_gate"
-        ],
-        [
-            "kill_ignis"
         ],
         [
             "kill_ancient_remnant"

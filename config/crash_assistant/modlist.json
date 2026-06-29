@@ -612,13 +612,13 @@
     "curseForgeHash": 872213290,
     "modrinthHash": "6a278b5a2788c2fee7ae52d17f24187332d436b2"
   },
-  "collective-1.21.1-8.32.jar": {
-    "jarName": "collective-1.21.1-8.32.jar",
+  "collective-1.21.1-8.38.jar": {
+    "jarName": "collective-1.21.1-8.38.jar",
     "modId": "collective",
     "name": "Collective",
-    "version": "8.32",
-    "curseForgeHash": 3283762262,
-    "modrinthHash": "9b3d7e03fed2a098d988e6992029f2e279bbc73d"
+    "version": "8.38",
+    "curseForgeHash": 3268296965,
+    "modrinthHash": "21e6e468a7bc8a1d84a1f7317a91783796ac3725"
   },
   "colorfulhearts-neoforge-1.21.1-10.5.9.jar": {
     "jarName": "colorfulhearts-neoforge-1.21.1-10.5.9.jar",
@@ -2585,13 +2585,13 @@
     "curseForgeHash": 1164716210,
     "modrinthHash": "0310135a01eeceefbc7f1ab017498a65f3ad6836"
   },
-  "sodium-extra-neoforge-0.6.0+mc1.21.1.jar": {
-    "jarName": "sodium-extra-neoforge-0.6.0+mc1.21.1.jar",
+  "sodium-extra-neoforge-0.9.0+mc1.21.1.jar": {
+    "jarName": "sodium-extra-neoforge-0.9.0+mc1.21.1.jar",
     "modId": "sodium_extra",
     "name": "Sodium Extra",
-    "version": "0.6.0+mc1.21.1",
-    "curseForgeHash": 1727270791,
-    "modrinthHash": "7473bb42753902c639294821af13e9cd9ee735da"
+    "version": "0.9.0+mc1.21.1",
+    "curseForgeHash": 2681611316,
+    "modrinthHash": "1e20510d2bfb72dc369059a14e81f0fa417d81a2"
   },
   "sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar": {
     "jarName": "sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar",
@@ -2641,13 +2641,13 @@
     "curseForgeHash": 522250828,
     "modrinthHash": "2cfa79f5cc97ce8fea999902612a38d368ac9f83"
   },
-  "sophisticatedcore-1.21.1-1.4.61.2066.jar": {
-    "jarName": "sophisticatedcore-1.21.1-1.4.61.2066.jar",
+  "sophisticatedcore-1.21.1-1.4.62.2079.jar": {
+    "jarName": "sophisticatedcore-1.21.1-1.4.62.2079.jar",
     "modId": "sophisticatedcore",
     "name": "Sophisticated Core",
-    "version": "1.4.61",
-    "curseForgeHash": 3006167761,
-    "modrinthHash": "b33edcdec3a94592af3aa772283cdc837d12ba3d"
+    "version": "1.4.62",
+    "curseForgeHash": 110058969,
+    "modrinthHash": "2d29c9be59e26c18d06af11a737893bb9ec7af0c"
   },
   "sophisticateditemactions-1.21.1-0.5.6.325.jar": {
     "jarName": "sophisticateditemactions-1.21.1-0.5.6.325.jar",
@@ -2657,13 +2657,13 @@
     "curseForgeHash": 55907026,
     "modrinthHash": "3d6f4b38e05fc1aa5fb267a99d389fa29ffad036"
   },
-  "sophisticatedstorage-1.21.1-1.5.64.1881.jar": {
-    "jarName": "sophisticatedstorage-1.21.1-1.5.64.1881.jar",
+  "sophisticatedstorage-1.21.1-1.5.65.1903.jar": {
+    "jarName": "sophisticatedstorage-1.21.1-1.5.65.1903.jar",
     "modId": "sophisticatedstorage",
     "name": "Sophisticated Storage",
-    "version": "1.5.64",
-    "curseForgeHash": 3932424109,
-    "modrinthHash": "d2d45965025700db5ab4d2762d7ec2ae0177a112"
+    "version": "1.5.65",
+    "curseForgeHash": 3939147092,
+    "modrinthHash": "32f66f8ed7106a794b584bf9200d6f6a69bf9f42"
   },
   "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.21.1-0.1.17.132.jar",
@@ -2833,13 +2833,13 @@
     "curseForgeHash": 1338619755,
     "modrinthHash": "4a1f4307fc8dea95667fe88c8d39f87e2b370643"
   },
-  "toomanyrecipeviewers-0.8.1+mc.21.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.8.1+mc.21.1.jar",
+  "toomanyrecipeviewers-0.9.0+mc.21.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.9.0+mc.21.1.jar",
     "modId": "toomanyrecipeviewers",
     "name": "TooManyRecipeViewers",
-    "version": "0.8.1+mc.21.1",
-    "curseForgeHash": 388871551,
-    "modrinthHash": "4f349431752b0881f900a52475de494de5d83f53"
+    "version": "0.9.0+mc.21.1",
+    "curseForgeHash": 601409158,
+    "modrinthHash": "d82ca1db3f4323534b1ce5f43b94a5ae31f65edb"
   },
   "torchmaster-neoforge-1.21.1-21.1.9.jar": {
     "jarName": "torchmaster-neoforge-1.21.1-21.1.9.jar",

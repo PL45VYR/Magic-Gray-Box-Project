@@ -7,28 +7,28 @@
             },
             "trigger": "gateways:finish_gateway"
         },
-        "kill_tyros": {
+        "kill_ignis": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "irons_spellbooks:fire_boss"
+                            "type": "cataclysm:ignis"
                         }
                     }
                 ]
             },
             "trigger": "minecraft:player_killed_entity"
         },
-        "kill_netherite_monstrosity": {
+        "kill_maledictus": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "cataclysm:netherite_monstrosity"
+                            "type": "cataclysm:maledictus"
                         }
                     }
                 ]
@@ -49,14 +49,14 @@
             },
             "trigger": "minecraft:player_killed_entity"
         },
-        "kill_maledictus": {
+        "kill_tyros": {
             "conditions": {
                 "entity": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "cataclysm:maledictus"
+                            "type": "irons_spellbooks:fire_boss"
                         }
                     }
                 ]
@@ -86,13 +86,13 @@
             "kill_tyros"
         ],
         [
-            "kill_netherite_monstrosity"
-        ],
-        [
             "kill_the_harbinger"
         ],
         [
             "kill_maledictus"
+        ],
+        [
+            "kill_ignis"
         ]
     ],
     "rewards": {
