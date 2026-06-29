@@ -130,6 +130,46 @@ ServerEvents.recipes(event => {
         "sourceCost": 1000
     })
 
+    // Mage Spell Book Recipe
+    event.custom({
+        "type": "ars_nouveau:enchanting_apparatus",
+        "keepNbtOfReagent": true,
+        "pedestalItems": [
+            {
+                "item": "forbidden_arcanus:whirlwind_prism"
+            },
+            {
+                "item": "eidolon_repraised:holy_symbol"
+            },
+            {
+                "item": "forbidden_arcanus:smelter_prism"
+            },
+            {
+                "item": "occultism:afrit_essence"
+            },
+            {
+                "item": "forbidden_arcanus:terrastomp_prism"
+            },
+            {
+                "item": "eidolon_repraised:unholy_symbol"
+            },
+            {
+                "item": "forbidden_arcanus:sea_prism"
+            },
+            {
+                "item": "sauce:anima_essence"
+            },
+        ],
+        "reagent": {
+            "item": "ars_nouveau:novice_spell_book"
+        },
+        "result": {
+            "count": 1,
+            "id": "ars_nouveau:apprentice_spell_book"
+        },
+        "sourceCost": 10000
+    })
+
     // Tablet Recipe Tweaks
 
     // Cloudshaping
