@@ -136,15 +136,6 @@ ServerEvents.recipes(event => {
         "keepNbtOfReagent": true,
         "pedestalItems": [
             {
-                "item": "forbidden_arcanus:whirlwind_prism"
-            },
-            {
-                "item": "eidolon_repraised:holy_symbol"
-            },
-            {
-                "item": "forbidden_arcanus:smelter_prism"
-            },
-            {
                 "item": "occultism:afrit_essence"
             },
             {
@@ -159,6 +150,15 @@ ServerEvents.recipes(event => {
             {
                 "item": "sauce:anima_essence"
             },
+            {
+                "item": "forbidden_arcanus:whirlwind_prism"
+            },
+            {
+                "item": "eidolon_repraised:holy_symbol"
+            },
+            {
+                "item": "forbidden_arcanus:smelter_prism"
+            }
         ],
         "reagent": {
             "item": "ars_nouveau:novice_spell_book"
