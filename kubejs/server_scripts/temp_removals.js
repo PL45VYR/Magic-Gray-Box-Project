@@ -59,9 +59,6 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "extendedcrafting", output: /.*ultimate.*/ })
     event.remove({ output: "extendedcrafting:compressor" })
 
-    // Modular Routers
-    //event.remove({ mod: "modularrouters" })
-
     // Replication
     event.remove({ mod: "replication" })
 
@@ -79,9 +76,6 @@ ServerEvents.recipes(event => {
 
     // Hostile Neural Networks
     event.remove({ mod: "hostilenetworks" })
-
-    // Laser IO
-    //event.remove({ mod: "laserio" })
 
     // Ars Nouveau
     event.remove({ id: /.*book_upgrade/ })

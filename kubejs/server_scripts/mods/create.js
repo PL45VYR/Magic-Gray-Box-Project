@@ -322,4 +322,20 @@ ServerEvents.recipes(event => {
             }
         }
     )
+
+    // Logic Chip Recipe
+    event.recipes.create.sequenced_assembly(
+        [
+            CreateItem.of('laserio:logic_chip')
+        ],
+        'actuallyadditions:ethetic_white_block',
+        [
+            event.recipes.create.deploying('laserio:logic_chip_raw', ['laserio:logic_chip_raw', Ingredient.of('#c:nuggets/electrum')]),
+            event.recipes.create.deploying('laserio:logic_chip_raw', ['laserio:logic_chip_raw', Ingredient.of('#c:nuggets/electrum')]),
+            event.recipes.create.deploying('laserio:logic_chip_raw', ['laserio:logic_chip_raw', 'actuallyadditions:restonia_crystal']),
+            event.recipes.create.filling('laserio:logic_chip_raw', ['laserio:logic_chip_raw', Fluid.of('evolvedmekanism:molten_slime', 125)])
+        ]
+    )
+        .transitionalItem('laserio:logic_chip_raw')
+        .loops(4)
 })

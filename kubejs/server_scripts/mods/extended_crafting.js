@@ -58,6 +58,37 @@ ServerEvents.recipes(event => {
         event.remove({ id: recipe_id })
     })
 
+    // LaserIO and Modular Router Shaped to Flux Conversion
+    event.forEachRecipe([
+        { type: "minecraft:crafting_shaped", mod: "modularrouters" },
+        { type: "minecraft:crafting_shaped", mod: "laserio", not: { output: "laserio:logic_chip_raw" } }
+    ], new_recipe => {
+        let old_recipe = JSON.parse(new_recipe.json.toString())
+        event.custom({
+            "type": "extendedcrafting:shaped_flux_crafter",
+            "power_required": 100000,
+            "power_rate": 400,
+            "pattern": old_recipe.pattern,
+            "key": old_recipe.key,
+            "result": old_recipe.result
+        })
+    })
+
+    // LaserIO and Modular Router Shapeless to Flux Conversion
+    event.forEachRecipe([
+        { type: "minecraft:crafting_shapeless", mod: "modularrouters" },
+        { type: "minecraft:crafting_shapeless", mod: "laserio", not: { id: /.*nbtclear/ } }
+    ], new_recipe => {
+        let old_recipe = JSON.parse(new_recipe.json.toString())
+        event.custom({
+            "type": "extendedcrafting:shapeless_flux_crafter",
+            "power_required": 100000,
+            "power_rate": 400,
+            "ingredients": old_recipe.ingredients,
+            "result": old_recipe.result
+        })
+    })
+
     let excrafting_ender = []
 
     excrafting_ender.forEach(recipe_id => {

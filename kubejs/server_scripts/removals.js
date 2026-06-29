@@ -29,6 +29,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove(/.*aiot/)
     event.remove('ars_nouveau:ritual_containment')
     event.remove('hazennstuff:starkissed_zenalite')
+    event.remove('laserio:logic_chip_raw')
 })
 
 RecipeViewerEvents.removeEntriesCompletely("fluid", event => {
@@ -189,6 +190,8 @@ ServerEvents.recipes(event => {
     event.remove({ output: /igleelib.*/ })
     event.remove({ output: /cataclysm.*eye/ })
     event.remove({ id: "gag:time_sand_pouch" })
+    event.remove({ mod: "modularrouters", not: [{ output: /.*extruder_module_1/ }, { output: /.*breaker.*/ }] })
+    event.remove({ mod: "laserio", not: { id: /.*nbtclear/ } })
 
     // Occultism
     event.remove({ output: /occultism.*impure/ })
