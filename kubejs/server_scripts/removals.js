@@ -98,6 +98,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "enderio:iron_gear" })
     event.remove({ output: "enderio:dark_steel_ingot" })
     event.remove({ id: /.*alloy_smelting.*ingot/ })
+    event.remove({ output: /enderio.*chassis/ })
 
     // Extended Crafting
     event.remove({ id: "extendedcrafting:black_iron_ingot" })
@@ -113,6 +114,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:redstone_ingot" })
     event.remove({ id: "extendedcrafting:flux_crafter" })
     event.remove({ id: "extendedcrafting:flux_alternator" })
+    event.remove({ mod: "extendedcrafting", output: /.*auto.*/ })
     event.remove({ id: "extendedcrafting:enhanced_redstone_ingot" })
     event.remove({ id: "extendedcrafting:flux_star" })
     event.remove({ id: "extendedcrafting:redstone_component" })
@@ -176,6 +178,7 @@ ServerEvents.recipes(event => {
 
     // Just Dire Things
     event.remove({ output: "justdirethings:gooblock_tier1" })
+    event.remove({ output: "justdirethings:gooblock_tier2" })
     event.remove({ id: "justdirethings:raw_ferricore_ore-goospread" })
     event.remove({ id: "justdirethings:raw_blazegold_ore-goospread" })
     event.remove({ id: "justdirethings:raw_celestigem_ore-goospread" })
@@ -193,7 +196,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: /cataclysm.*eye/ })
     event.remove({ id: "gag:time_sand_pouch" })
     event.remove({ mod: "modularrouters", not: [{ output: /.*extruder_module_1/ }, { output: /.*breaker.*/ }] })
-    event.remove({ mod: "laserio", not: { id: /.*nbtclear/ } })
+    event.remove({ mod: "laserio", not: { id: /.*nbtclear/ }, not: { output: /.*book.*/ } })
 
     // Occultism
     event.remove({ output: /occultism.*impure/ })
@@ -214,7 +217,14 @@ ServerEvents.recipes(event => {
     // Powah
     event.remove({ output: /powah:crystal.*/ })
     event.remove({ output: /.*uraninite_ore.*/ })
+    event.remove({ id: /.*uraninite_from.*/ })
     event.remove({ output: /.*sulfur_uraninite/ })
+    event.remove({ output: 'powah:dielectric_casing' })
+    event.remove({ output: 'powah:dielectric_paste' })
+    event.remove({ output: /.*dielectric_rod.*/ })
+    event.remove({ output: 'powah:steel_energized' })
+    event.remove({ output: 'powah:photoelectric_pane' })
+    event.remove({ output: 'powah:energizing_orb' })
 
     // Railcraft Reborn
     event.remove({ id: /railcraft:.*crafted_with_ingots/ })

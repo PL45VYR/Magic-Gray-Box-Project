@@ -43,6 +43,7 @@
 	quest.076C783CF8207D8C.quest_desc: ["An Athame is a dagger often used in ritual magic. These rituals often use unique herbs, which may only be acquired by an Athame itself."]
 	quest.0832C3C66887F0B9.quest_desc: ["Cutting down some white flowers such as White Tulips with an Athame will allow you to extract Merammer Root."]
 	quest.089903D5C1D065A9.quest_desc: ["Gray Paste has the ability to reconstruct various minerals from their dust forms. Empowered Enori is absolutely essential to making this possible."]
+	quest.08E97D8A59DAED2A.quest_desc: ["Afrit Essence is more than strong enough to attract less temperamental Afrits. Imbue it into some Red Chalk to conduct rituals that can call forth these spirits."]
 	quest.0C1A008AAA58EA4D.quest_desc: [
 		"Mechanical Crafters give you a very structured way to complete crafts, to the point of enabling automation."
 		""
@@ -53,6 +54,7 @@
 		""
 		"Give the reconstructor some power and watch the magic happen!"
 	]
+	quest.0C4B5E1579509716.quest_desc: ["Energetic Alloy is a material that requires a combination of Conductive Alloy and Blazegold. It enables even more technologies available in Ender IO."]
 	quest.0C536BDC372C9E8C.quest_desc: [
 		"Arc Furnaces are the ultimate upgrade for your alloying endeavors. However, in order to function, they need to constantly maintain 3 Graphite Electrodes."
 		""
@@ -93,6 +95,7 @@
 		""
 		"You're very likely to get these rarity-affixed items in a general mob farm. Try setting one up!"
 	]
+	quest.14ADE066C6529295.quest_desc: ["Mage Spell Books are rather powerful, capable of enabling various elemental magic synergies. Such power is a reward reserved for those with competence in a variety of other forms of magic and those who have triumphed in raging battles against formiddable beasts."]
 	quest.15341EDB20E0F0DA.quest_desc: ["Empowered Crystals are even more relevant to hi-tech crafts than their respective Reconstructed Crystals. Be ready to use these in high quantity in the near future!"]
 	quest.15341EDB20E0F0DA.title: "Empowered Crystals"
 	quest.1575B4620DE8EFD5.quest_desc: ["Crushing up some gold into dust gives you a foundation for a new type of chalk. However, you may need more than just one pile of it."]
@@ -129,6 +132,7 @@
 	quest.1B446A6EEC8D89A5.title: "Welcome to MGBP!"
 	quest.1DB5FC44276D6EDC.quest_desc: ["As you begin to travel the world, you realize the tools of creation available to you. Technological advancements of all sorts lie ahead, but your indulgence in some magic should not be abandoned."]
 	quest.1EF964471B640AE3.quest_desc: ["Glow Berries are a food source distinctly found in Lush Caves. Mixing a bundle of them together using a Mechanical Mixer will allow you to create Lumisene, a fluid with a glimmering appearance."]
+	quest.202B6F0CFF14222A.quest_desc: ["Only an Energizing Orb can concentrate enough power to transform a Nether Star into a Flux Star using the conductive nature of electrum."]
 	quest.203DDD360241C4A8.quest_desc: [
 		"Arcane Essence is often found within spaces where skilled wizards, witches, and warlocks reside."
 		""
@@ -240,7 +244,9 @@
 		""
 		"From here, you'll notice that you can't make any sort of ingot out of Pewter Blend. This will require some alchemical processing."
 	]
+	quest.29F4AC8647FA5506.quest_desc: ["The technology for automating your Extended Crafting machines is finally here! Bolster your crafter with some Enhanced Redstone and Crystaltine to set your machines up for the ability to be automated."]
 	quest.2A325823A1018E2B.quest_desc: ["Luminessence draws from Lumisene's glow, enhancing it with the conductivity of redstone and reactivity of gunpowder. There are a few uses for this strange material, so you may want a bit of it in reserve."]
+	quest.2A66F6DC396BCEB7.quest_desc: ["Crystaltine Catalysts, on behalf of the magical components used in making Crystaltine Ingots, allow Extended Crafting machines to remember recipes for automation."]
 	quest.2AD723222CEDDB43.quest_desc: ["To improve the foundation of your ritual grounds, you'll want to darken your chalks some more. Light Gray is the next best chalk for this, requiring some silver, some crushed calcite, and a few Wraith Hearts."]
 	quest.2BF233F471AB3CBF.quest_desc: [
 		"Reinforced Blast Brick serves as the foundation for an Improved Blast Furnace, which can properly receive inputs and outputs for automation purposes."
@@ -263,6 +269,7 @@
 		""
 		"In some cases, you may find yourself enhancing your weapons with spirit magic!"
 	]
+	quest.2F7FA743F3111DDC.quest_desc: ["Mining Blazegold clusters drops Raw Blazegold Ore, which you can smelt into Blazegold Ingots, a material used for more impressive machinery."]
 	quest.30976C41DB64AB90.quest_desc: [
 		"Runewood was a discovery made by using trees to crystalize Merammer Resin with soul magic. These trees create a new and magical wood for handling spirit magic."
 		""
@@ -292,6 +299,7 @@
 		""
 		"This item must be crafted in an Engineer's Workbench using the Crafting Components blueprint."
 	]
+	quest.324FF3DD46AE7CA5.quest_desc: ["A small battle may be held on your ritual grounds made of fiery Blazes and a single Unbound Afrit by sacrificing a Cow and various fire-based items. Slay the Unbound Afrit to acquire its essence."]
 	quest.3324CAAAB1255466.quest_desc: ["Mixing redstone in a heated basin melts it into a form that can coat a quartz gem. This allows you to acquire Rose Quartz, a material often polished for redstone-oriented uses."]
 	quest.3386B580FBE8BBD2.quest_desc: [
 		"Mechanical Mixers let you mix things together more easily than in a cauldron. From shapeless crafts to newly-brewed potions, there are many ways to make use of this new technology."
@@ -340,8 +348,11 @@
 		""
 		"The fun has only just begun."
 	]
+	quest.3CC6BA7644BDBAE0.quest_desc: ["Enhanced Redstone Catalysts, on behalf of the energized components used in making Enhanced Redstone Ingots, allow Extended Crafting machines to map out the logic required for automating its recipes."]
+	quest.3D8285CDE13C408A.quest_desc: ["With enough energy and a few catalyzing ingredients, Void Chassis can be transformed into Ensouled Chassis, which enables some soul manipulation technology."]
 	quest.3E3F317CF8D5095A.quest_desc: ["Four elements begin to take shape inside your Source Gems during imbuement discoveries: air, earth, fire, and water. They manifest as essences, which give you more insight on how those magical glyphs might be recorded."]
 	quest.3E3F317CF8D5095A.title: "Elemental Essences"
+	quest.40022A3394135546.quest_desc: ["Alloying Redstone Ingots with Energetic Alloy grants you a Redstone Alloy. It's a crucial material that can be enhanced with some concentrated energy..."]
 	quest.407E3BBAE5713AA7.quest_desc: ["Dielectric Casing is a stable, hardened machine frame used in various recipes for the Powah mod, which has a variety of uses in improving your energy network."]
 	quest.4299D9545D9A81EB.quest_desc: [
 		"Reconstructed crystals come in 6 forms, based on the material used:"
@@ -363,6 +374,7 @@
 		""
 		"Now you can send power to whatever machines you please."
 	]
+	quest.435F23B4BD2583E0.quest_desc: ["Niotic Crystals are an intermediate-tier crystal which has enough energy to be used to craft Crystaltine Components."]
 	quest.44AB4F133C5EEB52.quest_desc: [
 		"An ingot from the gods, Deorum Ingots are a magically-empowered metal, whose uses are deeply entwined with the forbidden and the arcane."
 		""
@@ -419,6 +431,11 @@
 	quest.4A792E46F811CE2E.title: "Field Projector"
 	quest.4AA0ABCFB7E66232.quest_desc: ["A strange eminence from the ground reveals the presence of soulstone, a material that needs some refinement. Its magical aura feels like a way to enhance your crafting capabilities even further..."]
 	quest.4C453502BD8554C2.quest_desc: ["The Alloy Smelter's compacted structure is perfect for handling the creation of more advanced alloys, including that of Conductive Alloy and Pulsating Alloy."]
+	quest.4C8B410232BA63BB.quest_desc: [
+		"Many of the Powah items require energy to craft them, which must be accomplished with an Energizing Orb."
+		""
+		"Supply power to these with Energizing Rods, which will increase the crafting speed by placing more rods or upgrading the rods."
+	]
 	quest.4CF512A76BBD9F7E.quest_desc: ["Basic Capacitors, while cheap, need some extra energy to be made truly effective. Use your Flux Crafter to make several of these for some upcoming crafts."]
 	quest.4E6EC8EE2C8CD5B8.quest_desc: [
 		"Afrits overpower Djinnis in power, but are more drawn to Orange Chalk than they are to Lime."
@@ -642,6 +659,7 @@
 	quest.76545252F04F6E22.quest_desc: ["Exploring the world will eventually cause you to come across Runestone Slag, a rare and magical material. It can be used to craft extra Blank Runestones."]
 	quest.7778CF10C5B6076E.title: "Frontier Gateway"
 	quest.777BD223A35E7233.quest_desc: ["The Magic Workbench enables you to craft a variety of magical items. Some of these items will reveal more hidden secrets within the Overworld or enable you to gain more knowledge of it."]
+	quest.77D8553E491BD317.quest_desc: ["Only Afrit magic is strong enough to smolder your Primogel into Blazebloom. Bind an Afrit to your Primogel to get this goo block upgrade."]
 	quest.7A322E5A606919C5.quest_desc: [
 		"Braziers made from pewter give you the ability to conduct simple rituals. One such ritual will allow you to slay nearby undead creatures to acquire Soul Shards, a primary ingredient for various magical crafts."
 		""

@@ -65,6 +65,7 @@
 		{
 			dependencies: ["324FF3DD46AE7CA5"]
 			id: "14ADE066C6529295"
+			optional: true
 			shape: "octagon"
 			tasks: [{
 				id: "256A904CE6F04FAB"
@@ -102,6 +103,7 @@
 		{
 			dependencies: ["4C8B410232BA63BB"]
 			id: "3D8285CDE13C408A"
+			optional: true
 			shape: "octagon"
 			tasks: [{
 				id: "702119FCFBF83ADA"
@@ -145,7 +147,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["202B6F0CFF14222A"]
+			dependencies: [
+				"202B6F0CFF14222A"
+				"40022A3394135546"
+			]
 			icon: {
 				id: "extendedcrafting:enhanced_redstone_catalyst"
 			}
@@ -166,10 +171,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"40022A3394135546"
-				"4C8B410232BA63BB"
-			]
+			dependencies: ["4C8B410232BA63BB"]
 			id: "202B6F0CFF14222A"
 			tasks: [{
 				id: "289A6D3E808C9752"
