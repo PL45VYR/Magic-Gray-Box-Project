@@ -35,4 +35,35 @@ ServerEvents.recipes(event => {
 
     // Vibrating Crystal Recipe Tweak
     event.replaceInput({ output: "enderio:vibrant_crystal" }, 'minecraft:emerald', 'actuallyadditions:emeradic_crystal')
+
+    // Dielectric Paste Recipe
+    event.recipes.enderio.alloy_smelting(Item.of('powah:dielectric_paste', 2), [Ingredient.of('#c:dusts/coal', 2), 'minecraft:clay_ball'], 3200)
+
+    // Photovoltaic Composite Recipe Tweaks
+    event.replaceInput({ output: "enderio:photovoltaic_composite" }, Ingredient.of('#c:dusts/coal'), Ingredient.of('#c:gems/black_quartz'))
+    event.replaceInput({ output: "enderio:photovoltaic_composite" }, Ingredient.of('#c:silicon'), 'powah:dielectric_paste')
+
+    // Ensouled Chassis Recipe
+    event.custom({
+        "type": "powah:energizing",
+        "energy": 250000,
+        "ingredients": [
+            {
+                "item": "enderio:void_chassis"
+            },
+            {
+                "item": "powah:steel_energized"
+            },
+            {
+                "item": "enderio:soul_chain"
+            },
+            {
+                "tag": "c:ingots/soularium"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "id": "enderio:ensouled_chassis"
+        }
+    })
 })
