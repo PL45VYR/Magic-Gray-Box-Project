@@ -42,6 +42,7 @@
 	quest.06B6CE6A813EE15E.quest_desc: ["Brewing up some Soul Shards with minerals such as Redstone and Quartz (find some in a geode down in the caves!) will allow them to coalesce as a Lesser Soul Gem."]
 	quest.076C783CF8207D8C.quest_desc: ["An Athame is a dagger often used in ritual magic. These rituals often use unique herbs, which may only be acquired by an Athame itself."]
 	quest.0832C3C66887F0B9.quest_desc: ["Cutting down some white flowers such as White Tulips with an Athame will allow you to extract Merammer Root."]
+	quest.089903D5C1D065A9.quest_desc: ["Gray Paste has the ability to reconstruct various minerals from their dust forms. Empowered Enori is absolutely essential to making this possible."]
 	quest.0C1A008AAA58EA4D.quest_desc: [
 		"Mechanical Crafters give you a very structured way to complete crafts, to the point of enabling automation."
 		""
@@ -108,6 +109,7 @@
 		"Find a way to fuse these electronics with the arcane power of Deorum."
 	]
 	quest.18950277D37C89F1.quest_desc: ["Mechanical Presses will flatten most things placed beneath them. This is a great way to make sheets from metals such as iron or gold!"]
+	quest.18FF3BBD5DCC2844.quest_desc: ["Redstone Catalysts are pivotal in creating your new machines. Given power by Redstone Ingots and a stable Basic Capacitors, these are primitive yet significant enablers of higher-level automation."]
 	quest.1AF004E444A31F19.quest_desc: [
 		"The Weeping Well is a mysterious structure that may be encountered deep underground. Its magical properties transform various items that fall into them."
 		""
@@ -247,6 +249,7 @@
 	]
 	quest.2BF233F471AB3CBF.title: "Improved Blast Furnace"
 	quest.2C2B41465E3BEFF7.quest_desc: ["Fighting enough of those scary Wraiths may cause you to come across one of their hearts. The cold feeling of these hearts inclines you to believe they might have some more occult uses."]
+	quest.2C9A21C911AA39F7.quest_desc: ["Gray Chalk further strengthens your ritual grounds, able to help you conduct higher-level rituals."]
 	quest.2D3BA340F1A6957F.quest_desc: [
 		"Distillation Towers let you turn your new Crude Oil into a variety of byproducts. This includes Naphtha, Kerosene, Sulfurized Diesel, and Lubricant, which all have their own sets of uses."
 		""
@@ -339,6 +342,7 @@
 	]
 	quest.3E3F317CF8D5095A.quest_desc: ["Four elements begin to take shape inside your Source Gems during imbuement discoveries: air, earth, fire, and water. They manifest as essences, which give you more insight on how those magical glyphs might be recorded."]
 	quest.3E3F317CF8D5095A.title: "Elemental Essences"
+	quest.407E3BBAE5713AA7.quest_desc: ["Dielectric Casing is a stable, hardened machine frame used in various recipes for the Powah mod, which has a variety of uses in improving your energy network."]
 	quest.4299D9545D9A81EB.quest_desc: [
 		"Reconstructed crystals come in 6 forms, based on the material used:"
 		""
@@ -414,6 +418,14 @@
 	quest.4A792E46F811CE2E.quest_desc: ["With enough Compact Machine Walls, you can build some Field Projectors. After getting four of them, place one at a raised height to start visualizing where you should place your second one. The further out the projector is, the larger your projection area will be."]
 	quest.4A792E46F811CE2E.title: "Field Projector"
 	quest.4AA0ABCFB7E66232.quest_desc: ["A strange eminence from the ground reveals the presence of soulstone, a material that needs some refinement. Its magical aura feels like a way to enhance your crafting capabilities even further..."]
+	quest.4C453502BD8554C2.quest_desc: ["The Alloy Smelter's compacted structure is perfect for handling the creation of more advanced alloys, including that of Conductive Alloy and Pulsating Alloy."]
+	quest.4CF512A76BBD9F7E.quest_desc: ["Basic Capacitors, while cheap, need some extra energy to be made truly effective. Use your Flux Crafter to make several of these for some upcoming crafts."]
+	quest.4E6EC8EE2C8CD5B8.quest_desc: [
+		"Afrits overpower Djinnis in power, but are more drawn to Orange Chalk than they are to Lime."
+		""
+		"Craft an Orange Chalk to allure Afrits to your world, albeit with rebellious attitudes..."
+	]
+	quest.4FBFC3DE08B8B3C6.quest_desc: ["Void Chassis is a steel-skeleton machine frame that allows you to begin an entry into the world of Ender IO. Some of its machines will help you acquire useful new resources."]
 	quest.5271FF3BE99AB631.quest_desc: [
 		"Alchemy relies heavily on Sal Ammoniac, a material that liquifies materials into an alchemical sulfur. Combine a Sal Ammoniac Crystal with some water to make it into a fluid using the Sal Ammoniac Accumulator!"
 		""
@@ -627,6 +639,7 @@
 		""
 		"If you wish to see the blocks more consistently, equip a pair of Otherworld Goggles!"
 	]
+	quest.76545252F04F6E22.quest_desc: ["Exploring the world will eventually cause you to come across Runestone Slag, a rare and magical material. It can be used to craft extra Blank Runestones."]
 	quest.7778CF10C5B6076E.title: "Frontier Gateway"
 	quest.777BD223A35E7233.quest_desc: ["The Magic Workbench enables you to craft a variety of magical items. Some of these items will reveal more hidden secrets within the Overworld or enable you to gain more knowledge of it."]
 	quest.7A322E5A606919C5.quest_desc: [
@@ -635,6 +648,7 @@
 		"Place some Stone Hands near the Brazier, add the input materials, and light the Brazier with Flint \\& Steel to begin the ritual!"
 	]
 	quest.7A9D786A5C88E36E.quest_desc: ["Placing Water Wheels near flowing water helps them spin. Use this spinning to make some machines to some work for you!"]
+	quest.7AE9544959A7D1C1.quest_desc: ["Cursed Honey drops from Possessed Bees. Perform a possession ritual to summon one."]
 	quest.7B32D8598CF89F0A.quest_desc: [
 		"Part of your industrial machinery development requires a power generator. The best one you can currently get is the Thermoelectric Generator, a greater difference in block temperature will result in a greater power output."
 		""
