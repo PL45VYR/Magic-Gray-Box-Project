@@ -77,7 +77,7 @@ ServerEvents.recipes(event => {
     // LaserIO and Modular Router Shapeless to Flux Conversion
     event.forEachRecipe([
         { type: "minecraft:crafting_shapeless", mod: "modularrouters" },
-        { type: "minecraft:crafting_shapeless", mod: "laserio", not: { id: /.*nbtclear/ } }
+        { type: "minecraft:crafting_shapeless", mod: "laserio", not: { id: /.*nbtclear/ }, not: { output: /.*book.*/ } }
     ], new_recipe => {
         let old_recipe = JSON.parse(new_recipe.json.toString())
         event.custom({
@@ -349,29 +349,6 @@ ServerEvents.recipes(event => {
             }
         }
     )
-
-    // Flux Star
-    event.custom({
-        "type": "extendedcrafting:shaped_flux_crafter",
-        "power_required": 500000,
-        "power_rate": 400,
-        "pattern": [
-            " A ",
-            "ABA",
-            " A "
-        ],
-        "key": {
-            "A": {
-                "item": "oritech:electrum_ingot"
-            },
-            "B": {
-                "item": "minecraft:nether_star"
-            }
-        },
-        "result": {
-            "id": "extendedcrafting:flux_star"
-        }
-    })
 
     // Enhanced Redstone
     event.custom({
