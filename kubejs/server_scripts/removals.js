@@ -30,6 +30,8 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove('ars_nouveau:ritual_containment')
     event.remove('hazennstuff:starkissed_zenalite')
     event.remove('laserio:logic_chip_raw')
+    event.remove(/.*uraninite_ore.*/)
+    event.remove(/.*uraninite_raw/)
 })
 
 RecipeViewerEvents.removeEntriesCompletely("fluid", event => {
@@ -211,6 +213,8 @@ ServerEvents.recipes(event => {
 
     // Powah
     event.remove({ output: /powah:crystal.*/ })
+    event.remove({ output: /.*uraninite_ore.*/ })
+    event.remove({ output: /.*sulfur_uraninite/ })
 
     // Railcraft Reborn
     event.remove({ id: /railcraft:.*crafted_with_ingots/ })

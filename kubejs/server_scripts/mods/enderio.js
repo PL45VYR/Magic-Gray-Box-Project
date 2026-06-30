@@ -29,4 +29,10 @@ ServerEvents.recipes(event => {
     imbalanced_alloying('enderio:soularium_ingot', ['powah:steel_energized', 'minecraft:soul_sand'], 5600)
     // End Steel
     imbalanced_alloying('enderio:end_steel_ingot', ['powah:steel_energized', 'minecraft:end_stone'], 6400)
+
+    // Pulsating Crystal Recipe Tweak
+    event.replaceInput({ output: "enderio:pulsating_crystal" }, 'minecraft:diamond', 'actuallyadditions:diamatine_crystal')
+
+    // Vibrating Crystal Recipe Tweak
+    event.replaceInput({ output: "enderio:vibrant_crystal" }, 'minecraft:emerald', 'actuallyadditions:emeradic_crystal')
 })

@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
                 "item": "forbidden_arcanus:sea_prism"
             },
             {
-                "item": "sauce:anima_essence"
+                "item": "ars_nouveau:wilden_tribute"
             },
             {
                 "item": "forbidden_arcanus:whirlwind_prism"
