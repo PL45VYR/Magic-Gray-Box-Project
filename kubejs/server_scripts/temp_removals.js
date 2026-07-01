@@ -13,19 +13,19 @@ ServerEvents.recipes(event => {
     event.remove({ input: /evolvedmekanism.*/ })
 
     // Oritech
-    event.remove({ id: /oritech:crafting\/.*/ })
-    event.remove({ id: /oritech:motor\/.*/ })
-    event.remove({mod: "oritechthings"})
+    //event.remove({ id: /oritech:crafting\/.*/ })
+    //event.remove({ id: /oritech:motor\/.*/ })
+    //event.remove({mod: "oritechthings"})
 
     // AE2
-    event.remove({ mod: "ae2" })
-    event.remove({ mod: "ae2things" })
+    //event.remove({ mod: "ae2" })
+    //event.remove({ mod: "ae2things" })
     event.remove({ mod: "ae2_mega_things" })
     event.remove({ mod: "megacells" })
     event.remove({ mod: "aeinfinitybooster" })
     event.remove({ mod: "extendedae" })
     event.remove({ mod: "advanced_ae" })
-    event.remove({ mod: "appflux" })
+    //event.remove({ mod: "appflux" })
     event.remove({ mod: "appmek" })
     event.remove({ mod: "rep_ae2_bridge" })
 
@@ -38,14 +38,6 @@ ServerEvents.recipes(event => {
     // Explorer Compass
     event.remove({ output: "explorerscompass:explorerscompass" })
 
-    // Ender IO
-    /*event.remove({
-        mod: "enderio", not: [
-            { output: 'enderio:dark_steel_block' },
-            { output: 'enderio:dark_steel_nugget' }
-        ]
-    })*/
-
     // Ender Storage
     event.remove({ mod: "enderstorage" })
 
@@ -53,10 +45,9 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "entangled" })
 
     // Extended Crafting
-    //event.remove({ mod: "extendedcrafting", output: /.*auto.*/ })
     //event.remove({ mod: "extendedcrafting", output: /.*component.*/ })
     //event.remove({ mod: "extendedcrafting", output: /.*catalyst.*/ })
-    //event.remove({ mod: "extendedcrafting", output: /.*ender.*/ })
+    event.remove({ mod: "extendedcrafting", output: /.*ender.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*ultimate.*/ })
     event.remove({ output: "extendedcrafting:compressor" })
 
@@ -67,16 +58,13 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "sgjourney", not: { output: "sgjourney:fire_pit" } })
 
     // Dyson Cube Project
-    event.remove({ mod: "dysoncubeproject" })
-
-    // Powah
-    //event.remove({ mod: "powah" })
+    //event.remove({ mod: "dysoncubeproject" })
 
     // Flux Networks
-    event.remove({ mod: "fluxnetworks" })
+    //event.remove({ mod: "fluxnetworks" })
 
     // Hostile Neural Networks
-    event.remove({ mod: "hostilenetworks" })
+    //event.remove({ mod: "hostilenetworks" })
 
     // Ars Nouveau
     event.remove({ id: /.*book_upgrade/ })
