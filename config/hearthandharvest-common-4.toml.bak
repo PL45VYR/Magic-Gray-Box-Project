@@ -16,7 +16,7 @@ crowSpawnRadius = 8
 #Radius that players, villgers, and repelling blocks will be effective towards scaring wild crows.
 #Setting to 0 would prevent crows from being scared
 # Default: 6
-# Range: 0 ~ 192
+# Range: 0 ~ 64
 crowScareRadius = 6
 #Whether water bottles should stack up to 16
 stackWaterBottles = true
@@ -25,3 +25,5 @@ generateCornMazes = true
 #Disables milking cows and goats with glass bottels. 
 #Be aware that setting this can cause goat milk bottles to be unobtainable unless handled otherwise
 disableBottleMilking = false
+#Whether a ghost preview of the trellis piece is shown before placing
+trellisPlacementPreview = true

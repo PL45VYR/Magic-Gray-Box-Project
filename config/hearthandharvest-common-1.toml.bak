@@ -1,4 +1,4 @@
-#Base chance (0.0 - 1.0) per random tick for a Tree Tapper to increase sap when on a tappable block.
+#Chance (0.0 - 1.0) per check interval (~2 seconds) for a Tree Tapper to collect sap when on a tappable block.
 #Higher values make sap fill faster.
 # Default: 0.5
 # Range: 0.0 ~ 1.0
@@ -37,3 +37,29 @@ saltedHungerBonus = 0.2
 # Default: 0.1
 # Range: 0.0 ~ 1.0
 saltedSaturationPenalty = 0.1
+#Radius in blocks that animals are kept within when near a salt block.
+# Default: 12
+# Range: 1 ~ 64
+saltAnimalRadius = 12
+#Ticks between each animal licking a nearby salt block. 9600 = 8 minutes.
+# Default: 9600
+# Range: 200 ~ 72000
+saltLickInterval = 9600
+#Chance (0.0–1.0) that a player's right-click lick degrades the salt block.
+# Default: 0.05
+# Range: 0.0 ~ 1.0
+saltPlayerLickChance = 0.05
+#Max animals in a 10-block radius before the food trough stops triggering breeding.
+# Default: 16
+# Range: 1 ~ 256
+troughBreedingCap = 16
+
+[manure]
+	#Drop manure after being fed
+	fedPoopEnabled = true
+	#Drop manure randomly over time
+	randomPoopEnabled = false
+	#1-in-N chance per second for random drop
+	# Default: 300
+	# Range: 1 ~ 10000
+	randomPoopChance = 300
