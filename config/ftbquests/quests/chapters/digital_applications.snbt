@@ -9,5 +9,96 @@
 	id: "1AE64AFBA55368C4"
 	order_index: 8
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "58FE7C7ACA3D2779"
+			tasks: [{
+				id: "4A7AE029F3F4A223"
+				item: { count: 1, id: "extendedcrafting:ender_crafter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "extendedcrafting:enhanced_ender_catalyst"
+			}
+			id: "071DB39B33EEB7DF"
+			tasks: [
+				{
+					id: "35E2F10B2D127795"
+					item: { count: 1, id: "extendedcrafting:enhanced_ender_catalyst" }
+					type: "item"
+				}
+				{
+					id: "3968BA3CF2B404D8"
+					item: { count: 1, id: "extendedcrafting:enhanced_ender_component" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "56F889EF73DC2309"
+			tasks: [{
+				id: "7F9B816C70FF2A79"
+				item: { count: 1, id: "extendedcrafting:enhanced_ender_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "27791CB806D82DC2"
+			tasks: [{
+				id: "596EBB4E6824B860"
+				item: { count: 1, id: "oritech:machine_core_5" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1E36F72416547272"
+			tasks: [{
+				id: "6C88599E9D12424D"
+				item: { count: 1, id: "oritech:machine_core_4" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "18107824BC5F2F51"
+			tasks: [{
+				id: "688D5FF2935E2F4E"
+				item: { count: 1, id: "oritech:machine_core_3" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "167FDEFDAC4C7A34"
+			tasks: [{
+				id: "640D560FDEFC73EA"
+				item: { count: 1, id: "oritech:machine_core_2" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "54C35EFCCC5652B6"
+			tasks: [{
+				id: "36954794F6AF3C76"
+				item: { count: 1, id: "oritech:machine_core_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
 }
