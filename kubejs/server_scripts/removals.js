@@ -213,6 +213,13 @@ ServerEvents.recipes(event => {
     event.remove({ id: "oritech:centrifuge/carbon" })
     event.remove({ id: /.*alloy\/compat\/enderio.*/ })
     event.remove({ id: /compat/, output: "oritech:fluxite" })
+    event.remove({ output: /oritech:machine_core.*/ })
+    event.remove({ output: "oritech:pulverizer_block" })
+    event.remove({ output: "oritech:powered_furnace_block" })
+    event.remove({ output: "oritech:basic_generator_block" })
+    event.remove({ output: "oritech:pump_block" })
+    event.remove({ output: "oritech:pipe_booster_block" })
+    event.remove({ output: "oritech:treefeller_block" })
 
     // Powah
     event.remove({ output: /powah:crystal.*/ })

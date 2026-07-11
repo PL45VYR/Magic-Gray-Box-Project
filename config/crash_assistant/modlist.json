@@ -117,13 +117,13 @@
     "curseForgeHash": 3163557722,
     "modrinthHash": "b4a8e11384454bcc341043b251db7fb5afdfdf45"
   },
-  "alltheleaks-1.1.9+1.21.1-neoforge.jar": {
-    "jarName": "alltheleaks-1.1.9+1.21.1-neoforge.jar",
+  "alltheleaks-1.1.10+1.21.1-neoforge.jar": {
+    "jarName": "alltheleaks-1.1.10+1.21.1-neoforge.jar",
     "modId": "alltheleaks",
     "name": "All The Leaks",
-    "version": "1.1.9+1.21.1-neoforge",
-    "curseForgeHash": 2234816779,
-    "modrinthHash": "2e9d1bc9bb9801af070f59a808db232c2a6526dd"
+    "version": "1.1.10+1.21.1-neoforge",
+    "curseForgeHash": 2274201648,
+    "modrinthHash": "00bf99e3a09204a555dc219a9648423c93f529d4"
   },
   "Almanac-1.21.1-2-neoforge-1.5.2.jar": {
     "jarName": "Almanac-1.21.1-2-neoforge-1.5.2.jar",
@@ -165,13 +165,13 @@
     "curseForgeHash": 169092502,
     "modrinthHash": "c79ab328b2c46068effebdcb3f26e98dc4404cb0"
   },
-  "amendments-neoforge-1.21-2.1.5.jar": {
-    "jarName": "amendments-neoforge-1.21-2.1.5.jar",
+  "amendments-neoforge-1.21-2.1.6.jar": {
+    "jarName": "amendments-neoforge-1.21-2.1.6.jar",
     "modId": "amendments",
     "name": "Amendments",
-    "version": "1.21-2.1.5",
-    "curseForgeHash": 542999942,
-    "modrinthHash": "a959046cff848f4e2c63487117a4d0146a1cfb4e"
+    "version": "1.21-2.1.6",
+    "curseForgeHash": 685073506,
+    "modrinthHash": "f9fd50be516e618cb07f864c4ed03704131b4b80"
   },
   "ancientreforging-1.8.4.jar": {
     "jarName": "ancientreforging-1.8.4.jar",
@@ -2465,13 +2465,13 @@
     "curseForgeHash": 1977061386,
     "modrinthHash": "2704eeefedf52edc30d68c84e2ee0ccf4eea6da0"
   },
-  "reeses-sodium-options-neoforge-2.0.5+mc1.21.1.jar": {
-    "jarName": "reeses-sodium-options-neoforge-2.0.5+mc1.21.1.jar",
+  "reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar": {
+    "jarName": "reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar",
     "modId": "reeses_sodium_options",
     "name": "Reese\u0027s Sodium Options",
-    "version": "2.0.5+mc1.21.1",
-    "curseForgeHash": 882513489,
-    "modrinthHash": "9869222c022c73362ab22ea559f52c19dabf0467"
+    "version": "1.8.3+mc1.21.4",
+    "curseForgeHash": 3206533594,
+    "modrinthHash": "b03d05495be28d8cef7a34872941bb8d703d60e6"
   },
   "relics-1.21.1-0.12.8.jar": {
     "jarName": "relics-1.21.1-0.12.8.jar",

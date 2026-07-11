@@ -23,7 +23,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "ae2_mega_things" })
     event.remove({ mod: "megacells" })
     event.remove({ mod: "aeinfinitybooster" })
-    event.remove({ mod: "extendedae" })
+    //event.remove({ mod: "extendedae" })
     event.remove({ mod: "advanced_ae" })
     //event.remove({ mod: "appflux" })
     event.remove({ mod: "appmek" })

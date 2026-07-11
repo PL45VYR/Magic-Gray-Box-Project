@@ -21,43 +21,13 @@
 			y: 0.0d
 		}
 		{
-			icon: {
-				id: "extendedcrafting:enhanced_ender_catalyst"
-			}
-			id: "071DB39B33EEB7DF"
-			tasks: [
-				{
-					id: "35E2F10B2D127795"
-					item: { count: 1, id: "extendedcrafting:enhanced_ender_catalyst" }
-					type: "item"
-				}
-				{
-					id: "3968BA3CF2B404D8"
-					item: { count: 1, id: "extendedcrafting:enhanced_ender_component" }
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			id: "56F889EF73DC2309"
-			tasks: [{
-				id: "7F9B816C70FF2A79"
-				item: { count: 1, id: "extendedcrafting:enhanced_ender_ingot" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
 			id: "27791CB806D82DC2"
 			tasks: [{
 				id: "596EBB4E6824B860"
 				item: { count: 1, id: "oritech:machine_core_5" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -67,7 +37,7 @@
 				item: { count: 1, id: "oritech:machine_core_4" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -77,7 +47,7 @@
 				item: { count: 1, id: "oritech:machine_core_3" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 4.5d
 		}
 		{
@@ -87,7 +57,7 @@
 				item: { count: 1, id: "oritech:machine_core_2" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 6.0d
 		}
 		{
@@ -97,8 +67,168 @@
 				item: { count: 1, id: "oritech:machine_core_1" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 7.5d
+		}
+		{
+			id: "6CDBFA77E8EE37C1"
+			tasks: [{
+				id: "6136AECDD92E2613"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "extendedcrafting:ender_catalyst"
+			}
+			id: "07B638D9E0CF5779"
+			tasks: [
+				{
+					id: "79C4C72B38DA3790"
+					item: { count: 1, id: "extendedcrafting:ender_catalyst" }
+					type: "item"
+				}
+				{
+					id: "285441C8A0B2639C"
+					item: { count: 1, id: "extendedcrafting:ender_component" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "1C25C1A04040FB41"
+			tasks: [{
+				id: "496A2AD145F1D804"
+				item: { count: 1, id: "extendedcrafting:ender_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "580D0C6E7B4C8C7E"
+			tasks: [{
+				id: "7953A690BD4C183B"
+				item: { count: 1, id: "occultism:chalk_green" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "5C688751ECAC15F0"
+			tasks: [{
+				id: "12A59CF3A9A5BBE6"
+				item: { count: 1, id: "occultism:chalk_light_blue" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "144EAE3831B3F07D"
+			tasks: [{
+				id: "216164EF52EB3B81"
+				item: { count: 1, id: "occultism:chalk_pink" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "2951916511E040DD"
+			tasks: [{
+				id: "68BC0BE03DCD6D48"
+				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_3" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "4CECEA73197BAF85"
+			tasks: [{
+				id: "7F017B3B07A6B02F"
+				item: { count: 1, id: "justdirethings:celestigem" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "4085226FA04B5DAF"
+			tasks: [{
+				id: "47A59BEB2887A5B9"
+				item: { count: 1, id: "justdirethings:gooblock_tier3" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "6D93E304C9DDEF93"
+			tasks: [{
+				id: "0D619818E81BE055"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "53875FE745678203"
+			tasks: [{
+				id: "51884E93529794A5"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "159650EE992AC06B"
+			tasks: [{
+				id: "4DFE7D13DE4DB2F2"
+				item: { count: 1, id: "oritech:foundry_block" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "7CEFB8E59479BBEC"
+			tasks: [{
+				id: "009F2FC3F08979C4"
+				item: { count: 1, id: "oritech:refinery_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "0431EE007E88F60C"
+			tasks: [{
+				id: "2FE1DA02D40A0A0B"
+				item: { count: 1, id: "oritech:laser_arm_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "41A0CC0ACFEBF56C"
+			tasks: [{
+				id: "5652D36F9D96B6B0"
+				item: { count: 1, id: "oritech:atomic_forge_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
 		}
 	]
 }
