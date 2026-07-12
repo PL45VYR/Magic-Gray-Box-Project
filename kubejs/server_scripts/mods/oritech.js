@@ -358,7 +358,7 @@ ServerEvents.recipes(event => {
                 "item": "oritech:steel_ingot"
             },
             "D": {
-                "item": "immersiveengineering:component_electronic_adv"
+                "item": "oritech:processing_unit"
             },
             "E": {
                 "item": "oritech:machine_core_3"
