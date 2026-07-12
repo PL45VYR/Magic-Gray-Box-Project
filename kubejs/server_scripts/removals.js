@@ -320,4 +320,10 @@ LootJS.lootTables(event => {
         event.getLootTable(table).removeItem('forbidden_arcanus:maledictus_pact')
     })
 
+    // Oritech Things
+    let fish_table = event.getLootTableIds(/oritechthings.*/)
+
+    fish_table.forEach(table => {
+        event.getLootTable(table).removeItem('oritech:fluxite')
+    })
 })

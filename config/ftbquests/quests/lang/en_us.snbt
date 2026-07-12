@@ -245,6 +245,7 @@
 		""
 		"From here, you'll notice that you can't make any sort of ingot out of Pewter Blend. This will require some alchemical processing."
 	]
+	quest.2951916511E040DD.title: "Tier 3 Forge"
 	quest.29F4AC8647FA5506.quest_desc: ["The technology for automating your Extended Crafting machines is finally here! Bolster your crafter with some Enhanced Redstone and Crystaltine to set your machines up for the ability to be automated."]
 	quest.2A325823A1018E2B.quest_desc: ["Luminessence draws from Lumisene's glow, enhancing it with the conductivity of redstone and reactivity of gunpowder. There are a few uses for this strange material, so you may want a bit of it in reserve."]
 	quest.2A66F6DC396BCEB7.quest_desc: ["Crystaltine Catalysts, on behalf of the magical components used in making Crystaltine Ingots, allow Extended Crafting machines to remember recipes for automation."]

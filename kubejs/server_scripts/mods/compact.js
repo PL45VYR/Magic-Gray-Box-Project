@@ -565,7 +565,7 @@ ServerEvents.recipes(event => {
                 "pattern": [
                     ["D", "E", "E", "E", "D"],
                     ["E", "E", "I", "E", "E"],
-                    ["E", "I", "G", "I", "E"],
+                    ["E", "I", "A", "I", "E"],
                     ["E", "E", "I", "E", "E"],
                     ["D", "E", "E", "E", "D"]
                 ]
@@ -574,9 +574,9 @@ ServerEvents.recipes(event => {
                 "type": "compactcrafting:mixed",
                 "pattern": [
                     ["D", "E", "C", "E", "D"],
-                    ["E", "I", "G", "I", "E"],
-                    ["C", "G", "M", "G", "C"],
-                    ["E", "I", "G", "I", "E"],
+                    ["E", "I", "A", "I", "E"],
+                    ["C", "A", "M", "A", "C"],
+                    ["E", "I", "A", "I", "E"],
                     ["D", "E", "C", "E", "D"]
                 ]
             },
@@ -585,7 +585,7 @@ ServerEvents.recipes(event => {
                 "pattern": [
                     ["D", "E", "E", "E", "D"],
                     ["E", "E", "I", "E", "E"],
-                    ["E", "I", "G", "I", "E"],
+                    ["E", "I", "A", "I", "E"],
                     ["E", "E", "I", "E", "E"],
                     ["D", "E", "E", "E", "D"]
                 ]
@@ -622,9 +622,9 @@ ServerEvents.recipes(event => {
                 "type": "compactcrafting:block",
                 "block": "actuallyadditions:enori_crystal_block"
             },
-            "G": {
+            "A": {
                 "type": "compactcrafting:block",
-                "block": "justdirethings:celestigem_block"
+                "block": "oritech:adamant_block"
             },
             "M": {
                 "type": "compactcrafting:block",
@@ -639,7 +639,7 @@ ServerEvents.recipes(event => {
         ]
     })
 
-    // Advanced Machine Core Recipe
+    // Elite Machine Core Recipe
     event.custom({
         "type": "compactcrafting:miniaturization",
         "recipeSize": 5,
@@ -659,7 +659,7 @@ ServerEvents.recipes(event => {
                 "pattern": [
                     ["B", "B", "E", "B", "B"],
                     ["B", "B", "G", "B", "B"],
-                    ["E", "G", "C", "G", "E"],
+                    ["E", "G", "G", "G", "E"],
                     ["B", "B", "G", "B", "B"],
                     ["B", "B", "E", "B", "B"]
                 ]
@@ -679,7 +679,7 @@ ServerEvents.recipes(event => {
                 "pattern": [
                     ["B", "B", "E", "B", "B"],
                     ["B", "B", "G", "B", "B"],
-                    ["E", "G", "C", "G", "E"],
+                    ["E", "G", "G", "G", "E"],
                     ["B", "B", "G", "B", "B"],
                     ["B", "B", "E", "B", "B"]
                 ]
@@ -714,7 +714,7 @@ ServerEvents.recipes(event => {
             },
             "G": {
                 "type": "compactcrafting:block",
-                "block": "justdirethings:celestigem_block"
+                "block": "oritech:energite_block"
             },
             "M": {
                 "type": "compactcrafting:block",
@@ -846,7 +846,7 @@ ServerEvents.recipes(event => {
             },
             "F": {
                 "type": "compactcrafting:block",
-                "block": "ae2:fluix_block"
+                "block": "oritech:energite_block"
             },
             "E": {
                 "type": "compactcrafting:block",
