@@ -123,6 +123,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:enhanced_redstone_catalyst" })
     event.remove({ id: "extendedcrafting:crystaltine_component" })
     event.remove({ id: "extendedcrafting:crystaltine_catalyst" })
+    event.remove({ id: "extendedcrafting:ender_ingot" })
 
 
     // Farming for Blockheads
@@ -220,6 +221,18 @@ ServerEvents.recipes(event => {
     event.remove({ output: "oritech:pump_block" })
     event.remove({ output: "oritech:pipe_booster_block" })
     event.remove({ output: "oritech:treefeller_block" })
+    event.remove({ output: "oritech:assembler_block" })
+    event.remove({ output: "oritech:charger_block" })
+    event.remove({ output: "oritech:cooler_block" })
+    event.remove({ output: "oritech:lava_generator_block" })
+    event.remove({ output: "oritech:steam_engine_block" })
+    event.remove({ output: "oritech:refinery_module_block" })
+    event.remove({ output: "oritech:centrifuge_block" })
+    event.remove({ output: "oritech:foundry_block" })
+    event.remove({ output: "oritech:bio_generator_block" })
+    event.remove({ output: "oritech:placer_block" })
+    event.remove({ output: "oritech:fertilizer_block" })
+    event.remove({ output: "oritech:refinery_block" })
 
     // Powah
     event.remove({ output: /powah:crystal.*/ })
