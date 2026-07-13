@@ -125,5 +125,9 @@ ServerEvents.recipes(event => {
         "name": "oil",
         "weight": 40
     })
-    event.remove({ id: "immersivepetroleum:reservoirs/oil"})
+    event.remove({ id: "immersivepetroleum:reservoirs/oil" })
+})
+
+ServerEvents.tags('fluid', event => {
+    event.removeAllTagsFrom('immersivepetroleum:naphtha')
 })
