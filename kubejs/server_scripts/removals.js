@@ -244,6 +244,12 @@ ServerEvents.recipes(event => {
     event.remove({ output: "oritech:placer_block" })
     event.remove({ output: "oritech:fertilizer_block" })
     event.remove({ output: "oritech:refinery_block" })
+    event.remove({ output: "oritech:laser_arm_block" })
+    event.remove({ output: "oritech:fuel_generator_block" })
+    event.remove({ output: "oritech:destroyer_block" })
+    event.remove({ output: "oritech:augment_application_block" })
+    event.remove({ output: "oritech:accelerator_ring" })
+    event.remove({ output: "oritech:simple_augment_station" })
 
     // Powah
     event.remove({ output: /powah:crystal.*/ })

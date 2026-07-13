@@ -254,7 +254,7 @@ ServerEvents.recipes(event => {
     // Elite Crafting Table
     event.replaceInput({ id: "extendedcrafting:elite_table" }, 'minecraft:diamond_block', 'occultism:iesnium_block')
 
-    // Crystaltine Ingot Recipe
+    // Crystaltine Ingot
     event.recipes.extendedcrafting.shaped_table('4x extendedcrafting:crystaltine_ingot',
         [
             "       ",
@@ -279,7 +279,7 @@ ServerEvents.recipes(event => {
         }
     })
 
-    // Flux Crafter Recipe
+    // Flux Crafter
     event.recipes.extendedcrafting.shaped_table('extendedcrafting:flux_crafter',
         [
             "AAAAAAA",
@@ -320,7 +320,7 @@ ServerEvents.recipes(event => {
             }
         })
 
-    // Flux Alternator Recipe
+    // Flux Alternator
     event.recipes.extendedcrafting.shaped_table('4x extendedcrafting:flux_alternator',
         [
             " AAAAA ",
