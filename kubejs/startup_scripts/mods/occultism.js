@@ -8,4 +8,9 @@ StartupEvents.registry('item', (event) => {
         .pentacleType("craft") //Valid options are: "misc", "craft", "summon", "possess"
         .displayName('Ritual: Craft Blazebloom Goo')
         .ritualTooltip('Blazebloom Goo allows you to start creating Blazegold Ore.')
+
+    event.create('dummy_misc_voidshimmer_goo', 'occultism:ritual_dummy')
+        .pentacleType("misc") //Valid options are: "misc", "craft", "summon", "possess"
+        .displayName('Ritual: Forge VoidShimmer Goo')
+        .ritualTooltip('VoidShimmer Goo allows you to start creating Celestigem Ore.')
 })

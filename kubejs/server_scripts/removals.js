@@ -188,9 +188,11 @@ ServerEvents.recipes(event => {
     // Just Dire Things
     event.remove({ output: "justdirethings:gooblock_tier1" })
     event.remove({ output: "justdirethings:gooblock_tier2" })
+    event.remove({ output: "justdirethings:gooblock_tier3" })
     event.remove({ id: "justdirethings:raw_ferricore_ore-goospread" })
     event.remove({ id: "justdirethings:raw_blazegold_ore-goospread" })
     event.remove({ id: "justdirethings:raw_celestigem_ore-goospread" })
+    event.remove({ id: "justdirethings:raw_eclipsealloy_ore-goospread" })
 
     // Malum
     event.remove({ output: "malum:spirit_altar" })

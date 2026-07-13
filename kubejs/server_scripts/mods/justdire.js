@@ -79,4 +79,21 @@ ServerEvents.recipes(event => {
         },
         "tierRequirement": 3
     })
+
+    // Eclipse Alloy Recipe Tweak
+    event.custom({
+        "type": "justdirethings:goospread_tag",
+        "craftingDuration": 4800,
+        "id": "justdirethings:eclipsealloy_ore-goospread",
+        "input": {
+            "tag": "c:storage_blocks/duratium"
+        },
+        "output": {
+            "Name": "justdirethings:raw_eclipsealloy_ore",
+            "Properties": {
+                "facing": "north"
+            }
+        },
+        "tierRequirement": 4
+    })
 })

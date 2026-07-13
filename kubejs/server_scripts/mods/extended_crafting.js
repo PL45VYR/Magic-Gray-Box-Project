@@ -488,6 +488,116 @@ ServerEvents.recipes(event => {
         "show_notification": false
     })
 
+    // Ender Component
+    event.shaped('extendedcrafting:ender_component',
+        [
+            'IS',
+            'CI'
+        ],
+        {
+            'I': 'extendedcrafting:ender_ingot',
+            'S': 'extendedcrafting:crystaltine_component',
+            'C': 'oritech:super_ai_chip'
+        }
+    )
+
+    // Ender Catalyst
+    event.custom({
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "C": {
+                "item": "extendedcrafting:ender_component"
+            },
+            "I": {
+                "item": "oritech:duratium_ingot"
+            }
+        },
+        "pattern": [
+            " C ",
+            "CIC",
+            " C "
+        ],
+        "result": {
+            "count": 1,
+            "id": "extendedcrafting:ender_catalyst"
+        },
+        "show_notification": false
+    })
+
+    // Ender Crafter
+    event.recipes.extendedcrafting.shaped_table('extendedcrafting:ender_crafter',
+        [
+            "AAAAAAA",
+            "ABBBBBA",
+            "ABCDCBA",
+            "EFGHGFE",
+            "EFGIGFE",
+            "EFFFFFE",
+            "EEEEEEE"
+        ],
+        {
+            "A": {
+                "item": "enderio:pulsating_alloy_ingot"
+            },
+            "B": {
+                "item": "minecraft:ender_eye"
+            },
+            "C": {
+                "item": "extendedcrafting:ender_component"
+            },
+            "D": {
+                "item": "extendedcrafting:ender_catalyst"
+            },
+            "E": {
+                "item": "extendedcrafting:ender_ingot"
+            },
+            "F": {
+                "item": "oritech:enderic_compound"
+            },
+            "G": {
+                "item": "oritech:heisenberg_compensator"
+            },
+            "H": {
+                "item": "minecraft:crafting_table"
+            },
+            "I": {
+                "item": "forbidden_arcanus:eternal_stella"
+            }
+        }
+    )
+
+    // Ender Alternator
+    event.recipes.extendedcrafting.shaped_table('4x extendedcrafting:ender_alternator',
+        [
+            " AAAAA ",
+            "  ABA  ",
+            "  ABA  ",
+            "  ABA  ",
+            "CCCDCCC",
+            "CCEEECC",
+            "CCCCCCC"
+        ],
+        {
+            "A": {
+                "item": "enderio:pulsating_alloy_ingot"
+            },
+            "B": {
+                "item": "minecraft:ender_eye"
+            },
+            "C": {
+                "item": "extendedcrafting:ender_ingot"
+            },
+            "D": {
+                "item": "oritech:enderic_lens"
+            },
+            "E": {
+                "item": "oritech:enderic_compound"
+            }
+        }
+    )
+
     // Basic Auto Crafter
     event.custom({
         "type": "extendedcrafting:shaped_flux_crafter",

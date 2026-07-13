@@ -48,4 +48,22 @@ ServerEvents.recipes(event => {
         'occultism:book_of_binding_bound_afrit',
         'occultism:craft_afrit'
     ).dummy('kubejs:dummy_craft_blazebloom_goo')
+
+    // Void Shimmer Goo Recipe
+    event.recipes.occultism.ritual(
+        Item.of('justdirethings:gooblock_tier3'),
+        [
+            "oritech:enderic_compound",
+            "oritech:enderic_compound",
+            "oritech:enderic_compound",
+            "oritech:enderic_compound",
+            "enderio:ender_crystal_powder",
+            "enderio:ender_crystal_powder",
+            "reliquary:nebulous_heart",
+            "reliquary:nebulous_heart",
+        ],
+        'justdirethings:gooblock_tier2',
+        'occultism:contact_wild_spirit'
+    ).dummy('kubejs:dummy_misc_voidshimmer_goo')
+    .entityToSacrifice(EntityToSacrifice.of("minecraft:cows", "Cows"))
 })

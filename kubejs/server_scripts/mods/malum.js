@@ -140,4 +140,52 @@ ServerEvents.recipes(event => {
             "4x eidolon_repraised:wraith_heart"
         ]
     )
+
+    // Green Chalk Recipe
+    event.recipes.malum.spirit_infusion(
+        "occultism:chalk_white_impure",
+        "occultism:chalk_green_impure",
+        [
+            "64x earthen",
+            "64x sacred",
+            "48x eldritch"
+        ],
+        [
+            "64x oritech:biomass",
+            "40x malum:rotting_essence",
+            "occultism:nature_paste"
+        ]
+    )
+
+    // Light Blue Chalk Recipe
+    event.recipes.malum.spirit_infusion(
+        "occultism:chalk_white_impure",
+        "occultism:chalk_light_blue_impure",
+        [
+            "64x aerial",
+            "64x aqueous",
+            "48x eldritch"
+        ],
+        [
+            "64x occultism:crushed_packed_ice",
+            "48x occultism:crushed_blue_ice",
+            "8x irons_spellbooks:permafrost_shard"
+        ]
+    )
+
+    // Pink Chalk Recipe
+    event.recipes.malum.spirit_infusion(
+        "occultism:chalk_white_impure",
+        "occultism:chalk_pink_impure",
+        [
+            "64x arcane",
+            "64x sacred",
+            "48x eldritch"
+        ],
+        [
+            "64x malum:mnemonic_fragment",
+            "54x eidolon_repraised:oanna_bloom",
+            "40x occultism:demonic_meat"
+        ]
+    )
 })
