@@ -771,3 +771,9 @@
 		clock_right_click = true
 		#Allow to right click with a compass to display current coordinates in numerical form
 		compass_right_click = false
+
+	[tweaks.ai_tweaks]
+		#Allows pillagers to use cannon boats. Add more entities to the 'supplementaries:can_use_cannon_boat' tag to allow them to use cannon boats as well
+		pillagers_use_cannon_boats = true
+		#Allows mobs to dismount from boats when on land. Add more entities to the 'supplementaries:can_dismount_boats' tag to allow them to dismount as well
+		raiders_dismount_boats = true

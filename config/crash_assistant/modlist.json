@@ -165,13 +165,13 @@
     "curseForgeHash": 169092502,
     "modrinthHash": "c79ab328b2c46068effebdcb3f26e98dc4404cb0"
   },
-  "amendments-neoforge-1.21-2.1.6.jar": {
-    "jarName": "amendments-neoforge-1.21-2.1.6.jar",
+  "amendments-neoforge-1.21-2.1.7.jar": {
+    "jarName": "amendments-neoforge-1.21-2.1.7.jar",
     "modId": "amendments",
     "name": "Amendments",
-    "version": "1.21-2.1.6",
-    "curseForgeHash": 685073506,
-    "modrinthHash": "f9fd50be516e618cb07f864c4ed03704131b4b80"
+    "version": "1.21-2.1.7",
+    "curseForgeHash": 3422409052,
+    "modrinthHash": "69b9a6243a1513f7e40780367c40d23a4d687439"
   },
   "ancientreforging-1.8.4.jar": {
     "jarName": "ancientreforging-1.8.4.jar",
@@ -421,13 +421,13 @@
     "curseForgeHash": 664412636,
     "modrinthHash": "e01709c880b0602b7a306201a25866e76c44f5c0"
   },
-  "balm-neoforge-1.21.1-21.0.62.jar": {
-    "jarName": "balm-neoforge-1.21.1-21.0.62.jar",
+  "balm-neoforge-1.21.1-21.0.63.jar": {
+    "jarName": "balm-neoforge-1.21.1-21.0.63.jar",
     "modId": "balm",
     "name": "Balm",
-    "version": "21.0.62",
-    "curseForgeHash": 2971438072,
-    "modrinthHash": "b5d32c9f7529ed74ac90b29513fffcbc2f337a39"
+    "version": "21.0.63",
+    "curseForgeHash": 2247822616,
+    "modrinthHash": "d452e71d4ff81a047f6e22f9a3ddb3c72632751e"
   },
   "better-compatability-checker-neoforge-21.1.8.jar": {
     "jarName": "better-compatability-checker-neoforge-21.1.8.jar",
@@ -740,13 +740,13 @@
     "curseForgeHash": 3268862051,
     "modrinthHash": "ff4b3d9ca8e8452a7a0362153c3108634ad2297c"
   },
-  "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.10.jar": {
-    "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.10.jar",
+  "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.11.jar": {
+    "jarName": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.11.jar",
     "modId": "crash_assistant",
     "name": "Crash Assistant",
-    "version": "1.11.10",
-    "curseForgeHash": 3170815324,
-    "modrinthHash": "2787616596ee00b1acca5b543d38525e7afbbb3e"
+    "version": "1.11.11",
+    "curseForgeHash": 947575198,
+    "modrinthHash": "b6c70031b22396a87c1139ed29deae93e86f058b"
   },
   "crashexploitfixer-neoforge-2.0.0+1.21.4.jar": {
     "jarName": "crashexploitfixer-neoforge-2.0.0+1.21.4.jar",
@@ -1452,13 +1452,13 @@
     "curseForgeHash": 3268995161,
     "modrinthHash": "3674669dcacef907369219ed3869c83889e4f1ee"
   },
-  "guideme-21.1.16.jar": {
-    "jarName": "guideme-21.1.16.jar",
+  "guideme-21.1.17.jar": {
+    "jarName": "guideme-21.1.17.jar",
     "modId": "guideme",
     "name": "GuideME",
-    "version": "21.1.16",
-    "curseForgeHash": 3677823189,
-    "modrinthHash": "6c89cb18fd426a5dd851dd30ec72f02cb8bbcce7"
+    "version": "21.1.17",
+    "curseForgeHash": 1791437247,
+    "modrinthHash": "060e374f578db694a0b8f3ad409bd424cae86359"
   },
   "harvest-with-ease-neoforge-1.21-9.4.0.jar": {
     "jarName": "harvest-with-ease-neoforge-1.21-9.4.0.jar",
@@ -1572,13 +1572,13 @@
     "curseForgeHash": 1200960645,
     "modrinthHash": "b0f31d833ce76e9d57b5eb05bed1c34f61aaa7e7"
   },
-  "ImmersivePetroleum-1.21.1-4.4.1-38.jar": {
-    "jarName": "ImmersivePetroleum-1.21.1-4.4.1-38.jar",
+  "ImmersivePetroleum-1.21.1-4.5.0-39.jar": {
+    "jarName": "ImmersivePetroleum-1.21.1-4.5.0-39.jar",
     "modId": "immersivepetroleum",
     "name": "Immersive Petroleum",
-    "version": "4.4.1-38",
-    "curseForgeHash": 635892238,
-    "modrinthHash": "e1d114e8d27d6b08706575848c760109dfcfeb69"
+    "version": "4.5.0-39",
+    "curseForgeHash": 3376012574,
+    "modrinthHash": "8509800d74334aea91789091a9d966f1d221a235"
   },
   "ImmersivePosts-1.21.1-4.3.1-16.jar": {
     "jarName": "ImmersivePosts-1.21.1-4.3.1-16.jar",
@@ -2097,13 +2097,13 @@
     "curseForgeHash": 1582266717,
     "modrinthHash": "20fdf4da5776954bdb9608732c703362acbfaa9e"
   },
-  "moonlight-neoforge-1.21.1-3.0.22.jar": {
-    "jarName": "moonlight-neoforge-1.21.1-3.0.22.jar",
+  "moonlight-neoforge-1.21.1-3.1.0.jar": {
+    "jarName": "moonlight-neoforge-1.21.1-3.1.0.jar",
     "modId": "moonlight",
     "name": "Moonlight Lib",
-    "version": "1.21.1-3.0.22",
-    "curseForgeHash": 3081031545,
-    "modrinthHash": "98f1a1ca3e51d73cae5187a21dec4d0e153c4f01"
+    "version": "1.21.1-3.1.0",
+    "curseForgeHash": 203863309,
+    "modrinthHash": "2b07408a31f57f0934d921d760109f2508f3fccf"
   },
   "moreculling-neoforge-1.21.1-1.0.8.jar": {
     "jarName": "moreculling-neoforge-1.21.1-1.0.8.jar",
@@ -2409,13 +2409,13 @@
     "curseForgeHash": 2723556800,
     "modrinthHash": "c4ef1020569a1dfc5bb161221449d7cf13b597cb"
   },
-  "Quark-4.1-481.jar": {
-    "jarName": "Quark-4.1-481.jar",
+  "Quark-4.1-482.jar": {
+    "jarName": "Quark-4.1-482.jar",
     "modId": "quark",
     "name": "Quark",
-    "version": "4.1-481",
-    "curseForgeHash": 3398254157,
-    "modrinthHash": "20ca15ad273d2476b7339f395f33968960da4c2b"
+    "version": "4.1-482",
+    "curseForgeHash": 1538484394,
+    "modrinthHash": "f73c3008321a9fb2da1151be9b49f0dfd006b6b5"
   },
   "railcraft-reborn-1.21.1-1.2.10.jar": {
     "jarName": "railcraft-reborn-1.21.1-1.2.10.jar",
@@ -2745,13 +2745,13 @@
     "curseForgeHash": 3414849852,
     "modrinthHash": "84802fbe1645de8caf61ccb07db6cf451e614f68"
   },
-  "supplementaries-neoforge-1.21.1-3.7.7.jar": {
-    "jarName": "supplementaries-neoforge-1.21.1-3.7.7.jar",
+  "supplementaries-neoforge-1.21.1-3.8.0.jar": {
+    "jarName": "supplementaries-neoforge-1.21.1-3.8.0.jar",
     "modId": "supplementaries",
     "name": "Supplementaries",
-    "version": "1.21.1-3.7.7",
-    "curseForgeHash": 2633904730,
-    "modrinthHash": "94e2f1e01a41dbf1cea6baf7517858cae223af5d"
+    "version": "1.21.1-3.8.0",
+    "curseForgeHash": 1738183862,
+    "modrinthHash": "6b84a1cdef90e5ac0b0e8487ce8fe84a47950216"
   },
   "suppsquared-neoforge-1.21-1.2.18.jar": {
     "jarName": "suppsquared-neoforge-1.21-1.2.18.jar",
@@ -2929,21 +2929,21 @@
     "curseForgeHash": 61099787,
     "modrinthHash": "a03b6bd7d05bb1955036a9cd37e0e14121193d3e"
   },
-  "xaerominimap-neoforge-1.21.1-26.2.1.jar": {
-    "jarName": "xaerominimap-neoforge-1.21.1-26.2.1.jar",
+  "xaerominimap-neoforge-1.21.1-26.3.0.jar": {
+    "jarName": "xaerominimap-neoforge-1.21.1-26.3.0.jar",
     "modId": "xaerominimap",
     "name": "Xaero\u0027s Minimap",
-    "version": "26.2.1",
-    "curseForgeHash": 889969035,
-    "modrinthHash": "7c8bb68ba18edc252e50102d45c0ea7556ac2626"
+    "version": "26.3.0",
+    "curseForgeHash": 2788817556,
+    "modrinthHash": "85c7a141fe659bde22e9e7a97dcec206072a1181"
   },
-  "xaeroworldmap-neoforge-1.21.1-1.42.0.jar": {
-    "jarName": "xaeroworldmap-neoforge-1.21.1-1.42.0.jar",
+  "xaeroworldmap-neoforge-1.21.1-1.43.0.jar": {
+    "jarName": "xaeroworldmap-neoforge-1.21.1-1.43.0.jar",
     "modId": "xaeroworldmap",
     "name": "Xaero\u0027s World Map",
-    "version": "1.42.0",
-    "curseForgeHash": 3913426432,
-    "modrinthHash": "43209e577bfcfbbbff1944ec7dc04015e373e9f6"
+    "version": "1.43.0",
+    "curseForgeHash": 3869758778,
+    "modrinthHash": "a5d2f8ef9dca9efd229dd1b68c2bad9cd5ac3e38"
   },
   "xycraft_core-0.7.53-all.jar": {
     "jarName": "xycraft_core-0.7.53-all.jar",

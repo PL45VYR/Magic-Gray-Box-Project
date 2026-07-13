@@ -11,7 +11,12 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"07B638D9E0CF5779"
+				"100B041E6C4C1B3D"
+			]
 			id: "58FE7C7ACA3D2779"
+			shape: "rsquare"
 			tasks: [{
 				id: "4A7AE029F3F4A223"
 				item: { count: 1, id: "extendedcrafting:ender_crafter" }
@@ -21,14 +26,15 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0431EE007E88F60C"]
 			id: "27791CB806D82DC2"
 			tasks: [{
 				id: "596EBB4E6824B860"
 				item: { count: 1, id: "oritech:machine_core_5" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["159650EE992AC06B"]
@@ -38,8 +44,8 @@
 				item: { count: 1, id: "oritech:machine_core_4" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["167FDEFDAC4C7A34"]
@@ -49,8 +55,8 @@
 				item: { count: 1, id: "oritech:machine_core_3" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["54C35EFCCC5652B6"]
@@ -60,8 +66,8 @@
 				item: { count: 1, id: "oritech:machine_core_2" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			id: "54C35EFCCC5652B6"
@@ -71,8 +77,8 @@
 				item: { count: 1, id: "oritech:machine_core_1" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["27791CB806D82DC2"]
@@ -82,8 +88,8 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1C25C1A04040FB41"]
@@ -103,48 +109,52 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["68214D357EE390D0"]
 			id: "1C25C1A04040FB41"
 			tasks: [{
 				id: "496A2AD145F1D804"
 				item: { count: 1, id: "extendedcrafting:ender_ingot" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["5A71C95D65B5BF68"]
 			id: "580D0C6E7B4C8C7E"
 			tasks: [{
 				id: "7953A690BD4C183B"
 				item: { count: 1, id: "occultism:chalk_green" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			id: "5C688751ECAC15F0"
+			shape: "hexagon"
 			tasks: [{
 				id: "12A59CF3A9A5BBE6"
 				item: { count: 1, id: "occultism:chalk_light_blue" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["736332B260770A83"]
 			id: "144EAE3831B3F07D"
 			tasks: [{
 				id: "216164EF52EB3B81"
 				item: { count: 1, id: "occultism:chalk_pink" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4CECEA73197BAF85"]
@@ -155,7 +165,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4085226FA04B5DAF"]
@@ -165,21 +175,27 @@
 				item: { count: 1, id: "justdirethings:celestigem" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
+			dependencies: [
+				"580D0C6E7B4C8C7E"
+				"144EAE3831B3F07D"
+				"5C688751ECAC15F0"
+				"53875FE745678203"
+			]
 			id: "4085226FA04B5DAF"
 			tasks: [{
 				id: "47A59BEB2887A5B9"
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["159650EE992AC06B"]
+			dependencies: ["20BB29B71EA2ACD0"]
 			id: "6D93E304C9DDEF93"
 			tasks: [{
 				id: "0D619818E81BE055"
@@ -187,7 +203,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6D93E304C9DDEF93"]
@@ -198,7 +214,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["18107824BC5F2F51"]
@@ -208,8 +224,8 @@
 				item: { count: 1, id: "oritech:foundry_block" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1E36F72416547272"]
@@ -230,8 +246,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 3.0d
+			x: 6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -244,8 +260,8 @@
 				item: { count: 1, id: "oritech:laser_arm_block" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["27791CB806D82DC2"]
@@ -255,8 +271,8 @@
 				item: { count: 1, id: "oritech:atomic_forge_block" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2951916511E040DD"]
@@ -270,14 +286,15 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7CEFB8E59479BBEC"]
 			id: "1767E0E07D5306FC"
 			tasks: [{
 				id: "2911DB89417138F3"
 				item: { count: 1, id: "oritech:silicon" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["54C35EFCCC5652B6"]
@@ -288,7 +305,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["63464A4BE7A5B369"]
@@ -298,8 +315,41 @@
 				item: { count: 1, id: "oritech:biomass" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -3.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41A0CC0ACFEBF56C"]
+			id: "68214D357EE390D0"
+			tasks: [{
+				id: "1F58DA1563CECBF5"
+				item: { count: 1, id: "oritech:duratium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "736332B260770A83"
+			shape: "hexagon"
+			tasks: [{
+				id: "4CBF6CF10642513D"
+				item: { count: 1, id: "occultism:demonic_meat" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["159650EE992AC06B"]
+			id: "20BB29B71EA2ACD0"
+			tasks: [{
+				id: "0F78DF10E2EBB485"
+				item: { count: 1, id: "oritech:adamant_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
 		}
 	]
 }
