@@ -26,6 +26,9 @@
     ],
     "c:nuggets/steel": [
       "hazennstuff:steel_nugget"
+    ],
+    "ae2:all_quartz_dust": [
+      "oritech:quartz_dust"
     ]
   },
   "tag_substitutions": {

@@ -32,6 +32,9 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove('laserio:logic_chip_raw')
     event.remove(/.*uraninite_ore.*/)
     event.remove(/.*uraninite_raw/)
+    event.remove(/immersivepetroleum:crude.*/)
+    event.remove(/immersivepetroleum:naphtha.*/)
+    event.remove('extendedae:quartz_blend')
 })
 
 RecipeViewerEvents.removeEntriesCompletely("fluid", event => {
@@ -55,6 +58,11 @@ ServerEvents.recipes(event => {
     event.remove({ output: "actuallyadditions:ender_casing" })
     event.remove({ output: "actuallyadditions:empowerer" })
     event.remove({ type: "actuallyadditions:empowering", not: { output: "actuallyadditions:empowered_canola_seed" } })
+
+    // AE2
+    event.remove({ input: /.*quartz.*/, output: 'oritech:silicon', not: { type: 'mekanism:enriching' } })
+    event.remove({ input: 'extendedae:quartz_blend' })
+    event.remove({ output: 'extendedae:quartz_blend' })
 
     // Apotheosis
     event.remove({ output: /apothic_enchanting:.*shelf.*/, type: "minecraft:crafting_shaped" })
@@ -214,6 +222,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "oritech:centrifuge/carbon" })
     event.remove({ id: /.*alloy\/compat\/enderio.*/ })
     event.remove({ id: /compat/, output: "oritech:fluxite" })
+    event.remove({ id: /.*fluid\/siliconwash/, not: { id: /.*bad/ } })
     event.remove({ output: /oritech:machine_core.*/ })
     event.remove({ output: "oritech:pulverizer_block" })
     event.remove({ output: "oritech:powered_furnace_block" })

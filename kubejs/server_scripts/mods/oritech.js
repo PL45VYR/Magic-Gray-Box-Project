@@ -5,6 +5,22 @@ ServerEvents.recipes(event => {
         'minecraft:nether_star'
     ).time(200)
 
+    // Ender Ingot Recipe
+    event.recipes.oritech.atomic_forge(
+        'extendedcrafting:ender_ingot',
+        ['enderio:pulsating_alloy_ingot', 'oritech:duratium_ingot']
+    ).time(80)
+
+    // Silicon Tweak
+    event.recipes.oritech.centrifuge_fluid(
+        [],
+        [FluidOutput.of('oritech:still_silicon_wash', 1000)],
+        Ingredient.of('#ae2:all_quartz_dust'),
+        FluidInput.of('oritech:still_naphtha', 1000)
+    ).time(100)
+
+    event.replaceOutput({ type: 'enderio:sagmilling' }, 'oritech:silicon', 'oritech:quartz_dust')
+
     // Pulverizer Recipe
     event.custom({
         "type": "extendedcrafting:shaped_table",
