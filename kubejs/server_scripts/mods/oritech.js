@@ -19,7 +19,27 @@ ServerEvents.recipes(event => {
         FluidInput.of('oritech:still_naphtha', 1000)
     ).time(100)
 
-    event.replaceOutput({ type: 'enderio:sagmilling' }, 'oritech:silicon', 'oritech:quartz_dust')
+    // DCP Solar Sail Recipe
+    event.recipes.oritech.assembler(
+        'dysoncubeproject:solar_sail',
+        [
+            'powah:photoelectric_pane',
+            'powah:photoelectric_pane',
+            'immersiveengineering:sheetmetal_aluminum',
+            'immersiveengineering:sheetmetal_aluminum'
+        ]
+    ).time(120)
+
+    // DCP Beam Recipe
+    event.recipes.oritech.assembler(
+        '2x dysoncubeproject:beam',
+        [
+            '#c:storage_blocks/aluminum',
+            '#c:storage_blocks/aluminum',
+            'immersiveengineering:sheetmetal_aluminum',
+            'immersiveengineering:sheetmetal_aluminum'
+        ]
+    ).time(120)
 
     // Pulverizer Recipe
     event.custom({

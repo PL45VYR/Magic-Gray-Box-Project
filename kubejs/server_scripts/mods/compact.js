@@ -850,7 +850,7 @@ ServerEvents.recipes(event => {
             },
             "E": {
                 "type": "compactcrafting:block",
-                "block": "extendedcrafting:ender_ingot_block"
+                "block": "extendedcrafting:enhanced_ender_ingot_block"
             },
             "M": {
                 "type": "compactcrafting:block",

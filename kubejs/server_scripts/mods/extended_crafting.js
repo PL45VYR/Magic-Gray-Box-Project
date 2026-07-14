@@ -771,4 +771,75 @@ ServerEvents.recipes(event => {
             "id": "extendedcrafting:auto_ender_crafter"
         }
     })
+
+    // EM Rail Ejector Controller
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            " AAAAAB",
+            " ACD   ",
+            " AAAAAB",
+            "   A   ",
+            "  AAA  ",
+            "  AEA  ",
+            "AAAAAAA"
+        ],
+        "key": {
+            "A": {
+                "item": "justdirethings:ferricore_block"
+            },
+            "B": {
+                "item": "oritech:enderic_lens"
+            },
+            "C": {
+                "item": "oritech:super_ai_chip"
+            },
+            "D": {
+                "item": "oritech:ion_thruster"
+            },
+            "E": {
+                "item": "oritech:machine_core_5"
+            }
+        },
+        "result": {
+            "id": "dysoncubeproject:em_railejector_controller"
+        }
+    })
+
+    // Ray Receiver Controller
+    event.custom({
+        "type": "extendedcrafting:shaped_table",
+        "pattern": [
+            "   A   ",
+            "  BCB  ",
+            "   A   ",
+            "ADAAADA",
+            "AAAEAAA",
+            "  AFA  ",
+            " AAAAA "
+        ],
+        "key": {
+            "A": {
+                "item": "justdirethings:ferricore_block"
+            },
+            "B": {
+                "item": "justdirethings:ferricore_ingot"
+            },
+            "C": {
+                "item": "oritech:enderic_lens"
+            },
+            "D": {
+                "item": "oritech:big_solar_panel_block"
+            },
+            "E": {
+                "item": "oritech:super_ai_chip"
+            },
+            "F": {
+                "item": "oritech:large_storage_block"
+            }
+        },
+        "result": {
+            "id": "dysoncubeproject:ray_receiver_controller"
+        }
+    })
 })

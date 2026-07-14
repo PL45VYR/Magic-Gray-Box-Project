@@ -210,6 +210,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "gag:time_sand_pouch" })
     event.remove({ mod: "modularrouters", not: [{ output: /.*extruder_module_1/ }, { output: /.*breaker.*/ }] })
     event.remove({ mod: "laserio", not: { id: /.*nbtclear/ }, not: { output: /.*book.*/ } })
+    event.remove({ mod: "dysoncubeproject", not: { output: /dysoncubeproject.*package/ } })
 
     // Occultism
     event.remove({ output: /occultism.*impure/ })
@@ -227,7 +228,11 @@ ServerEvents.recipes(event => {
     event.remove({ id: /.*alloy\/compat\/enderio.*/ })
     event.remove({ id: /compat/, output: "oritech:fluxite" })
     event.remove({ id: /.*fluid\/siliconwash/, not: { id: /.*bad/ } })
+    event.remove({ id: /.*motor\/advbattery/ })
+    event.remove({ id: /.*motor\/manualbattery/ })
+    event.remove({ id: /.*motor\/overchargedcrystal/ })
     event.remove({ output: /oritech:machine_core.*/ })
+    event.remove({ id: "oritech:crafting/manualresin" })
     event.remove({ output: "oritech:pulverizer_block" })
     event.remove({ output: "oritech:powered_furnace_block" })
     event.remove({ output: "oritech:basic_generator_block" })
