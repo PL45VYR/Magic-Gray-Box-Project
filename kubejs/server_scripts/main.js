@@ -149,7 +149,21 @@ ServerEvents.recipes(event => {
     )
 
     // Wayward Compass Tweak
-    event.replaceInput({output: 'irons_spellbooks:wayward_compass'}, 'minecraft:soul_lantern', 'quark:soul_bead')
+    event.replaceInput({ output: 'irons_spellbooks:wayward_compass' }, 'minecraft:soul_lantern', 'quark:soul_bead')
+
+    // AE2 Charger Recipe
+    event.shaped(Item.of('ae2:charger'),
+        [
+            'ABA',
+            'C  ',
+            'ABA'
+        ],
+        {
+            A: 'oritech:steel_ingot',
+            B: 'oritech:energite_ingot',
+            C: 'ae2:fluix_crystal'
+        }
+    )
 
     // Ender Pearl Overhauls
 
@@ -182,7 +196,6 @@ ServerEvents.recipes(event => {
         "justdirethings:itemcollector",
         "justdirethings:playeraccessor",
         "xycraft_machines:collector",
-        "ae2:quantum_entangled_singularity",
         "occultism:stable_wormhole",
         "occultism:stable_wormhole_dark",
         "occultism:entity_wormhole_dark",

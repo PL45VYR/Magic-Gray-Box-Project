@@ -63,6 +63,8 @@ ServerEvents.recipes(event => {
     event.remove({ input: /.*quartz.*/, output: 'oritech:silicon', not: { type: 'mekanism:enriching' } })
     event.remove({ input: 'extendedae:quartz_blend' })
     event.remove({ output: 'extendedae:quartz_blend' })
+    event.remove({ id: "ae2:transform/entangled_singularity_from_pearl" })
+    event.remove({ output: 'ae2:charger' })
 
     // Apotheosis
     event.remove({ output: /apothic_enchanting:.*shelf.*/, type: "minecraft:crafting_shaped" })

@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: /industrialforegoing:machine_frame.*/ })
 
     // Mekanism
-    event.remove({ input: "mekanism:ingot_osmium" })
+    event.remove({ input: "mekanism:ingot_osmium", not: {output: "ae2:blank_pattern"} })
     event.remove({ input: /mekanism:alloy.*/ })
     event.remove({ input: "mekanism:steel_casing" })
     event.remove({ output: /mekanism:fluid.*/ })
@@ -20,14 +20,17 @@ ServerEvents.recipes(event => {
     // AE2
     //event.remove({ mod: "ae2" })
     //event.remove({ mod: "ae2things" })
-    event.remove({ mod: "ae2_mega_things" })
-    event.remove({ mod: "megacells" })
-    event.remove({ mod: "aeinfinitybooster" })
-    //event.remove({ mod: "extendedae" })
+    //event.remove({ mod: "ae2_mega_things" })
+    //event.remove({ mod: "megacells" })
+    //event.remove({ mod: "aeinfinitybooster" })
+    event.remove({ mod: "extendedae" })
     event.remove({ mod: "advanced_ae" })
     //event.remove({ mod: "appflux" })
     event.remove({ mod: "appmek" })
     event.remove({ mod: "rep_ae2_bridge" })
+    event.remove({output: "ae2:spatial_pylon"})
+    event.remove({output: "ae2:spatial_io_port"})
+    event.remove({output: "ae2:quantum_ring"})
 
     // Just Dire Things
     // event.remove({ mod: "justdirethings" })
@@ -47,7 +50,7 @@ ServerEvents.recipes(event => {
     // Extended Crafting
     //event.remove({ mod: "extendedcrafting", output: /.*component.*/ })
     //event.remove({ mod: "extendedcrafting", output: /.*catalyst.*/ })
-    //event.remove({ mod: "extendedcrafting", output: /.*ender.*/ })
+    event.remove({ mod: "extendedcrafting", output: /.*enhanced_ender.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*ultimate.*/ })
     event.remove({ output: "extendedcrafting:compressor" })
 
