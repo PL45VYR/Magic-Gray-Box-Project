@@ -81,15 +81,16 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["27791CB806D82DC2"]
+			dependencies: ["1574550ED3AB3EB6"]
 			id: "6CDBFA77E8EE37C1"
+			shape: "octagon"
 			tasks: [{
 				id: "6136AECDD92E2613"
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.0d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1C25C1A04040FB41"]
@@ -243,6 +244,7 @@
 					count: 2L
 					id: "79A7693CAFF4CF51"
 					item: { count: 1, id: "oritech:refinery_module_block" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -293,8 +295,8 @@
 				item: { count: 1, id: "oritech:silicon" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["54C35EFCCC5652B6"]
@@ -315,8 +317,8 @@
 				item: { count: 1, id: "oritech:biomass" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["41A0CC0ACFEBF56C"]
@@ -350,6 +352,46 @@
 			}]
 			x: 7.5d
 			y: 3.0d
+		}
+		{
+			dependencies: [
+				"57952EE5DE33DD37"
+				"1767E0E07D5306FC"
+			]
+			icon: {
+				id: "ae2:engineering_processor"
+			}
+			id: "1574550ED3AB3EB6"
+			tasks: [
+				{
+					id: "5AF6BB622139F8BF"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+				{
+					id: "29D5DC8A2D5D178B"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					id: "609B59C30BDB8AEC"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27791CB806D82DC2"]
+			id: "57952EE5DE33DD37"
+			tasks: [{
+				id: "4B886469A53ABF4B"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
 		}
 	]
 }

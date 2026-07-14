@@ -99,6 +99,7 @@
 	quest.14ADE066C6529295.quest_desc: ["Mage Spell Books are rather powerful, capable of enabling various elemental magic synergies. Such power is a reward reserved for those with competence in a variety of other forms of magic and those who have triumphed in raging battles against formiddable beasts."]
 	quest.15341EDB20E0F0DA.quest_desc: ["Empowered Crystals are even more relevant to hi-tech crafts than their respective Reconstructed Crystals. Be ready to use these in high quantity in the near future!"]
 	quest.15341EDB20E0F0DA.title: "Empowered Crystals"
+	quest.1574550ED3AB3EB6.title: "AE2 Processors"
 	quest.1575B4620DE8EFD5.quest_desc: ["Crushing up some gold into dust gives you a foundation for a new type of chalk. However, you may need more than just one pile of it."]
 	quest.166E83C318214F30.quest_desc: [
 		"Purifying an Oak Sapling with Spirit Fire grants you an Otherworld Sapling, which you at first believed had grown into a normal Oak Tree..."
@@ -710,4 +711,5 @@
 	task.6AE575058E6055ED.title: "Any: Blacksmith Gavel"
 	task.6DF23FCF7F1F408B.title: "Hey mom can you pick me up?"
 	task.7445806443BF718D.title: "Build a Distillation Tower!"
+	task.79A7693CAFF4CF51.title: "2x Refinery Chamber Module [Optional]"
 }
