@@ -20,6 +20,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove("hazennstuff:crude_metal")
     event.remove("oritech:raw_silicon")
     event.remove("actuallyadditions:iron_casing")
+    event.remove('enderio:powered_spawner')
     event.remove(/sophisticated.*copper.*/)
     event.remove('sophisticatedstorage:stack_upgrade_tier_1_plus')
     event.remove('sophisticatedbackpacks:stack_upgrade_starter_tier')
@@ -111,6 +112,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: /.*alloy_smelting.*ingot/ })
     event.remove({ output: /enderio.*chassis/ })
     event.remove({ output: "enderio:conduit_binder" })
+    event.remove({ output: 'enderio:powered_spawner' })
 
     // Extended Crafting
     event.remove({ id: "extendedcrafting:black_iron_ingot" })

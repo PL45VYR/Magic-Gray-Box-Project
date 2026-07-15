@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "item": "oritech:flux_gate"
+                "tag": "c:ingots/ender_ingot"
             },
             "B": {
                 "item": "minecraft:obsidian"

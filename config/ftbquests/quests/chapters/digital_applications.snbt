@@ -90,8 +90,8 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1C25C1A04040FB41"]
@@ -257,12 +257,23 @@
 				"1E36F72416547272"
 				"53875FE745678203"
 			]
+			icon: {
+				id: "oritech:laser_arm_block"
+			}
 			id: "0431EE007E88F60C"
-			tasks: [{
-				id: "2FE1DA02D40A0A0B"
-				item: { count: 1, id: "oritech:laser_arm_block" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FE1DA02D40A0A0B"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7471212D324F3193"
+					item: { count: 1, id: "oritech:fluxite" }
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 4.5d
 		}
@@ -393,6 +404,46 @@
 			}]
 			x: 3.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["68214D357EE390D0"]
+			id: "5ADFA9C10AD946F5"
+			tasks: [{
+				id: "3B85B7217A4447C2"
+				item: { count: 1, id: "oritech:super_ai_chip" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5ADFA9C10AD946F5"
+				"1C25C1A04040FB41"
+			]
+			id: "3CC4238A4FD96E5A"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "7B4ABD0D978F3C8A"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ADFA9C10AD946F5"]
+			id: "5DF85AA61716FC17"
+			optional: true
+			shape: "octagon"
+			tasks: [{
+				id: "3A5D6F64FA117B08"
+				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
 		}
 	]
 }
