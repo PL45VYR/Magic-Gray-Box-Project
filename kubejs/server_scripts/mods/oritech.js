@@ -44,6 +44,9 @@ ServerEvents.recipes(event => {
     // Reactor Wall Tweak
     event.replaceInput({output: "oritech:reactor_wall"}, "#oritech:plating", "oritech:carbon_plating_block")
 
+    // Plastic Tweak
+    event.replaceInput({output: /oritech.*/}, '#c:plates/plastic', '#c:plastics')
+
     // Pulverizer Recipe
     event.custom({
         "type": "extendedcrafting:shaped_table",
