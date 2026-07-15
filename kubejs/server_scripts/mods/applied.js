@@ -26,10 +26,43 @@ ServerEvents.recipes(event => {
     event.replaceInput({output: 'ae2:pattern_encoding_terminal'}, 'ae2:engineering_processor', 'extendedcrafting:enhanced_ender_catalyst')
 
     // Crafting Unit Recipe Tweak
-    event.replaceInput({ output: 'ae2:crafting_unit'}, '#c:ingots/steel', '#c:ingots/eclipsealloy')
+    event.replaceInput({ output: 'ae2:crafting_unit', output: 'ae2:molecular_assembler'}, '#c:ingots/steel', '#c:ingots/eclipsealloy')
     
     // Table to Catalyst Recipe Tweak
     event.replaceInput({ output: 'ae2:pattern_provider'}, 'minecraft:crafting_table', 'extendedcrafting:enhanced_ender_catalyst')
     event.replaceInput({ output: 'ae2:crafting_card'}, 'minecraft:crafting_table', 'extendedcrafting:enhanced_ender_catalyst')
+
+    // Item Cell Housing Recipe
+    event.recipes.oritech.assembler(
+        '4x ae2:item_cell_housing',
+        [
+            'ae2:quartz_glass',
+            '#c:dusts/redstone',
+            '#c:ingots/copper',
+            '#c:ingots/steel'
+        ]
+    ).time(48)
+
+    // Fluid Cell Housing Recipe
+    event.recipes.oritech.assembler(
+        '4x ae2:fluid_cell_housing',
+        [
+            'ae2:quartz_glass',
+            '#c:dusts/redstone',
+            '#c:ingots/copper',
+            '#c:ingots/copper'
+        ]
+    ).time(48)
+
+    // Quartz Fiber Recipe
+    event.recipes.oritech.assembler(
+        '6x ae2:quartz_fiber',
+        [
+            '#ae2:all_quartz_dust',
+            '#railcraft:strengthened_glass',
+            '#railcraft:strengthened_glass',
+            '#ae2:all_quartz_dust'
+        ]
+    )
 
 })

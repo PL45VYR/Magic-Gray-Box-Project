@@ -82,7 +82,7 @@ ServerEvents.recipes(event => {
             }
         ],
         "result": {
-            "count": 4,
+            "count": 1,
             "id": "powah:crystal_nitro"
         }
     })
