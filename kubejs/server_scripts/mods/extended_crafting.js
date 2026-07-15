@@ -36,14 +36,14 @@ ServerEvents.recipes(event => {
         event.remove({ id: recipe_id })
     })
 
-    // Extended Crafting Flux Crafter Conversions
-    let excrafting_flux = [
+    // EnderIO Flux Crafter Conversions
+    let enderio_flux = [
         "enderio:basic_capacitor",
         "enderio:double_layer_capacitor",
         "enderio:octadic_capacitor"
     ]
 
-    excrafting_flux.forEach(recipe_id => {
+    enderio_flux.forEach(recipe_id => {
         event.forEachRecipe({ type: "minecraft:crafting_shaped", id: recipe_id }, new_recipe => {
             let old_recipe = JSON.parse(new_recipe.json.toString())
             event.custom({
@@ -56,6 +56,29 @@ ServerEvents.recipes(event => {
             })
         })
         event.remove({ id: recipe_id })
+    })
+
+    // Oritech Flux Crafter Conversions
+    let oritech_flux = [
+        "fluidpipe",
+        "energy",
+        "item",
+        "transparentitem"
+    ]
+
+    oritech_flux.forEach(recipe_id => {
+        event.forEachRecipe({ type: "minecraft:crafting_shaped", id: `oritech:crafting/${recipe_id}` }, new_recipe => {
+            let old_recipe = JSON.parse(new_recipe.json.toString())
+            event.custom({
+                "type": "extendedcrafting:shaped_flux_crafter",
+                "power_required": 100000,
+                "power_rate": 400,
+                "pattern": old_recipe.pattern,
+                "key": old_recipe.key,
+                "result": old_recipe.result
+            })
+        })
+        event.remove({ id: `oritech:crafting/${recipe_id}` })
     })
 
     // LaserIO and Modular Router Shaped to Flux Conversion

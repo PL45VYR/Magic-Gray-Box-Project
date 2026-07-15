@@ -83,6 +83,7 @@
 		{
 			dependencies: ["1574550ED3AB3EB6"]
 			id: "6CDBFA77E8EE37C1"
+			optional: true
 			shape: "octagon"
 			tasks: [{
 				id: "6136AECDD92E2613"

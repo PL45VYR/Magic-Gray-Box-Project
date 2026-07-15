@@ -43,6 +43,9 @@ ServerEvents.recipes(event => {
     event.replaceInput({ output: "enderio:photovoltaic_composite" }, Ingredient.of('#c:dusts/coal'), Ingredient.of('#c:gems/black_quartz'))
     event.replaceInput({ output: "enderio:photovoltaic_composite" }, Ingredient.of('#c:silicon'), 'powah:dielectric_paste')
 
+    // Conduit Binder Recipe Tweaks
+    event.recipes.enderio.alloy_smelting("enderio:conduit_binder", ["enderio:conduit_binder_composite"], 3000)
+
     // Ensouled Chassis Recipe
     event.custom({
         "type": "powah:energizing",

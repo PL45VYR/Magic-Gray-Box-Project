@@ -1,0 +1,13 @@
+{
+  "type": "powah:energizing",
+  "energy": 30000,
+  "ingredients": [
+    {
+      "tag": "c:raw_materials/uranium"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "powah:uraninite"
+  }
+}

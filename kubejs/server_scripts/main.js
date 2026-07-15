@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
         {
             A: 'oritech:steel_ingot',
             B: 'oritech:energite_ingot',
-            C: 'ae2:fluix_crystal'
+            C: 'oritech:fluxite'
         }
     )
 

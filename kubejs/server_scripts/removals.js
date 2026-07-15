@@ -109,6 +109,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "enderio:dark_steel_ingot" })
     event.remove({ id: /.*alloy_smelting.*ingot/ })
     event.remove({ output: /enderio.*chassis/ })
+    event.remove({ output: "enderio:conduit_binder" })
 
     // Extended Crafting
     event.remove({ id: "extendedcrafting:black_iron_ingot" })
@@ -233,6 +234,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: /.*motor\/overchargedcrystal/ })
     event.remove({ output: /oritech:machine_core.*/ })
     event.remove({ id: "oritech:crafting/manualresin" })
+    event.remove({ id: "oritech:crafting/claybeads" })
+    event.remove({ id: "oritech:compat/enderio/crafting/fluidpipe" })
     event.remove({ output: "oritech:pulverizer_block" })
     event.remove({ output: "oritech:powered_furnace_block" })
     event.remove({ output: "oritech:basic_generator_block" })
@@ -261,11 +264,11 @@ ServerEvents.recipes(event => {
     // Powah
     event.remove({ output: /powah:crystal.*/ })
     event.remove({ output: /.*uraninite_ore.*/ })
-    event.remove({ id: /.*uraninite_from.*/ })
+    event.remove({ id: /.*uraninite_from.*/, not: /.*_uranium.*/ })
     event.remove({ output: /.*sulfur_uraninite/ })
     event.remove({ output: 'powah:dielectric_casing' })
     event.remove({ output: 'powah:dielectric_paste' })
-    event.remove({ output: /.*dielectric_rod.*/ })
+    event.remove({ output: /.*dielectric_rod.*/, not: { input: /.*dielectric_rod.*/ } })
     event.remove({ output: 'powah:steel_energized' })
     event.remove({ output: 'powah:photoelectric_pane' })
     event.remove({ output: 'powah:energizing_orb' })
