@@ -213,6 +213,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "modularrouters", not: [{ output: /.*extruder_module_1/ }, { output: /.*breaker.*/ }] })
     event.remove({ mod: "laserio", not: { id: /.*nbtclear/ }, not: { output: /.*book.*/ } })
     event.remove({ mod: "dysoncubeproject", not: { output: /dysoncubeproject.*package/ } })
+    event.remove({ mod: "hostilenetworks", not: { output: /.*fab_directive/ }, not: [{ input: /.*_prediction/ }, { output: /.*learn.*/ }, { output: /.*blank.*/ }] })
 
     // Occultism
     event.remove({ output: /occultism.*impure/ })
