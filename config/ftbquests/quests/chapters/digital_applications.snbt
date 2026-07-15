@@ -33,8 +33,8 @@
 				item: { count: 1, id: "oritech:machine_core_5" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["159650EE992AC06B"]
@@ -44,8 +44,8 @@
 				item: { count: 1, id: "oritech:machine_core_4" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["167FDEFDAC4C7A34"]
@@ -55,8 +55,8 @@
 				item: { count: 1, id: "oritech:machine_core_3" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["54C35EFCCC5652B6"]
@@ -66,8 +66,8 @@
 				item: { count: 1, id: "oritech:machine_core_2" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 10.5d
+			y: 1.5d
 		}
 		{
 			id: "54C35EFCCC5652B6"
@@ -77,8 +77,8 @@
 				item: { count: 1, id: "oritech:machine_core_1" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1574550ED3AB3EB6"]
@@ -90,11 +90,14 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.0d
+			x: 4.5d
+			y: 7.5d
 		}
 		{
-			dependencies: ["1C25C1A04040FB41"]
+			dependencies: [
+				"1C25C1A04040FB41"
+				"5ADFA9C10AD946F5"
+			]
 			icon: {
 				id: "extendedcrafting:ender_catalyst"
 			}
@@ -122,8 +125,8 @@
 				item: { count: 1, id: "extendedcrafting:ender_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5A71C95D65B5BF68"]
@@ -133,8 +136,8 @@
 				item: { count: 1, id: "occultism:chalk_green" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			id: "5C688751ECAC15F0"
@@ -144,8 +147,8 @@
 				item: { count: 1, id: "occultism:chalk_light_blue" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["736332B260770A83"]
@@ -155,8 +158,8 @@
 				item: { count: 1, id: "occultism:chalk_pink" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CECEA73197BAF85"]
@@ -166,8 +169,8 @@
 				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_3" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4085226FA04B5DAF"]
@@ -177,8 +180,8 @@
 				item: { count: 1, id: "justdirethings:celestigem" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -193,8 +196,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier3" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["20BB29B71EA2ACD0"]
@@ -204,8 +207,8 @@
 				item: { count: 1, id: "oritech:assembler_block" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6D93E304C9DDEF93"]
@@ -215,8 +218,8 @@
 				item: { count: 1, id: "oritech:centrifuge_block" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["18107824BC5F2F51"]
@@ -226,8 +229,8 @@
 				item: { count: 1, id: "oritech:foundry_block" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.5d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1E36F72416547272"]
@@ -249,8 +252,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 6.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -274,8 +277,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: 4.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["27791CB806D82DC2"]
@@ -285,8 +288,8 @@
 				item: { count: 1, id: "oritech:atomic_forge_block" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2951916511E040DD"]
@@ -307,7 +310,7 @@
 				item: { count: 1, id: "oritech:silicon" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -318,8 +321,8 @@
 				item: { count: 1, id: "oritech:pulverizer_block" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["63464A4BE7A5B369"]
@@ -329,8 +332,8 @@
 				item: { count: 1, id: "oritech:biomass" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["41A0CC0ACFEBF56C"]
@@ -340,8 +343,8 @@
 				item: { count: 1, id: "oritech:duratium_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "736332B260770A83"
@@ -351,8 +354,8 @@
 				item: { count: 1, id: "occultism:demonic_meat" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["159650EE992AC06B"]
@@ -362,8 +365,8 @@
 				item: { count: 1, id: "oritech:adamant_ingot" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -391,8 +394,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 7.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["27791CB806D82DC2"]
@@ -402,8 +405,8 @@
 				item: { count: 1, id: "ae2:inscriber" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.0d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["68214D357EE390D0"]
@@ -413,14 +416,11 @@
 				item: { count: 1, id: "oritech:super_ai_chip" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"5ADFA9C10AD946F5"
-				"1C25C1A04040FB41"
-			]
+			dependencies: ["5ADFA9C10AD946F5"]
 			id: "3CC4238A4FD96E5A"
 			optional: true
 			shape: "octagon"
@@ -434,15 +434,37 @@
 		}
 		{
 			dependencies: ["5ADFA9C10AD946F5"]
+			icon: {
+				id: "dysoncubeproject:em_railejector_controller"
+			}
 			id: "5DF85AA61716FC17"
 			optional: true
 			shape: "octagon"
-			tasks: [{
-				id: "3A5D6F64FA117B08"
-				item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
-				type: "item"
-			}]
-			x: -3.0d
+			tasks: [
+				{
+					id: "3A5D6F64FA117B08"
+					item: { count: 1, id: "dysoncubeproject:em_railejector_controller" }
+					type: "item"
+				}
+				{
+					id: "12F6577043BDD7D9"
+					item: { count: 1, id: "dysoncubeproject:ray_receiver_controller" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "18D0369CC119FACB"
+					item: { count: 1, id: "dysoncubeproject:solar_sail" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3AC394832C3B7EAD"
+					item: { count: 1, id: "dysoncubeproject:beam" }
+					type: "item"
+				}
+			]
+			x: 0.0d
 			y: 4.5d
 		}
 	]

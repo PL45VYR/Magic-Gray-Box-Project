@@ -7,8 +7,8 @@ ServerEvents.recipes(event => {
 
     // Ender Ingot Recipe
     event.recipes.oritech.atomic_forge(
-        'extendedcrafting:ender_ingot',
-        ['enderio:pulsating_alloy_ingot', 'oritech:duratium_ingot']
+        '2x extendedcrafting:ender_ingot',
+        ['oritech:duratium_ingot', 'enderio:pulsating_alloy_ingot', 'enderio:pulsating_alloy_ingot']
     ).time(80)
 
     // Silicon Tweak

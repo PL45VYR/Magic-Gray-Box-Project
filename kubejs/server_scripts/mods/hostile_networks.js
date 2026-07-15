@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "tag": "c:ingots/ender_ingot"
+                "tag": "c:ingots/duratium"
             },
             "B": {
                 "item": "minecraft:obsidian"

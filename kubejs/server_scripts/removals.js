@@ -138,6 +138,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: "extendedcrafting:crystaltine_component" })
     event.remove({ id: "extendedcrafting:crystaltine_catalyst" })
     event.remove({ id: "extendedcrafting:ender_ingot" })
+    event.remove({ id: "extendedcrafting:ender_component" })
+    event.remove({ id: "extendedcrafting:ender_catalyst" })
+    event.remove({ id: "extendedcrafting:ender_crafter" })
+    event.remove({ id: "extendedcrafting:ender_alternator" })
 
 
     // Farming for Blockheads
@@ -265,6 +269,16 @@ ServerEvents.recipes(event => {
     event.remove({ output: "oritech:augment_application_block" })
     event.remove({ output: "oritech:accelerator_ring" })
     event.remove({ output: "oritech:simple_augment_station" })
+    event.remove({ output: "oritech:atomic_forge_block" })
+    event.remove({ output: "oritech:deep_drill_block" })
+    event.remove({ output: "oritech:big_solar_panel_block" })
+    event.remove({ output: "oritech:advanced_augment_station" })
+    event.remove({ output: "oritech:reactor_controller" })
+    event.remove({ output: "oritech:reactor_fuel_port" })
+    event.remove({ output: "oritech:reactor_absorber_port" })
+    event.remove({ output: "oritech:reactor_energy_port" })
+    event.remove({ output: "oritech:reactor_redstone_port" })
+    event.remove({ output: "oritech:particle_collector_block" })
 
     // Powah
     event.remove({ output: /powah:crystal.*/ })
