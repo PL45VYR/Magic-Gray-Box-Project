@@ -63,7 +63,21 @@ ServerEvents.recipes(event => {
         "fluidpipe",
         "energy",
         "item",
-        "transparentitem"
+        "transparentitem",
+        "addon/speed",
+        "addon/eff",
+        "addon/ultimate",
+        "addon/processing",
+        "addon/processingalt",
+        "addon/_hunter",
+        "addon/capacitor",
+        "addon/acceptor",
+        "addon/invproxy",
+        "addon/steamboiler",
+        "addon/steamboileralt",
+        "addon/redstone",
+        "addon/silktouch",
+        "addon/burst",
     ]
 
     oritech_flux.forEach(recipe_id => {

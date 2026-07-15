@@ -237,6 +237,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "oritech:crafting/manualresin" })
     event.remove({ id: "oritech:crafting/claybeads" })
     event.remove({ id: "oritech:compat/enderio/crafting/fluidpipe" })
+    event.remove({ output: "oritechthings:accelerator_magnetic_field" })
     event.remove({ output: "oritech:pulverizer_block" })
     event.remove({ output: "oritech:powered_furnace_block" })
     event.remove({ output: "oritech:basic_generator_block" })
