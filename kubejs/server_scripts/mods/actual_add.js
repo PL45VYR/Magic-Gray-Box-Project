@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
             'minecraft:blue_dye',
             'quark:indigo_corundum_cluster',
             'xycraft_world:xychorium_storage_blue',
-            'hazennstuff:stardust'
+            'hazennstuff:glowing_mushroom'
         ]
     )
 
