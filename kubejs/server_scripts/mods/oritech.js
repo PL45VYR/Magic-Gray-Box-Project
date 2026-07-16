@@ -11,6 +11,59 @@ ServerEvents.recipes(event => {
         ['oritech:duratium_ingot', 'enderio:pulsating_alloy_ingot', 'enderio:pulsating_alloy_ingot']
     ).time(80)
 
+    // Fluid Pipe Recipe
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 100000,
+        "power_rate": 400,
+        "pattern": [
+            "AAA",
+            "BBB",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:copper_ingot"
+            },
+            "B": {
+                "item": "enderio:conduit_binder"
+            }
+        },
+        "result": {
+            "id": "oritech:fluid_pipe",
+            "count": 6
+        }
+    })
+
+    // Fluid Addon Recipe
+    event.custom({
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 100000,
+        "power_rate": 400,
+        "pattern": [
+            "AAA",
+            "ABA",
+            "CDC"
+        ],
+        "key": {
+            "A": {
+                "item": "oritech:carbon_fibre_strands"
+            },
+            "B": {
+                "item": "oritech:fluid_pipe"
+            },
+            "C": {
+                "item": "oritech:electrum_ingot"
+            },
+            "D": {
+                "item": "enderio:conduit_binder"
+            }
+        },
+        "result": {
+            "id": "oritech:machine_fluid_addon"
+        }
+    })
+
     // Silicon Tweak
     event.recipes.oritech.centrifuge_fluid(
         [],
@@ -42,10 +95,10 @@ ServerEvents.recipes(event => {
     ).time(120)
 
     // Reactor Wall Tweak
-    event.replaceInput({output: "oritech:reactor_wall"}, "#oritech:plating", "oritech:carbon_plating_block")
+    event.replaceInput({ output: "oritech:reactor_wall" }, "#oritech:plating", "oritech:carbon_plating_block")
 
     // Plastic Tweak
-    event.replaceInput({output: /oritech.*/}, '#c:plates/plastic', '#c:plastics')
+    event.replaceInput({ output: /oritech.*/ }, '#c:plates/plastic', '#c:plastics')
 
     // Pulverizer Recipe
     event.custom({
@@ -525,30 +578,33 @@ ServerEvents.recipes(event => {
         }
     })
 
-    // Refinery Recipe
+    // Particle Accelerator Guide Ring Recipe
     event.custom({
-        "type": "extendedcrafting:shaped_table",
+        "type": "extendedcrafting:shaped_flux_crafter",
+        "power_required": 400000,
+        "power_rate": 100,
         "pattern": [
             " A ",
-            "BBB",
-            "CDC"
+            "ABA",
+            "CDD"
         ],
         "key": {
             "A": {
-                "item": "oritech:motor"
-            },
-            "B": {
-                "item": "oritech:refinery_module_block"
-            },
-            "C": {
                 "item": "oritech:steel_ingot"
             },
-            "D": {
+            "B": {
                 "item": "oritech:machine_core_3"
+            },
+            "C": {
+                "item": "oritech:superconductor"
+            },
+            "D": {
+                "item": "oritech:industrial_glass_block"
             }
         },
         "result": {
-            "id": "oritech:refinery_block"
+            "id": "oritech:accelerator_ring",
+            "count": 4
         }
     })
 
@@ -701,33 +757,30 @@ ServerEvents.recipes(event => {
         }
     })
 
-    // Particle Accelerator Guide Ring Recipe
+    // Refinery Recipe
     event.custom({
-        "type": "extendedcrafting:shaped_flux_crafter",
-        "power_required": 400000,
-        "power_rate": 100,
+        "type": "extendedcrafting:shaped_table",
         "pattern": [
             " A ",
-            "ABA",
-            "CDD"
+            "BBB",
+            "CDC"
         ],
         "key": {
             "A": {
-                "item": "oritech:steel_ingot"
+                "item": "oritech:motor"
             },
             "B": {
-                "item": "oritech:machine_core_4"
+                "item": "oritech:refinery_module_block"
             },
             "C": {
-                "item": "oritech:superconductor"
+                "item": "oritech:steel_ingot"
             },
             "D": {
-                "item": "oritech:industrial_glass_block"
+                "item": "oritech:machine_core_4"
             }
         },
         "result": {
-            "id": "oritech:accelerator_ring",
-            "count": 4
+            "id": "oritech:refinery_block"
         }
     })
 
