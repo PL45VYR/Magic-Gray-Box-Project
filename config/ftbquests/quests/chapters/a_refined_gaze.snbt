@@ -142,7 +142,7 @@
 				}
 			]
 			x: 0.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["66562DFE55275190"]
@@ -425,17 +425,6 @@
 			]
 			x: -4.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["250110B9401653FE"]
-			id: "7778CF10C5B6076E"
-			tasks: [{
-				id: "4A730C4511D74C0C"
-				item: { components: { "gateways:gateway": "apotheosis:tiered/frontier" }, count: 1, id: "gateways:gate_pearl" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
 		}
 	]
 }

@@ -25,6 +25,11 @@
 		"After obtaining your Complete Design, the well can transform it into Fused Consciousness, a bizarre item used in crafting a number of powerful trinkets and weapons for use in acquiring spirits and eviscerating your foes."
 	]
 	quest.032FC47543E5823B.title: "Fused Consciousness"
+	quest.0431EE007E88F60C.quest_desc: [
+		"Enderic Lasers are powerful machines that harness energy into a concentrated beam capable of breaking blocks. However, some crystalline structures tend to be transformed when charged with such great energy, including Amethyst, which becomes Fluxite."
+		""
+		"The energy of these lasers can help accelerate the growth of budding crystals as well, being a very reliable way of farming their energized forms."
+	]
 	quest.0489B325535E51C7.quest_desc: [
 		"Edelwood is a darkened wood type made from Growing Edelwood. You can only get it by right-clicking a Corrupted Soul on an Oak Sapling. Edelwood itself has a number of uses, one of them being as a key resource for upgrading your Hephaestus Forge."
 		""
@@ -42,6 +47,7 @@
 	]
 	quest.06B6CE6A813EE15E.quest_desc: ["Brewing up some Soul Shards with minerals such as Redstone and Quartz (find some in a geode down in the caves!) will allow them to coalesce as a Lesser Soul Gem."]
 	quest.076C783CF8207D8C.quest_desc: ["An Athame is a dagger often used in ritual magic. These rituals often use unique herbs, which may only be acquired by an Athame itself."]
+	quest.07B638D9E0CF5779.quest_desc: ["The Ender Crafter is a powerful block used in making tons of ender-centric items and machines; however, it needs a stable basis to work with. Ender Ingots are more than stable enough to handle these complex crafts, so using them for an Ender Catalyst will allow you to achieve that!"]
 	quest.0832C3C66887F0B9.quest_desc: ["Cutting down some white flowers such as White Tulips with an Athame will allow you to extract Merammer Root."]
 	quest.089903D5C1D065A9.quest_desc: ["Gray Paste has the ability to reconstruct various minerals from their dust forms. Empowered Enori is absolutely essential to making this possible."]
 	quest.08E97D8A59DAED2A.quest_desc: ["Afrit Essence is more than strong enough to attract less temperamental Afrits. Imbue it into some Red Chalk to conduct rituals that can call forth these spirits."]
@@ -86,6 +92,11 @@
 	]
 	quest.0EAC1D3DD4041EA6.title: "Alchemy Prep"
 	quest.0F830CA4F664ADAF.quest_desc: ["Using brass as a casing material gives you a more versatile block to tweak for enhanced machines in future crafts."]
+	quest.100B041E6C4C1B3D.quest_desc: [
+		"Eternal Stellas are an incredibly useful item made with Stellarite and Xpetrified Orbs using a Diamond as its base. When applied to an item, it gains the \"Eternal\" modifier, which prevents the item from losing any durability."
+		""
+		"Make your favorite tools, weapons, and armor completely unbreakable!"
+	]
 	quest.10B0FD3DFCB34ADE.quest_desc: [
 		"Now that you have your Blast Furnace ready, supply some iron and coal coke into it to begin producing steel! You'll be needing a lot of it, so consider setting up other passive automations while your steel is being processed."
 		""
@@ -96,18 +107,32 @@
 		""
 		"You're very likely to get these rarity-affixed items in a general mob farm. Try setting one up!"
 	]
+	quest.144EAE3831B3F07D.quest_desc: ["Pink Chalk imbues life using a balance of both pure and demonic power retained through mnemony."]
 	quest.14ADE066C6529295.quest_desc: ["Mage Spell Books are rather powerful, capable of enabling various elemental magic synergies. Such power is a reward reserved for those with competence in a variety of other forms of magic and those who have triumphed in raging battles against formiddable beasts."]
 	quest.15341EDB20E0F0DA.quest_desc: ["Empowered Crystals are even more relevant to hi-tech crafts than their respective Reconstructed Crystals. Be ready to use these in high quantity in the near future!"]
 	quest.15341EDB20E0F0DA.title: "Empowered Crystals"
+	quest.1574550ED3AB3EB6.quest_desc: ["There are three primary processors in AE2: engineering, logic, and calculation. Mass-producing these will cut into your supplies a bit, but they are required for a majority of your most important Applied Energistics network components."]
 	quest.1574550ED3AB3EB6.title: "AE2 Processors"
 	quest.1575B4620DE8EFD5.quest_desc: ["Crushing up some gold into dust gives you a foundation for a new type of chalk. However, you may need more than just one pile of it."]
+	quest.159650EE992AC06B.quest_desc: [
+		"Oritech's Foundry takes a much more mechanical approach to its alloying. While on the larger side, it's very modular compared to most other alloying methods available."
+		""
+		"One alloy that only the Foundry can make is Adamant, an alloy composed of nickel and diamond. Its hardness gives it a variety of technological uses!"
+	]
 	quest.166E83C318214F30.quest_desc: [
 		"Purifying an Oak Sapling with Spirit Fire grants you an Otherworld Sapling, which you at first believed had grown into a normal Oak Tree..."
 		""
 		"...but with the help of a Third Eye, you realize that you can interact with a tree from that otherworldly realm. Once that eye closed, everything went back to normal."
 	]
+	quest.167FDEFDAC4C7A34.quest_desc: [
+		"Basic Machine Cores are the second tier of core, able to support the first set of new power generation tools."
+		""
+		"Keep up the progression and you'll widen your horizons by a LOT!"
+	]
 	quest.16D830C067671767.quest_desc: ["Mining Ferricore clusters drops Raw Ferricore Ore, which you can smelt into Ferricore Ingots, a material used in a variety of nifty machines."]
 	quest.17290FD4C5E324E8.quest_desc: ["Totem magic has the power to perform magical automations by carving spirits into Runewood Logs. Every primary spirit type has a unique set of totem rites that they can run, from breaking blocks to speeding up animal growth."]
+	quest.1767E0E07D5306FC.quest_desc: ["Silicon is the basis of many complex logistical components. Derived from Silicon Wash, you can use it to handle complex logic and computation."]
+	quest.18107824BC5F2F51.quest_desc: ["Improved Machine Cores are the third tier of core and offer far more versatility! At this tier, you can make machines that will help you make more new resources, including Foundries and Centrifuges!"]
 	quest.18928F465F3719B6.quest_desc: [
 		"This next tier of crafting optimizes the capabilities of your Advanced Electronic Components and puts them to greater use."
 		""
@@ -132,7 +157,16 @@
 		"There are a number of things you need to do to push onward. Firstly, consider playing the game out normally. Go explore! Get some iron! Setting yourself up for success sooner ensures you'll feel comfortable later."
 	]
 	quest.1B446A6EEC8D89A5.title: "Welcome to MGBP!"
+	quest.1C25C1A04040FB41.quest_desc: ["Ender Ingots are an alloy forged from Pulsating Alloy and Duratium. This is one of the last major crafting ingredients you'll need for this chapter, but will be relevant to many crafts in the near future."]
+	quest.1C6A2C493554036E.quest_desc: [
+		"AE2's Charger is used for charging Certus Quartz without the use of a clunky laser."
+		""
+		"Wait, you don't have Certus Quartz? If that's the case, charge a compass to make it point to the nearest Meteorite. Made of Skystone, this meteorite contains a variety of presses and some Budding Certus Quartz blocks of varying quality."
+		""
+		"Bring the Certus Quartz home to start producing some of your own, but be extremely careful with the flawless ones!"
+	]
 	quest.1DB5FC44276D6EDC.quest_desc: ["As you begin to travel the world, you realize the tools of creation available to you. Technological advancements of all sorts lie ahead, but your indulgence in some magic should not be abandoned."]
+	quest.1E36F72416547272.quest_desc: ["Advanced Machine Cores are the fourth tier of core, where the more sophisticated technologies begin to surface on behalf of some Adamant! From block breakers to refinery tech, the horizons continue to expand!"]
 	quest.1EF964471B640AE3.quest_desc: ["Glow Berries are a food source distinctly found in Lush Caves. Mixing a bundle of them together using a Mechanical Mixer will allow you to create Lumisene, a fluid with a glimmering appearance."]
 	quest.202B6F0CFF14222A.quest_desc: ["Only an Energizing Orb can concentrate enough power to transform a Nether Star into a Flux Star using the conductive nature of electrum."]
 	quest.203DDD360241C4A8.quest_desc: [
@@ -225,6 +259,7 @@
 		"The most powerful source of experience comes from Xpetrified Orbs. These are not yet available to you, but once you create your first Black Hole, this will change..."
 	]
 	quest.251F35A9BB62EB5A.title: "Input: Experience"
+	quest.27791CB806D82DC2.quest_desc: ["Elite Machine Cores are the fifth tier of core, and the most powerful available to you for now. From bedrock resource extraction to nuclear reactor management, this tier offers a huge array of powerful technology to make use of!"]
 	quest.27E0766149DA30CE.quest_desc: [
 		"Once you've built the ritual grounds, the final use of Mundabitur Dust on the Smithing Table will create your Tier 1 Forge!"
 		""
@@ -245,6 +280,11 @@
 		"Pewter is a basic alloy composed mostly of lead and tin. Find a way to make these comprising materials into dusts!"
 		""
 		"From here, you'll notice that you can't make any sort of ingot out of Pewter Blend. This will require some alchemical processing."
+	]
+	quest.2951916511E040DD.quest_desc: [
+		"At long last... a Hephaestus Forge upgrade arrives!"
+		""
+		"A variety of useful crafts can be made at this forge with the help of Celestigems, from boss locators to... durability savers?"
 	]
 	quest.2951916511E040DD.title: "Tier 3 Forge"
 	quest.29F4AC8647FA5506.quest_desc: ["The technology for automating your Extended Crafting machines is finally here! Bolster your crafter with some Enhanced Redstone and Crystaltine to set your machines up for the ability to be automated."]
@@ -351,12 +391,28 @@
 		""
 		"The fun has only just begun."
 	]
+	quest.3CC4238A4FD96E5A.quest_desc: [
+		"Hostile Neural Networks is a mob-farming mod based on simulation technology. By training data models of various mobs, you can simulate their drops."
+		""
+		"Right-click a mob to populate a data model with it and put it inside a Deep Learner. Equip it to start collecting some raw data, which will eventually create a \"basic\" model. This is the minimal tier needed to start simulations in a Simulation Chamber, which will produce \"predictions!\""
+		""
+		"These predictions can be turned into different items: generalized predictions can create completely new items, while mob predictions will produce the drops of that mob!"
+		""
+		"To process mob predictions, you will need a Loot Fabricator. Use it to choose which drop you want to collect from the prediction!"
+	]
+	quest.3CC4238A4FD96E5A.title: "Hostile Neural Networks"
 	quest.3CC6BA7644BDBAE0.quest_desc: ["Enhanced Redstone Catalysts, on behalf of the energized components used in making Enhanced Redstone Ingots, allow Extended Crafting machines to map out the logic required for automating its recipes."]
 	quest.3D8285CDE13C408A.quest_desc: ["With enough energy and a few catalyzing ingredients, Void Chassis can be transformed into Ensouled Chassis, which enables some soul manipulation technology."]
 	quest.3E3F317CF8D5095A.quest_desc: ["Four elements begin to take shape inside your Source Gems during imbuement discoveries: air, earth, fire, and water. They manifest as essences, which give you more insight on how those magical glyphs might be recorded."]
 	quest.3E3F317CF8D5095A.title: "Elemental Essences"
 	quest.40022A3394135546.quest_desc: ["Alloying Redstone Ingots with Energetic Alloy grants you a Redstone Alloy. It's a crucial material that can be enhanced with some concentrated energy..."]
 	quest.407E3BBAE5713AA7.quest_desc: ["Dielectric Casing is a stable, hardened machine frame used in various recipes for the Powah mod, which has a variety of uses in improving your energy network."]
+	quest.4085226FA04B5DAF.quest_desc: ["Making contact with Wild Spirits allows you to transform your Blazebloom into VoidShimmer. Forge it with the help of some new ender-like materials."]
+	quest.41A0CC0ACFEBF56C.quest_desc: [
+		"Atomic Forges are large crafting zones used to make some immensely durable alloys, but are also used to develop the most capable machine components yet, such as Advanced Computing Engines."
+		""
+		"However, this forge requires a great amount of concentrated power to operate. To solve this, Enderic Lasers must be programmed to target the forge to give it the power necessary to complete its crafts."
+	]
 	quest.4299D9545D9A81EB.quest_desc: [
 		"Reconstructed crystals come in 6 forms, based on the material used:"
 		""
@@ -439,6 +495,7 @@
 		""
 		"Supply power to these with Energizing Rods, which will increase the crafting speed by placing more rods or upgrading the rods."
 	]
+	quest.4CECEA73197BAF85.quest_desc: ["Mining Celestigem clusters drops Raw Celestigem Ore, which drop Celestigems when broken. Use these to build advanced versions of your early Ferricore-based machinery that can do MUCH more than ever before!"]
 	quest.4CF512A76BBD9F7E.quest_desc: ["Basic Capacitors, while cheap, need some extra energy to be made truly effective. Use your Flux Crafter to make several of these for some upcoming crafts."]
 	quest.4E6EC8EE2C8CD5B8.quest_desc: [
 		"Afrits overpower Djinnis in power, but are more drawn to Orange Chalk than they are to Lime."
@@ -452,6 +509,16 @@
 		"You may choose to not use any crystals in the accumulator, but this will return a tenth of the Sal Ammoniac."
 	]
 	quest.531AC0805169CEBF.quest_desc: ["Flux Crafters need powered Flux Alternators to operate. Placing more Flux Alternators near the Flux Crafter will increase its crafting speed. Some recipes are only handled in this crafter exclusively, so make sure its crafting speed is sufficient!"]
+	quest.53875FE745678203.quest_desc: [
+		"Centrifuges are smart mixers that can create a variety of new materials through careful processing, including some structurally-sound Carbon Fibre Strands!"
+		""
+		"Even more materials can be made with the help of a Fluid Addon, which will require some of those Carbon Fibre Strands to make. Plug it into one of your Centrifuge's plug faces and you'll be able to work with those fluids!"
+	]
+	quest.54C35EFCCC5652B6.quest_desc: [
+		"Oritech's entry begins here! With the power of Enhanced Redstone, you can begin development of Machine Cores, which slowly develop into increasingly capable versions used for more important crafts and automations."
+		""
+		"The first of these is the Primitive Machine Core. While it has a only few uses early on, you'll want to push forward into the middle tiers to start out on any major progression."
+	]
 	quest.5506AE4B8F39A387.quest_desc: [
 		"With a Pestle and Mortar, you can grind up materials into a blend or mixture. Perhaps a mixture of seeds could net you a little Crow friend?"
 		""
@@ -464,12 +531,20 @@
 		""
 		"If a result has a blot of white on it, that's a source of fluid! Try to move your survey tool to that spot and see what's in that area."
 	]
+	quest.57952EE5DE33DD37.quest_desc: [
+		"Inscribers will take various presses and use them to create a variety of circuits from different materials."
+		""
+		"They can also be used as a different, albeit far less useful, method of turning a few materials to dusts."
+	]
 	quest.57D0D216A97B26D6.quest_desc: ["Source Gems are the most basic way to augment much purer magic. In wielding them, you see visions of mystical glyphs. There must be a way to document them..."]
+	quest.580D0C6E7B4C8C7E.quest_desc: ["Green Chalk draws from a mix of growth and decay to create a softer chalk, one able to handle the possession of both creatures and items alike through a single pentacle."]
 	quest.5811EA04E7CF30E7.quest_desc: [
 		"The field made by the projectors gives you a rather large space to build in. Try constructing a Machine Base using your currently-available technology, finalizing the assembly with a Basic Catalyst."
 		""
 		"Watch as your large build compacts into a much smaller form that can be used for various technological uses!"
 	]
+	quest.58FE7C7ACA3D2779.quest_desc: ["The Ender Crafter is a threshold of technological prowess wielded by a select number of people. It's very similar to the Flux Crafter, requiring the use of alternators to improve the processing speed of any crafts handled by this machine."]
+	quest.5A71C95D65B5BF68.quest_desc: ["Biomass is a burnable fuel that can be further processed into other forms. These typically require other Oritech machines, but there's a strange quality about its texture that makes it viable as a chalk material."]
 	quest.5A71F26573E823DD.quest_desc: [
 		"With your knowledge of both Obsidiansteel and Umbral Spirits, you can infuse Arcane Crystal Dust with them to produce Corrupti Dust."
 		""
@@ -483,6 +558,7 @@
 		""
 		"Word around is that this apparatus can enable some form of enchantment crafting!"
 	]
+	quest.5ADFA9C10AD946F5.quest_desc: ["Super AI Chips are a summit of various technological components turned into a computing powerhouse only rivaled by Unholy Intelligence. Use this technology wisely... your efforts will reward you."]
 	quest.5B0BE310AB5887F9.quest_desc: [
 		"Using a Magic Workbench, you're able to construct a cage for containing blazing fires. This fire can only stay lit using Netherrack, a hellish material whose origins you struggle to understand."
 		""
@@ -492,6 +568,7 @@
 	]
 	quest.5B84821179C454DB.quest_desc: ["Ether is a powerful source of light that draws from the bright glow of Blazing Quartz and Glowstone. Not only can it be dyed to your liking, but it can be either placed on its own or used to make a torch!"]
 	quest.5BF9ADAA56F1E9D4.quest_desc: ["Mundabitur Dust is a potent transmutator item. Some of the ingredients needed to craft this material require a soul-touched mob drop..."]
+	quest.5C688751ECAC15F0.quest_desc: ["Light Blue Chalk draws from its ice-centric power to stabilize pentacles capable of drawing in wild spirits."]
 	quest.5C7FC2B04B1CC0E1.quest_desc: ["Alloying a variety of shiny blue materials lets you create Crystaltine Ingots, a powerful alloy that enables some reconstructive technology. Since it's pretty expensive to make, you get a substantial amount of it with every craft!"]
 	quest.5D9CA1923AFE93F5.quest_desc: [
 		"Industrial Fermenters will process a variety of crops and foods into Ethanol. The input item used for fermenting will determine how much Ethanol you'll get."
@@ -499,6 +576,12 @@
 		"Balance out production rates with processing times to get the most consistent output for this key resource!"
 	]
 	quest.5D9CA1923AFE93F5.title: "Industrial Fermenter"
+	quest.5DF85AA61716FC17.quest_desc: [
+		"Dyson Cube Project is a mod that allows you to harness the power of the sun to produce incredibly rewarding amounts of power."
+		""
+		"Provide any number of Rail Ejector Controllers with Solar Sails and Beams to begin enveloping the sun, and use a Ray Receiver Controller to collect all of the power for your own gain."
+	]
+	quest.5DF85AA61716FC17.title: "Dyson Cube Project"
 	quest.5ECBA464F300C4BE.quest_desc: ["Crushing up some Obsidian nets you a gritty powder that has a variety of uses. There may be a use for it when you acquire some more chalk."]
 	quest.5F0623EFC64A7CB2.quest_desc: [
 		"The Clibano Forge is a magic furnace capable of smelting various ores and netting some \"residue\" from them. This residue can give you extra yield from everything you process."
@@ -546,6 +629,7 @@
 		""
 		"You can channel this blight into creating Soulwood, a blighted version of Runewood that has its own set of totem rites."
 	]
+	quest.63464A4BE7A5B369.quest_desc: ["Pulverizers are another crusher-like block. This is the first machine you can acquire that can create a solid Biomass!"]
 	quest.658FE15E322D56FF.quest_desc: ["Extractors are fantastic tools for generating materials infinitely. While great for building materials like Stone or Shale, you can also automate large quantities of Crimsite or Ochrum to extract infinite Iron and Gold respectively."]
 	quest.65DB37034A4934D1.quest_desc: [
 		"One important thing to note with this modpack is that it is NOT COMPLETE."
@@ -602,6 +686,7 @@
 		"You decide that it would be useful to grow some of those magical trees yourself, as they seem to have a more pure yet powerful form of magic waiting to be understood."
 	]
 	quest.67BB576CAAC503EC.title: "Archwood Sapling"
+	quest.68214D357EE390D0.quest_desc: ["Duratium is alloyed from carbon and platinum to make a very dense alloy used in a variety of high-tier technologies. You'll certainly want to have a lot of extra platinum available to you!"]
 	quest.68C602502B7CB050.quest_desc: [
 		"Coke Ovens are your primary source of Coal Coke, a form of carbon required in the production of steel."
 		""
@@ -629,6 +714,11 @@
 	]
 	quest.6D1F7A4CDF1D4A4D.title: "Demon's Dream Fruit"
 	quest.6D4A78DDED7FD016.quest_desc: ["Get yourself a few Shafts with your Andesite Alloy. You feel those gears turning yet?"]
+	quest.6D93E304C9DDEF93.quest_desc: [
+		"With the various components you've been making for your Oritech machines, you've likely noticed how expensive they can be. The Assembler solves this with its precise construction means, which lets it use less resources to produce more items!"
+		""
+		"On top of that, its precise construction is required for very specific components such as the Processing Unit, a component used in various machines and addons for Oritech use!"
+	]
 	quest.6F1668CE37F52D5E.quest_desc: [
 		"You conclude that there are two things you must do to understand the visions of glyphs."
 		""
@@ -649,6 +739,7 @@
 	]
 	quest.72FB981E202AF28B.quest_desc: ["You feel a compulsion to sanctify your gold. Its purity may offer a better way to handle spirit magic, or perhaps lead you into another realm of magical capabilities."]
 	quest.73629B28897D556D.quest_desc: ["The Elite Crafting Table requires the otherworldly eminence of Iesnium and the high-end foundational structure of Dark Steel to construct its components. Make sure to have a reliable amount of these materials handy!"]
+	quest.736332B260770A83.quest_desc: ["Possessed Zombified Piglins can be butchered for their meat, which helps to make pentacles that can call in otherworldly fauna."]
 	quest.74A49A878CDDA8C4.quest_desc: ["Many machines are easily built with nothing more than Andesite Casing. Just encase a stripped log with some Andesite Alloy and you can start tinkering with the casing!"]
 	quest.7573CD1A0DE53E5A.quest_desc: [
 		"If you want to locate otherworldly materials in your world, you may benefit from a tool that can find them for you. This is where the Divination Rod comes in handy!"
@@ -658,7 +749,7 @@
 		"If you wish to see the blocks more consistently, equip a pair of Otherworld Goggles!"
 	]
 	quest.76545252F04F6E22.quest_desc: ["Exploring the world will eventually cause you to come across Runestone Slag, a rare and magical material. It can be used to craft extra Blank Runestones."]
-	quest.7778CF10C5B6076E.title: "Frontier Gateway"
+	quest.76BBE84A8D6FAF77.quest_desc: ["Reinforced Carbon Sheets are a durable material made by refining carbon fibres with naphtha. They can be used in some cool-looking plating blocks, but are a very good alloying material as well."]
 	quest.777BD223A35E7233.quest_desc: ["The Magic Workbench enables you to craft a variety of magical items. Some of these items will reveal more hidden secrets within the Overworld or enable you to gain more knowledge of it."]
 	quest.77D8553E491BD317.quest_desc: ["Only Afrit magic is strong enough to smolder your Primogel into Blazebloom. Bind an Afrit to your Primogel to get this goo block upgrade."]
 	quest.7A322E5A606919C5.quest_desc: [
@@ -685,6 +776,11 @@
 		"Then, link your Sulfuric Flux Emitter to each pedestal and place it on the Mercury Catalyst. After adding Mercury to the Mercury Catalyst, watch as the resulting product starts being produced at the Reformation Result Pedestal!"
 	]
 	quest.7BD08BABA5551D05.title: "Reformation Array"
+	quest.7CEFB8E59479BBEC.quest_desc: [
+		"Oritech's Refinery can yield a greater variety of outputs compared to what Immersive Petroleum can offer. A major part of this comes with the catalyst slot of the refinery, which can completely change what materials you can refine to and from, including inputs like Lava and outputs like Strange Matter!"
+		""
+		"In order to get the most diversity out of your refinery, stack up to two Refinery Chamber Modules on top of your Refinery; if you prefer getting more of a lesser set of resources, use less chamber modules to double an outputs!"
+	]
 	quest.7D827138C62A8B93.quest_desc: ["Within your newly-constructed Alloy Kiln, you combine some copper and zinc to make brass, a powerful alloy that will enhance your technological capabilties even further."]
 	task.0666076C429EB744.title: "Book of Binding: Foliot (Bound)"
 	task.078C55A438A926F1.title: "Otherstone/Otherrock"

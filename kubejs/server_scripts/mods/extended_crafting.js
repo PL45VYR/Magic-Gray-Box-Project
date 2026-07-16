@@ -60,16 +60,18 @@ ServerEvents.recipes(event => {
 
     // Oritech Flux Crafter Conversions
     let oritech_flux = [
-        "fluidpipe",
         "energy",
         "item",
         "transparentitem",
         "addon/speed",
         "addon/eff",
         "addon/ultimate",
+        "addon/quarry",
         "addon/processing",
         "addon/processingalt",
-        "addon/_hunter",
+        "addon/yield",
+        "addon/cropfilter",
+        "_hunter",
         "addon/capacitor",
         "addon/acceptor",
         "addon/invproxy",
