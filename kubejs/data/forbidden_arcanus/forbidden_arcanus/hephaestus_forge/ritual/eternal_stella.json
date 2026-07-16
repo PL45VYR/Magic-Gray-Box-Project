@@ -21,7 +21,7 @@
   ],
   "magic_circle": "forbidden_arcanus:create_item",
   "main_ingredient": {
-    "item": "justdirethings:celestigem"
+    "item": "minecraft:diamond"
   },
   "result": {
     "type": "forbidden_arcanus:create_item",
