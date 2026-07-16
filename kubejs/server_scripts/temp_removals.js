@@ -60,14 +60,8 @@ ServerEvents.recipes(event => {
     // Stargate Journey
     event.remove({ mod: "sgjourney", not: { output: "sgjourney:fire_pit" } })
 
-    // Dyson Cube Project
-    //event.remove({ mod: "dysoncubeproject" })
-
     // Flux Networks
-    //event.remove({ mod: "fluxnetworks" })
-
-    // Hostile Neural Networks
-    //event.remove({ mod: "hostilenetworks" })
+    event.remove({ mod: "fluxnetworks" })
 
     // Ars Nouveau
     event.remove({ id: /.*book_upgrade/ })
