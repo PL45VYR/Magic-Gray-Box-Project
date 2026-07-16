@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: /industrialforegoing:machine_frame.*/ })
 
     // Mekanism
-    event.remove({ input: "mekanism:ingot_osmium", not: {output: "ae2:blank_pattern"} })
+    event.remove({ input: "mekanism:ingot_osmium", not: { output: "ae2:blank_pattern" } })
     event.remove({ input: /mekanism:alloy.*/ })
     event.remove({ input: "mekanism:steel_casing" })
     event.remove({ output: /mekanism:fluid.*/ })
@@ -13,9 +13,18 @@ ServerEvents.recipes(event => {
     event.remove({ input: /evolvedmekanism.*/ })
 
     // Oritech
-    //event.remove({ id: /oritech:crafting\/.*/ })
-    //event.remove({ id: /oritech:motor\/.*/ })
-    //event.remove({mod: "oritechthings"})
+    event.remove({ output: "oritech:fragment_forge_block" })
+    event.remove({ output: "oritech:drone_port_block" })
+    event.remove({ output: "oritech:shrinker_block" })
+    event.remove({ output: "oritech:arcane_augment_station" })
+    event.remove({ output: "oritech:accelerator_motor" })
+    event.remove({ output: "oritech:unstable_container" })
+    event.remove({ output: "oritech:accelerator_controller" })
+    event.remove({ output: "oritech:enchanter_block" })
+    event.remove({ output: "oritechthings:particle_accelerator_speed_sensor" })
+    event.remove({ output: "oritech:enchantment_catalyst_block" })
+    event.remove({ output: "oritech:spawner_controller_block" })
+    event.remove({ output: "oritechthings:accelerator_magnetic_field" })
 
     // AE2
     //event.remove({ mod: "ae2" })
@@ -28,9 +37,9 @@ ServerEvents.recipes(event => {
     //event.remove({ mod: "appflux" })
     event.remove({ mod: "appmek" })
     event.remove({ mod: "rep_ae2_bridge" })
-    event.remove({output: "ae2:spatial_pylon"})
-    event.remove({output: "ae2:spatial_io_port"})
-    event.remove({output: "ae2:quantum_ring"})
+    event.remove({ output: "ae2:spatial_pylon" })
+    event.remove({ output: "ae2:spatial_io_port" })
+    event.remove({ output: "ae2:quantum_ring" })
 
     // Just Dire Things
     // event.remove({ mod: "justdirethings" })
