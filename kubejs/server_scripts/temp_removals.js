@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
     event.remove({ input: /evolvedmekanism.*/ })
 
     // Oritech
-    event.remove({ output: "oritech:fragment_forge_block" })
+    /*event.remove({ output: "oritech:fragment_forge_block" })
     event.remove({ output: "oritech:drone_port_block" })
     event.remove({ output: "oritech:shrinker_block" })
     event.remove({ output: "oritech:arcane_augment_station" })
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "oritechthings:particle_accelerator_speed_sensor" })
     event.remove({ output: "oritech:enchantment_catalyst_block" })
     event.remove({ output: "oritech:spawner_controller_block" })
-    event.remove({ output: "oritechthings:accelerator_magnetic_field" })
+    event.remove({ output: "oritechthings:accelerator_magnetic_field" })*/
 
     // AE2
     //event.remove({ mod: "ae2" })
@@ -36,16 +36,16 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "advanced_ae" })
     //event.remove({ mod: "appflux" })
     event.remove({ mod: "appmek" })
-    event.remove({ mod: "rep_ae2_bridge" })
-    event.remove({ output: "ae2:spatial_pylon" })
-    event.remove({ output: "ae2:spatial_io_port" })
-    event.remove({ output: "ae2:quantum_ring" })
+    //event.remove({ mod: "rep_ae2_bridge" })
+    //event.remove({ output: "ae2:spatial_pylon" })
+    //event.remove({ output: "ae2:spatial_io_port" })
+    //event.remove({ output: "ae2:quantum_ring" })
 
     // Just Dire Things
     // event.remove({ mod: "justdirethings" })
     // event.remove({ output: "justdirethings:gooblock_tier2" })
     //event.remove({ output: "justdirethings:gooblock_tier3" })
-    event.remove({ output: "justdirethings:gooblock_tier4" })
+    //event.remove({ output: "justdirethings:gooblock_tier4" })
 
     // Explorer Compass
     event.remove({ output: "explorerscompass:explorerscompass" })
@@ -59,20 +59,20 @@ ServerEvents.recipes(event => {
     // Extended Crafting
     //event.remove({ mod: "extendedcrafting", output: /.*component.*/ })
     //event.remove({ mod: "extendedcrafting", output: /.*catalyst.*/ })
-    event.remove({ mod: "extendedcrafting", output: /.*enhanced_ender.*/ })
+    //event.remove({ mod: "extendedcrafting", output: /.*enhanced_ender.*/ })
     event.remove({ mod: "extendedcrafting", output: /.*ultimate.*/ })
-    event.remove({ output: "extendedcrafting:compressor" })
+    //event.remove({ output: "extendedcrafting:compressor" })
 
     // Replication
-    event.remove({ mod: "replication" })
+    //event.remove({ mod: "replication" })
 
     // Stargate Journey
-    event.remove({ mod: "sgjourney", not: { output: "sgjourney:fire_pit" } })
+    //event.remove({ mod: "sgjourney", not: { output: "sgjourney:fire_pit" } })
 
     // Flux Networks
     event.remove({ mod: "fluxnetworks" })
 
     // Ars Nouveau
-    event.remove({ id: /.*book_upgrade/ })
+    //event.remove({ id: /.*book_upgrade/ })
 
 })

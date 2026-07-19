@@ -59,5 +59,66 @@
 	id: "34B62BFAC9ED7A18"
 	order_index: 9
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "1B0BE74FFE2798E0"
+			tasks: [{
+				id: "70E0C490954F8796"
+				item: { count: 1, id: "minecraft:end_portal_frame" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7C782F41E9B7E7FC"
+			tasks: [{
+				id: "741B218A73A7AA23"
+				item: { count: 1, id: "extendedcrafting:ender_star" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "162205E2A0E8A6E8"
+			tasks: [{
+				id: "466FCB10BD6FC4DF"
+				item: { count: 1, id: "extendedcrafting:enhanced_ender_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "00116EFB81CAFB85"
+			tasks: [{
+				id: "6791BC637C0D1904"
+				item: { count: 1, id: "oritech:machine_core_6" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "2C4DE7E95E6C38FF"
+			tasks: [{
+				id: "29EB7871C21186F1"
+				item: { count: 1, id: "oritech:machine_core_7" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "296278BCF71FE73F"
+			tasks: [{
+				id: "220F209FF8E4D54A"
+				item: { count: 1, id: "forbidden_arcanus:stellarite_piece" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+	]
 }

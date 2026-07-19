@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
     event.remove({ mod: "hostilenetworks", not: { output: /.*fab_directive/ }, not: [{ input: /.*_prediction/ }, { output: /.*learn.*/ }, { output: /.*blank.*/ }] })
 
     // Occultism
-    event.remove({ output: /occultism.*impure/ })
+    //event.remove({ output: /occultism.*impure/ })
     event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:smelting" })
     event.remove({ output: "occultism:iesnium_ingot", type: "minecraft:blasting" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/occultism.*/ })
