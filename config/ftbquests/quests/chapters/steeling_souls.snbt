@@ -8,6 +8,7 @@
 		id: "oritech:steel_ingot"
 	}
 	id: "501AC7115BF6E39C"
+	images: [ ]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

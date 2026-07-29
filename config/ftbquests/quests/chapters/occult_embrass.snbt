@@ -8,6 +8,7 @@
 		id: "create:brass_casing"
 	}
 	id: "1105E3834B97B6AC"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -127,7 +128,7 @@
 			id: "136140C6D0246D99"
 			tasks: [{
 				id: "24551B75BD841DB7"
-				item: { count: 1, id: "apotheosis:common_material" }
+				item: { count: 1, id: "apotheosis:mysterious_scrap_metal" }
 				type: "item"
 			}]
 			x: 1.5d

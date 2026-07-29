@@ -11,6 +11,7 @@
 		id: "gateways:gate_pearl"
 	}
 	id: "1F131913C4CA8086"
+	images: [ ]
 	order_index: 11
 	quest_links: [ ]
 	quests: [ ]

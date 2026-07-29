@@ -57,6 +57,7 @@
 		id: "sgjourney:milky_way_dhd"
 	}
 	id: "34B62BFAC9ED7A18"
+	images: [ ]
 	order_index: 9
 	quest_links: [ ]
 	quests: [
@@ -77,8 +78,8 @@
 				item: { count: 1, id: "extendedcrafting:ender_star" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			id: "162205E2A0E8A6E8"
@@ -87,8 +88,8 @@
 				item: { count: 1, id: "extendedcrafting:enhanced_ender_ingot" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			id: "00116EFB81CAFB85"
@@ -97,8 +98,8 @@
 				item: { count: 1, id: "oritech:machine_core_6" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			id: "2C4DE7E95E6C38FF"
@@ -107,7 +108,7 @@
 				item: { count: 1, id: "oritech:machine_core_7" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -117,8 +118,128 @@
 				item: { count: 1, id: "forbidden_arcanus:stellarite_piece" }
 				type: "item"
 			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "6A40D9EBECD25CE1"
+			tasks: [{
+				id: "64A42B840DB68D1F"
+				item: { count: 1, id: "occultism:chalk_blue" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "070864A830E75960"
+			tasks: [{
+				id: "0167A9AC9FF0B13F"
+				item: { count: 1, id: "occultism:chalk_black" }
+				type: "item"
+			}]
 			x: 3.0d
-			y: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "327F0101518EB0BE"
+			tasks: [{
+				id: "2D8A66B785471243"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "3FEE94ED3BFE2912"
+			tasks: [{
+				id: "01C15AFAF47BC060"
+				item: { count: 1, id: "replication:replica_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "7BF246E3304F6E0E"
+			tasks: [{
+				id: "0E2C124B25212540"
+				item: { count: 1, id: "justdirethings:gooblock_tier4" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "22E85397D7A33D9B"
+			tasks: [{
+				id: "75D5E8BA65D43BD5"
+				item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "7FDFBA13C75439BA"
+			tasks: [{
+				id: "28C66A72142A4C20"
+				item: { count: 1, id: "extendedcrafting:compressor" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "4D9BC929885F4633"
+			tasks: [{
+				id: "073BC0587968A75B"
+				item: { count: 1, id: "powah:crystal_nitro" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "5D93DB8E0CC12551"
+			tasks: [{
+				id: "113A2F26EE292B9F"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "54C0250779E5FECE"
+			tasks: [{
+				id: "13C7DCF6D7F5DC9D"
+				item: { count: 1, id: "occultism:marid_essence" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "6AFFEB360232CB3D"
+			tasks: [{
+				id: "00C071D3A46AE210"
+				item: { count: 1, id: "sgjourney:naquadah" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "3792789AC29312BE"
+			tasks: [{
+				id: "2752EFD231BC8BF2"
+				item: { count: 1, id: "sgjourney:raw_naquadah" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
 		}
 	]
 }

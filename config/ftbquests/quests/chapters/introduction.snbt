@@ -8,6 +8,7 @@
 		id: "compactmachines:wall"
 	}
 	id: "7F315A8A0704B687"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

@@ -8,6 +8,7 @@
 		id: "create:mechanical_press"
 	}
 	id: "082534B546FCB12F"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
