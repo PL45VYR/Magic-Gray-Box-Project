@@ -387,7 +387,7 @@
 
 		["Stargate Journey Common Config"."Generation Config".server]
 			#Common Stargates will generate
-			common_stargate_generation = true
+			common_stargate_generation = false
 			#X chunk center offset of structures that contain a Stargate
 			# Default: 0
 			# Range: -1874999 ~ 1874999

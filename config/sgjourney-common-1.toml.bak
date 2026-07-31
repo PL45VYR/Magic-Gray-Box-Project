@@ -264,10 +264,6 @@
 			# Default: 16384
 			# Range: > 1
 			netherite_iris_durability = 16384
-			#Durability of the Naquadah Alloy Iris
-			# Default: 8192
-			# Range: > 1
-			naquadah_alloy_iris_durability = 8192
 			#Durability of the Trinium Iris
 			# Default: 16384
 			# Range: > 1
@@ -280,6 +276,10 @@
 			# Default: 4096
 			# Range: > 1
 			steel_iris_durability = 4096
+			#Durability of the Naquadah Alloy Iris
+			# Default: 8192
+			# Range: > 1
+			naquadah_alloy_iris_durability = 8192
 
 		["Stargate Journey Common Config"."Transmission Config".server]
 			#Max number of times a transmission can be forwarded before it disappears
@@ -338,8 +338,6 @@
 			naquadah_generator_mark_ii_max_transfer = 1000000
 
 		["Stargate Journey Common Config"."Stargate Network Config".server]
-			#Stargate Network will use addresses from datapacks
-			use_datapack_addresses = true
 			#Stargate Network will generate random Solar System for each dimension not registered through a datapack
 			generate_random_solar_systems = true
 			#Stargate Network will randomize addresses based on the world seed
@@ -348,6 +346,8 @@
 			disable_dhd_preference = false
 			#Stargates Network will prioritize Primary Stargates
 			primary_stargate = false
+			#Stargate Network will use addresses from datapacks
+			use_datapack_addresses = true
 
 		["Stargate Journey Common Config"."Generation Config".server]
 			#Common Stargates will generate
@@ -363,19 +363,19 @@
 			#X chunk bounds within which a Structure containing a Stargate may generate
 			# Default: 64
 			# Range: 0 ~ 64
-			stargate_generation_x_bound = 128
+			stargate_generation_x_bound = 64
 			#Z chunk bounds within which a Structure containing a Stargate may generate
 			# Default: 64
 			# Range: 0 ~ 64
-			stargate_generation_z_bound = 128
+			stargate_generation_z_bound = 64
 			#X chunk bounds within which a Buried Stargate may generate
 			# Default: 64
 			# Range: 0 ~ 64
-			buried_stargate_generation_x_bound = 128
+			buried_stargate_generation_x_bound = 64
 			#Z chunk bounds within which a Buried Stargate may generate
 			# Default: 64
 			# Range: 0 ~ 64
-			buried_stargate_generation_z_bound = 128
+			buried_stargate_generation_z_bound = 64
 			#When false, Stargate Network won't include Common Stargates in the search for ungenerated Stargate Structures
 			common_stargate_search = false
 
