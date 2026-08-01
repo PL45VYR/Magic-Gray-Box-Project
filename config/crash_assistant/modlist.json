@@ -117,13 +117,13 @@
     "curseForgeHash": 3163557722,
     "modrinthHash": "b4a8e11384454bcc341043b251db7fb5afdfdf45"
   },
-  "alltheleaks-1.1.10+1.21.1-neoforge.jar": {
-    "jarName": "alltheleaks-1.1.10+1.21.1-neoforge.jar",
+  "alltheleaks-1.1.11+1.21.1-neoforge.jar": {
+    "jarName": "alltheleaks-1.1.11+1.21.1-neoforge.jar",
     "modId": "alltheleaks",
     "name": "All The Leaks",
-    "version": "1.1.10+1.21.1-neoforge",
-    "curseForgeHash": 2274201648,
-    "modrinthHash": "00bf99e3a09204a555dc219a9648423c93f529d4"
+    "version": "1.1.11+1.21.1-neoforge",
+    "curseForgeHash": 3899353244,
+    "modrinthHash": "f94d617b2e887e4bee6f54377c0a931bae823032"
   },
   "Almanac-1.21.1-2-neoforge-1.5.2.jar": {
     "jarName": "Almanac-1.21.1-2-neoforge-1.5.2.jar",
@@ -676,10 +676,10 @@
     "curseForgeHash": 1001771497,
     "modrinthHash": "e977d86eec39d49295df4e2c4265d6710ae065e8"
   },
-  "connector-2.0.0-beta.15+1.21.1-full.jar": {
-    "jarName": "connector-2.0.0-beta.15+1.21.1-full.jar",
-    "curseForgeHash": 2457760852,
-    "modrinthHash": "5a1ce35ac53ad7d303d616e6e77f6be119ab722f"
+  "connector-2.0.0-beta.16+1.21.1-full.jar": {
+    "jarName": "connector-2.0.0-beta.16+1.21.1-full.jar",
+    "curseForgeHash": 1961822103,
+    "modrinthHash": "de3950b72686e8d4c0851ae050b2cbe00d90d2e4"
   },
   "ConstructionSticks-1.21.1-1.4.1.jar": {
     "jarName": "ConstructionSticks-1.21.1-1.4.1.jar",
@@ -777,13 +777,13 @@
     "curseForgeHash": 3262177184,
     "modrinthHash": "caa89b624caad7a9304872a236e74ea4c143972c"
   },
-  "create-enchantment-industry-2.4.2.jar": {
-    "jarName": "create-enchantment-industry-2.4.2.jar",
+  "create-enchantment-industry-2.5.0.jar": {
+    "jarName": "create-enchantment-industry-2.5.0.jar",
     "modId": "create_enchantment_industry",
     "name": "Create: Enchantment Industry",
-    "version": "2.4.2",
-    "curseForgeHash": 515050638,
-    "modrinthHash": "4ad5c181c805a548e15892500b07c0c0f88f0734"
+    "version": "2.5.0",
+    "curseForgeHash": 3456573291,
+    "modrinthHash": "192921f7494897b252af4602aaf415121df16801"
   },
   "create_connected-1.3.2-mc1.21.1.jar": {
     "jarName": "create_connected-1.3.2-mc1.21.1.jar",
@@ -1289,6 +1289,14 @@
     "curseForgeHash": 1769522995,
     "modrinthHash": "71267bbe37cc2bf78fedb06b0f16643c9b22d16c"
   },
+  "forgified-fabric-api-0.116.15+2.3.1+1.21.1.jar": {
+    "jarName": "forgified-fabric-api-0.116.15+2.3.1+1.21.1.jar",
+    "modId": "fabric_api",
+    "name": "Forgified Fabric API",
+    "version": "0.116.15+2.3.1+1.21.1",
+    "curseForgeHash": 342527820,
+    "modrinthHash": "4fe8b0c2110bc3228bbe4dfec38092a7dcabe028"
+  },
   "FpsReducer2-neoforge-1.21-2.10.jar": {
     "jarName": "FpsReducer2-neoforge-1.21-2.10.jar",
     "modId": "fpsreducer",
@@ -1360,6 +1368,14 @@
     "version": "2101.1.10",
     "curseForgeHash": 3463802119,
     "modrinthHash": "363376ae0fb22cb0527170fdf6a066d1da9b0225"
+  },
+  "ftb-xmod-compat-neoforge-21.1.9.jar": {
+    "jarName": "ftb-xmod-compat-neoforge-21.1.9.jar",
+    "modId": "ftbxmodcompat",
+    "name": "FTB XMod Compat",
+    "version": "21.1.9",
+    "curseForgeHash": 1219856723,
+    "modrinthHash": "0c8caa1d5e6954d71aa114f377bbc79ba83e1faf"
   },
   "functionalstorage-1.21.1-1.5.8.jar": {
     "jarName": "functionalstorage-1.21.1-1.5.8.jar",
@@ -1729,13 +1745,13 @@
     "curseForgeHash": 315552701,
     "modrinthHash": "f0327d7d2f389020063849200a4128ac9dcb52da"
   },
-  "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar": {
-    "jarName": "JustEnoughMekanismMultiblocks-1.21.1-7.15.jar",
+  "JustEnoughMekanismMultiblocks-1.21.1-7.16.jar": {
+    "jarName": "JustEnoughMekanismMultiblocks-1.21.1-7.16.jar",
     "modId": "jei_mekanism_multiblocks",
     "name": "Just Enough Mekanism Multiblocks",
-    "version": "7.15",
-    "curseForgeHash": 1547674975,
-    "modrinthHash": "160c5d10059c5f98bac91f46ef9cc287fa12a964"
+    "version": "7.16",
+    "curseForgeHash": 873284408,
+    "modrinthHash": "4fc7f5bf9a7b49039f4973bec041be1aa47970b7"
   },
   "justzoom_neoforge_2.1.0_MC_1.21.1.jar": {
     "jarName": "justzoom_neoforge_2.1.0_MC_1.21.1.jar",
@@ -2534,13 +2550,13 @@
     "curseForgeHash": 287190858,
     "modrinthHash": "56eab1d464ed0811c64040c64bd047df5cbc3aad"
   },
-  "rusticdelight-neoforge-1.21-1.7.0.jar": {
-    "jarName": "rusticdelight-neoforge-1.21-1.7.0.jar",
+  "rusticdelight-neoforge-1.21-1.7.1.jar": {
+    "jarName": "rusticdelight-neoforge-1.21-1.7.1.jar",
     "modId": "rusticdelight",
     "name": "Rustic Delight",
-    "version": "1.7.0",
-    "curseForgeHash": 2945938810,
-    "modrinthHash": "4e9cd8dfc6c49a31b9fec9b3e03b93e5ffdb6d5d"
+    "version": "1.7.1",
+    "curseForgeHash": 90496112,
+    "modrinthHash": "697df889af0cec1823cf5330fca62bf7f6e5037f"
   },
   "schematicenergistics-1.21.1-1.5.4a.jar": {
     "jarName": "schematicenergistics-1.21.1-1.5.4a.jar",
@@ -2686,13 +2702,13 @@
     "curseForgeHash": 3814407823,
     "modrinthHash": "4c8e4e31e1478ed437fbb5f69c6c209fa664ebda"
   },
-  "Stargate Journey-1.21.1-0.6.45.jar": {
-    "jarName": "Stargate Journey-1.21.1-0.6.45.jar",
+  "Stargate.Journey-1.21.1-0.6.45-hotfix1.jar": {
+    "jarName": "Stargate.Journey-1.21.1-0.6.45-hotfix1.jar",
     "modId": "sgjourney",
     "name": "Stargate Journey",
-    "version": "0.6.45",
-    "curseForgeHash": 299107118,
-    "modrinthHash": "30c4ee3824eab2f1b81591b60f68f7f77ee735da"
+    "version": "0.6.45-hotfix1",
+    "curseForgeHash": 1582115647,
+    "modrinthHash": "9ecfeb7ca35e290dff3f6b925e01d80f79da7e25"
   },
   "starterkit-1.21.1-8.1.jar": {
     "jarName": "starterkit-1.21.1-8.1.jar",
