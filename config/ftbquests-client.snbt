@@ -1,7 +1,7 @@
 {
 	changelog: {
 		# Default: false
-		always_show: true
+		always_show: false
 		
 		# Default: 0.75
 		# Range: 0.25 ~ 2.0

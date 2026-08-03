@@ -25,6 +25,7 @@ ServerEvents.tags('item', event => {
             event.add('malum:soul_shatter_capable_weapon', weapon)
         }
     })
+    event.add('c:tools/scythe', /eidolon_repraised:.*scythe/)
 
     // EMI Collapsible Tags
 
