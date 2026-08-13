@@ -26,6 +26,7 @@ ServerEvents.tags('item', event => {
         }
     })
     event.add('c:tools/scythe', /eidolon_repraised:.*scythe/)
+    event.add('malum:scythe', /eidolon_repraised:.*scythe/)
 
     // EMI Collapsible Tags
 

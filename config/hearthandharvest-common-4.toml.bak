@@ -27,3 +27,13 @@ generateCornMazes = true
 disableBottleMilking = false
 #Whether a ghost preview of the trellis piece is shown before placing
 trellisPlacementPreview = true
+#Multiplier applied to a food's nutrition value to determine bonus hunger granted when eating salted food.
+#For example, 0.2 means a food restoring 5 hunger gets +1 bonus hunger (20% of 5, minimum 1 for foods with less than 5 hunger).
+# Default: 0.2
+# Range: 0.0 ~ 1.0
+saltedHungerBonus = 0.2
+#Fraction of the saturation granted by a food that is removed when eating salted food.
+#For example, 0.1 means 10% of the saturation normally given is taken away.
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+saltedSaturationPenalty = 0.1
