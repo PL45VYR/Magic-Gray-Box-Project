@@ -23,11 +23,11 @@ ServerEvents.recipes(event => {
     })
 
     // Rarity Material Recipes
-    event.recipes.create.crushing(['2x apotheosis:mythic_material', CreateItem.of('apotheosis:mythic_material', 0.25)], 'ancientreforging:ancient_material')
-    event.recipes.create.crushing(['2x apotheosis:epic_material', CreateItem.of('apotheosis:epic_material', 0.25)], 'apotheosis:mythic_material')
-    event.recipes.create.crushing(['2x apotheosis:rare_material', CreateItem.of('apotheosis:rare_material', 0.25)], 'apotheosis:epic_material')
-    event.recipes.create.crushing(['2x apotheosis:uncommon_material', CreateItem.of('apotheosis:uncommon_material', 0.25)], 'apotheosis:rare_material')
-    event.recipes.create.crushing(['2x apotheosis:common_material', CreateItem.of('apotheosis:common_material', 0.25)], 'apotheosis:uncommon_material')
+    event.recipes.create.crushing(['2x apotheosis:godforged_pearl', CreateItem.of('apotheosis:godforged_pearl', 0.25)], 'ancientreforging:ancient_material')
+    event.recipes.create.crushing(['2x apotheosis:arcane_sand', CreateItem.of('apotheosis:arcane_sand', 0.25)], 'apotheosis:godforged_pearl')
+    event.recipes.create.crushing(['2x apotheosis:luminous_crystal_shard', CreateItem.of('apotheosis:luminous_crystal_shard', 0.25)], 'apotheosis:arcane_sand')
+    event.recipes.create.crushing(['2x apotheosis:timeworn_fabric', CreateItem.of('apotheosis:timeworn_fabric', 0.25)], 'apotheosis:luminous_crystal_shard')
+    event.recipes.create.crushing(['2x apotheosis:mysterious_scrap_metal', CreateItem.of('apotheosis:mysterious_scrap_metal', 0.25)], 'apotheosis:timeworn_fabric')
 
     // Shelf Recipes
 

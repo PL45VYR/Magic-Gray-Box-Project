@@ -149,13 +149,13 @@ ServerEvents.recipes(event => {
     event.recipes.createCompacting(
         'kubejs:amalgametal',
         [
-            'apotheosis:common_material',
-            Ingredient.of('#c:dusts/iron')
+            'apotheosis:mysterious_scrap_metal',
+            Ingredient.of('c:metal_dusts')
         ]
     ).heated()
 
     // Scrap from Amalgametal Recipe
-    event.recipes.create.crushing(['apotheosis:common_material', CreateItem.of('apotheosis:common_material', 0.35)], 'kubejs:amalgametal')
+    event.recipes.create.crushing(['apotheosis:mysterious_scrap_metal', CreateItem.of('apotheosis:mysterious_scrap_metal', 0.35)], 'kubejs:amalgametal')
 
     // Common Ink Recipe
     event.recipes.createMixing(
@@ -163,7 +163,7 @@ ServerEvents.recipes(event => {
         [
             Fluid.of('minecraft:water', 500),
             '2x irons_spellbooks:arcane_essence',
-            '2x apotheosis:common_material'
+            '2x apotheosis:mysterious_scrap_metal'
         ]
     ).heated()
 
@@ -173,7 +173,7 @@ ServerEvents.recipes(event => {
         [
             Fluid.of('irons_spellbooks:common_ink', 500),
             '2x eidolon_repraised:warped_sprouts',
-            '2x apotheosis:uncommon_material'
+            '2x apotheosis:timeworn_fabric'
         ]
     ).heated()
 
@@ -183,7 +183,7 @@ ServerEvents.recipes(event => {
         [
             Fluid.of('irons_spellbooks:uncommon_ink', 500),
             '2x malum:wind_nucleus',
-            '2x apotheosis:rare_material'
+            '2x apotheosis:luminous_crystal_shard'
         ]
     ).heated()
 
@@ -193,7 +193,7 @@ ServerEvents.recipes(event => {
         [
             Fluid.of('irons_spellbooks:rare_ink', 500),
             '2x hazennstuff:deus_essence',
-            '2x apotheosis:epic_material'
+            '2x apotheosis:arcane_sand'
         ]
     ).superheated()
 
@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
         [
             Fluid.of('irons_spellbooks:epic_ink', 500),
             '2x forbidden_arcanus:golden_dragon_scale',
-            '2x apotheosis:mythic_material'
+            '2x apotheosis:godforged_pearl'
         ]
     ).superheated()
 
@@ -270,7 +270,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:nether_star"
             },
             "E": {
-                "item": "apotheosis:mythic_material"
+                "item": "apotheosis:godforged_pearl"
             },
             "F": {
                 "item": "create:nixie_tube"

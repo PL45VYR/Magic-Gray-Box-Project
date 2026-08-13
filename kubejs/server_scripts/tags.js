@@ -61,4 +61,10 @@ ServerEvents.tags('item', event => {
     ritual_blacklist.forEach(ritual => {
         event.add('ars_nouveau:ritual_trade_blacklist', ritual)
     })
+
+    let metal_dusts = ['tin', 'lead', 'silver', 'iron', 'aluminum']
+    metal_dusts.forEach(dust => {
+        event.add('c:metal_dusts', `c:dusts/${dust}`)
+    })
+    
 })

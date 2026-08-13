@@ -314,7 +314,7 @@ ServerEvents.recipes(event => {
             "item": "forbidden_arcanus:arcane_crystal"
         },
         "D": {
-            "item": "apotheosis:rare_material"
+            "item": "apotheosis:luminous_crystal_shard"
         }
     })
 
