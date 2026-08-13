@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
         'kubejs:amalgametal',
         [
             'apotheosis:mysterious_scrap_metal',
-            Ingredient.of('c:metal_dusts')
+            Ingredient.of('#c:metal_dusts')
         ]
     ).heated()
 
@@ -193,7 +193,7 @@ ServerEvents.recipes(event => {
         [
             Fluid.of('irons_spellbooks:rare_ink', 500),
             '2x hazennstuff:deus_essence',
-            '2x apotheosis:arcane_sand'
+            '2x apotheosis:arcane_sands'
         ]
     ).superheated()
 
