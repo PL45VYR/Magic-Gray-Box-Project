@@ -150,7 +150,7 @@ ServerEvents.recipes(event => {
         'kubejs:amalgametal',
         [
             'apotheosis:mysterious_scrap_metal',
-            Ingredient.of('#c:metal_dusts')
+            Ingredient.of('#c:scrap_dusts')
         ]
     ).heated()
 
