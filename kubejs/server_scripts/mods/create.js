@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
     ).heated()
 
     // Scrap from Amalgametal Recipe
-    event.recipes.create.crushing(['apotheosis:mysterious_scrap_metal', CreateItem.of('apotheosis:mysterious_scrap_metal', 0.35)], 'kubejs:amalgametal')
+    event.recipes.create.crushing(['apotheosis:mysterious_scrap_metal', CreateItem.of('apotheosis:mysterious_scrap_metal', 0.75)], 'kubejs:amalgametal')
 
     // Common Ink Recipe
     event.recipes.createMixing(
