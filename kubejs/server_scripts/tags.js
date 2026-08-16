@@ -62,9 +62,31 @@ ServerEvents.tags('item', event => {
         event.add('ars_nouveau:ritual_trade_blacklist', ritual)
     })
 
+    // Custom Tag: Scrap Dusts
+
     let scrap_dusts = ['aluminum', 'iron', 'lead', 'silver', 'tin']
     scrap_dusts.forEach(dust => {
         event.add('c:scrap_dusts', `#c:dusts/${dust}`)
     })
-    
+
+    // Custom Tag: Small Dusts
+    let small_dusts = ['nickel', 'platinum', 'iron', 'copper', 'gold', 'uranium']
+    small_dusts.forEach(small_dust => {
+        event.add('c:small_dusts', `oritech:small_${small_dust}_dust`)
+        event.add(`c:small_dusts/${small_dust}`, `oritech:small_${small_dust}_dust`)
+    })
+
+    // Custom Tag: Small Clumps
+    let small_clumps = ['nickel', 'platinum', 'iron', 'copper', 'gold']
+    small_clumps.forEach(small_clump => {
+        event.add('c:small_clumps', `oritech:small_${small_clump}_clump`)
+        event.add(`c:small_clumps/${small_clump}`, `oritech:small_${small_clump}_clump`)
+    })
+
+    // Custom Tag: Metal Gems
+    let metal_gems = ['nickel', 'platinum', 'iron', 'copper', 'gold', 'uranium']
+    metal_gems.forEach(metal_gem => {
+        event.add('c:metal_gems', `oritech:${metal_gem}_gem`)
+        event.add(`c:metal_gems/${metal_gem}`, `oritech:${metal_gem}_gem`)
+    })
 })

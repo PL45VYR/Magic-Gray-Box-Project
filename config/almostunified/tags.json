@@ -29,6 +29,25 @@
     ],
     "ae2:all_quartz_dust": [
       "oritech:quartz_dust"
+    ],
+    "c:clumps": [
+      "create:crushed_raw_silver",
+      "create:crushed_raw_tin",
+      "create:crushed_raw_lead",
+      "create:crushed_raw_aluminum",
+      "xycraft_machines:aluminum_clump"
+    ],
+    "c:clumps/silver": [
+      "create:crushed_raw_silver"
+    ],
+    "c:clumps/tin": [
+      "create:crushed_raw_tin"
+    ],
+    "c:clumps/lead": [
+      "create:crushed_raw_lead"
+    ],
+    "c:clumps/aluminum": [
+      "create:crushed_raw_aluminum"
     ]
   },
   "tag_substitutions": {
