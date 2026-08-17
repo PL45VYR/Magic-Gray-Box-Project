@@ -363,19 +363,19 @@
 			#X chunk bounds within which a Structure containing a Stargate may generate
 			# Default: 64
 			# Range: 0 ~ 64
-			stargate_generation_x_bound = 64
+			stargate_generation_x_bound = 128
 			#Z chunk bounds within which a Structure containing a Stargate may generate
 			# Default: 64
 			# Range: 0 ~ 64
-			stargate_generation_z_bound = 64
+			stargate_generation_z_bound = 128
 			#X chunk bounds within which a Buried Stargate may generate
 			# Default: 64
 			# Range: 0 ~ 64
-			buried_stargate_generation_x_bound = 64
+			buried_stargate_generation_x_bound = 128
 			#Z chunk bounds within which a Buried Stargate may generate
 			# Default: 64
 			# Range: 0 ~ 64
-			buried_stargate_generation_z_bound = 64
+			buried_stargate_generation_z_bound = 128
 			#When false, Stargate Network won't include Common Stargates in the search for ungenerated Stargate Structures
 			common_stargate_search = false
 
