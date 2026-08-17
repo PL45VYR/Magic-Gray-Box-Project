@@ -151,19 +151,6 @@ ServerEvents.recipes(event => {
     // Wayward Compass Tweak
     event.replaceInput({ output: 'irons_spellbooks:wayward_compass' }, 'minecraft:soul_lantern', 'quark:soul_bead')
 
-    // AE2 Charger Recipe
-    event.shaped(Item.of('ae2:charger'),
-        [
-            'ABA',
-            'C  ',
-            'ABA'
-        ],
-        {
-            A: 'oritech:steel_ingot',
-            B: 'oritech:energite_ingot',
-            C: 'oritech:fluxite'
-        }
-    )
 
     // Ender Pearl Overhauls
 

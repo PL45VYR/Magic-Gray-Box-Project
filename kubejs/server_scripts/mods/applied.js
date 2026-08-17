@@ -65,4 +65,18 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    // AE2 Charger Recipe
+    event.shaped(Item.of('ae2:charger'),
+        [
+            'ABA',
+            'C  ',
+            'ABA'
+        ],
+        {
+            A: 'oritech:steel_ingot',
+            B: 'oritech:energite_ingot',
+            C: 'oritech:fluxite'
+        }
+    )
+
 })

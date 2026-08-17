@@ -63,7 +63,6 @@ ServerEvents.tags('item', event => {
     })
 
     // Custom Tag: Scrap Dusts
-
     let scrap_dusts = ['aluminum', 'iron', 'lead', 'silver', 'tin']
     scrap_dusts.forEach(dust => {
         event.add('c:scrap_dusts', `#c:dusts/${dust}`)

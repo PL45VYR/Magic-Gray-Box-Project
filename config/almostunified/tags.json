@@ -35,7 +35,8 @@
       "create:crushed_raw_tin",
       "create:crushed_raw_lead",
       "create:crushed_raw_aluminum",
-      "xycraft_machines:aluminum_clump"
+      "xycraft_machines:aluminum_clump",
+      "create:crushed_raw_uranium"
     ],
     "c:clumps/silver": [
       "create:crushed_raw_silver"
