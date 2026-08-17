@@ -96,6 +96,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "create:mixing/brass_ingot" })
     event.remove({ input: /apoth.*/, output: /create_enchantment_industry.*/ })
     event.remove({ output: /.*industry:infuser/ })
+    event.remove({ id: /create:crushing\/raw_.*/ })
 
     // Dim Paintings
     event.remove("dimpaintings:end_painting")
@@ -209,6 +210,7 @@ ServerEvents.recipes(event => {
 
     // Mekanism
     event.remove({ id: /.*alloying\/compat\/enderio.*/ })
+    event.remove({id: /evolvedmekanism:solidifying\/.*to_dust/})
 
     // Miscellaneous
     event.remove({ id: "endermanoverhaul:ender_eye" })
@@ -252,6 +254,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "oritech:compat/enderio/crafting/fluidpipe" })
     event.remove({ id: "oritech:crafting/fluidpipe" })
     event.remove({ id: "oritech:crafting/addon/fluid" })
+    event.remove({ id: /oritech:refinery.*rawsheol.*/ })
     event.remove({ output: "oritech:pulverizer_block" })
     event.remove({ output: "oritech:powered_furnace_block" })
     event.remove({ output: "oritech:basic_generator_block" })
