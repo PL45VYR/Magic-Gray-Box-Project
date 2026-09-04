@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
             },
             {
                 "type": "neoforge:components",
-                "amount": 500,
+                "amount": 25,
                 "components": {
                     "create:potion_fluid_bottle_type": "regular",
                     "minecraft:potion_contents": {
@@ -156,6 +156,9 @@ ServerEvents.recipes(event => {
 
     // Scrap from Amalgametal Recipe
     event.recipes.create.crushing(['apotheosis:mysterious_scrap_metal', CreateItem.of('apotheosis:mysterious_scrap_metal', 0.75)], 'kubejs:amalgametal')
+
+    // Amethyst Dust Recipe
+    event.recipes.create.milling('occultism:amethyst_dust', 'minecraft:amethyst_shard')
 
     // Common Ink Recipe
     event.recipes.createMixing(
