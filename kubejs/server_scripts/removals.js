@@ -183,6 +183,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: "immersiveengineering:crafting/blastbrick" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/forbidden.*/ })
     event.remove({ output: "immersivepetroleum:seismic_survey" })
+    event.remove({ id: /.*arcfurnace\/raw_ore.*/ })
 
     // Industrial Foregoing
     event.remove({ mod: "industrialforegoing", output: "#c:gears" })
@@ -210,7 +211,7 @@ ServerEvents.recipes(event => {
 
     // Mekanism
     event.remove({ id: /.*alloying\/compat\/enderio.*/ })
-    event.remove({id: /evolvedmekanism:solidifying\/.*to_dust/})
+    event.remove({ id: /evolvedmekanism:solidifying\/.*to_dust/ })
 
     // Miscellaneous
     event.remove({ id: "endermanoverhaul:ender_eye" })
@@ -255,6 +256,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: "oritech:crafting/fluidpipe" })
     event.remove({ id: "oritech:crafting/addon/fluid" })
     event.remove({ id: /oritech:refinery.*rawsheol.*/ })
+    event.remove({ id: /oritech:centrifuge\/fluid\/clump.*/ })
+    event.remove({ id: /oritech:atomicforge\/dust.*/ })
+    event.remove({ id: /oritech:compat.*arcalloying.*/ })
     event.remove({ output: "oritech:pulverizer_block" })
     event.remove({ output: "oritech:powered_furnace_block" })
     event.remove({ output: "oritech:basic_generator_block" })

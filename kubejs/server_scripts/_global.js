@@ -58,15 +58,8 @@ function unifyItem(tag, num1, num2) {
     } else if (return_type == 'CreateItem') {
         console.log(`Type: ${return_type} | Output: ${CreateItem.of(stack_string, chance)}`)
         return CreateItem.of(stack_string, chance)
-    } else if (count > 1) {
-        console.log(`Type: ${return_type} | Output: ${Item.of(id, count).first}`)
-        return Ingredient.of(id, count).first
     } else {
-        console.log(`Type: ${return_type} | Output: ${Ingredient.of(id).first}`)
-        return Ingredient.of(id).first
+        console.log(`Type: ${return_type} | Output: ${stack_string}`)
+        return stack_string
     }
-}
-
-function unifyIngredient(tag) {
-    return unifyItem(tag, 1)
 }

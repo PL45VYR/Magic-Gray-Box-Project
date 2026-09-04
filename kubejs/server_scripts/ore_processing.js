@@ -4,12 +4,12 @@ ServerEvents.recipes(event => {
     const crushingRawOre = (material) => {
         event.recipes.create.crushing(
             [unifyItem(`c:clumps/${material}`), CreateItem.of('create:experience_nugget', 0.75)],
-            unifyIngredient(`#c:raw_materials/${material}`)
+            unifyItem(`#c:raw_materials/${material}`)
         )
     }
 
     // Recipe: Fragmenting | Raw Ore to Clump BYP
-    const fragmentRawOre = () => { }
+    const fragmentRawOre = (material) => { }
 
     // Recipe: Refining | Raw Ore to Clump MULT
     const refineryRawOre = (material, ticks) => {
@@ -47,7 +47,30 @@ ServerEvents.recipes(event => {
     const spiritRawOre = () => { }
 
     // Recipe: Arc Furnace | Raw Ore to Ingot
-    const arcsmeltRawOre = () => { }
+    const arcsmeltRawOre = (material) => {
+        event.custom({
+            "type": "immersiveengineering:arc_furnace",
+            "additives": [],
+            "energy": 25600,
+            "input": {
+                "tag": `c:raw_materials/${material}`
+            },
+            "results": [
+                {
+                    "tag": `c:ingots/${material}`,
+                }
+            ],
+            "secondaries": [
+                {
+                    "chance": 0.5,
+                    "output": {
+                        "tag": `c:ingots/${material}`
+                    }
+                }
+            ],
+            "time": 100
+        })
+    }
 
     // Recipe: Dissolution | Raw Ore to Dirty Slurry
     const dissolutionRawOre = () => { }
@@ -103,7 +126,7 @@ ServerEvents.recipes(event => {
     }
 
     // Recipe: Arc Furnace | Dust to Ingot
-    const arcsmeltDust = () => { }
+    const arcsmeltDust = (material) => { }
 
     // Recipe: Milling | Small Clump to Small Dust
     const millingSmallClump = (material) => {
@@ -179,10 +202,24 @@ ServerEvents.recipes(event => {
     const centrifugeClump = () => { }
 
     // Recipe: Water Separation | Clump to Gem MULT
-    const waterClump = () => { }
+    const waterClump = (material, ticks) => {
+        event.recipes.oritech.centrifuge_fluid(
+            unifyItem(`c:metal_gems/${material}`, 2),
+            [],
+            unifyItem(`c:clumps/${material}`),
+            FluidInput.of('minecraft:water', 1000)
+        ).time(ticks)
+    }
 
     // Recipe: Acid Separation | Clump to Gem MULT PLUS
-    const acidClump = () => { }
+    const acidClump = (material, ticks) => {
+        event.recipes.oritech.centrifuge_fluid(
+            unifyItem(`c:metal_gems/${material}`, 3),
+            [FluidOutput.of('oritech:still_mineral_slurry', 250)],
+            unifyItem(`c:clumps/${material}`),
+            FluidInput.of('oritech:still_sulfuric_acid', 1000)
+        ).time(ticks)
+    }
 
     // Recipe: Meat Washing | Clump to Raw Meat
     const meatingClump = () => { }
@@ -191,22 +228,71 @@ ServerEvents.recipes(event => {
     const sievingFermented = () => { }
 
     // Recipe: Smelting | Metal Gem to Ingot
-    const smeltingMetalGem = () => { }
+    const smeltingMetalGem = (material) => {
+        event.smelting(unifyItem(`c:ingots/${material}`), unifyItem(`c:metal_gems/${material}`))
+    }
 
     // Recipe: Alloying | Metal Gem to Ingot MULT
-    const alloyingMetalGem = () => { }
+    const alloyingMetalGem = (material) => {
+        event.recipes.oritech.foundry(
+            unifyItem(`c:ingots/${material}`, 3),
+            [unifyItem(`c:ingots/${material}`), unifyItem(`c:ingots/${material}`)]
+        )
+        event.custom({
+            "type": "immersiveengineering:alloy",
+            "input0": {
+                "tag": `c:ingots/${material}`
+            },
+            "input1": {
+                "tag": `c:ingots/${material}`
+            },
+            "result": {
+                "item": unifyItem(`c:ingots/${material}`),
+                "count": 3
+            }
+        })
+    }
 
     // Recipe: Engraving | Metal Gem to Dust
-    const engravingMetalGem = () => { }
+    const engravingMetalGem = (material) => {
+        event.recipes.oritech.atomic_forge(
+            unifyItem(`c:dusts/${material}`, 2),
+            [unifyItem(`c:metal_gems/${material}`), 'oritech:fluxite', 'oritech:fluxite']
+        ).time(20)
+    }
 
     // Recipe: Arc Furnace | Metal Gem to Ingot MULT PLUS
-    const arcsmeltMetalGem = () => { }
+    const arcsmeltMetalGem = (material) => {
+        event.custom({
+            "type": "immersiveengineering:arc_furnace",
+            "additives": [
+                {
+                    "tag": `c:metal_gems/${material}`
+                }
+            ],
+            "energy": 51200,
+            "input": {
+                "tag": `c:metal_gems/${material}`
+            },
+            "results": [
+                {
+                    "basePredicate": {
+                        "tag": `c:ingots/${material}`
+                    },
+                    "count": 4
+                }
+            ],
+            "secondaries": [],
+            "time": 100
+        })
+    }
 
     // Iron Recipes
     let material_list = ['nickel', 'platinum', 'iron', 'copper', 'gold', 'zinc', 'osmium', 'silver', 'tin', 'lead', 'aluminum', 'uranium']
-    let one_to_one_tough = ['platinum', 'osmium']
+    let tough_materials = ['platinum', 'osmium']
     material_list.forEach(material => {
         crushingRawOre(material)
+        arcsmeltRawOre(material)
         meltingDust(material, 'heated')
         millingSmallClump(material)
         splashingDirtyDust(material)
@@ -216,8 +302,16 @@ ServerEvents.recipes(event => {
 
         if (tough_materials.includes(material)) {
             refineryRawOre(material, 120)
+            waterClump(material, 150)
+            acidClump(material, 150)
+            engravingMetalGem(material)
+            arcsmeltMetalGem(material)
         } else if (material != 'uranium') {
             refineryRawOre(material, 80)
+            waterClump(material, 225)
+            acidClump(material, 225)
+            engravingMetalGem(material)
+            arcsmeltMetalGem(material)
         }
 
     })
