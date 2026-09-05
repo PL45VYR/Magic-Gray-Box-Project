@@ -16,6 +16,11 @@ ServerEvents.tags('item', event => {
     event.add("theurgy:alchemical_sulfurs/metals", 'kubejs:alchemical_sulfur_andesite_alloy')
     event.add("theurgy:alchemical_sulfurs/metals/rare", 'kubejs:alchemical_sulfur_andesite_alloy')
 
+    event.add("theurgy:alchemical_sulfurs", 'kubejs:alchemical_sulfur_arcane_crystal')
+    event.add("theurgy:alchemical_sulfurs/common", 'kubejs:alchemical_sulfur_arcane_crystal')
+    event.add("theurgy:alchemical_sulfurs/gems", 'kubejs:alchemical_sulfur_arcane_crystal')
+    event.add("theurgy:alchemical_sulfurs/gems/common", 'kubejs:alchemical_sulfur_arcane_crystal')
+
     // Malum Soul Shattering Tweaks
     
     let weapons = event.get('lodestone:enchantable/weapon').getObjectIds()

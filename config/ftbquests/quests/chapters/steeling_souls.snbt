@@ -420,18 +420,12 @@
 		}
 		{
 			dependencies: ["1105E3834B97B6AC"]
-			dependency_requirement: "one_completed"
 			icon: {
 				id: "forbidden_arcanus:aureal_bottle"
 			}
 			id: "316FD8F81322D15E"
 			shape: "hexagon"
 			tasks: [
-				{
-					id: "17A9A4FEBA28C8B4"
-					item: { count: 1, id: "forbidden_arcanus:aureal_bottle" }
-					type: "item"
-				}
 				{
 					icon: {
 						id: "forbidden_arcanus:arcane_crystal_obelisk"
@@ -442,6 +436,12 @@
 					timer: 0L
 					to_observe: "forbidden_arcanus:arcane_crystal_obelisk"
 					type: "observation"
+				}
+				{
+					id: "17A9A4FEBA28C8B4"
+					item: { count: 1, id: "forbidden_arcanus:aureal_bottle" }
+					optional_task: true
+					type: "item"
 				}
 			]
 			x: -6.0d

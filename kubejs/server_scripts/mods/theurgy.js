@@ -4,17 +4,31 @@ ServerEvents.recipes(event => {
 
     // Liquefaction Recipes
     event.recipes.theurgy.liquefaction(
-        'kubejs:alchemical_sulfur_pewter',  // Output Item
-        'eidolon_repraised:pewter_blend',   // Input Item
-        '10x theurgy:sal_ammoniac',           // Input Fluid
-        100                                   // Processing Time
+        'kubejs:alchemical_sulfur_pewter',
+        'eidolon_repraised:pewter_blend',
+        '10x theurgy:sal_ammoniac',
+        100
     )
 
     event.recipes.theurgy.liquefaction(
-        'kubejs:alchemical_sulfur_pewter',  // Output Item
-        'eidolon_repraised:pewter_ingot',   // Input Item
-        '10x theurgy:sal_ammoniac',           // Input Fluid
-        100                                   // Processing Time
+        'kubejs:alchemical_sulfur_pewter',
+        'eidolon_repraised:pewter_ingot',
+        '10x theurgy:sal_ammoniac',
+        100
+    )
+
+    event.recipes.theurgy.liquefaction(
+        'kubejs:alchemical_sulfur_arcane_crystal',
+        'forbidden_arcanus:arcane_crystal',
+        '10x theurgy:sal_ammoniac',
+        100
+    )
+
+    event.recipes.theurgy.liquefaction(
+        '4x kubejs:alchemical_sulfur_arcane_crystal',
+        '#forbidden_arcanus:arcane_crystal_ores',
+        '10x theurgy:sal_ammoniac',
+        100
     )
 
     // Distillation Recipes
@@ -25,7 +39,7 @@ ServerEvents.recipes(event => {
         'theurgy:mercury_shard',            // Mercury Slot
         'theurgy:alchemical_salt_mineral',  // Salt Slot
         'kubejs:alchemical_sulfur_pewter',  // Sulfur Slot
-        100                                   // Processing Time
+        100
     )
 
     event.recipes.theurgy.incubation(
@@ -36,18 +50,26 @@ ServerEvents.recipes(event => {
         100
     )
 
+    event.recipes.theurgy.incubation(
+        'forbidden_arcanus:arcane_crystal',
+        'theurgy:mercury_shard',
+        'theurgy:alchemical_salt_mineral',
+        'kubejs:alchemical_sulfur_arcane_crystal',
+        100
+    )
+
     // Accumulation Recipes
 
     // Reformation Recipes
     event.recipes.theurgy.reformation(
-        "kubejs:alchemical_sulfur_andesite_alloy",  // Output Item
+        "kubejs:alchemical_sulfur_andesite_alloy",
         [
-            "kubejs:alchemical_sulfur_pewter",      // Input Items
+            "kubejs:alchemical_sulfur_pewter",
             "kubejs:alchemical_sulfur_pewter"
         ],
-        "theurgy:alchemical_sulfur_andesite",       // Target Item
-        20,                                           // Mercury Cost
-        100                                           // Processing Time
+        "theurgy:alchemical_sulfur_andesite",
+        20,
+        100
     )
 
     // Fermentation Recipes
