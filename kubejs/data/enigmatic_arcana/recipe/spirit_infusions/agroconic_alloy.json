@@ -1,0 +1,39 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "count": 4,
+      "item": "discerning_the_eldritch:shard_of_malice"
+    },
+    {
+      "count": 2,
+      "item": "irons_spellbooks:arcane_ingot"
+    },
+    {
+      "count": 2,
+      "item": "irons_spellbooks:mithril_scrap"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "enigmatic_arcana:agroconic_alloy"
+  },
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 24
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:wicked",
+      "count": 32
+    }
+  ]
+}
