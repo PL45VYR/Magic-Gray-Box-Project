@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
 
     // Eidolon Repraised
     event.remove({ output: "eidolon_repraised:pewter_blend" })
-    event.remove({ output: "eidolon_repraised:pewter_ingot" })
+    event.remove({ output: "eidolon_repraised:pewter_ingot", input: "eidolon_repraised:pewter_blend" })
     event.remove({ output: "eidolon_repraised:worktable" })
 
     // Ender IO
