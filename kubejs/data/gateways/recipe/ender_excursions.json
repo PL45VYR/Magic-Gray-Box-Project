@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "HPH",
+    "PEP",
+    "HPH"
+  ],
+  "key": {
+    "H": {
+      "item": "reliquary:nebulous_heart"
+    },
+	"P": {
+      "item": "endermanoverhaul:warped_pearl"
+    },
+	"E": {
+      "item": "endermanoverhaul:summoner_pearl"
+    }
+  },
+  "result": {
+    "id": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:ender_excursions"
+}

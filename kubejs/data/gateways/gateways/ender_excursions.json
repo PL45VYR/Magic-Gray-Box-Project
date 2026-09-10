@@ -218,7 +218,7 @@
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:enderman",
-                    "rolls": 15
+                    "rolls": 25
                 },
                 {
                     "type": "gateways:entity_loot",
@@ -322,7 +322,7 @@
                 {
                     "type": "gateways:entity_loot",
                     "entity": "minecraft:enderman",
-                    "rolls": 15
+                    "rolls": 25
                 },
                 {
                     "type": "gateways:entity_loot",
@@ -381,5 +381,9 @@
             "rolls": 20
         }
     ],
-    "failures": []
+    "failures": [],
+    "rules": {
+        "player_damage_only": true,
+        "requires_nearby_player": true
+    }
 }
