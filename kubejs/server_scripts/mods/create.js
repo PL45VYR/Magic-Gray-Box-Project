@@ -226,6 +226,19 @@ ServerEvents.recipes(event => {
         .transitionalItem('create:incomplete_track')
         .loops(2)
 
+    // Packager Connector Recipe 
+    // (REMOVE WHEN REPACKAGED UPDATES)
+    event.shaped('1x repackaged:packager_connector', [
+            ' I ',
+            'SCS',
+            ' I '
+        ], {
+            I: '#c:nuggets/iron',
+            S: '#c:plates/iron',
+            C: 'create:cardboard'
+        }
+    )
+
     // Gem Cutter Recipe
     event.recipes.extendedcrafting.shaped_table('create_enchantment_industry:gem_cutter',
         [
