@@ -31,6 +31,27 @@ ServerEvents.recipes(event => {
         100
     )
 
+    event.recipes.theurgy.liquefaction(
+        '5x theurgy:alchemical_sulfur_tin',
+        '#c:ores/tin',
+        '10x theurgy:sal_ammoniac',
+        100
+    )
+
+    event.recipes.theurgy.liquefaction(
+        '5x theurgy:alchemical_sulfur_lead',
+        '#c:ores/lead',
+        '10x theurgy:sal_ammoniac',
+        100
+    )
+
+    event.recipes.theurgy.liquefaction(
+        '5x theurgy:alchemical_sulfur_uranium',
+        '#c:ores/uranium',
+        '10x theurgy:sal_ammoniac',
+        100
+    )
+
     // Distillation Recipes
 
     // Incubation Recipes
