@@ -214,6 +214,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "eidolon_repraised": {
+    "enthrall_tooltip": true
+  },
   "jadeaddons.lootr": {
     "info": true
   },
