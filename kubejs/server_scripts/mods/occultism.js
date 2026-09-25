@@ -11,6 +11,10 @@ ServerEvents.recipes(event => {
     // Research Fragment Recipe Tweaks
     event.replaceInput({ output: 'occultism:research_fragment_dust' }, 'minecraft:experience_bottle', 'forbidden_arcanus:xpetrified_orb')
 
+    // Fragile Soul Gem Recipe Tweaks
+    event.replaceInput({output: 'occultism:fragile_soul_gem'}, 'minecraft:iron_ingot', 'eidolon_repraised:arcane_gold_ingot')
+    event.replaceInput({output: 'occultism:fragile_soul_gem'}, 'minecraft:egg', 'forbidden_arcanus:quantum_core')
+
     // First Frontier Recipe
     event.recipes.occultism.ritual(
         Item.of('gateways:gate_pearl[gateways:gateway="apotheosis:tiered/frontier"]'),

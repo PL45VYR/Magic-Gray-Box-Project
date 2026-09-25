@@ -130,6 +130,10 @@ ServerEvents.recipes(event => {
         "sourceCost": 1000
     })
 
+    // Drygmy Recipe Changes
+    event.replaceInput({output: 'ars_nouveau:drygmy_charm'}, '#minecraft:fishes', 'netherex:hoglin_tusk')
+    event.replaceInput({output: 'ars_nouveau:drygmy_charm'}, '#c:seeds', 'eidolon_repraised:sildrian_seed')
+
     // Mage Spell Book Recipe
     event.custom({
         "type": "ars_nouveau:enchanting_apparatus",
