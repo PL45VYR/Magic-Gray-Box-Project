@@ -49,6 +49,12 @@
     ],
     "c:clumps/aluminum": [
       "create:crushed_raw_aluminum"
+    ],
+    "c:nuggets/steel": [
+      "hazentouvelib:steel_nugget"
+    ],
+    "c:storage_blocks/steel": [
+      "hazentouvelib:steel_block"
     ]
   },
   "tag_substitutions": {
