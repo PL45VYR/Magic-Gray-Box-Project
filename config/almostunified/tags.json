@@ -25,7 +25,8 @@
       "rusticdelight:roasted_coffee_beans"
     ],
     "c:nuggets/steel": [
-      "hazennstuff:steel_nugget"
+      "hazennstuff:steel_nugget",
+      "hazentouvelib:steel_nugget"
     ],
     "ae2:all_quartz_dust": [
       "oritech:quartz_dust"
@@ -49,9 +50,6 @@
     ],
     "c:clumps/aluminum": [
       "create:crushed_raw_aluminum"
-    ],
-    "c:nuggets/steel": [
-      "hazentouvelib:steel_nugget"
     ],
     "c:storage_blocks/steel": [
       "hazentouvelib:steel_block"
