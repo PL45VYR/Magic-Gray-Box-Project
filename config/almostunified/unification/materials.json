@@ -66,6 +66,7 @@
     "oritech:biosteel_ingot",
     "malum:natural_quartz",
     "immersiveengineering:storage_steel",
+    "immersiveengineering:storage_uranium",
     "fruitsdelight:lemon"
   ],
   "ignored_recipe_types": [
