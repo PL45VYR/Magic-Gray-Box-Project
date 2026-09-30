@@ -22,7 +22,10 @@
     "supplementaries",
     "actuallyadditions"
   ],
-  "priority_overrides": {},
+  "priority_overrides": {
+    "c:storage_blocks/steel": "immersiveengineering:storage_steel",
+    "c:storage_blocks/uranium": "immersiveengineering:storage_uranium"
+  },
   "stone_variants": [
     "stone",
     "andesite",
@@ -65,8 +68,6 @@
   "ignored_items": [
     "oritech:biosteel_ingot",
     "malum:natural_quartz",
-    "immersiveengineering:storage_steel",
-    "immersiveengineering:storage_uranium",
     "fruitsdelight:lemon"
   ],
   "ignored_recipe_types": [
