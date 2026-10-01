@@ -229,15 +229,54 @@ ServerEvents.recipes(event => {
     // Packager Connector Recipe 
     // (REMOVE WHEN REPACKAGED UPDATES)
     event.shaped('1x repackaged:packager_connector', [
-            ' I ',
-            'SCS',
-            ' I '
-        ], {
-            I: '#c:nuggets/iron',
-            S: '#c:plates/iron',
-            C: 'create:cardboard'
-        }
+        ' I ',
+        'SCS',
+        ' I '
+    ], {
+        I: '#c:nuggets/iron',
+        S: '#c:plates/iron',
+        C: 'create:cardboard'
+    }
     )
+
+    // Ancient Sand Recipe (SAND THE SAND!)
+    event.custom({
+        "type": "create_dragons_plus:sanding",
+        "ingredients": [
+            {
+                "item": "minecraft:sand"
+            }
+        ],
+        "results": [
+            {
+                "id": "yungscavebiomes:ancient_sand"
+            }
+        ]
+    })
+
+    // Asurine Recipe
+    event.custom({
+        "type": "create_aquatic_ambitions:channeling",
+        "ingredients": [
+            {
+                "item": "minecraft:calcite"
+            }
+        ],
+        "results": [
+            {
+                "id": "create:asurine"
+            }
+        ]
+    })
+
+    // Crimsite Recipe
+    event.recipes.create.compacting('create:crimsite', ['create:scorchia', '2x minecraft:flint', Fluid.of('minecraft:lava', 100)])
+
+    // Ochrum Recipe
+    event.recipes.create.compacting('create:ochrum', ['yungscavebiomes:smooth_ancient_sandstone', '2x minecraft:quartz', Fluid.of('minecraft:lava', 100)])
+
+    // Tuff Recipe
+    event.recipes.create.compacting('minecraft:tuff', ['minecraft:stone', '2x minecraft:flint', Fluid.of('minecraft:lava', 100)])
 
     // Gem Cutter Recipe
     event.recipes.extendedcrafting.shaped_table('create_enchantment_industry:gem_cutter',
