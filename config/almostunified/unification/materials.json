@@ -23,8 +23,8 @@
     "actuallyadditions"
   ],
   "priority_overrides": {
-    "c:storage_blocks/steel": "immersiveengineering:storage_steel",
-    "c:storage_blocks/uranium": "immersiveengineering:storage_uranium"
+    "c:storage_blocks/steel": "immersiveengineering",
+    "c:storage_blocks/uranium": "immersiveengineering"
   },
   "stone_variants": [
     "stone",
