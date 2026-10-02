@@ -264,19 +264,20 @@ ServerEvents.recipes(event => {
         ],
         "results": [
             {
+                "chance": 0.12,
                 "id": "create:asurine"
             }
         ]
     })
 
     // Crimsite Recipe
-    event.recipes.create.compacting('create:crimsite', ['create:scorchia', '2x minecraft:flint', Fluid.of('minecraft:lava', 100)])
+    event.recipes.create.compacting('create:crimsite', ['2x minecraft:flint', 'create:scorchia', Fluid.of('minecraft:lava', 100)])
 
     // Ochrum Recipe
-    event.recipes.create.compacting('create:ochrum', ['yungscavebiomes:smooth_ancient_sandstone', '2x minecraft:quartz', Fluid.of('minecraft:lava', 100)])
+    event.recipes.create.compacting('create:ochrum', ['2x minecraft:quartz', 'yungscavebiomes:smooth_ancient_sandstone', Fluid.of('minecraft:lava', 100)])
 
     // Tuff Recipe
-    event.recipes.create.compacting('minecraft:tuff', ['minecraft:stone', '2x minecraft:flint', Fluid.of('minecraft:lava', 100)])
+    event.recipes.create.compacting('minecraft:tuff', ['2x minecraft:flint', 'minecraft:stone', Fluid.of('minecraft:lava', 100)])
 
     // Gem Cutter Recipe
     event.recipes.extendedcrafting.shaped_table('create_enchantment_industry:gem_cutter',
