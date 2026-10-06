@@ -279,6 +279,10 @@ ServerEvents.recipes(event => {
     // Tuff Recipe
     event.recipes.create.compacting('minecraft:tuff', ['2x minecraft:flint', 'minecraft:stone', Fluid.of('minecraft:lava', 100)])
 
+    // Coke Dust Recipes
+    event.recipes.create.crushing('immersiveengineering:dust_coke', 'immersiveengineering:coal_coke')
+    event.recipes.create.crushing('immersivepetroleum:petcoke_dust', 'immersivepetroleum:petcoke')
+
     // Gem Cutter Recipe
     event.recipes.extendedcrafting.shaped_table('create_enchantment_industry:gem_cutter',
         [

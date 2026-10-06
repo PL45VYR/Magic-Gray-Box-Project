@@ -104,7 +104,7 @@ ServerEvents.recipes(event => {
     })
     event.remove({ id: "immersivepetroleum:hydrotreater/sulfur_recovery" })
 
-    // In-World Diesel Reservoirs
+    // In-World Oil Reservoirs
     event.custom({
         "type": "immersivepetroleum:reservoirs",
         "biomes": {
