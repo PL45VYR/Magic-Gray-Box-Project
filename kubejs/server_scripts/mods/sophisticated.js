@@ -312,21 +312,19 @@ ServerEvents.recipes(event => {
     // Sophisticated Backpack Upgrade Base
     event.recipes.extendedcrafting.shaped_table('sophisticatedbackpacks:upgrade_base',
         [
-            "ABABA",
-            "BCCCB",
-            "ACCCA",
-            "BCCCB",
-            "ABABA"
+            "ABA",
+            "BCB",
+            "ABA"
         ],
         {
             "A": {
-                "item": "minecraft:iron_ingot"
+                "tag": "c:ingots/steel"
             },
             "B": {
                 "item": "minecraft:string"
             },
             "C": {
-                "item": "immersiveengineering:ersatz_leather"
+                "tag": "c:leathers"
             }
         }
     )
@@ -334,18 +332,16 @@ ServerEvents.recipes(event => {
     // Sophisticated Storage Upgrade Base
     event.recipes.extendedcrafting.shaped_table('sophisticatedstorage:upgrade_base',
         [
-            "ABABA",
-            "BABAB",
-            "ABABA",
-            "BABAB",
-            "ABABA"
+            "ABA",
+            "BAB",
+            "ABA"
         ],
         {
             "A": {
                 "tag": "minecraft:planks"
             },
             "B": {
-                "item": "minecraft:iron_ingot"
+                "tag": "c:ingots/steel"
             }
         }
     )
