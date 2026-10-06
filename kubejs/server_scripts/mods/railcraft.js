@@ -1,7 +1,23 @@
 ServerEvents.recipes(event => {
-    // Manual Rolling Machine Tweaks
-    event.replaceInput({ output: "railcraft:manual_rolling_machine" }, 'minecraft:crafting_table', 'minecraft:crafter')
-    event.replaceInput({ output: "railcraft:manual_rolling_machine" }, 'railcraft:bronze_gear', 'create:precision_mechanism')
+    // Manual Rolling Machine Recipe
+    event.recipes.extendedcrafting.shaped_table("railcraft:manual_rolling_machine",
+        [
+            "MPM",
+            "PCP",
+            "MPM"
+        ],
+        {
+            "M": {
+                "item": "create:precision_mechanism"
+            },
+            "P": {
+                "item": "minecraft:piston"
+            },
+            "C": {
+                "item": "minecraft:crafter"
+            }
+        }
+    )
 
     // Rod Recipes Using Rolling
     let metal_material = [

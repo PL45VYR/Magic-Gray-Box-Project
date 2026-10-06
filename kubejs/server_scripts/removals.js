@@ -176,7 +176,6 @@ ServerEvents.recipes(event => {
     event.remove({ output: "immersiveengineering:wirecoil_redstone" })
     event.remove({ output: /immersiveengineering:.*_engineering/ })
     event.remove({ output: "immersiveengineering:radiator" })
-    event.remove({ output: "immersiveengineering:generator" })
     event.remove({ id: "immersiveengineering:squeezer/graphite_dust" })
     event.remove({ input: "#c:dusts/coal", output: "#c:ingots/steel" })
     event.remove({ id: /engineeredcompatibility:arcfurnace\/ae2.*/ })
@@ -313,6 +312,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "railcraft:blast_furnace_bricks" })
     event.remove({ output: "railcraft:coke_oven_bricks" })
     event.remove({ output: "railcraft:crusher" })
+    event.remove({ output: "railcraft:manual_rolling_machine" })
     event.remove({ id: /railcraft:.*/, output: "#c:gears" })
     event.remove({ output: "railcraft:bushing_gear" })
 
@@ -391,6 +391,13 @@ LootJS.lootTables(event => {
         event.getLootTable(table).removeItem('forbidden_arcanus:crimson_stone')
         event.getLootTable(table).removeItem('forbidden_arcanus:elementarium')
         event.getLootTable(table).removeItem('forbidden_arcanus:maledictus_pact')
+    })
+
+    // Immersive Engineering
+    let immersive_tables = event.getLootTableIds(/immersiveengineering.*/)
+
+    immersive_tables.forEach(table => {
+        event.getLootTable(table).removeItem('immersiveengineering:blueprint[immersiveengineering:blueprint="components"]')
     })
 
     // Oritech Things

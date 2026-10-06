@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     // Metal Scaffold Recipe Tweaks
-    event.recipes.extendedcrafting.shaped_table("3x immersiveengineering:steel_scaffolding_standard",
+    event.shaped("3x immersiveengineering:steel_scaffolding_standard",
         [
             "PPP",
             " R ",
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.recipes.extendedcrafting.shaped_table("3x immersiveengineering:alu_scaffolding_standard",
+    event.shaped("3x immersiveengineering:alu_scaffolding_standard",
         [
             "PPP",
             " R ",
@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
     // Engineering Block Recipes
 
     // Basic Engineering
-    event.recipes.extendedcrafting.shaped_table('immersiveengineering:basic_engineering',
+    event.shaped('immersiveengineering:basic_engineering',
         [
             "SCS",
             "C C",
@@ -144,7 +144,7 @@ ServerEvents.recipes(event => {
     )
 
     // Light Engineering
-    event.recipes.extendedcrafting.shaped_table('immersiveengineering:light_engineering',
+    event.shaped('2x immersiveengineering:light_engineering',
         [
             "SCS",
             "CIC",
@@ -158,7 +158,7 @@ ServerEvents.recipes(event => {
     )
 
     // Redstone Engineering
-    event.recipes.extendedcrafting.shaped_table('immersiveengineering:rs_engineering',
+    event.shaped('1x immersiveengineering:rs_engineering',
         [
             "SCS",
             "CIC",
@@ -172,7 +172,7 @@ ServerEvents.recipes(event => {
     )
 
     // Heavy Engineering
-    event.recipes.extendedcrafting.shaped_table('immersiveengineering:heavy_engineering',
+    event.shaped('2x immersiveengineering:heavy_engineering',
         [
             "SCS",
             "CIC",
@@ -186,7 +186,7 @@ ServerEvents.recipes(event => {
     )
 
     // Radiator
-    event.recipes.extendedcrafting.shaped_table('immersiveengineering:radiator',
+    event.shaped('2x immersiveengineering:radiator',
         [
             "SCS",
             "CIC",
@@ -199,22 +199,8 @@ ServerEvents.recipes(event => {
         }
     )
 
-    // Generator
-    event.recipes.extendedcrafting.shaped_table('immersiveengineering:generator',
-        [
-            "SCS",
-            "CIC",
-            "SCS"
-        ],
-        {
-            "S": 'immersiveengineering:sheetmetal_steel',
-            "C": 'immersiveengineering:coil_mv',
-            "I": 'immersiveengineering:component_iron'
-        }
-    )
-
     // Resonanz Engineering
-    event.recipes.extendedcrafting.shaped_table('immersiveengineering:resonanz_engineering',
+    event.shaped('immersiveengineering:resonanz_engineering',
         [
             "SCS",
             "CIC",
