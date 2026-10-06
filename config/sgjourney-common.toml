@@ -142,6 +142,22 @@
 			# Default: 5000
 			# Range: 0 ~ 9223372036854775807
 			universe_dhd_button_press_energy_cost = 5000
+			#Capacity of the energy buffer inside the Andromeda DHD
+			# Default: 300000
+			# Range: 0 ~ 9223372036854775807
+			andromeda_dhd_energy_buffer_capacity = 300000
+			#Maximum amount of energy that can be transferred to the Andromeda DHD in one tick
+			# Default: 100000
+			# Range: 0 ~ 9223372036854775807
+			andromeda_dhd_max_energy_receive = 100000
+			#Maximum amount of energy that can be transferred from the Andromeda DHD in one tick
+			# Default: 10000000
+			# Range: 0 ~ 9223372036854775807
+			andromeda_dhd_max_energy_extract = 10000000
+			#Energy depleted by pressing a button on the Andromeda DHD
+			# Default: 5000
+			# Range: 0 ~ 9223372036854775807
+			andromeda_dhd_button_press_energy_cost = 5000
 
 		["Stargate Journey Common Config"."Interface Config".server]
 			#The default amount of energy the Interface will try to provide until it stops
@@ -288,6 +304,9 @@
 			# Default: 10000
 			# Range: 0 ~ 9223372036854775807
 			min_stable_wormhole_energy = 10000
+			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
+			#Allowed Values: SLOW, MEDIUM, FAST
+			andromeda_chevron_lock_speed = "MEDIUM"
 
 		["Stargate Journey Common Config"."Iris Config".server]
 			#If true, players in Creative Mode will be able to pass through the Stargate even when the Iris is closed on the other side

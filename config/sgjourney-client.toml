@@ -39,6 +39,8 @@
 			#If ENABLED, event horizons will render in a way that is compatible with AMD, if DISABLED they won't, AUTO detection by default
 			#Allowed Values: AUTO, DISABLED, ENABLED
 			render_amd = "AUTO"
+			#Decide if Chevrons on the back of Andromeda Stargate should light up
+			andromeda_stargate_back_lights_up = true
 
 		["Stargate Journey Client Config"."DHD Config".client]
 			#If true, DHD buttons will render symbols by default, otherwise they'll be render numbers by default
@@ -51,6 +53,8 @@
 			classic_dhd_canon_button_layout = false
 			#If true, Universe DHD symbol positions won't be ordered and instead be based on their canon positions
 			universe_dhd_canon_button_layout = false
+			#If true, Andromeda DHD symbol positions won't be ordered and instead be based on their canon positions
+			andromeda_dhd_canon_button_layout = false
 
 		["Stargate Journey Client Config"."Sky Config".client]
 			#If true you will render a custom Abydos sky
