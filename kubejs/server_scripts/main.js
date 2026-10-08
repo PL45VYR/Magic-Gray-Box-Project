@@ -206,7 +206,8 @@ ServerEvents.recipes(event => {
         "ars_additions:stabilized_warp_index",
         "integrateddynamics:part_extradimensional_reader",
         "actuallyadditions:phantom_connector",
-        "functionalstorage:ender_drawer"
+        "functionalstorage:ender_drawer",
+        "sophisticatedcore:ender_linker"
     ]
     ancient_items.forEach(item => {
         event.replaceInput({ output: item }, 'minecraft:ender_pearl', 'endermanoverhaul:ancient_pearl')
