@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
     // Machine Wall Recipe
-    event.shaped("compactmachines:wall",
+    event.shaped("8x compactmachines:wall",
         [
             'DDD',
             'DND',

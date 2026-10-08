@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
 
     // Ender IO
     event.remove({ id: "enderio:iron_gear" })
-    event.remove({ output: "enderio:dark_steel_ingot" })
+    event.remove({ output: "enderio:dark_steel_ingot", not: { input: /.*dark_steel.*/ } })
     event.remove({ id: /.*alloy_smelting.*ingot/ })
     event.remove({ output: /enderio.*chassis/ })
     event.remove({ output: "enderio:conduit_binder" })
