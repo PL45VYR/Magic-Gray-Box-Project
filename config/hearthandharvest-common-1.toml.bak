@@ -16,6 +16,9 @@ trellisPlacementPreview = true
 # Default: 16
 # Range: 1 ~ 256
 troughBreedingCap = 16
+#Whether grapes on a trellis require farmland beneath the base of the column to grow and spread.
+#Set to false to let grapes grow anywhere, like the Vine and Rose Bush trellis plants.
+grapeRequireFarmland = true
 
 [manure]
 	#Drop manure after being fed
@@ -69,3 +72,11 @@ troughBreedingCap = 16
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0
 	saltPlayerLickChance = 0.05
+
+[breeding]
+	#Disables the extra baby pigs spawned when pigs breed
+	disablePigLitters = false
+	#Disables the extra baby rabbits spawned when rabbits breed
+	disableRabbitLitters = false
+	#Disables shift-right-click plucking feathers from chickens
+	disableChickenPlucking = false

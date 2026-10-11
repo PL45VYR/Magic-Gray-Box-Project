@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
                 "item": "immersiveengineering:component_steel"
             },
             "F": {
-                "item": "occultism:dimensional_extractor"
+                "item": "create:content_observer"
             }
         })
 
