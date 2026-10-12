@@ -435,14 +435,16 @@
 		["Stargate Journey Common Config"."Stargate Network Config".server]
 			#Stargate Network will generate random Solar System for each dimension not registered through a datapack
 			generate_random_solar_systems = true
-			#Stargate Network will randomize addresses based on the world seed
+			#If true, Stargate Network will randomize addresses based on the world seed, otherwise they'll be based on the hash of the Dimension ID
 			random_addresses_from_seed = true
-			#Stargates Network will not consider DHDs when choosing preferred Stargate
+			#Stargates Network will not consider DHDs when choosing a preferred Stargate
 			disable_dhd_preference = false
 			#Stargates Network will prioritize Primary Stargates
 			primary_stargate = false
 			#Stargate Network will randomize addresses, rather than using the addresses from datapacks
 			randomize_addresses = false
+			#Stargates Network will not consider the generation of a Stargate when choosing a preferred Stargate
+			disable_stargate_generation_preference = false
 
 		["Stargate Journey Common Config"."Generation Config".server]
 			#Common Stargates will generate
