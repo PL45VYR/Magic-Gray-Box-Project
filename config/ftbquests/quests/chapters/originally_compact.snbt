@@ -165,38 +165,11 @@
 				id: "actuallyadditions:empowered_restonia_crystal"
 			}
 			id: "15341EDB20E0F0DA"
-			tasks: [
-				{
-					id: "1206E324A9C4660D"
-					item: { count: 1, id: "actuallyadditions:empowered_restonia_crystal" }
-					type: "item"
-				}
-				{
-					id: "5C600CB928994ACB"
-					item: { count: 1, id: "actuallyadditions:empowered_palis_crystal" }
-					type: "item"
-				}
-				{
-					id: "5FDB7405B4A581D4"
-					item: { count: 1, id: "actuallyadditions:empowered_diamatine_crystal" }
-					type: "item"
-				}
-				{
-					id: "7D87B1A4AAC86B7E"
-					item: { count: 1, id: "actuallyadditions:empowered_void_crystal" }
-					type: "item"
-				}
-				{
-					id: "393F52C3876C8C05"
-					item: { count: 1, id: "actuallyadditions:empowered_emeradic_crystal" }
-					type: "item"
-				}
-				{
-					id: "408F67A03D053D57"
-					item: { count: 1, id: "actuallyadditions:empowered_enori_crystal" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "38E529617DA3FB4A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(actuallyadditions:empowered_crystals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 1.5d
 		}

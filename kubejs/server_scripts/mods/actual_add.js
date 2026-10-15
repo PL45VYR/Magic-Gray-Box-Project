@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
             'minecraft:red_dye',
             'quark:red_corundum_cluster',
             'xycraft_world:xychorium_storage_red',
-            'hazennstuff:dreadsteel_ingot'
+            'eidolon_repraised:crimson_essence'
         ]
     )
 
@@ -134,7 +134,7 @@ ServerEvents.recipes(event => {
             'minecraft:lime_dye',
             'quark:green_corundum_cluster',
             'xycraft_world:xychorium_storage_green',
-            'hazennstuff:chlorophyte_ingot'
+            'reliquary:fertile_essence'
         ]
     )
 

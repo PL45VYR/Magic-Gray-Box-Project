@@ -93,4 +93,10 @@ ServerEvents.tags('item', event => {
         event.add('c:metal_gems', `oritech:${metal_gem}_gem`)
         event.add(`c:metal_gems/${metal_gem}`, `oritech:${metal_gem}_gem`)
     })
+
+    // Custom Tag: Empowered Crystals
+    let crystals = ['restonia', 'palis', 'diamatine', 'void', 'emeradic', 'enori']
+    crystals.forEach(crystal => {
+        event.add('actuallyadditions:empowered_crystals', `actuallyadditions:empowered_${crystal}_crystal`)
+    })
 })
