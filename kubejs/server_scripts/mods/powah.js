@@ -146,7 +146,7 @@ ServerEvents.recipes(event => {
                 "item": "extendedcrafting:nether_star_block"
             },
             "D": {
-                "item": "actuallyadditions:quintuple_battery"
+                "item": "actuallyadditions:quadruple_battery"
             },
             "E": {
                 "item": "powah:dielectric_casing"

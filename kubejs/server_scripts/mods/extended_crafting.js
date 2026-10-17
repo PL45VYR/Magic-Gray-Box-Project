@@ -348,7 +348,7 @@ ServerEvents.recipes(event => {
                 "item": "actuallyadditions:restonia_crystal"
             },
             "G": {
-                "item": "actuallyadditions:quadruple_battery"
+                "item": "actuallyadditions:double_battery"
             },
             "H": {
                 "item": "minecraft:crafting_table"
@@ -380,7 +380,7 @@ ServerEvents.recipes(event => {
                 "item": "extendedcrafting:redstone_ingot"
             },
             "D": {
-                "item": "actuallyadditions:quintuple_battery"
+                "item": "actuallyadditions:double_battery"
             },
             "E": {
                 "item": "actuallyadditions:empowered_restonia_crystal"
