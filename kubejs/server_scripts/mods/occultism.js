@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
         'endermanoverhaul:summoner_pearl',
         'occultism:craft_djinni'
     ).dummy('kubejs:dummy_craft_frontier')
-        .entityToSacrifice(EntityToSacrifice.of('friendsandfoes:glare', 'Glare'))
+        .entityToSacrifice(EntityToSacrifice.of('friendsandfoes:glares', 'Glare'))
 
     // Gray Paste Recipe Tweak
     event.replaceInput({ output: 'occultism:gray_paste' }, 'minecraft:phantom_membrane', 'actuallyadditions:empowered_enori_crystal')
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
         'minecraft:ender_eye',
         'occultism:possess_unbound_afrit'
     ).dummy('kubejs:dummy_possess_monstrous_eye')
-        .entityToSacrifice(EntityToSacrifice.of("minecraft:iron_golem", "Iron Golem"))
+        .entityToSacrifice(EntityToSacrifice.of("minecraft:iron_golems", "Iron Golem"))
 
     // Mech Eye
     event.recipes.occultism.ritual(
@@ -107,7 +107,7 @@ ServerEvents.recipes(event => {
         'minecraft:ender_eye',
         'occultism:contact_wild_spirit'
     ).dummy('kubejs:dummy_misc_mech_eye')
-        .entityToSacrifice(EntityToSacrifice.of("immersiveengineering:automaton_wolf", "Automaton Wolf"))
+        .entityToSacrifice(EntityToSacrifice.of("immersiveengineering:automaton_wolves", "Automaton Wolf"))
 
     // Flame Eye
     event.recipes.occultism.ritual(
@@ -125,7 +125,7 @@ ServerEvents.recipes(event => {
         'minecraft:ender_eye',
         'occultism:contact_wild_spirit'
     ).dummy('kubejs:dummy_misc_flame_eye')
-        .entityToSacrifice(EntityToSacrifice.of("friendsandfoes:wildfire", "Wildfire"))
+        .entityToSacrifice(EntityToSacrifice.of("friendsandfoes:wildfires", "Wildfire"))
 
     // Cursed Eye
     event.recipes.occultism.ritual(
@@ -143,5 +143,5 @@ ServerEvents.recipes(event => {
         'minecraft:ender_eye',
         'occultism:contact_wild_spirit'
     ).dummy('kubejs:dummy_misc_cursed_eye')
-    .entityToSacrifice(EntityToSacrifice.of("eidolon_repraised:giant_skeleton", "Giant Skeleton"))
+    .entityToSacrifice(EntityToSacrifice.of("eidolon_repraised:giant_skeletons", "Giant Skeleton"))
 })

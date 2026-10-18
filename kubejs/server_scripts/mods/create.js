@@ -283,6 +283,47 @@ ServerEvents.recipes(event => {
     event.recipes.create.crushing('immersiveengineering:dust_coke', 'immersiveengineering:coal_coke')
     event.recipes.create.crushing('immersivepetroleum:petcoke_dust', 'immersivepetroleum:petcoke')
 
+    // Corundum Recipes
+    let corundums = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'white', 'black']
+    let colors = ['red', 'orange', 'yellow', 'lime', 'light_blue', 'blue', 'purple', 'white', 'black']
+
+    for (let i = 0; i < corundums.length; i++) {
+        var cluster = corundums[i]
+        var color = colors[i]
+        event.recipes.createFilling(`quark:${cluster}_corundum_cluster`, [Fluid.of(`create_dragons_plus:${color}_dye`, 250), Ingredient.of('#quark:corundum_clusters')])
+        event.recipes.createFilling(`quark:${cluster}_corundum`, [Fluid.of(`create_dragons_plus:${color}_dye`, 1000), Ingredient.of('#quark:corundum')])
+        event.custom({
+            "type": "immersiveengineering:cloche",
+            "fluid": {
+                "fluid": "supplementaries:lumisene"
+            },
+            "input": {
+                "item": `quark:${cluster}_corundum`
+            },
+            "render": {
+                "type": "immersiveengineering:generic",
+                "block": `quark:${cluster}_corundum_cluster`
+            },
+            "results": [
+                {
+                    "count": 2,
+                    "id": `quark:${cluster}_corundum_cluster`
+                },
+                {
+                    "chance": 0.15,
+                    "output": {
+                        "id": `quark:${cluster}_corundum`
+                    }
+                }
+            ],
+            "soil": {
+                "item": "minecraft:deepslate"
+            },
+            "time": 1500
+        })
+    }
+
+
     // Gem Cutter Recipe
     event.recipes.extendedcrafting.shaped_table('create_enchantment_industry:gem_cutter',
         [

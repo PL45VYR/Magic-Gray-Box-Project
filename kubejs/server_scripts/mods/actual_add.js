@@ -142,7 +142,7 @@ ServerEvents.recipes(event => {
     event.recipes.actuallyadditions.empowering("actuallyadditions:empowered_enori_crystal",
         'actuallyadditions:enori_crystal_block',
         [
-            'minecraft:gray_dye',
+            'minecraft:light_gray_dye',
             'quark:white_corundum_cluster',
             'xycraft_world:xychorium_storage_light',
             'forbidden_arcanus:rune'

@@ -99,4 +99,15 @@ ServerEvents.tags('item', event => {
     crystals.forEach(crystal => {
         event.add('actuallyadditions:empowered_crystals', `actuallyadditions:empowered_${crystal}_crystal`)
     })
+
+    // Custom Tag: Corundum Clusters
+    let clusters = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'white', 'black']
+    clusters.forEach(cluster => {
+        event.add('quark:corundum_clusters', `quark:${cluster}_corundum_cluster`)
+    })
+})
+
+ServerEvents.tags('entity_type', event => {
+    // Custom Entity Tag: Glare
+    event.add('friendsandfoes:glares', 'friendsandfoes:glare')
 })
