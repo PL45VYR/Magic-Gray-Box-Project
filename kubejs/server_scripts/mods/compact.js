@@ -239,51 +239,51 @@ ServerEvents.recipes(event => {
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["S", "S", "S", "S", "S"],
-                    ["S", "-", "S", "-", "S"],
-                    ["S", "S", "S", "S", "S"],
-                    ["S", "-", "S", "-", "S"],
-                    ["S", "S", "S", "S", "S"]
+                    ["S", "Z", "Z", "Z", "S"],
+                    ["Z", "T", "-", "T", "Z"],
+                    ["Z", "-", "T", "-", "Z"],
+                    ["Z", "T", "-", "T", "Z"],
+                    ["S", "Z", "Z", "Z", "S"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["S", "-", "S", "-", "S"],
-                    ["-", "-", "-", "-", "-"],
-                    ["S", "-", "D", "-", "S"],
-                    ["-", "-", "-", "-", "-"],
-                    ["S", "-", "S", "-", "S"]
+                    ["Z", "T", "-", "T", "Z"],
+                    ["T", "-", "-", "-", "T"],
+                    ["-", "-", "T", "-", "-"],
+                    ["T", "-", "-", "-", "T"],
+                    ["Z", "T", "-", "T", "Z"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["S", "S", "S", "S", "S"],
-                    ["S", "-", "D", "-", "S"],
-                    ["S", "D", "C", "D", "S"],
-                    ["S", "-", "D", "-", "S"],
-                    ["S", "S", "S", "S", "S"]
+                    ["Z", "-", "T", "-", "Z"],
+                    ["-", "-", "T", "-", "-"],
+                    ["T", "T", "C", "T", "T"],
+                    ["-", "-", "T", "-", "-"],
+                    ["Z", "-", "T", "-", "Z"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["S", "-", "S", "-", "S"],
-                    ["-", "-", "-", "-", "-"],
-                    ["S", "-", "D", "-", "S"],
-                    ["-", "-", "-", "-", "-"],
-                    ["S", "-", "S", "-", "S"]
+                    ["Z", "T", "-", "T", "Z"],
+                    ["T", "-", "-", "-", "T"],
+                    ["-", "-", "T", "-", "-"],
+                    ["T", "-", "-", "-", "T"],
+                    ["Z", "T", "-", "T", "Z"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["S", "S", "S", "S", "S"],
-                    ["S", "-", "S", "-", "S"],
-                    ["S", "S", "S", "S", "S"],
-                    ["S", "-", "S", "-", "S"],
-                    ["S", "S", "S", "S", "S"]
+                    ["S", "Z", "Z", "Z", "S"],
+                    ["Z", "T", "-", "T", "Z"],
+                    ["Z", "-", "T", "-", "Z"],
+                    ["Z", "T", "-", "T", "Z"],
+                    ["S", "Z", "Z", "Z", "S"]
                 ]
             }
         ],
@@ -294,11 +294,15 @@ ServerEvents.recipes(event => {
         "components": {
             "S": {
                 "type": "compactcrafting:block",
-                "block": "immersiveengineering:steel_scaffolding_standard"
+                "block": "enderio:dark_steel_block"
             },
-            "D": {
+            "Z": {
                 "type": "compactcrafting:block",
-                "block": "immersiveengineering:storage_steel"
+                "block": "create:zinc_block"
+            },
+            "T": {
+                "type": "compactcrafting:block",
+                "block": "mekanism:block_tin"
             },
             "C": {
                 "type": "compactcrafting:block",
