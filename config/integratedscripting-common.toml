@@ -43,6 +43,8 @@
 		graalAllowHostBufferAccess = true
 		#The maximum number of statements that can be executed in one evaluation. This is to avoid infinite loops or very complex programs. Set to -1 to disable limit (not recommended).
 		graalStatementLimit = 16384
+		#The number of spaces that tab inserts in the scripting terminal editor.
+		terminalScriptingIndentSize = 2
 
 	[core.general]
 		#If the version checker should be enabled.

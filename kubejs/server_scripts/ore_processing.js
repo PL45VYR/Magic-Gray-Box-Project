@@ -176,18 +176,18 @@ ServerEvents.recipes(event => {
         }
     }
 
-    // Recipe: Milling | Clump to Dust
+    // Recipe: Milling | Clump to Dirty Dust
     const millingClump = (material) => {
         event.recipes.create.milling(
-            unifyItem(`c:dusts/${material}`),
+            unifyItem(`c:dirty_dusts/${material}`),
             unifyItem(`c:clumps/${material}`)
         )
     }
 
-    // Recipe: Crushing | Clump to Dirty Dust
+    // Recipe: Crushing | Clump to Dust
     const crushingClump = (material) => {
         event.recipes.create.crushing(
-            [unifyItem(`c:dirty_dusts/${material}`)],
+            [unifyItem(`c:dusts/${material}`)],
             unifyItem(`c:clumps/${material}`)
         )
     }
