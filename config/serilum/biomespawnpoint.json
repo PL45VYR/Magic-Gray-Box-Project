@@ -4,6 +4,10 @@
 		"//": "Whether Biome Spawn Point is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
 		"value": true
 	},
+	"spawnBiomes": {
+		"//": "The biomes new worlds spawn in, a higher weight is picked more often. A biome from another dimension, modded ones included, moves the spawn there.",
+		"value": "minecraft:bamboo_jungle,minecraft:birch_forest,minecraft:cherry_grove,minecraft:dark_forest,minecraft:flower_forest,minecraft:forest,minecraft:jungle,minecraft:meadow,minecraft:old_growth_birch_forest,minecraft:old_growth_pine_taiga,minecraft:old_growth_spruce_taiga,minecraft:plains,minecraft:savanna,minecraft:savanna_plateau,minecraft:sparse_jungle,minecraft:sunflower_plains,minecraft:swamp,minecraft:taiga,minecraft:windswept_forest,minecraft:windswept_savanna"
+	},
 	"biomeSearchRadius": {
 		"//": "How far from the center of the world (x=0, z=0), in blocks, the mod searches for one of the spawn biomes. A larger radius finds rarer biomes, but makes creating a new world take longer. min: 256, max: 30,000",
 		"value": 6400
