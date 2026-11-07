@@ -31,21 +31,6 @@ ServerEvents.recipes(event => {
         ]
     )
 
-    // Clibano Core Recipe
-    event.recipes.malum.spirit_infusion(
-        "blast_furnace",
-        "forbidden_arcanus:clibano_core",
-        [
-            "16x infernal",
-            "8x wicked",
-            "8x arcane"
-        ],
-        [
-            "16x forbidden_arcanus:darkstone",
-            "8x malum:auric_embers"
-        ]
-    )
-
     // Runewood Totem Recipe Change
     event.replaceInput({ output: "malum:runewood_totem_base" }, "malum:hex_ash", "forbidden_arcanus:mundabitur_dust")
 
