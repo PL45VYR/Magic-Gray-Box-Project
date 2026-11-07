@@ -18,3 +18,5 @@ maxAlternativesPerItem = 1
 skipSelfReferentialRecipes = true
 #Recipe ids that are never used for auto-generated patterns. Use an exact id ('modid:recipe_name') or a prefix ending with '*' ('modid:*', 'modid:reset/*')
 recipeBlacklist = []
+#Show the recursive pattern toggle button in the Pattern Encoding Terminal GUI. Default is true
+enableEncodingGuiToggle = true

@@ -10,3 +10,11 @@ defaultAllowSubstitutes = false
 defaultAllowFluidSubstitutes = false
 #Item required to craft recursive patterns. Use format: 'namespace:item_name'. Default is 'minecraft:iron_ingot'
 recipeItem = "minecraft:iron_ingot"
+#How many crafting recipes to generate per dependency item. 1 = only the best recipe (recommended). Higher values re-introduce alternative recipes that AE2 may pick instead of the expected one
+# Default: 1
+# Range: 1 ~ 64
+maxAlternativesPerItem = 1
+#Ignore recipes that consume their own output (e.g. 'clear settings' / NBT-wipe recipes) when generating dependency patterns
+skipSelfReferentialRecipes = true
+#Recipe ids that are never used for auto-generated patterns. Use an exact id ('modid:recipe_name') or a prefix ending with '*' ('modid:*', 'modid:reset/*')
+recipeBlacklist = []

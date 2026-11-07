@@ -1,13 +1,8 @@
 ==== Connector Mixin Patch Audit Summary ====
 Successful: 3
 Partial: 0
-Failed: 0 (2 ignored)
-Success rate: 60.00%        Accuracy: 60.00%
-=============================================
-
-=============== Failed mixins ===============
-(ignored) com/notunanancyowen/mait/mixin/SkeletonTrapMixin doTheThing(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V
-(ignored) com/notunanancyowen/mait/mixin/SkeletonTrapMixin spawnThisGuyAndAddEmToTheTeam(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/entity/Entity;
+Failed: 0
+Success rate: 100.00%        Accuracy: 100.00%
 =============================================
 
 Mixin method com/notunanancyowen/mait/mixin/RangedCrossbowAttackGoalMixin fixCrossbowUseBug(Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionHand;

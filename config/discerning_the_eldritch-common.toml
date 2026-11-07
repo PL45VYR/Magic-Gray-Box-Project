@@ -47,3 +47,6 @@
 #Defines whether or not to enable the Gaoler's walking screenshake.
 #Default is true
 "Enable Gaoler's walking screenshake" = true
+#Defines the cooldown in seconds value for the Starstruck Sheath's ability
+#Default is [5]
+"Starstruck Sheath CD" = 5

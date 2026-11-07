@@ -68,6 +68,10 @@ cartDispenserDelay = 0
 changeDungeonLoot = false
 #An ordered list of mod ids from which the items will be chosen, which Railcraft does not add, and which are necessary for recipes based on tags to work.
 preferredOres = ["oritech", "create", "tfmg", "occultism", "xycraft", "mekanism", "railcraft", "minecraft"]
+#Number of seconds a locking track in a train mode ignores the train it just released
+# Default: 10
+# Range: 1 ~ 60
+lockingTrackTrainDelay = 10
 
 #High Speed Track Configuration
 [highSpeedTrack]
@@ -102,3 +106,6 @@ preferredOres = ["oritech", "create", "tfmg", "occultism", "xycraft", "mekanism"
 	# Default: 1.0
 	# Range: 0.20000000298023224 ~ 6.0
 	fuelPerSteamMultiplier = 1.0
+	#Change to 'false' to stop boilers, also the ones of steam locomotives, from exploding
+	#when water is added while they are superheated and empty
+	boilersExplode = true

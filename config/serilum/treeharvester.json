@@ -12,8 +12,12 @@
 		"//": "A comma separated list of item ids that can harvest trees too, for modded tools that are not detected as an axe, like paxels and multitools. Use * as a wildcard. An id without a namespace matches items of every mod. Applies after rejoining the world.",
 		"value": "easy_emerald:*_paxel,piercingpaxels:*_paxel,randomisfits:*_multitool,tetra:modular_double"
 	},
-	"treeHarvestWithoutSneak": {
-		"//": "If enabled, tree harvesting works when not holding the sneak button. If disabled it's reversed, and only works when sneaking.",
+	"treeHarvestWithoutCrouching": {
+		"//": "If enabled, tree harvesting works when not holding the crouch button. If disabled it's reversed, and only works when crouching.",
+		"value": false
+	},
+	"treeHarvestIgnoresCrouching": {
+		"//": "If enabled, tree harvesting always works and crouching has no effect, so a tree can't be broken one log at a time. Overrides 'treeHarvestWithoutCrouching'.",
 		"value": false
 	},
 	"automaticallyFindBottomBlock": {
@@ -33,7 +37,7 @@
 		"value": true
 	},
 	"ignorePlayerMadeTrees": {
-		"//": "If enabled, trees with leaves placed by players won't be destroyed.",
+		"//": "If enabled, trees with leaves placed by players, or trees connected to a player-made build, won't be destroyed.",
 		"value": true
 	},
 	"logBlockBlacklist": {
