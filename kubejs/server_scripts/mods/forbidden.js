@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
         "pattern": [
             "AAAAA",
             "ABBBA",
-            "ABDBA",
+            "ABCBA",
             "ABBBA",
             "AAAAA"
         ],
