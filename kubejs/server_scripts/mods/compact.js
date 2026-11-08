@@ -372,7 +372,7 @@ ServerEvents.recipes(event => {
         "outputs": [
             {
                 "id": "powah:dielectric_casing",
-                "Count": 1
+                "Count": 4
             }
         ]
     })
