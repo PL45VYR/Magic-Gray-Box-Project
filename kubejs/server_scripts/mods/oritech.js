@@ -892,7 +892,7 @@ ServerEvents.recipes(event => {
         ],
         "key": {
             "A": {
-                "item": "powah:solar_panel_blazing"
+                "item": "powah:solar_panel_hardened"
             },
             "B": {
                 "item": "oritech:flux_gate"

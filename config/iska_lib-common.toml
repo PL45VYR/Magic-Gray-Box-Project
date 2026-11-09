@@ -24,3 +24,12 @@ explosionGriefFtbClaims = false
 	#Data/pack roots to scan at mod init (KubeJS data root, Open Loader, Global Packs, instance datapacks).
 	#A path is a pack root if it contains .zip/.jar children or folders with pack.mcmeta; otherwise a data root.
 	datapack_paths = ["kubejs/data", "datapacks", "config/openloader/data", "global_packs/required_data", "global_packs/optional_data"]
+
+#Sticky / crude fluid movement effects.
+#Entries are fluid ids (namespace:path) or tags (#namespace:path).
+#Sticky fluids slow entities; crude oils fire Library events (mods may award advancements).
+[sticky_fluids]
+	#Fluids that apply sticky slowdown while an entity stands in them.
+	sticky_fluids = ["#c:oil", "#c:crude_oil"]
+	#Fluids treated as crude oil (fires StickyFluidEvents.InCrudeOil for integrations).
+	crude_oils = ["#c:oil", "#c:crude_oil"]

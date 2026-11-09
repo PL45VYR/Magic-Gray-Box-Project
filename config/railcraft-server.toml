@@ -109,3 +109,20 @@ lockingTrackTrainDelay = 10
 	#Change to 'false' to stop boilers, also the ones of steam locomotives, from exploding
 	#when water is added while they are superheated and empty
 	boilersExplode = true
+
+#Ore generation. Changes only affect chunks generated afterwards.
+[worldgen]
+	#Generate lead ore in new chunks
+	leadOre = true
+	#Generate tin ore in new chunks
+	tinOre = true
+	#Generate sulfur ore in new chunks
+	sulfurOre = true
+	#Generate zinc ore in new chunks
+	zincOre = true
+	#Generate nickel ore in new chunks
+	nickelOre = true
+	#Generate silver ore in new chunks
+	silverOre = true
+	#Generate saltpeter ore in new chunks
+	saltpeterOre = true

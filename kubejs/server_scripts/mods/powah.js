@@ -116,6 +116,9 @@ ServerEvents.recipes(event => {
         }
     })
 
+    // Post-Basic Dielectric Casing Replacement
+    event.replaceInput({ not: ({ output: /.*_starter/ }, { output: /.*_basic/ }), type: 'minecraft:crafting_shaped' }, 'powah:dielectric_casing', 'extendedcrafting:frame')
+
     // Photoelectric Pane Recipe
     event.shaped('2x powah:photoelectric_pane', [
         'PP',
@@ -155,28 +158,28 @@ ServerEvents.recipes(event => {
 
     // Flux Star
     event.custom({
-        "type": "powah:energizing",
-        "energy": 500000,
-        "ingredients": [
-            {
-                "item": "minecraft:nether_star"
-            },
-            {
-                "tag": "c:ingots/electrum"
-            },
-            {
-                "tag": "c:ingots/electrum"
-            },
-            {
-                "tag": "c:ingots/electrum"
-            },
-            {
-                "tag": "c:ingots/electrum"
+            "type": "powah:energizing",
+            "energy": 500000,
+            "ingredients": [
+                {
+                    "item": "minecraft:nether_star"
+                },
+                {
+                    "tag": "c:ingots/electrum"
+                },
+                {
+                    "tag": "c:ingots/electrum"
+                },
+                {
+                    "tag": "c:ingots/electrum"
+                },
+                {
+                    "tag": "c:ingots/electrum"
+                }
+            ],
+            "result": {
+                "count": 1,
+                "id": "extendedcrafting:flux_star"
             }
-        ],
-        "result": {
-            "count": 1,
-            "id": "extendedcrafting:flux_star"
-        }
-    })
+        })
 })
