@@ -12,6 +12,8 @@ ServerEvents.recipes(event => {
         event.recipes.oritech.foundry(output, input)
     }
 
+    // Redstone Ingot
+    imbalanced_alloying('extendedcrafting:redstone_ingot', ['#c:ingots/iron', 'actuallyadditions:restonia_crystal'], 3200)
     // Conductive Alloy
     alloying('enderio:conductive_alloy_ingot', ['#c:ingots/copper', '#c:ingots/silver'], 3200)
     // Energetic Alloy
