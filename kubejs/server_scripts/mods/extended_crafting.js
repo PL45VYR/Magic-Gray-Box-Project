@@ -169,6 +169,22 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    // Black Iron Slate Recipe (Improved)
+    event.custom({
+        "type": "immersiveengineering:metal_press",
+        "energy": 2400,
+        "input": {
+            "basePredicate": {
+                "tag": "c:ingots/black_iron"
+            },
+            "count": 4
+        },
+        "mold": "immersiveengineering:mold_plate",
+        "result": {
+            "item": "extendedcrafting:black_iron_slate"
+        }
+    })
+
     // Basic Component Recipe
     event.shaped('extendedcrafting:basic_component',
         [

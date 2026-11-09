@@ -116,6 +116,19 @@ ServerEvents.recipes(event => {
         }
     })
 
+    event.custom({
+        "type": "immersiveengineering:metal_press",
+        "energy": 2400,
+        "input": {
+            "item": 'powah:dielectric_paste'
+        },
+        "mold": "immersiveengineering:mold_rod",
+        "result": {
+            "count": 2,
+            "id": 'powah:dielectric_rod'
+        }
+    })
+
     // Post-Basic Dielectric Casing Replacement
     event.replaceInput({ not: ({ output: /.*_starter/ }, { output: /.*_basic/ }), type: 'minecraft:crafting_shaped' }, 'powah:dielectric_casing', 'extendedcrafting:frame')
 
@@ -158,28 +171,28 @@ ServerEvents.recipes(event => {
 
     // Flux Star
     event.custom({
-            "type": "powah:energizing",
-            "energy": 500000,
-            "ingredients": [
-                {
-                    "item": "minecraft:nether_star"
-                },
-                {
-                    "tag": "c:ingots/electrum"
-                },
-                {
-                    "tag": "c:ingots/electrum"
-                },
-                {
-                    "tag": "c:ingots/electrum"
-                },
-                {
-                    "tag": "c:ingots/electrum"
-                }
-            ],
-            "result": {
-                "count": 1,
-                "id": "extendedcrafting:flux_star"
+        "type": "powah:energizing",
+        "energy": 500000,
+        "ingredients": [
+            {
+                "item": "minecraft:nether_star"
+            },
+            {
+                "tag": "c:ingots/electrum"
+            },
+            {
+                "tag": "c:ingots/electrum"
+            },
+            {
+                "tag": "c:ingots/electrum"
+            },
+            {
+                "tag": "c:ingots/electrum"
             }
-        })
+        ],
+        "result": {
+            "count": 1,
+            "id": "extendedcrafting:flux_star"
+        }
+    })
 })
