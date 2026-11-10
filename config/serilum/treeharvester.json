@@ -12,6 +12,10 @@
 		"//": "A comma separated list of item ids that can harvest trees too, for modded tools that are not detected as an axe, like paxels and multitools. Use * as a wildcard. An id without a namespace matches items of every mod. Applies after rejoining the world.",
 		"value": "easy_emerald:*_paxel,piercingpaxels:*_paxel,randomisfits:*_multitool,tetra:modular_double"
 	},
+	"axeBlacklist": {
+		"//": "A comma separated list of axe ids that can't harvest trees. Use * as a wildcard.",
+		"value": ""
+	},
 	"treeHarvestWithoutCrouching": {
 		"//": "If enabled, tree harvesting works when not holding the crouch button. If disabled it's reversed, and only works when crouching.",
 		"value": false
