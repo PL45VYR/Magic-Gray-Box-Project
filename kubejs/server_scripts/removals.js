@@ -17,7 +17,7 @@ RecipeViewerEvents.removeEntriesCompletely("item", event => {
     event.remove("create:rose_quartz")
     event.remove("oritech:steel_block")
     event.remove("railcraft:bushing_gear")
-    event.remove("hazentouvelib:crude_metal")
+    event.remove("hazennstuff:crude_metal")
     event.remove("hazentouvelib:crude_metal_block")
     event.remove("oritech:raw_silicon")
     event.remove("actuallyadditions:iron_casing")
@@ -190,7 +190,7 @@ ServerEvents.recipes(event => {
 
     // Irons Spellbooks
     event.remove({ output: "hazennstuff:rose_quartz" })
-    event.remove([{ output: "hazentouvelib:crude_metal" }, { input: "hazentouvelib:crude_metal" }])
+    event.remove([{ output: "hazennstuff:crude_metal" }, { input: "hazennstuff:crude_metal" }])
     event.remove({ output: "hazennstuff:lemon" })
     event.remove({ output: "hazennstuff:nether_star_fragment" })
     event.remove({ output: "hazennstuff:starkissed_zenalite" })
