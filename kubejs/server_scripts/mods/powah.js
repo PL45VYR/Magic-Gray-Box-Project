@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
     })
 
     // Post-Basic Dielectric Casing Replacement
-    event.replaceInput({ not: ({ output: /.*_starter/ }, { output: /.*_basic/ }), type: 'minecraft:crafting_shaped' }, 'powah:dielectric_casing', 'extendedcrafting:frame')
+    event.replaceInput({ not: [{ id: 'powah:crafting/energy_cell_basic' }, { output: /.*_starter/ }], type: 'minecraft:crafting_shaped' }, 'powah:dielectric_casing', 'extendedcrafting:frame')
 
     // Photoelectric Pane Recipe
     event.shaped('2x powah:photoelectric_pane', [
