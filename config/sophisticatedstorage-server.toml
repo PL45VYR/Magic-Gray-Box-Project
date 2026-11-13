@@ -12,6 +12,12 @@
 	# Default: 15
 	# Range: 4 ~ 64
 	controllerRange = 15
+	#Mod IDs matched against the registry namespace of the resolved planks used for generic wood storage variants. Only affects automatically discovered generic woods.
+	#Disabled woods still work as crafting ingredients, but produce the recipe's default storage variant. Existing storages keep their wood appearance.
+	genericWoodStorageModIds = []
+	#If true, only woods from listed mods get generic storage variants. If false, woods from listed mods are blocked and all other compatible woods are enabled.
+	#An empty allow list disables all generic wood variants; an empty block list enables all compatible generic woods.
+	genericWoodStorageModIdsIsAllowList = false
 
 	#Wood Barrel Settings
 	[server.WoodBarrel]

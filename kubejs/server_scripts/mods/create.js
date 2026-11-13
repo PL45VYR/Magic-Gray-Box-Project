@@ -439,4 +439,15 @@ ServerEvents.recipes(event => {
     )
         .transitionalItem('laserio:logic_chip_raw')
         .loops(4)
+
+    // Luminous Crystal Shard Recipe
+    event.recipes.createMixing(
+        'apotheosis:luminous_crystal_shard',
+        [
+            Fluid.of('supplementaries:lumisene', 500),
+            Fluid.of('create_enchantment_industry:crystal_essence', 100),
+            '2x minecraft:glow_ink_sac',
+            'actuallyadditions:empowered_palis_crystal'
+        ]
+    ).superheated()
 })

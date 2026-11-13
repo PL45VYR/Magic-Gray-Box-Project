@@ -10,9 +10,11 @@
 
 #Matter storage cells
 [matter_cells]
-	#Maximum distinct matter types a matter storage cell can hold (AE2 clamps to 63).
+	#Maximum distinct matter types a matter storage cell can hold.
+	#0 = all registered matter types (excluding EMPTY).
+	#1..Integer.MAX_VALUE = fixed cap (may exceed AE2's vanilla 63-type limit).
 	# Default: 6
-	# Range: > 1
+	# Range: > 0
 	000_matterCellMaxTypes = 6
 
 #Matter Assembler

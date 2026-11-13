@@ -43,6 +43,16 @@ ServerEvents.recipes(event => {
         }
     )
 
+    // Fungyss Recipe
+    event.recipes.occultism.spirit_fire('forbidden_arcanus:fungyss', '#c:mushrooms')
+
+    // Glowing Mushroom Recipe
+    event.recipes.ars_nouveau.imbuement('forbidden_arcanus:fungyss', 'hazennstuff:glowing_mushroom', 2000)
+
+    // Prismatic Shard Recipe Tweaks
+    event.replaceInput({output: 'hazennstuff:prismatic_shard'}, '#c:glass_blocks', '#quark:shards')
+    event.replaceInput({output: 'hazennstuff:prismatic_shard'}, 'minecraft:glow_ink_sac', 'extendedcrafting:luminessence')
+
     // Nether Brick Salvaging
     event.custom({
         "type": "farmersdelight:cutting",

@@ -29,6 +29,9 @@ ServerEvents.recipes(event => {
     // End Steel
     imbalanced_alloying('enderio:end_steel_ingot', ['powah:steel_energized', 'minecraft:end_stone'], 6400)
 
+    // Crystaltine Ingot
+    event.recipes.enderio.alloy_smelting('3x extendedcrafting:crystaltine_ingot', [Ingredient.of('#c:ingots/platinum').withCount(2), 'forbidden_arcanus:arcane_crystal', 'apotheosis:luminous_crystal_shard'], 8000)
+
     // Pulsating Crystal Recipe Tweak
     event.replaceInput({ output: "enderio:pulsating_crystal" }, 'minecraft:diamond', 'actuallyadditions:diamatine_crystal')
 
