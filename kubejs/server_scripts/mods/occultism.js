@@ -15,6 +15,37 @@ ServerEvents.recipes(event => {
     event.replaceInput({output: 'occultism:fragile_soul_gem'}, 'minecraft:iron_ingot', 'eidolon_repraised:arcane_gold_ingot')
     event.replaceInput({output: 'occultism:fragile_soul_gem'}, 'minecraft:egg', 'forbidden_arcanus:quantum_core')
 
+    // Eidolon Plants Recipes
+    event.recipes.occultism.spirit_trade(
+        WeightedRecipeResult.of('eidolon_repraised:avennian_sprig', 2, 100),
+        'minecraft:fern',
+        'occultism:trader_otherworld_saplings'
+    )
+
+    event.recipes.occultism.spirit_trade(
+        WeightedRecipeResult.of('eidolon_repraised:merammer_root', 2, 100),
+        'minecraft:oxeye_daisy',
+        'occultism:trader_otherworld_saplings'
+    )
+
+    event.recipes.occultism.spirit_trade(
+        WeightedRecipeResult.of('eidolon_repraised:mirecap', 2, 100),
+        'minecraft:crimson_fungus',
+        'occultism:trader_otherworld_saplings'
+    )
+
+    event.recipes.occultism.spirit_trade(
+        WeightedRecipeResult.of('eidolon_repraised:oanna_bloom', 2, 100),
+        'minecraft:lily_pad',
+        'occultism:trader_otherworld_saplings'
+    )
+
+    event.recipes.occultism.spirit_trade(
+        WeightedRecipeResult.of('eidolon_repraised:sildrian_seed', 2, 100),
+        'minecraft:jungle_leaves',
+        'occultism:trader_otherworld_saplings'
+    )
+
     // First Frontier Recipe
     event.recipes.occultism.ritual(
         Item.of('gateways:gate_pearl[gateways:gateway="apotheosis:tiered/frontier"]'),
