@@ -94,6 +94,20 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    // Arcane Sea Shell Recipe
+    event.recipes.malum.spirit_infusion(
+        "create_aquatic_ambitions:suspicious_rock",
+        "hazennstuff:arcane_sea_shell",
+        [
+            "4x arcane",
+            "4x aqueous",
+            "2x eldritch"
+        ],
+        [
+            "2x forbidden_arcanus:arcane_crystal_dust"
+        ]
+    )
+
     // Lime Chalk Recipe
     event.recipes.malum.spirit_infusion(
         "occultism:chalk_white_impure",

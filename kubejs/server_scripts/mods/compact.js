@@ -766,7 +766,7 @@ ServerEvents.recipes(event => {
                 "type": "compactcrafting:mixed",
                 "pattern": [
                     ["R", "R", "A", "A", "A", "R", "R"],
-                    ["D", "S", "F", "F", "F", "S", "R"],
+                    ["R", "S", "F", "F", "F", "S", "R"],
                     ["A", "F", "E", "E", "E", "F", "A"],
                     ["A", "F", "E", "E", "E", "F", "A"],
                     ["A", "F", "E", "E", "E", "F", "A"],
@@ -778,7 +778,7 @@ ServerEvents.recipes(event => {
                 "type": "compactcrafting:mixed",
                 "pattern": [
                     ["R", "R", "A", "C", "A", "R", "R"],
-                    ["D", "S", "F", "F", "F", "S", "R"],
+                    ["R", "S", "F", "F", "F", "S", "R"],
                     ["A", "F", "E", "E", "E", "F", "A"],
                     ["C", "F", "E", "M", "E", "F", "C"],
                     ["A", "F", "E", "E", "E", "F", "A"],
@@ -790,7 +790,7 @@ ServerEvents.recipes(event => {
                 "type": "compactcrafting:mixed",
                 "pattern": [
                     ["R", "R", "A", "A", "A", "R", "R"],
-                    ["D", "S", "F", "F", "F", "S", "R"],
+                    ["R", "S", "F", "F", "F", "S", "R"],
                     ["A", "F", "E", "E", "E", "F", "A"],
                     ["A", "F", "E", "E", "E", "F", "A"],
                     ["A", "F", "E", "E", "E", "F", "A"],
