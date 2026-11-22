@@ -81,6 +81,12 @@
     "dragonXPModifier": 1.0
   },
 
+  "dragonHealModifier": {
+    // Sets the modifier on the dragon's healing received from existing end crystals: 
+    // Default:1.0
+    "dragonHealModifier": 1.0
+  },
+
   "lightningSoundVolumeModifier": {
     // Sets the lightning sound modifier as vanilla's sound is very loud, only works on clientside: 
     // Default:0.6
