@@ -1,21 +1,86 @@
-#Energy consumption rate (AE/t) for the RepAE2Bridge
-# Default: 500
-# Range: > 0
-bridgeEnergyConsumption = 500
-#Enable aggressive debug logging for troubleshooting (includes network state dumps and reconnection logs)
-enableDebugLogging = false
-#Legacy option (unused). Custom matter items are auto-created from the matter type registry;
-#rep_ae2_bridge_matters.json is no longer read or written.
-bridgeCustomMatterConfigPath = "config"
-#Enable the Titanium NetworkManager mixin that prevents 'Element network is null' crashes
-#during world loading. This fixes a race condition in Titanium's mergeNetworksIntoOne()
-#that affects ALL Replication network blocks (pipes, replicators, etc.).
-#Only disable this if another mod provides the same fix or it causes conflicts.
-#Requires game restart to take effect.
-enableNetworkManagerFix = true
-#Enable the Replication NetworkBlockEntity mixin that wraps addElement() in onLoad()
-#with a try-catch safety net. This prevents ANY RuntimeException during network
-#element registration from crashing the server.
-#Only disable this if another mod provides the same fix or it causes conflicts.
-#Requires game restart to take effect.
-enableNetworkBlockEntityFix = true
+#AE2–Replication Bridge
+[bridge]
+	#Idle AE/t drain of the Bridge AE2 node
+	# Default: 500
+	# Range: > 0
+	000_bridgeEnergyConsumption = 500
+	#When multiple bridges share one AE2 grid, expose chip storages and replicators
+	#across distinct Replication pipe networks (terminal + craft workers).
+	001_federateDevicesAcrossAe2 = true
+
+#Matter storage cells
+[matter_cells]
+	#Maximum distinct matter types a matter storage cell can hold (AE2 clamps to 63).
+	# Default: 6
+	# Range: > 1
+	000_matterCellMaxTypes = 6
+
+#Matter Assembler
+[matter_assembler]
+	#Ticks required for a Matter Assembler to finish one craft unit (Replicator uses ~100).
+	# Default: 5
+	# Range: 1 ~ 1000
+	000_matterAssemblerMaxProgress = 5
+	#AE/t drained from the AE2 grid while a Matter Assembler is working.
+	# Default: 80
+	# Range: > 0
+	001_matterAssemblerEnergyPerTick = 80
+
+#Matter Foundry
+[matter_foundry]
+	#FE/t drained from the internal FE buffer (or converted from AE via AE2 PowerUnit) while the foundry is working.
+	# Default: 40
+	# Range: > 0
+	000_matterFoundryEnergyPerTick = 40
+	#Internal FE buffer capacity of the Matter Foundry.
+	# Default: 100000
+	# Range: > 1000
+	001_matterFoundryFeCapacity = 100000
+	#Enable Matter Foundry debug logging.
+	002_matterFoundryLogging = false
+
+#Matter Assembling Chamber
+[chamber]
+	#Minimum multiblock side length (including frame).
+	# Default: 3
+	# Range: > 3
+	000_chamberMinSize = 3
+	#Maximum multiblock side length (including frame).
+	#Very large values increase shell-scan cost; keep practical in survival.
+	# Default: 7
+	# Range: > 3
+	001_chamberMaxSize = 7
+	#Chamber craft speed. Higher is faster: 100 = 1 item/tick base, 30 ≈ 3.3 ticks/item at 1 unit,
+	#(replaces old 002_chamberMaxProgress where higher meant slower).
+	# Default: 30
+	# Range: > 1
+	002_chamberSpeed = 30
+	#Extra speed multiplier per additional replication unit:
+	#points/tick *= (1 + factor * (units-1)). Default 55 ≈ 7×7×7 with headroom over a maxed AdvancedAE Quantum Computer.
+	# Default: 55.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	003_chamberSpeedPerUnit = 55.0
+	#AE/t passive drain of a formed chamber (leader node) while online.
+	# Default: 16.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	004_chamberIdlePowerAe = 16.0
+	#AE/t drained while the chamber is processing a replication job.
+	# Default: 160.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	005_chamberActivePowerAe = 160.0
+	#Enable occasional orange anomaly flash on formed chambers (cosmetic only).
+	006_chamberAnomalyVisual = true
+
+#Logging / development
+[logging]
+	#Enable aggressive debug logging for troubleshooting
+	000_enableDebugLogging = false
+
+#Compatibility / safety fixes
+[fixes]
+	#Enable the Titanium NetworkManager mixin that prevents 'Element network is null' crashes
+	#during world loading. Requires game restart to take effect.
+	000_enableNetworkManagerFix = true
+	#Enable the Replication NetworkBlockEntity mixin that wraps addElement() in onLoad()
+	#with a try-catch safety net. Requires game restart to take effect.
+	001_enableNetworkBlockEntityFix = true

@@ -77,12 +77,16 @@
 [logging]
 	#Enable aggressive debug logging for troubleshooting
 	000_enableDebugLogging = false
+	#Enable Sable/Aeronautics plot diagnostics (shutdown/save breadcrumbs and plot hits).
+	#Independent of 000_enableDebugLogging. Leave false in production.
+	001_enableSableLogging = false
 
 #Compatibility / safety fixes
 [fixes]
-	#Enable the Titanium NetworkManager mixin that prevents 'Element network is null' crashes
-	#during world loading. Requires game restart to take effect.
+	#Enable the Titanium NetworkManager mixin that prevents network crashes
+	#(null networks during merge, missing elements on removeElement).
+	#Also helps with Sable/Simulated block moves. Requires game restart.
 	000_enableNetworkManagerFix = true
-	#Enable the Replication NetworkBlockEntity mixin that wraps addElement() in onLoad()
-	#with a try-catch safety net. Requires game restart to take effect.
+	#Enable the Replication NetworkBlockEntity mixin that wraps addElement()/removeElement()
+	#in onLoad()/setRemoved() with a try-catch safety net. Requires game restart.
 	001_enableNetworkBlockEntityFix = true

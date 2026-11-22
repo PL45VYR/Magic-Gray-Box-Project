@@ -72,6 +72,10 @@ preferredOres = ["oritech", "create", "tfmg", "occultism", "xycraft", "mekanism"
 # Default: 10
 # Range: 1 ~ 60
 lockingTrackTrainDelay = 10
+#Change to false to restore vanilla minecart movement on the client
+#When true, the server sends a minecart's position every tick instead of every 3 ticks
+#and the client follows it closely, so fast carts don't cut across curves
+smoothCartMovement = true
 
 #High Speed Track Configuration
 [highSpeedTrack]
@@ -81,6 +85,7 @@ lockingTrackTrainDelay = 10
 	# Range: 0.6 ~ 1.2
 	highSpeedTrackMaxSpeed = 1.0
 	#Add entity names to exclude them from explosions caused by high speed collisions
+	#Entity type tags are also accepted, prefixed with '#' (e.g. '#minecraft:arthropod')
 	highSpeedTrackIgnoredEntities = ["minecraft:bat", "minecraft:blaze", "minecraft:cave_spider", "minecraft:chicken", "minecraft:parrot", "minecraft:rabbit", "minecraft:spider", "minecraft:vex", "minecraft:bee"]
 
 [charge]
@@ -88,14 +93,17 @@ lockingTrackTrainDelay = 10
 	# Default: 1.0
 	# Range: 0.2 ~ 10.0
 	lossMultiplier = 1.0
-	#Adjust the amount of power produced in a Turbine
+	#Multiplier for the charge a Steam Turbine produces per tick.
+	#Steam consumption is not affected.
 	# Default: 1.0
-	# Range: 0.10000000149011612 ~ 100.0
+	# Range: 0.1 ~ 100.0
 	turbinePowerMultiplier = 1.0
-	#Adjust the amount of energy output rate in a Turbine
+	#Multiplier for the maximum energy (FE/t) a Steam Turbine pushes
+	#into adjacent blocks. Raise it together with turbinePowerMultiplier
+	#if the extra charge should also reach FE consumers.
 	# Default: 1.0
-	# Range: 0.10000000149011612 ~ 100.0
-	turbineEnergyPowerRateMultiplier = 1.0
+	# Range: 0.1 ~ 100.0
+	turbineEnergyOutputRateMultiplier = 1.0
 
 [steam]
 	#Adjust the heat value of Fuel in a Boiler

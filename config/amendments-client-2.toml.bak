@@ -105,6 +105,8 @@
 	# Default: 2.5
 	# Range: 0.0 ~ 5.0
 	hotbar_slot_animation_speed = 2.5
+	#If the hotbar slot animation wraps around the edges
+	hotbar_slot_animation_wrap = true
 
 [sign]
 	#Gives signs a pixel consistent model and texture. Also affects other mods. This also makes them use a Block Model, making them render much much much faster than as block entities
@@ -135,3 +137,7 @@
 	[projectiles.dragon_fireball]
 		#Makes dragon's breath particles emissive to better match new visuals
 		dragon_breath_emissive = true
+
+[buckets]
+	#Axolotl buckets show the color of the axolotl inside
+	axolotl_variants = true
