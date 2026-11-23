@@ -441,25 +441,25 @@ ServerEvents.recipes(event => {
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["F", "F", "F"],
-                    ["F", "C", "F"],
-                    ["F", "F", "F"]
+                    ["S", "S", "S"],
+                    ["S", "C", "S"],
+                    ["S", "S", "S"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["F", "C", "F"],
+                    ["S", "C", "S"],
                     ["C", "M", "C"],
-                    ["F", "C", "F"]
+                    ["S", "C", "S"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["F", "F", "F"],
-                    ["F", "C", "F"],
-                    ["F", "F", "F"]
+                    ["S", "S", "S"],
+                    ["S", "C", "S"],
+                    ["S", "S", "S"]
                 ]
             }
         ],
@@ -468,9 +468,9 @@ ServerEvents.recipes(event => {
             "Count": 1
         },
         "components": {
-            "F": {
+            "S": {
                 "type": "compactcrafting:block",
-                "block": "justdirethings:ferricore_block"
+                "block": "immersiveengineering:sheetmetal_silver"
             },
             "C": {
                 "type": "compactcrafting:block",
@@ -497,9 +497,9 @@ ServerEvents.recipes(event => {
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["F", "D", "F"],
+                    ["S", "D", "S"],
                     ["D", "C", "D"],
-                    ["F", "D", "F"]
+                    ["S", "D", "S"]
                 ]
             },
             {
@@ -513,9 +513,9 @@ ServerEvents.recipes(event => {
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["F", "D", "F"],
+                    ["S", "D", "S"],
                     ["D", "C", "D"],
-                    ["F", "D", "F"]
+                    ["S", "D", "S"]
                 ]
             }
         ],
@@ -524,9 +524,9 @@ ServerEvents.recipes(event => {
             "Count": 1
         },
         "components": {
-            "F": {
+            "S": {
                 "type": "compactcrafting:block",
-                "block": "justdirethings:ferricore_block"
+                "block": "immersiveengineering:sheetmetal_silver"
             },
             "D": {
                 "type": "compactcrafting:block",
