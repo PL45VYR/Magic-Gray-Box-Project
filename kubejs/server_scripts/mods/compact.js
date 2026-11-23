@@ -408,7 +408,7 @@ ServerEvents.recipes(event => {
             }
         ],
         "catalyst": {
-            "id": "extendedcrafting:enhanced_redstone_catalyst",
+            "id": "extendedcrafting:crystaltine_catalyst",
             "Count": 1
         },
         "components": {
@@ -464,7 +464,7 @@ ServerEvents.recipes(event => {
             }
         ],
         "catalyst": {
-            "id": "extendedcrafting:enhanced_redstone_catalyst",
+            "id": "extendedcrafting:redstone_catalyst",
             "Count": 1
         },
         "components": {
@@ -520,7 +520,7 @@ ServerEvents.recipes(event => {
             }
         ],
         "catalyst": {
-            "id": "extendedcrafting:enhanced_redstone_catalyst",
+            "id": "extendedcrafting:redstone_catalyst",
             "Count": 1
         },
         "components": {
