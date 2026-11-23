@@ -100,6 +100,26 @@ ServerEvents.recipes(event => {
     // Plastic Tweak
     event.replaceInput({ output: /oritech.*/ }, '#c:plates/plastic', '#c:plastics')
 
+    // Carbon Fibre Strand Alt Recipe
+    event.custom({
+        "type": "immersiveengineering:metal_press",
+        "energy": 2400,
+        "input": {
+            "basePredicate": {
+                "tag": 'c:dusts/coal'
+            },
+            "count": 3
+        },
+        "mold": "immersiveengineering:mold_rod",
+        "result": {
+            "count": 1,
+            "id": 'oritech:carbon_fibre_strands'
+        }
+    })
+
+    // Processing Unit Tweak
+    event.replaceInput({output: 'oritech:processing_unit'}, '#c:plastics', 'immersiveengineering:circuit_board')
+
     // Pulverizer Recipe
     event.custom({
         "type": "extendedcrafting:shaped_table",
