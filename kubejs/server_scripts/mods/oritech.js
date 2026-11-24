@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
         "energy": 2400,
         "input": {
             "basePredicate": {
-                "tag": 'c:dusts/coal'
+                "tag": 'c:dusts/hop_graphite'
             },
             "count": 3
         },
