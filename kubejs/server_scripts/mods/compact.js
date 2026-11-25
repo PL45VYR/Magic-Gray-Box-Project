@@ -616,7 +616,7 @@ ServerEvents.recipes(event => {
             },
             "E": {
                 "type": "compactcrafting:block",
-                "block": "extendedcrafting:enhanced_redstone_ingot_block"
+                "block": "immersiveengineering:storage_constantan"
             },
             "C": {
                 "type": "compactcrafting:block",
@@ -651,51 +651,51 @@ ServerEvents.recipes(event => {
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["B", "B", "E", "B", "B"],
-                    ["B", "B", "E", "B", "B"],
-                    ["E", "E", "C", "E", "E"],
-                    ["B", "B", "E", "B", "B"],
-                    ["B", "B", "E", "B", "B"]
+                    ["S", "S", "T", "S", "S"],
+                    ["S", "E", "T", "E", "S"],
+                    ["T", "T", "C", "T", "T"],
+                    ["S", "E", "T", "E", "S"],
+                    ["S", "S", "T", "S", "S"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["B", "B", "E", "B", "B"],
-                    ["B", "B", "G", "B", "B"],
+                    ["S", "E", "T", "E", "S"],
                     ["E", "G", "G", "G", "E"],
-                    ["B", "B", "G", "B", "B"],
-                    ["B", "B", "E", "B", "B"]
+                    ["T", "G", "D", "G", "T"],
+                    ["E", "G", "G", "G", "E"],
+                    ["S", "E", "T", "E", "S"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["E", "E", "C", "E", "E"],
-                    ["E", "G", "G", "G", "E"],
-                    ["C", "G", "M", "G", "C"],
-                    ["E", "G", "G", "G", "E"],
-                    ["E", "E", "C", "E", "E"]
+                    ["T", "T", "C", "T", "T"],
+                    ["T", "G", "D", "G", "T"],
+                    ["C", "D", "M", "D", "C"],
+                    ["T", "G", "D", "G", "T"],
+                    ["T", "T", "C", "T", "T"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["B", "B", "E", "B", "B"],
-                    ["B", "B", "G", "B", "B"],
+                    ["S", "E", "T", "E", "S"],
                     ["E", "G", "G", "G", "E"],
-                    ["B", "B", "G", "B", "B"],
-                    ["B", "B", "E", "B", "B"]
+                    ["T", "G", "D", "G", "T"],
+                    ["E", "G", "G", "G", "E"],
+                    ["S", "E", "T", "E", "S"]
                 ]
             },
             {
                 "type": "compactcrafting:mixed",
                 "pattern": [
-                    ["B", "B", "E", "B", "B"],
-                    ["B", "B", "E", "B", "B"],
-                    ["E", "E", "C", "E", "E"],
-                    ["B", "B", "E", "B", "B"],
-                    ["B", "B", "E", "B", "B"]
+                    ["S", "S", "T", "S", "S"],
+                    ["S", "E", "T", "E", "S"],
+                    ["T", "T", "C", "T", "T"],
+                    ["S", "E", "T", "E", "S"],
+                    ["S", "S", "T", "S", "S"]
                 ]
             }
         ],
@@ -704,9 +704,13 @@ ServerEvents.recipes(event => {
             "Count": 1
         },
         "components": {
-            "B": {
+            "S": {
                 "type": "compactcrafting:block",
-                "block": "justdirethings:blazegold_block"
+                "block": "enderio:dark_steel_block"
+            },
+            "T": {
+                "type": "compactcrafting:block",
+                "block": "immersiveengineering:storage_constantan"
             },
             "E": {
                 "type": "compactcrafting:block",
@@ -719,6 +723,10 @@ ServerEvents.recipes(event => {
             "G": {
                 "type": "compactcrafting:block",
                 "block": "oritech:energite_block"
+            },
+            "D": {
+                "type": "compactcrafting:block",
+                "block": "actuallyadditions:diamatine_crystal_block"
             },
             "M": {
                 "type": "compactcrafting:block",

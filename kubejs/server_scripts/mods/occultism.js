@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
         'justdirethings:gooblock_tier2',
         'occultism:contact_wild_spirit'
     ).dummy('kubejs:dummy_misc_voidshimmer_goo')
-        .entityToSacrifice(EntityToSacrifice.of("minecraft:cows", "Cows"))
+        .entityToSacrifice(EntityToSacrifice.of("c:cows", "Cows"))
 
     // Cataclysm Eyes
 
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
         'minecraft:ender_eye',
         'occultism:possess_unbound_afrit'
     ).dummy('kubejs:dummy_possess_monstrous_eye')
-        .entityToSacrifice(EntityToSacrifice.of("minecraft:iron_golems", "Iron Golem"))
+        .entityToSacrifice(EntityToSacrifice.of("c:iron_golems", "Iron Golem"))
 
     // Mech Eye
     event.recipes.occultism.ritual(
