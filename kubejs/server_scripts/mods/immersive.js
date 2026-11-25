@@ -268,6 +268,9 @@ ServerEvents.recipes(event => {
                 "count": 1
             }
         ],
+        "slag": {
+            "tag": "c:slag"
+        },
         "time": 100
     })
 })

@@ -105,6 +105,10 @@ ServerEvents.tags('item', event => {
     clusters.forEach(cluster => {
         event.add('quark:corundum_clusters', `quark:${cluster}_corundum_cluster`)
     })
+
+    // Custom Tag: Splicing Material
+    event.add('kubejs:splicing_material', '#c:silicon')
+    event.add('kubejs:splicing_material', 'immersiveengineering:circuit_board')
 })
 
 ServerEvents.tags('entity_type', event => {

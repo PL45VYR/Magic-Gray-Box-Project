@@ -48,6 +48,9 @@ ServerEvents.recipes(event => {
     // Conduit Binder Recipe Tweaks
     event.recipes.enderio.alloy_smelting("enderio:conduit_binder", ["enderio:conduit_binder_composite"], 3000)
 
+    // Slice n Splice Recipe Tweaks
+    event.replaceInput({type: 'enderio:slicing'}, '#c:silicon', '#kubejs:splicing_material')
+
     // Ensouled Chassis Recipe
     event.custom({
         "type": "powah:energizing",
