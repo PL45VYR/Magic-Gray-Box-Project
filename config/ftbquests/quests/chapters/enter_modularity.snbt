@@ -18,7 +18,7 @@
 				"2A66F6DC396BCEB7"
 			]
 			id: "29F4AC8647FA5506"
-			shape: "rsquare"
+			shape: "octagon"
 			tasks: [{
 				id: "07961CFA7F598D7D"
 				item: { count: 1, id: "extendedcrafting:elite_auto_table" }
@@ -104,8 +104,7 @@
 		{
 			dependencies: ["4C8B410232BA63BB"]
 			id: "3D8285CDE13C408A"
-			optional: true
-			shape: "octagon"
+			shape: "circle"
 			tasks: [{
 				id: "702119FCFBF83ADA"
 				item: { count: 1, id: "enderio:ensouled_chassis" }
@@ -156,6 +155,7 @@
 				id: "extendedcrafting:enhanced_redstone_catalyst"
 			}
 			id: "3CC6BA7644BDBAE0"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "50CCC501CC784597"
@@ -268,6 +268,7 @@
 				id: "extendedcrafting:crystaltine_catalyst"
 			}
 			id: "2A66F6DC396BCEB7"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "209B087501DC82B8"
@@ -329,6 +330,29 @@
 			}]
 			x: -3.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["3D8285CDE13C408A"]
+			id: "435DCEF04EDD4B67"
+			tasks: [{
+				id: "6A85067F21B85B47"
+				item: { count: 1, id: "enderio:slice_and_splice" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["435DCEF04EDD4B67"]
+			id: "7072285B9D023DBD"
+			shape: "rsquare"
+			tasks: [{
+				id: "4B3A5FD5023E866A"
+				item: { count: 1, id: "enderio:soul_binder" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 }

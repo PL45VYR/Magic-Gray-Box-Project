@@ -510,7 +510,7 @@
 	]
 	quest.531AC0805169CEBF.quest_desc: ["Flux Crafters need powered Flux Alternators to operate. Placing more Flux Alternators near the Flux Crafter will increase its crafting speed. Some recipes are only handled in this crafter exclusively, so make sure its crafting speed is sufficient!"]
 	quest.53875FE745678203.quest_desc: [
-		"Centrifuges are smart mixers that can create a variety of new materials through careful processing, including some structurally-sound Carbon Fibre Strands!"
+		"Centrifuges are smart mixers that can create a variety of new materials through careful processing, including some cheaper Carbon Fibre Strands!"
 		""
 		"Even more materials can be made with the help of a Fluid Addon, which will require some of those Carbon Fibre Strands to make. Plug it into one of your Centrifuge's plug faces and you'll be able to work with those fluids!"
 	]

@@ -256,12 +256,6 @@
 					item: { count: 1, id: "oritech:machine_fluid_addon" }
 					type: "item"
 				}
-				{
-					count: 4L
-					id: "0A7327C608BBCF1E"
-					item: { count: 1, id: "oritech:carbon_fibre_strands" }
-					type: "item"
-				}
 			]
 			x: 7.5d
 			y: 1.5d
